@@ -12,8 +12,8 @@
 export const SITE = {
   // --- Identity ---------------------------------------------------------
   /** Production origin, no trailing slash. Drives canonical/OG/sitemap URLs. */
-  // PLACEHOLDER — owner buys the domain later; replace before launch.
-  url: 'https://board-game-expansion-buyers-guide.example',
+  // Production domain.
+  url: 'https://whichexpansions.com',
   /** Short brand name — the wordmark text and the <title> suffix. */
   name: "Board Game Expansion Buyer's Guide",
   /** One-line positioning statement, used in default meta descriptions + hero. */

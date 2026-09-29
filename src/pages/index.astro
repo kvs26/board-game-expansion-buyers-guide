@@ -6,7 +6,9 @@ import { SITE } from '../lib/site.config.mjs';
 import { organizationLd, websiteLd, itemListLd } from '../lib/seo.mjs';
 import { games, expansionsFor, ratedCount } from '../lib/catalog.mjs';
 import { VERDICTS } from '../lib/guide.mjs';
+import { searchEntry } from '../lib/game-search.mjs';
 
+const searchData = games.map((g) => searchEntry(g, expansionsFor(g.slug)));
 const description =
   'Pick the board game you own, tick the expansions you already have, and see which one to buy next — in plain English, with what you need first.';
 const total = games.reduce((n, g) => n + expansionsFor(g.slug).length, 0);
@@ -42,19 +44,66 @@ const total = games.reduce((n, g) => n + expansionsFor(g.slug).length, 0);
 
   <section class="container section" id="games" aria-labelledby="games-h">
     <h2 id="games-h">Pick your game</h2>
+    <form class="game-search" role="search" data-game-search hidden>
+      <label for="game-q">Search a game, publisher or expansion</label>
+      <input id="game-q" type="search" name="q" autocomplete="off" placeholder="Try “Seafarers” or “Wingspan”" />
+      <p class="small muted" data-search-status aria-live="polite"></p>
+    </form>
     <ul class="game-grid" style="list-style:none;padding:0">
       {games.map((g) => (
-        <li>
+        <li data-game-item data-slug={g.slug}>
           <a class="game-box token" href={`/${g.slug}/expansions/`}>
             <GameBox slug={g.slug} />
             <span>
               <strong>{g.name}</strong>
               <span class="muted">{expansionsFor(g.slug).length} expansions · {ratedCount(g.slug)} ranked</span>
+              <span class="game-box__via" data-via hidden></span>
             </span>
           </a>
         </li>
       ))}
     </ul>
     <p class="muted small" style="margin-top:var(--space-5)">Don’t see your game? <a href="/contact">Tell us</a> — we add games in the order people ask.</p>
+    <script type="application/json" id="game-search-data" set:html={JSON.stringify(searchData).replace(/</g, '\\u003c')} />
   </section>
 </Layout>
+
+<script>
+  import { matchGame } from '../lib/game-search.mjs';
+
+  const form = document.querySelector<HTMLFormElement>('[data-game-search]');
+  const dataEl = document.getElementById('game-search-data');
+  if (form && dataEl) {
+    const entries = JSON.parse(dataEl.textContent || '[]');
+    const input = form.querySelector('input')!;
+    const status = form.querySelector('[data-search-status]')!;
+    const items = new Map(
+      [...document.querySelectorAll<HTMLElement>('[data-game-item]')].map((li) => [li.dataset.slug, li]),
+    );
+
+    const render = () => {
+      const q = input.value.trim();
+      let shown = 0;
+      for (const entry of entries) {
+        const li = items.get(entry.slug);
+        if (!li) continue;
+        const m = matchGame(entry, q);
+        li.hidden = !m;
+        const via = li.querySelector<HTMLElement>('[data-via]')!;
+        via.hidden = !m?.via;
+        via.textContent = m?.via ? `Has: ${m.via}` : '';
+        if (m) shown++;
+      }
+      status.textContent = !q
+        ? ''
+        : shown
+          ? `${shown} of ${entries.length} games match “${q}”.`
+          : `Nothing matches “${q}” yet. Tell us the game below and we’ll add it.`;
+    };
+
+    form.hidden = false;
+    form.addEventListener('submit', (ev) => ev.preventDefault());
+    input.addEventListener('input', render);
+    render();
+  }
+</script>

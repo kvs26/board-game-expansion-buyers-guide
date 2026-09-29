@@ -163,6 +163,16 @@ main { min-height: 60vh; padding-bottom: var(--space-8); }
 .game-box:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--kraft-deep); }
 .game-box strong { font-family: var(--font-display); font-size: 1.08rem; line-height: 1.2; display: block; }
 .game-box .muted { font-size: 0.85rem; }
+.game-box__via { display: block; font-size: 0.85rem; font-weight: 650; color: var(--kraft-deep); }
+.game-box__via[hidden] { display: none; }
+.game-search { display: grid; gap: var(--space-2); max-width: 32rem; margin-top: var(--space-4); }
+.game-search[hidden] { display: none; }
+.game-search label { font-weight: 750; font-size: 0.95rem; }
+.game-search input {
+  font: inherit; color: var(--ink); background: var(--face);
+  border: var(--line); border-radius: 999px; padding: 0.6rem 1.1rem; box-shadow: var(--lift-sm);
+}
+.game-search p { margin: 0; min-height: 1.4em; }
 .box-art { width: 64px; height: 64px; border-radius: 12px; border: 2px solid var(--ink); }
 .box-art--lg { width: 96px; height: 96px; border-radius: 18px; }
 
