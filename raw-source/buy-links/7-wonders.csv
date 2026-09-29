@@ -1,0 +1,10 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Asmodee Store,publisher,https://store.asmodee.com/products/7-wonders-new-edition,2nd edition (SKU SV01EN),2026-09-29,"curl Shopify .json title match ""7 Wonders New Edition"""
+_base,GameNerdz,retailer,https://www.gamenerdz.com/7-wonders-new-edition,2nd edition (SKU SV01EN),2026-09-29,curl 200 title match + SKU SV01EN
+cities,Asmodee Store,publisher,https://store.asmodee.com/products/7-wonders-cities-new-edition,2nd edition (SKU SV03EN),2026-09-29,"curl Shopify .json title match ""7 Wonders: Cities (New Edition)"""
+cities,GameNerdz,retailer,https://www.gamenerdz.com/7-wonders-cities,2nd edition (SKU SV03EN),2026-09-29,curl 200 title match + SKU SV03EN
+leaders,Asmodee Store,publisher,https://store.asmodee.com/products/7-wonders-leaders-new-edition,2nd edition (SKU SV02EN),2026-09-29,curl 200 title match + SKU SV02EN
+leaders,GameNerdz,retailer,https://www.gamenerdz.com/7-wonders-leaders-new-edition,2nd edition (SKU SV02EN),2026-09-29,"curl 200 title match ""7 Wonders: Leaders (New Edition)"""
+edifice,Asmodee Store,publisher,https://store.asmodee.com/products/7-wonders-edifice,for 2nd edition base (SKU SV05EN),2026-09-29,"curl Shopify .json title match ""7 Wonders: Edifice"""
+armada,Asmodee Store,publisher,https://store.asmodee.com/products/7-wonders-armada-new-edition,2nd edition (SKU SV04EN),2026-09-29,curl 200 title match + SKU SV04EN
+armada,GameNerdz,retailer,https://www.gamenerdz.com/7-wonders-armada-new-edition,2nd edition,2026-09-29,"curl 200 title match ""7 Wonders: Armada (New Edition)"""

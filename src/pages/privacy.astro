@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { SITE } from '../lib/site.config.mjs';
+import { organizationLd, breadcrumbLd } from '../lib/seo.mjs';
+const title = 'Privacy policy';
+const description = `How ${SITE.name} handles data, cookies and analytics.`;
+const crumbs = [{ name: 'Home', href: '/' }, { name: title }];
+---
+<Layout title={title} description={description} jsonLdNodes={[organizationLd(), breadcrumbLd(crumbs)]}>
+  <Breadcrumbs items={crumbs} />
+  <article class="container prose page-head">
+    <h1>Privacy policy</h1>
+    <h2>What we collect</h2>
+    <p>{SITE.name} is a static website. There are no accounts and no database. We don’t collect personal information unless you email us.</p>
+    <h2>Your “what I own” list</h2>
+    <p>The expansions you tick, your player count and group type are saved in your own browser (local storage) so the page remembers them. They are never sent to us. Clear them with the “Clear” button or your browser settings.</p>
+    <h2>Analytics</h2>
+    <p>We may use privacy-friendly, cookieless analytics (such as Cloudflare Web Analytics) that count visits in aggregate. No cookies, no personal profile.</p>
+    <h2>Advertising cookies</h2>
+    <p>If we show ads in future, third-party vendors including Google may use cookies to serve ads based on your visits to this and other sites. You can opt out of personalised advertising in <a href="https://www.google.com/settings/ads" rel="nofollow">Google Ads Settings</a>.</p>
+    <h2>Store links</h2>
+    <p>Some links to stores may be affiliate links; see the <a href="/disclosure">affiliate disclosure</a>.</p>
+    <h2>Contact</h2>
+    <p>Questions about privacy? <a href="/contact">Contact us</a>.</p>
+  </article>
+</Layout>

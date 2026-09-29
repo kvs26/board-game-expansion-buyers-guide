@@ -1,0 +1,11 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Greater Than Games,publisher,https://shop.greaterthangames.com/products/spirit-island,,2026-09-29,curl 200 title match + products.json
+_base,Miniature Market,retailer,https://www.miniaturemarket.com/gtgfnsislcore.html,,2026-09-29,curl 200 title match
+branch-and-claw,Greater Than Games,publisher,https://shop.greaterthangames.com/products/spirit-island-branch-claw,out of stock 2026-09,2026-09-29,curl 200 + products.json title match
+jagged-earth,Greater Than Games,publisher,https://shop.greaterthangames.com/products/spirit-island-jagged-earth,out of stock 2026-09,2026-09-29,curl 200 + products.json title match
+jagged-earth,Miniature Market,retailer,https://www.miniaturemarket.com/gtgsisljeth.html,,2026-09-29,curl 200 title match
+feather-and-flame,Greater Than Games,publisher,https://shop.greaterthangames.com/products/spirit-island-feather-and-flame,,2026-09-29,curl 200 + products.json title match
+feather-and-flame,Miniature Market,retailer,https://www.miniaturemarket.com/gtgsisl-ftfl.html,,2026-09-29,curl 200 title match
+nature-incarnate,Greater Than Games,publisher,https://shop.greaterthangames.com/products/spirit-island-nature-incarnate,out of stock 2026-09,2026-09-29,curl 200 + products.json title match
+nature-incarnate,Miniature Market,retailer,https://www.miniaturemarket.com/spirit-island-nature-incarnate-expansion-gtgsisl-ninc.html,,2026-09-29,curl 200 title match
+horizons-of-spirit-island,Greater Than Games,publisher,https://shop.greaterthangames.com/products/horizons-of-spirit-island,,2026-09-29,curl 200 + products.json title match

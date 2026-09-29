@@ -1,0 +1,7 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Stonemaier Games,publisher,https://store.stonemaiergames.com/products/scythe,,2026-09-29,"curl 200; Shopify products.json title match, in stock"
+_base,Miniature Market,retailer,https://www.miniaturemarket.com/stm600.html,,2026-09-29,curl 200 title match
+the-rise-of-fenris,Stonemaier Games,publisher,https://store.stonemaiergames.com/products/scythe-the-rise-of-fenris,,2026-09-29,"curl 200; Shopify products.json title match, in stock"
+the-wind-gambit,Stonemaier Games,publisher,https://store.stonemaiergames.com/products/scythe-the-wind-gambit,,2026-09-29,"curl 200; Shopify products.json title match, in stock"
+invaders-from-afar,Stonemaier Games,publisher,https://store.stonemaiergames.com/products/scythe-invaders-from-afar,,2026-09-29,"curl 200; Shopify products.json title match, in stock"
+scythe-modular-board,Stonemaier Games,publisher,https://store.stonemaiergames.com/products/scythe-modular-board,,2026-09-29,"curl 200; Shopify products.json title match, in stock"

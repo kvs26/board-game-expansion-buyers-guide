@@ -1,0 +1,12 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,GameNerdz,retailer,https://www.gamenerdz.com/clank-a-deck-building-adventure,original edition (not Master Thief Edition),2026-09-29,curl 200 title match
+_base,Dire Wolf,publisher,https://www.direwolfdigital.com/clank/,publisher product page (links to shop),2026-09-29,curl 200 title match
+sunken-treasures,Dire Wolf,publisher,https://shop.direwolfdigital.com/products/clank-sunken-treasures,,2026-09-29,curl 200 title match (Shopify products.json available=true)
+sunken-treasures,GameNerdz,retailer,https://www.gamenerdz.com/clank-sunken-treasures-expansion,,2026-09-29,curl 200 title match
+mummys-curse,GameNerdz,retailer,https://www.gamenerdz.com/clank-the-mummys-curse-expansion,,2026-09-29,curl 200 title match
+mummys-curse,Dire Wolf,publisher,https://www.direwolfdigital.com/clankmummyscurse/,publisher product page (not in Dire Wolf shop 2026-09),2026-09-29,curl 200 title match
+gold-and-silk,GameNerdz,retailer,https://www.gamenerdz.com/clank-expeditions-gold-silk-expansion,,2026-09-29,curl 200 title match
+temple-of-the-ape-lords,Dire Wolf,publisher,https://shop.direwolfdigital.com/products/clank-expeditions-temple-of-the-ape-lords,,2026-09-29,curl 200 title match (Shopify products.json available=true)
+temple-of-the-ape-lords,GameNerdz,retailer,https://www.gamenerdz.com/clank-expeditions-temple-of-the-ape-lords-expansion,,2026-09-29,curl 200 title match
+adventuring-party,GameNerdz,retailer,https://www.gamenerdz.com/clank-adventuring-party-expansion,original edition (not Master Thief Edition),2026-09-29,curl 200 title match
+adventuring-party,Dire Wolf,publisher,https://www.direwolfdigital.com/clank-adventuring-party/,publisher product page,2026-09-29,curl 200 title match

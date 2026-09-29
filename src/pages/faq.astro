@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { SITE } from '../lib/site.config.mjs';
+import { organizationLd, breadcrumbLd } from '../lib/seo.mjs';
+const title = 'FAQ';
+const description = `Common questions about ${SITE.name}: rankings, owned lists, player counts and editions.`;
+const crumbs = [{ name: 'Home', href: '/' }, { name: title }];
+const faqs = [
+  ['Is the top one always the “best” expansion?', 'It’s the one we’d buy first for most groups. The label on each card tells you more: “Depends on your group” means it’s great for some tables and wrong for others — read the note.'],
+  ['What happens when I tick “I own this”?', 'That expansion drops off the list and the rest move up. If something needed it, the “get this first” warning goes away.'],
+  ['Where is my list saved?', 'In your browser, on this device only. There’s no account. Use “Copy my link” to share your list or open it on another device.'],
+  ['Why is an expansion hidden when I pick a player count?', 'Some boxes only work at certain player counts — for example, a 5–6 player extension does nothing for a group of four. We note which ones we hid.'],
+  ['What does “Get X first” mean?', 'That expansion needs another expansion to play, not just the base game. Buy them in that order.'],
+  ['Why isn’t an expansion ranked?', 'We couldn’t find enough solid reviews yet. It still appears under “Also out there” with what it adds.'],
+  ['Do editions matter?', 'Sometimes a lot. Where a game has edition traps (like 7 Wonders 1st vs 2nd edition), we put a “Check before you buy” box on that game’s page.'],
+  ['Are prices current?', 'No — they’re list prices from the publisher or reviews, as a rough guide. Store prices change daily.'],
+];
+---
+<Layout title={title} description={description} jsonLdNodes={[organizationLd(), breadcrumbLd(crumbs)]}>
+  <Breadcrumbs items={crumbs} />
+  <article class="container prose page-head">
+    <h1>Questions</h1>
+    {faqs.map(([q, a]) => (
+      <section>
+        <h2 style="font-size:1.2rem">{q}</h2>
+        <p>{a}</p>
+      </section>
+    ))}
+    <p>Something else? <a href="/contact">Ask us</a>.</p>
+  </article>
+</Layout>

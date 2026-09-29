@@ -1,0 +1,11 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Stonemaier Games,publisher,https://store.stonemaiergames.com/products/viticulture-essential-edition,Essential Edition,2026-09-29,curl 200 + store products.json title match
+_base,Miniature Market,retailer,https://www.miniaturemarket.com/stm105.html,Essential Edition,2026-09-29,curl 200 title match
+tuscany-essential-edition,Stonemaier Games,publisher,https://store.stonemaiergames.com/products/viticulture-tuscany,Tuscany Essential Edition,2026-09-29,curl 200 + store products.json title match
+moor-visitors,Stonemaier Games,publisher,https://store.stonemaiergames.com/products/viticulture-moor-visitors,,2026-09-29,curl 200 + store products.json title match
+moor-visitors,Miniature Market,retailer,https://www.miniaturemarket.com/stm107.html,,2026-09-29,curl 200 title match
+viticulture-world,Stonemaier Games,publisher,https://store.stonemaiergames.com/products/viticulture-world,Cooperative Expansion,2026-09-29,curl 200 + store products.json title match
+viticulture-world,Miniature Market,retailer,https://www.miniaturemarket.com/stm110.html,Cooperative Expansion,2026-09-29,curl 200 title match
+bordeaux,Stonemaier Games,publisher,https://store.stonemaiergames.com/products/viticulture-bordeaux-expansion,,2026-09-29,curl 200 + store products.json title match
+rhine-valley-visitors,Stonemaier Games,publisher,https://store.stonemaiergames.com/products/viticulture-rhine-valley,,2026-09-29,curl 200 + store products.json title match
+rhine-valley-visitors,Miniature Market,retailer,https://www.miniaturemarket.com/stm108.html,,2026-09-29,curl 200 title match

@@ -1,0 +1,6 @@
+---
+import { VERDICTS } from '../lib/guide.mjs';
+interface Props { verdict: string | null; }
+const v = Astro.props.verdict ? VERDICTS[Astro.props.verdict] : null;
+---
+{v ? <span class={`verdict verdict--${v.tone}`}>{v.label}</span> : <span class="pill">Not rated yet</span>}

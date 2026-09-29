@@ -1,0 +1,9 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Tabletop Tycoon,publisher,https://tycoongames.com/products/everdell-standard-edition-3rd-edition,3rd edition (Standard),2026-09-29,curl 200 + Shopify products.json title match
+_base,GameNerdz,retailer,https://www.gamenerdz.com/everdell-3rd-edition,3rd edition,2026-09-29,curl 200 title match
+everdell-pearlbrook,Tabletop Tycoon,publisher,https://tycoongames.com/products/everdell-pearlbrook-2nd-edition,2nd edition,2026-09-29,curl 200 + Shopify products.json title match
+everdell-newleaf,Tabletop Tycoon,publisher,https://tycoongames.com/products/everdell-newleaf,,2026-09-29,curl 200 + Shopify products.json title match
+everdell-mistwood,Tabletop Tycoon,publisher,https://tycoongames.com/products/everdell-mistwood,,2026-09-29,curl 200 + Shopify products.json title match
+everdell-spirecrest,Tabletop Tycoon,publisher,https://tycoongames.com/products/everdell-spirecrest-2nd-edition,2nd edition,2026-09-29,curl 200 + Shopify products.json title match
+everdell-bellfaire,Tabletop Tycoon,publisher,https://tycoongames.com/products/everdell-bellfaire-expansion,out of stock 2026-09,2026-09-29,curl 200 + Shopify products.json title match
+everdell-complete-collection,Tabletop Tycoon,publisher,https://tycoongames.com/products/everdell-complete-collection,,2026-09-29,curl 200 + Shopify products.json title match

@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { SITE } from '../lib/site.config.mjs';
+import { organizationLd, breadcrumbLd } from '../lib/seo.mjs';
+const title = 'Contact';
+const description = `How to reach ${SITE.name} with corrections, missing games or questions.`;
+const crumbs = [{ name: 'Home', href: '/' }, { name: title }];
+---
+<Layout title={title} description={description} jsonLdNodes={[organizationLd(), breadcrumbLd(crumbs)]}>
+  <Breadcrumbs items={crumbs} />
+  <article class="container prose page-head">
+    <h1>Contact</h1>
+    <p>Email is the best way to reach us. We read everything.</p>
+    <p><a class="btn" href="mailto:kanishk26official@gmail.com">Email us</a></p>
+    <h2>Most useful things to send</h2>
+    <ul>
+      <li><strong>A mistake.</strong> Wrong player count, a box that needs something we missed, a new edition. Include a link if you have one.</li>
+      <li><strong>A missing game.</strong> We add games in the order people ask for them.</li>
+      <li><strong>You disagree with a ranking.</strong> Tell us why. If enough good reviews back you up, we change it.</li>
+    </ul>
+  </article>
+</Layout>

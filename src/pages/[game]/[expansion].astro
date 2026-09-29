@@ -1,0 +1,96 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import GameBox from '../../components/GameBox.astro';
+import Verdict from '../../components/Verdict.astro';
+import BuyLinks from '../../components/BuyLinks.astro';
+import { expansions, gameBySlug, expansionsFor, TYPE_LABELS, complexityText, styleText, hostOf } from '../../lib/catalog.mjs';
+import { rankNext, prereqChain, comparePairs, playersText, priceText, priceBand } from '../../lib/guide.mjs';
+import { breadcrumbLd } from '../../lib/seo.mjs';
+
+export function getStaticPaths() {
+  return expansions.map((e) => ({ params: { game: e.game, expansion: e.slug }, props: { e } }));
+}
+const { e } = Astro.props;
+const game = gameBySlug(e.game);
+const all = expansionsFor(game.slug);
+const ranked = rankNext(all).next.find((x) => x.slug === e.slug);
+const chain = prereqChain(e, all).reverse();
+const pairs = comparePairs(all).filter(([a, b]) => a.slug === e.slug || b.slug === e.slug);
+const players = playersText(e);
+const price = priceText(e);
+const path = `/${game.slug}/${e.slug}/`;
+const title = `${game.name}: ${e.name} — is it worth it?`;
+const description = [e.adds, e.fixes && `Fixes: ${e.fixes}`].filter(Boolean).join(' ').slice(0, 155) || `${e.name} for ${game.name}: what it adds and what you need first.`;
+const crumbs = [{ name: 'Games', href: '/' }, { name: `${game.name} expansions`, href: `/${game.slug}/expansions/` }, { name: e.name }];
+const sources = [...new Set([...(e.sources.verdict || []), ...(e.sources.facts || []), ...(e.sources.price || [])])];
+---
+<Layout title={title} description={description} path={path} jsonLdNodes={[breadcrumbLd(crumbs)]}>
+  <Breadcrumbs items={crumbs} />
+  <section class="container">
+    <div class="game-head">
+      <GameBox slug={game.slug} size="lg" />
+      <div>
+        <span class="eyebrow">{game.name} · {TYPE_LABELS[e.type] || 'Expansion'}</span>
+        <h1>{e.name}</h1>
+        <div class="facts">
+          <Verdict verdict={e.verdict} />
+          {ranked && <span class="pill">#{ranked.rank} in our {game.name} buy order</span>}
+        </div>
+      </div>
+    </div>
+
+    <div class="detail">
+      <article class="token pad">
+        <dl>
+          {e.reason && <div><dt>Our take</dt><dd>{e.reason}</dd></div>}
+          {e.adds && <div><dt>What it adds</dt><dd>{e.adds}</dd></div>}
+          {e.fixes && <div><dt>What it fixes</dt><dd>{e.fixes}</dd></div>}
+          <div>
+            <dt>What you need first</dt>
+            <dd>
+              <ol class="chain">
+                {e.baseRequired !== 'no' && <li><a class="pill" href={`/${game.slug}/expansions/`}>{game.name} (base game)</a></li>}
+                {chain.map((c) => <li><a class="pill" href={`/${game.slug}/${c.slug}/`}>{c.name}</a></li>)}
+                <li><span class="pill" style="background:#fff4c7;border-color:#6b4f00">{e.name}</span></li>
+              </ol>
+              {e.prerequisiteRule && <p class="small muted" style="margin:var(--space-2) 0 0">{e.prerequisiteRule}</p>}
+            </dd>
+          </div>
+          {!e.verdict && <div><dt>Why no verdict?</dt><dd>We couldn’t find enough solid reviews to rank this one yet. The facts above are from the sources below.</dd></div>}
+        </dl>
+      </article>
+
+      <aside class="token pad">
+        <h2 style="font-size:1.1rem">Quick facts</h2>
+        <ul style="list-style:none;padding:0;margin:0;display:grid;gap:.5rem">
+          {e.publisher && <li><strong>Publisher:</strong> {e.publisher}</li>}
+          {e.releaseYear && <li><strong>Released:</strong> {e.releaseYear}</li>}
+          {players && <li><strong>Players:</strong> {players}</li>}
+          {complexityText(e.complexity) && <li><strong>Rules:</strong> {complexityText(e.complexity)}</li>}
+          {styleText(e.groupStyle) && <li><strong>Group:</strong> {styleText(e.groupStyle)}</li>}
+          {price && <li><strong>Price:</strong> {priceBand(e)} <span class="muted small">({e.priceKind === 'msrp' ? 'list price' : 'publisher price'} {price}; prices change)</span></li>}
+        </ul>
+        <BuyLinks links={e.buyLinks} />
+        <p style="margin-top:var(--space-4)"><a class="btn btn--sm" href={`/${game.slug}/expansions/`}>See the full {game.name} buy order</a></p>
+      </aside>
+    </div>
+
+    {pairs.length > 0 && (
+      <section class="section">
+        <h2>Compare it</h2>
+        <ul class="later-list">
+          {pairs.map(([a, b]) => <li><a href={`/compare/${game.slug}/${a.slug}-vs-${b.slug}/`}>{a.name} vs {b.name}</a></li>)}
+        </ul>
+      </section>
+    )}
+
+    <section class="section prose">
+      <h2>Sources</h2>
+      <ul class="small">
+        {sources.map((s) => <li><a href={s} rel="nofollow noopener" target="_blank">{hostOf(s)}<span class="visually-hidden"> (opens in a new tab)</span></a></li>)}
+      </ul>
+      <p class="draft-note">Last checked {e.checkedOn}. Spot a mistake? <a href="/contact">Tell us</a>.</p>
+    </section>
+  </section>
+</Layout>

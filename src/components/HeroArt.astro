@@ -1,0 +1,60 @@
+---
+/**
+ * HeroArt.astro — the punchboard: a kraft sheet with tokens half punched out
+ * (hex tile, meeple, die, coin, score marker). Pure inline SVG, no requests.
+ */
+---
+<svg class="hero-art" viewBox="0 0 520 420" role="img" aria-labelledby="hero-art-title">
+  <title id="hero-art-title">A punchboard sheet with game tokens being punched out</title>
+  <defs>
+    <pattern id="kraft-dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#A8834D" opacity="0.35" />
+    </pattern>
+  </defs>
+  <!-- the sheet -->
+  <g transform="rotate(-4 260 210)">
+    <rect x="30" y="40" width="460" height="330" rx="18" fill="#C9A56E" />
+    <rect x="22" y="30" width="460" height="330" rx="18" fill="#E6CFA7" stroke="#1D2A44" stroke-width="3" />
+    <rect x="22" y="30" width="460" height="330" rx="18" fill="url(#kraft-dots)" />
+    <!-- die-cut holes left by punched tokens -->
+    <path d="M118 88 150 106v37l-32 18-32-18v-37z" fill="#A8834D" opacity="0.55" />
+    <rect x="330" y="236" width="70" height="70" rx="14" fill="#A8834D" opacity="0.55" />
+    <!-- still-attached tokens with die-cut outlines -->
+    <circle cx="400" cy="100" r="38" fill="#FFFDF8" stroke="#1D2A44" stroke-width="3" />
+    <circle cx="400" cy="100" r="30" fill="none" stroke="#1D2A44" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.4" />
+    <text x="400" y="112" text-anchor="middle" font-family="Bricolage Grotesque, sans-serif" font-weight="800" font-size="34" fill="#1D2A44">5</text>
+    <rect x="88" y="226" width="150" height="86" rx="12" fill="#FFFDF8" stroke="#1D2A44" stroke-width="3" />
+    <rect x="98" y="236" width="130" height="66" rx="8" fill="none" stroke="#1D2A44" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.4" />
+    <rect x="108" y="250" width="16" height="16" rx="3" fill="#F2B705" stroke="#1D2A44" stroke-width="2" />
+    <rect x="130" y="250" width="16" height="16" rx="3" fill="#2E8B57" stroke="#1D2A44" stroke-width="2" />
+    <rect x="152" y="250" width="16" height="16" rx="3" fill="#2F6DB5" stroke="#1D2A44" stroke-width="2" />
+    <rect x="174" y="250" width="16" height="16" rx="3" fill="#C8372D" stroke="#1D2A44" stroke-width="2" />
+    <rect x="108" y="276" width="104" height="8" rx="4" fill="#1D2A44" opacity="0.25" />
+    <!-- nick marks (sprues) -->
+    <g stroke="#1D2A44" stroke-width="3" stroke-linecap="round">
+      <path d="M362 100h-12M438 100h12M163 312v10" />
+    </g>
+  </g>
+  <!-- punched-out tokens floating above the sheet -->
+  <g transform="translate(56 18) rotate(-12 64 64)">
+    <path d="M64 8 112 36v56L64 120 16 92V36z" fill="#C9A56E" transform="translate(5 6)" />
+    <path d="M64 8 112 36v56L64 120 16 92V36z" fill="#F2B705" stroke="#1D2A44" stroke-width="3" />
+    <path d="M64 22 100 43v42L64 106 28 85V43z" fill="none" stroke="#1D2A44" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.45" />
+    <text x="64" y="78" text-anchor="middle" font-family="Bricolage Grotesque, sans-serif" font-weight="800" font-size="40" fill="#1D2A44">1</text>
+  </g>
+  <g transform="translate(262 128) rotate(8 45 50)">
+    <path d="M45 0a14 14 0 0 1 14 14c0 4-1.7 7.4-4.4 10 14.4 2.6 34.4 8.8 34.4 17 0 5.3-10.6 7-19 7.5l13.2 32c1.3 3.5-1.3 7-4.8 7H60L45 69 30 87.5H11.6c-3.5 0-6.1-3.5-4.8-7l13.2-32C11.6 48 1 46.3 1 41c0-8.2 20-14.4 34.4-17-2.7-2.6-4.4-6-4.4-10A14 14 0 0 1 45 0z" fill="#A8834D" transform="translate(5 6)" />
+    <path d="M45 0a14 14 0 0 1 14 14c0 4-1.7 7.4-4.4 10 14.4 2.6 34.4 8.8 34.4 17 0 5.3-10.6 7-19 7.5l13.2 32c1.3 3.5-1.3 7-4.8 7H60L45 69 30 87.5H11.6c-3.5 0-6.1-3.5-4.8-7l13.2-32C11.6 48 1 46.3 1 41c0-8.2 20-14.4 34.4-17-2.7-2.6-4.4-6-4.4-10A14 14 0 0 1 45 0z" fill="#2E8B57" stroke="#1D2A44" stroke-width="3" stroke-linejoin="round" />
+  </g>
+  <g transform="translate(392 238) rotate(14 40 40)">
+    <rect x="5" y="6" width="80" height="80" rx="16" fill="#A8834D" />
+    <rect width="80" height="80" rx="16" fill="#FFFDF8" stroke="#1D2A44" stroke-width="3" />
+    <g fill="#C8372D"><circle cx="22" cy="22" r="7" /><circle cx="58" cy="22" r="7" /><circle cx="40" cy="40" r="7" /><circle cx="22" cy="58" r="7" /><circle cx="58" cy="58" r="7" /></g>
+  </g>
+  <g transform="translate(40 318) rotate(-6)">
+    <circle cx="36" cy="38" r="30" fill="#A8834D" />
+    <circle cx="32" cy="32" r="30" fill="#2F6DB5" stroke="#1D2A44" stroke-width="3" />
+    <circle cx="32" cy="32" r="21" fill="none" stroke="#FFFDF8" stroke-width="2" stroke-dasharray="4 4" opacity="0.7" />
+    <text x="32" y="42" text-anchor="middle" font-family="Bricolage Grotesque, sans-serif" font-weight="800" font-size="28" fill="#FFFDF8">2</text>
+  </g>
+</svg>

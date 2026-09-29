@@ -1,0 +1,15 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Stonemaier Games,publisher,https://store.stonemaiergames.com/products/wingspan,,2026-09-29,curl 200 + Shopify products.json title match (in stock)
+_base,Miniature Market,retailer,https://www.miniaturemarket.com/stm910.html,with Swift-Start Pack,2026-09-29,curl 200 title match
+_base,GameNerdz,retailer,https://www.gamenerdz.com/wingspan-2nd-edition,2nd printing with Swift-Start Pack,2026-09-29,curl 200 title match
+wingspan-european-expansion,Stonemaier Games,publisher,https://store.stonemaiergames.com/products/wingspan-european-expansion,,2026-09-29,curl 200 + Shopify products.json title match (in stock)
+wingspan-european-expansion,Miniature Market,retailer,https://www.miniaturemarket.com/stm901.html,,2026-09-29,curl 200 title match
+wingspan-european-expansion,GameNerdz,retailer,https://www.gamenerdz.com/wingspan-european-expansion,,2026-09-29,curl 200 title match
+wingspan-oceania-expansion,Stonemaier Games,publisher,https://store.stonemaiergames.com/products/wingspan-oceania-expansion,,2026-09-29,curl 200 + Shopify products.json title match (in stock)
+wingspan-oceania-expansion,Miniature Market,retailer,https://www.miniaturemarket.com/stm903.html,,2026-09-29,curl 200 title match
+wingspan-oceania-expansion,GameNerdz,retailer,https://www.gamenerdz.com/wingspan-oceania-expansion,,2026-09-29,curl 200 title match
+wingspan-asia,Stonemaier Games,publisher,https://store.stonemaiergames.com/products/wingspan-asia-expansion,,2026-09-29,Shopify products.json title match (in stock)
+wingspan-asia,Miniature Market,retailer,https://www.miniaturemarket.com/stm906.html,,2026-09-29,curl 200 title match
+wingspan-asia,GameNerdz,retailer,https://www.gamenerdz.com/wingspan-asia-expansion,,2026-09-29,curl 200 title match
+wingspan-americas-expansion,Stonemaier Games,publisher,https://store.stonemaiergames.com/products/wingspan-americas-expansion,,2026-09-29,curl 200 + Shopify products.json title match (in stock)
+wingspan-americas-expansion,GameNerdz,retailer,https://www.gamenerdz.com/wingspan-americas-expansion,,2026-09-29,curl 200 title match

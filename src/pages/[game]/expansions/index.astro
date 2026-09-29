@@ -1,0 +1,264 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import GameBox from '../../../components/GameBox.astro';
+import Verdict from '../../../components/Verdict.astro';
+import BuyLinks from '../../../components/BuyLinks.astro';
+import { games, expansionsFor, TYPE_LABELS, complexityText, styleText } from '../../../lib/catalog.mjs';
+import { rankNext, prereqChain, comparePairs, playersText, priceBand, VERDICTS, STYLES } from '../../../lib/guide.mjs';
+import { SITE } from '../../../lib/site.config.mjs';
+import { WATCH_OUT } from '../../../lib/game-art.mjs';
+import { webApplicationLd, breadcrumbLd, itemListLd } from '../../../lib/seo.mjs';
+
+export function getStaticPaths() {
+  return games.map((game) => ({ params: { game: game.slug }, props: { game } }));
+}
+const { game } = Astro.props;
+const all = expansionsFor(game.slug);
+const { next, unrated } = rankNext(all);
+const pairs = comparePairs(all);
+const watch = WATCH_OUT[game.slug] || [];
+const path = `/${game.slug}/expansions/`;
+const title = `Which ${game.name} expansion should I buy next?`;
+const top = next[0];
+const description = top
+  ? `${game.name} expansions in the order to buy them. Start with ${top.name}. Tick what you own and the list updates — with what each box needs first.`
+  : `Every ${game.name} expansion, what it adds, and what you need first.`;
+const crumbs = [{ name: 'Games', href: '/' }, { name: `${game.name} expansions` }];
+
+// Minimal data for the browser island.
+const islandData = all.map((e) => ({
+  id: e.id, slug: e.slug, name: e.name, verdict: e.verdict, buyOrder: e.buyOrder,
+  requires: e.requires, minPlayers: e.minPlayers, maxPlayers: e.maxPlayers, groupStyle: e.groupStyle,
+}));
+const maxPlayers = Math.max(game.maxPlayers || 0, ...all.map((e) => e.maxPlayers || 0)) || 6;
+const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
+---
+<Layout
+  title={title}
+  description={description}
+  path={path}
+  jsonLdNodes={[
+    webApplicationLd({ name: `${game.name} expansion buying guide`, description, url: path }),
+    breadcrumbLd(crumbs),
+    itemListLd(next.map((e) => ({ url: `/${game.slug}/${e.slug}/`, name: e.name }))),
+  ]}
+>
+  <Breadcrumbs items={crumbs} />
+  <section class="container">
+    <div class="game-head">
+      <GameBox slug={game.slug} size="lg" />
+      <div>
+        <h1>Which {game.name} expansion should you buy next?</h1>
+        <p class="lead" style="margin:0">{game.oneLine}</p>
+        <div class="facts">
+          {game.minPlayers && <span class="pill">Base game: {game.minPlayers}–{game.maxPlayers} players</span>}
+          {game.playTime && <span class="pill">{game.playTime}</span>}
+          {game.publisher && <span class="pill">{game.publisher}</span>}
+          <span class="pill">{all.length} expansions checked</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="tool" data-guide data-game={game.slug} data-storage-key={`${SITE.storagePrefix}${game.slug}`}>
+      <aside class="shelf token pad" aria-labelledby="shelf-h">
+        <h2 id="shelf-h">Your shelf</h2>
+        <fieldset>
+          <legend>What do you already own?</legend>
+          <div class="own-list">
+            {next.map((e) => (
+              <label class="own-item">
+                <input type="checkbox" name="own" value={e.slug} />
+                <span>{e.name}</span>
+              </label>
+            ))}
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>How many people usually play?</legend>
+          <select name="players" class="chip" aria-label="Number of players">
+            <option value="">Any number</option>
+            {playerOptions.map((n) => <option value={n}>{n} {n === 1 ? 'player' : 'players'}</option>)}
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>Who do you play with?</legend>
+          <div class="chip-group" role="group">
+            <button type="button" class="chip" data-style="" aria-pressed="true">Anyone</button>
+            {Object.entries(STYLES).map(([k, label]) => <button type="button" class="chip" data-style={k} aria-pressed="false">{label}</button>)}
+          </div>
+        </fieldset>
+        <div class="shelf-actions">
+          <button type="button" class="btn btn--sm" data-copy>Copy my link</button>
+          <button type="button" class="btn btn--sm btn--ghost" data-reset>Clear</button>
+        </div>
+        <p class="small muted" style="margin:var(--space-3) 0 0" data-copy-status aria-live="polite">Saved on this device only. No account.</p>
+      </aside>
+
+      <div>
+        <h2 class="visually-hidden">Buy order</h2>
+        <p class="track-status" data-status aria-live="polite">
+          {top ? <>Start with <a href={`/${game.slug}/${top.slug}/`}>{top.name}</a>.</> : 'We haven’t ranked these yet.'}
+        </p>
+        <ol class="track" data-track>
+          {next.map((e) => {
+            const tone = VERDICTS[e.verdict].tone;
+            const chain = prereqChain(e, all);
+            const orRule = e.listNote;
+            const players = playersText(e);
+            const price = priceBand(e);
+            return (
+              <li class="step" data-slug={e.slug} data-tone={tone}>
+                <span class="space" aria-hidden="true" data-rank>{e.rank}</span>
+                <article class="token card">
+                  <div class="card-top">
+                    <h3><span class="visually-hidden" data-rank-text>Number {e.rank}: </span><a href={`/${game.slug}/${e.slug}/`}>{e.name}</a></h3>
+                    <Verdict verdict={e.verdict} />
+                  </div>
+                  {e.adds && <p><strong>Adds:</strong> {e.adds}</p>}
+                  {e.fixes && <p><strong>Fixes:</strong> {e.fixes}</p>}
+                  {e.reason && <p class="muted">{e.reason}</p>}
+                  <div class="needs" data-needs hidden={!chain.length}>
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 23 21H1z" fill="#F2B705" stroke="#1D2A44" stroke-width="2" /><path d="M12 9v5M12 17v.5" stroke="#1D2A44" stroke-width="2.4" stroke-linecap="round" /></svg>
+                    <span>Get <span data-needs-list>{chain.map((c) => c.name).join(' and ')}</span> first.</span>
+                  </div>
+                  {orRule && <div class="needs"><span>{orRule}</span></div>}
+                  <p class="offstyle-note">Usually a better fit for a different kind of group — still fine if it sounds fun.</p>
+                  <div class="meta">
+                    <span class="pill">{TYPE_LABELS[e.type] || 'Expansion'}</span>
+                    {players && <span class="pill">{players} players</span>}
+                    {complexityText(e.complexity) && <span class="pill">{complexityText(e.complexity)}</span>}
+                    {styleText(e.groupStyle) && <span class="pill">{styleText(e.groupStyle)}</span>}
+                    {price && <span class="pill">Price: {price}</span>}
+                  </div>
+                  <div class="actions">
+                    <label class="own-item"><input type="checkbox" name="own-inline" value={e.slug} /> I own this<span class="visually-hidden">: {e.name}</span></label>
+                    <a href={`/${game.slug}/${e.slug}/`}>Details</a>
+                    <BuyLinks links={e.buyLinks} compact name={e.name} moreHref={`/${game.slug}/${e.slug}/#buy`} />
+                  </div>
+                </article>
+              </li>
+            );
+          })}
+        </ol>
+        <div class="token empty" data-empty hidden>
+          <strong>You own everything we rank.</strong> Nice shelf. Check the list below for the rest.
+        </div>
+        <p class="muted small hidden-note" data-hidden-note hidden></p>
+
+        {watch.length > 0 && (
+          <section class="token pad gotcha section" aria-labelledby="watch-h">
+            <h2 id="watch-h">Check before you buy</h2>
+            <ul style="margin:0;padding-left:1.2rem">{watch.map((w) => <li>{w}</li>)}</ul>
+          </section>
+        )}
+
+        {pairs.length > 0 && (
+          <section class="section" aria-labelledby="cmp-h">
+            <h2 id="cmp-h">Stuck between two?</h2>
+            <ul class="later-list">
+              {pairs.map(([a, b]) => (
+                <li><a href={`/compare/${game.slug}/${a.slug}-vs-${b.slug}/`}>{a.name} vs {b.name}</a></li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {unrated.length > 0 && (
+          <section class="section" aria-labelledby="later-h">
+            <h2 id="later-h">Also out there (not ranked yet)</h2>
+            <p class="muted">We found these but don’t have enough solid reviews to rank them yet.</p>
+            <ul class="later-list">
+              {unrated.map((e) => (
+                <li><a href={`/${game.slug}/${e.slug}/`}><strong>{e.name}</strong></a>{e.adds && <> — {e.adds}</>}</li>
+              ))}
+            </ul>
+          </section>
+        )}
+        <p class="draft-note section">Rankings are our editorial picks, built from the reviews linked on each expansion page. Last checked {game.checkedOn}.</p>
+      </div>
+    </div>
+  </section>
+  <script type="application/json" id="guide-data" set:html={JSON.stringify(islandData).replace(/</g, '\\u003c')} />
+</Layout>
+
+<script>
+  import { rankNext, statusFor, parseState, serializeState } from '../../../lib/guide.mjs';
+
+  const root = document.querySelector('[data-guide]');
+  const data = JSON.parse(document.getElementById('guide-data').textContent);
+  const game = root.dataset.game;
+  const key = root.dataset.storageKey;
+  const slugs = data.map((e) => e.slug);
+  const steps = new Map([...root.querySelectorAll('.step')].map((el) => [el.dataset.slug, el]));
+
+  let state;
+  if (/[?&](own|p|style)=/.test(location.search)) state = parseState(location.search, slugs);
+  else {
+    try { state = parseState(localStorage.getItem(key) || '', slugs); } catch { state = parseState('', slugs); }
+  }
+
+  const statusEl = root.querySelector('[data-status]');
+  const hiddenNote = root.querySelector('[data-hidden-note]');
+  const emptyEl = root.querySelector('[data-empty]');
+  const playersSel = root.querySelector('select[name="players"]');
+
+  function render() {
+    const r = rankNext(data, state);
+    const visible = new Map(r.next.map((e) => [e.slug, e]));
+    for (const [slug, el] of steps) {
+      const row = visible.get(slug);
+      el.hidden = !row;
+      if (!row) continue;
+      el.querySelector('[data-rank]').textContent = row.rank;
+      el.querySelector('[data-rank-text]').textContent = `Number ${row.rank}: `;
+      el.classList.toggle('is-offstyle', !row.fitsStyle);
+      const needs = el.querySelector('[data-needs]');
+      needs.hidden = row.blockedBy.length === 0;
+      if (row.blockedBy.length) needs.querySelector('[data-needs-list]').textContent = row.blockedBy.map((b) => b.name).join(' and ');
+    }
+    const status = statusFor(r, state);
+    if (status.text) statusEl.textContent = status.text;
+    else {
+      const a = document.createElement('a');
+      a.href = `/${game}/${status.pick.slug}/`;
+      a.textContent = status.pick.name;
+      statusEl.replaceChildren(status.lead, a, '.');
+    }
+    emptyEl.hidden = r.next.length > 0 || r.hidden.length > 0;
+    hiddenNote.hidden = r.hidden.length === 0;
+    hiddenNote.textContent = r.hidden.length
+      ? `Hidden because they don’t work at ${state.players} players: ${r.hidden.map((e) => e.name).join(', ')}.`
+      : '';
+    for (const box of root.querySelectorAll('input[name="own"], input[name="own-inline"]')) box.checked = state.owned.includes(box.value);
+    playersSel.value = state.players ? String(state.players) : '';
+    for (const chip of root.querySelectorAll('[data-style]')) chip.setAttribute('aria-pressed', String((chip.dataset.style || null) === state.style));
+    const qs = serializeState(state);
+    try { localStorage.setItem(key, qs); } catch {}
+    history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
+  }
+
+  root.addEventListener('change', (ev) => {
+    const t = ev.target;
+    if (t.name === 'own' || t.name === 'own-inline') {
+      const set = new Set(state.owned);
+      t.checked ? set.add(t.value) : set.delete(t.value);
+      state.owned = slugs.filter((s) => set.has(s));
+    } else if (t.name === 'players') state.players = t.value ? Number(t.value) : null;
+    render();
+  });
+  root.addEventListener('click', async (ev) => {
+    const t = ev.target.closest('button');
+    if (!t) return;
+    if (t.hasAttribute('data-style')) state.style = t.dataset.style || null;
+    else if (t.hasAttribute('data-reset')) state = { owned: [], players: null, style: null };
+    else if (t.hasAttribute('data-copy')) {
+      const msg = root.querySelector('[data-copy-status]');
+      try { await navigator.clipboard.writeText(location.href); msg.textContent = 'Link copied. Anyone who opens it sees your list.'; }
+      catch { msg.textContent = location.href; }
+      return;
+    } else return;
+    render();
+  });
+  render();
+</script>

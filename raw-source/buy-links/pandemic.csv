@@ -1,0 +1,7 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Asmodee Store,publisher,https://store.asmodee.com/products/pandemic,current Z-Man edition,2026-09-29,curl shopify .json title match (Pandemic $49.99)
+_base,Miniature Market,retailer,https://www.miniaturemarket.com/zmg71100.html,ZM7100 current edition,2026-09-29,curl 200 title match
+_base,Amazon,amazon,https://www.amazon.com/dp/B00A2HD40E,,2026-09-29,curl 200 title match
+on-the-brink,Asmodee Store,publisher,https://store.asmodee.com/products/pandemic-on-the-brink,current Z-Man edition,2026-09-29,curl shopify .json title match (Pandemic: On the Brink $49.99)
+in-the-lab,Z-Man Games,publisher,https://www.zmangames.com/game/pandemic-in-the-lab/,requires base + On the Brink,2026-09-29,fetch_webpage title match (curl 403 bot-blocked)
+state-of-emergency,Z-Man Games,publisher,https://www.zmangames.com/game/pandemic-state-of-emergency/,out of stock 2026-09,2026-09-29,"fetch_webpage title match, shows CURRENTLY UNAVAILABLE (curl 403 bot-blocked)"

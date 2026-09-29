@@ -1,0 +1,20 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Days of Wonder,publisher,https://www.daysofwonder.com/game/ticket-to-ride/,,2026-09-29,fetch_webpage (link on DoW universe listing; curl 403)
+_base,Amazon,amazon,https://www.amazon.com/dp/B0F8PKN4B7,2025 refresh edition,2026-09-29,curl 200 title match
+usa-1910,Days of Wonder,publisher,https://www.daysofwonder.com/game/ticket-to-ride-usa-1910/,card expansion for original TTR,2026-09-29,fetch_webpage (link on DoW universe listing; curl 403)
+usa-1910,Amazon,amazon,https://www.amazon.com/dp/B000K8FYAS,,2026-09-29,curl 200 title match
+map-collection-asia,Days of Wonder,publisher,https://www.daysofwonder.com/game/ticket-to-ride-asia/,,2026-09-29,fetch_webpage (link on DoW map collection listing; curl 403)
+map-collection-asia,Amazon,amazon,https://www.amazon.com/dp/B005OQ2ZXK,,2026-09-29,curl 200 title match
+map-collection-india-switzerland,Days of Wonder,publisher,https://www.daysofwonder.com/game/ticket-to-ride-india/,India & Switzerland,2026-09-29,fetch_webpage (link on DoW map collection listing; curl 403)
+map-collection-heart-of-africa,Days of Wonder,publisher,https://www.daysofwonder.com/game/ticket-to-ride-the-heart-of-africa/,,2026-09-29,fetch_webpage (link on DoW map collection listing; curl 403)
+map-collection-heart-of-africa,Amazon,amazon,https://www.amazon.com/dp/B00ADB7BY4,,2026-09-29,curl 200 title match
+map-collection-nederland,Days of Wonder,publisher,https://www.daysofwonder.com/game/ticket-to-ride-nederland/,,2026-09-29,fetch_webpage (link on DoW map collection listing; curl 403)
+map-collection-nederland,Amazon,amazon,https://www.amazon.com/dp/B00G3HT1TA,,2026-09-29,curl 200 title match
+map-collection-uk-pennsylvania,Days of Wonder,publisher,https://www.daysofwonder.com/game/ticket-to-ride-united-kingdom/,United Kingdom & Pennsylvania,2026-09-29,fetch_webpage (link on DoW map collection listing; curl 403)
+map-collection-uk-pennsylvania,Amazon,amazon,https://www.amazon.com/dp/B015OWB3GS,,2026-09-29,curl 200 title match
+map-collection-france-old-west,Days of Wonder,publisher,https://www.daysofwonder.com/game/ticket-to-ride-france/,France & Old West,2026-09-29,fetch_webpage (link on DoW map collection listing; curl 403)
+map-collection-poland,Days of Wonder,publisher,https://www.daysofwonder.com/game/ticket-to-ride-poland/,,2026-09-29,fetch_webpage (link on DoW map collection listing; curl 403)
+map-collection-poland,Amazon,amazon,https://www.amazon.com/dp/B09YMG55CX,,2026-09-29,curl 200 title match
+map-collection-japan-italy,Days of Wonder,publisher,https://www.daysofwonder.com/game/ticket-to-ride-japan/,Japan & Italy,2026-09-29,fetch_webpage (link on DoW map collection listing; curl 403)
+map-collection-japan-italy,Amazon,amazon,https://www.amazon.com/dp/B07YCWF42Y,,2026-09-29,curl 200 title match
+map-collection-iberia-south-korea,Days of Wonder,publisher,https://www.daysofwonder.com/game/ticket-to-ride-iberia/,Iberia & South Korea,2026-09-29,fetch_webpage (link on DoW map collection listing; curl 403)

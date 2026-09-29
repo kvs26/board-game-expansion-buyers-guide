@@ -1,0 +1,68 @@
+/* ==========================================================================
+   tokens.css — "Punchboard" skin (site-only). Kraft board, ink navy print,
+   token-face cards, verdict colours taken from classic player-token colours.
+   ========================================================================== */
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('/fonts/brand.woff2') format('woff2');
+  font-weight: 300 900;
+  font-style: normal;
+  font-display: optional;
+}
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  src: url('/fonts/brand-display.woff2') format('woff2');
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Figtree Fallback';
+  src: local('Arial');
+  size-adjust: 101%;
+  ascent-override: 94%;
+  descent-override: 25%;
+}
+
+:root {
+  /* Board + print */
+  --kraft: #e6cfa7;
+  --kraft-light: #f3e7d0;
+  --kraft-edge: #c9a56e;
+  --kraft-deep: #a8834d;
+  --ink: #1d2a44;
+  --ink-soft: #46526b;
+  --face: #fffdf8;
+  --face-2: #faf3e6;
+
+  /* Player-token verdict colours */
+  --gold: #f2b705;
+  --gold-ink: #6b4f00;
+  --green: #2e8b57;
+  --blue: #2f6db5;
+  --red: #c8372d;
+
+  --focus: #2f6db5;
+
+  --font-body: 'Figtree', 'Figtree Fallback', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: 'Bricolage Grotesque', 'Figtree', system-ui, sans-serif;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+
+  --radius: 10px;
+  --radius-lg: 16px;
+  --line: 2px solid var(--ink);
+  --lift: 4px 4px 0 var(--kraft-deep);
+  --lift-sm: 2px 2px 0 var(--kraft-deep);
+
+  --container: 72rem;
+  --measure: 40rem;
+}

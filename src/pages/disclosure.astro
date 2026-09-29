@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { SITE } from '../lib/site.config.mjs';
+import { organizationLd, breadcrumbLd } from '../lib/seo.mjs';
+const title = 'Affiliate disclosure';
+const description = `How ${SITE.name} may earn money, and why it never changes the order.`;
+const crumbs = [{ name: 'Home', href: '/' }, { name: title }];
+---
+<Layout title={title} description={description} jsonLdNodes={[organizationLd(), breadcrumbLd(crumbs)]}>
+  <Breadcrumbs items={crumbs} />
+  <article class="container prose page-head">
+    <h1>Affiliate disclosure</h1>
+    <p>Some links to stores may be affiliate links. If you buy through one, we may earn a small commission at no extra cost to you.</p>
+    {SITE.monetization.affiliate.enabled && <p><strong>{SITE.monetization.affiliate.disclosure}</strong></p>}
+    <h2>It never changes the order</h2>
+    <p>The buy order comes from reviews and our own judgement — see <a href="/methodology">how we rank</a>. Whether a store link exists, or pays us, has no effect on where an expansion sits. Many expansions have no store link at all.</p>
+    <p>Questions? <a href="/contact">Contact us</a>.</p>
+  </article>
+</Layout>

@@ -1,0 +1,60 @@
+---
+import Layout from '../layouts/Layout.astro';
+import HeroArt from '../components/HeroArt.astro';
+import GameBox from '../components/GameBox.astro';
+import { SITE } from '../lib/site.config.mjs';
+import { organizationLd, websiteLd, itemListLd } from '../lib/seo.mjs';
+import { games, expansionsFor, ratedCount } from '../lib/catalog.mjs';
+import { VERDICTS } from '../lib/guide.mjs';
+
+const description =
+  'Pick the board game you own, tick the expansions you already have, and see which one to buy next — in plain English, with what you need first.';
+const total = games.reduce((n, g) => n + expansionsFor(g.slug).length, 0);
+---
+<Layout
+  title="Which board game expansion should I buy next?"
+  description={description}
+  path="/"
+  jsonLdNodes={[organizationLd(), websiteLd(), itemListLd(games.map((g) => ({ url: `/${g.slug}/expansions/`, name: `${g.name} expansions` })))]}
+>
+  <section class="hero container">
+    <div>
+      <span class="eyebrow">{games.length} games · {total} expansions checked</span>
+      <h1>Which expansion should you buy next?</h1>
+      <p class="lead">{SITE.tagline}</p>
+      <a class="btn" href="#games">Pick your game ↓</a>
+    </div>
+    <HeroArt />
+  </section>
+
+  <section class="container section" aria-labelledby="how">
+    <h2 id="how">How it works</h2>
+    <ol class="game-grid" style="list-style:none;padding:0">
+      <li class="token pad"><strong>1. Pick your game.</strong><br /><span class="muted">The one on your shelf.</span></li>
+      <li class="token pad"><strong>2. Tick what you own.</strong><br /><span class="muted">It drops off the list. Saved on this device only.</span></li>
+      <li class="token pad"><strong>3. Buy the top one.</strong><br /><span class="muted">We warn you if it needs another box first.</span></li>
+    </ol>
+    <p class="small muted" style="margin-top:var(--space-4)">
+      Our four labels:
+      {Object.values(VERDICTS).map((v) => <span class={`verdict verdict--${v.tone}`} style="margin:0 .3rem .3rem 0">{v.label}</span>)}
+    </p>
+  </section>
+
+  <section class="container section" id="games" aria-labelledby="games-h">
+    <h2 id="games-h">Pick your game</h2>
+    <ul class="game-grid" style="list-style:none;padding:0">
+      {games.map((g) => (
+        <li>
+          <a class="game-box token" href={`/${g.slug}/expansions/`}>
+            <GameBox slug={g.slug} />
+            <span>
+              <strong>{g.name}</strong>
+              <span class="muted">{expansionsFor(g.slug).length} expansions · {ratedCount(g.slug)} ranked</span>
+            </span>
+          </a>
+        </li>
+      ))}
+    </ul>
+    <p class="muted small" style="margin-top:var(--space-5)">Don’t see your game? <a href="/contact">Tell us</a> — we add games in the order people ask.</p>
+  </section>
+</Layout>

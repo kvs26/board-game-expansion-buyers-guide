@@ -1,0 +1,5 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,AEG Store,publisher,https://alderacstore.com/cascadia/,,2026-09-29,curl 200 title match
+_base,GameNerdz,retailer,https://www.gamenerdz.com/cascadia,out of stock 2026-09,2026-09-29,curl 200 title match
+landmarks,AEG Store,publisher,https://alderacstore.com/cascadia-landmarks/,retail edition (SKU AEG1034),2026-09-29,fetch_webpage title match
+landmarks,GameNerdz,retailer,https://www.gamenerdz.com/cascadia-landmarks-expansion,out of stock 2026-09,2026-09-29,curl 200 title match

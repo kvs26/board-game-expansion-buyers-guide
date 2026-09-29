@@ -1,0 +1,13 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,CATAN Shop,publisher,https://catanshop.com/catan-6th-edition-base-game,6th edition,2026-09-29,curl 200 title match
+catan-5-6-player-expansion,CATAN Shop,publisher,https://catanshop.com/catan-base-game-5-6-player-expansion-6th-edition,6th edition,2026-09-29,curl 200 title match
+seafarers,CATAN Shop,publisher,https://catanshop.com/catan-seafarers-6th-edition,6th edition,2026-09-29,curl 200 title match
+seafarers-5-6-player-expansion,CATAN Shop,publisher,https://catanshop.com/catan-seafarers-5-6-player-expansion-6th-edition,"6th edition; requires Seafarers",2026-09-29,curl 200 title match
+cities-knights,CATAN Shop,publisher,https://catanshop.com/catan-cities-knights-6th-edition,6th edition,2026-09-29,curl 200 title match
+cities-knights-5-6-player-expansion,CATAN Shop,publisher,https://catanshop.com/catan-cities-knights-5-6-player-expansion-6th-edition,"6th edition; requires Cities & Knights",2026-09-29,curl 200 title match
+traders-barbarians,CATAN Shop,publisher,https://catanshop.com/catan-traders-barbarians-6th-edition,6th edition,2026-09-29,curl 200 title match
+traders-barbarians-5-6-player-expansion,CATAN Shop,publisher,https://catanshop.com/catan-traders-barbarians-5-6-player-expansion-6th-edition,"6th edition; requires Traders & Barbarians",2026-09-29,curl 200 title match
+explorers-pirates,CATAN Shop,publisher,https://catanshop.com/catan-explorers-pirates-6th-edition-pre-order,"6th edition; pre-order 2026-09",2026-09-29,curl 200 title match
+explorers-pirates-5-6-player-expansion,CATAN Shop,publisher,https://catanshop.com/catan-explorers-pirates-5-6-player-extension-6th-edition-pre-order,"6th edition; pre-order 2026-09",2026-09-29,curl 200 title match
+legend-of-the-sea-robbers,CATAN Shop,publisher,https://catanshop.com/catan-scenarios-legend-of-the-sea-robber,requires Seafarers,2026-09-29,curl 200 title match
+legend-of-the-sea-robbers,Pandemonium Books & Games,retailer,https://pandemoniumbooks.com/products/catanlegendofthesearobbersexpansion,requires Seafarers,2026-09-29,curl 200 title match

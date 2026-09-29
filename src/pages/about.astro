@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { SITE } from '../lib/site.config.mjs';
+import { organizationLd, breadcrumbLd } from '../lib/seo.mjs';
+import { games, expansions } from '../lib/catalog.mjs';
+const title = 'About';
+const description = `Why ${SITE.name} exists and who it is for.`;
+const crumbs = [{ name: 'Home', href: '/' }, { name: title }];
+---
+<Layout title={title} description={description} jsonLdNodes={[organizationLd(), breadcrumbLd(crumbs)]}>
+  <Breadcrumbs items={crumbs} />
+  <article class="container prose page-head">
+    <h1>About this guide</h1>
+    <p class="lead">You love a game. You want more of it. There are ten expansions on the shelf and no clear answer on which one to get. That’s the problem we solve.</p>
+    <h2>What we do</h2>
+    <p>For each game we list its expansions, say what each one adds and fixes, and put them in the order we’d buy them. You tick what you already own and the list moves up. If an expansion needs another box first, we say so right on the card.</p>
+    <p>Right now we cover {games.length} games and {expansions.length} expansions.</p>
+    <h2>Who it’s for</h2>
+    <p>People buying for themselves, and people buying a gift for someone who already owns the game. You don’t need to know the hobby’s jargon to use it.</p>
+    <h2>What we don’t do</h2>
+    <ul>
+      <li>We don’t sell games.</li>
+      <li>Nobody pays us to rank an expansion higher.</li>
+      <li>We don’t rank an expansion if we can’t find enough solid reviews of it. Those go in a separate “not ranked yet” list.</li>
+    </ul>
+    <p>Read <a href="/methodology">how we rank</a> for the details, or <a href="/contact">get in touch</a>.</p>
+  </article>
+</Layout>

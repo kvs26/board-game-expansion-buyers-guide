@@ -1,0 +1,10 @@
+{
+  // Cloudflare Workers static-assets deploy config (learned from site #1's
+  // launch — Cloudflare's dashboard onboards new static sites via Workers,
+  // not the classic Pages UI). Rename "name" to the site's slug before deploy.
+  "name": "board-game-expansion-buyers-guide",
+  "compatibility_date": "2026-09-05",
+  "assets": {
+    "directory": "./dist"
+  }
+}

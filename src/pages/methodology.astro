@@ -1,0 +1,49 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { SITE } from '../lib/site.config.mjs';
+import { organizationLd, breadcrumbLd } from '../lib/seo.mjs';
+import { VERDICTS } from '../lib/guide.mjs';
+const title = 'How we rank';
+const description = `How ${SITE.name} picks the buy order, what each label means, and where the facts come from.`;
+const crumbs = [{ name: 'Home', href: '/' }, { name: title }];
+const meaning = {
+  buy_first: 'The one to get before anything else. Most groups will be glad they did.',
+  worth_it: 'A good buy once you have the first one. Adds real variety or fixes a real problem.',
+  depends: 'Great for some groups, wrong for others. The card says which.',
+  skip_unless: 'Most groups won’t miss it. Buy it if you’ve played everything else to death or it fixes something that bugs you.',
+};
+---
+<Layout title={title} description={description} jsonLdNodes={[organizationLd(), breadcrumbLd(crumbs)]}>
+  <Breadcrumbs items={crumbs} />
+  <article class="container prose page-head">
+    <h1>How we rank</h1>
+    <p class="lead">Short version: we read the reviews and buying guides so you don’t have to, then put the expansions in the order we’d buy them.</p>
+
+    <h2>The four labels</h2>
+    <ul style="list-style:none;padding:0">
+      {Object.entries(VERDICTS).map(([k, v]) => (
+        <li style="margin-bottom:var(--space-3)"><span class={`verdict verdict--${v.tone}`}>{v.label}</span> — {meaning[k]}</li>
+      ))}
+    </ul>
+
+    <h2>Where the facts come from</h2>
+    <ul>
+      <li><strong>What’s in the box, player counts, what it needs:</strong> the publisher’s own pages first, then rulebooks and wikis.</li>
+      <li><strong>The order and labels:</strong> reviews and buying guides from established board game sites, plus common advice from players. Every expansion page links its sources.</li>
+      <li><strong>Prices:</strong> list prices from the publisher or reviews. A rough guide only.</li>
+    </ul>
+
+    <h2>What we leave out</h2>
+    <ul>
+      <li>Promo cards and print-and-play extras.</li>
+      <li>Rankings we can’t back up. If there aren’t enough solid reviews, the expansion is listed but not ranked.</li>
+    </ul>
+
+    <h2>How the list changes for you</h2>
+    <p>The order is fixed by us. Your choices only filter it: what you own drops off, player counts hide boxes that won’t work, and “who you play with” fades the ones that suit a different group. Nothing is re-sorted by price or by who pays.</p>
+
+    <h2>Mistakes</h2>
+    <p>New editions come out and we miss things. If you spot an error, <a href="/contact">tell us</a> and we’ll fix it.</p>
+  </article>
+</Layout>

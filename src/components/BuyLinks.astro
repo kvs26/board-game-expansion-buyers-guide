@@ -1,0 +1,45 @@
+---
+/**
+ * BuyLinks.astro — every store that sells a product (Amazon, publisher, other retailers).
+ * compact: one line for the buy-order list ("Buy: Amazon · Publisher · +2 more").
+ * full: a "Where to buy" list for detail pages.
+ * Amazon links become sponsored only when the affiliate switch is on; other stores are plain links.
+ */
+import { SITE } from '../lib/site.config.mjs';
+
+interface BuyLink { store: string; kind: 'amazon' | 'publisher' | 'retailer'; url: string; note?: string | null }
+interface Props { links?: BuyLink[]; compact?: boolean; moreHref?: string; name?: string }
+
+const { links = [], compact = false, moreHref, name = '' } = Astro.props;
+const affiliateOn = SITE.monetization.affiliate.enabled;
+const show = links.length > 0 && (affiliateOn || SITE.monetization.productLinks?.enabled);
+const rel = (l: BuyLink) => (l.kind === 'amazon' && affiliateOn ? 'sponsored nofollow noopener' : 'nofollow noopener');
+const KIND = { amazon: 'Marketplace', publisher: 'Publisher store', retailer: 'Game store' };
+const MAX = 3;
+const shown = compact ? links.slice(0, MAX) : links;
+const extra = links.length - shown.length;
+---
+{show && compact && (
+  <span class="buy-inline">
+    <span class="buy-inline__label">Buy<span class="visually-hidden"> {name}</span>:</span>
+    {shown.map((l) => (
+      <a href={l.url} rel={rel(l)} target="_blank">{l.store}<span class="visually-hidden"> (opens in a new tab)</span></a>
+    ))}
+    {extra > 0 && moreHref && <a class="buy-inline__more" href={moreHref}>+{extra} more</a>}
+  </span>
+)}
+{show && !compact && (
+  <div class="buy-box" id="buy">
+    <h2>Where to buy</h2>
+    <ul>
+      {links.map((l) => (
+        <li>
+          <a class="buy-box__store" href={l.url} rel={rel(l)} target="_blank">{l.store}<span class="visually-hidden"> (opens in a new tab)</span></a>
+          <span class="buy-box__kind">{KIND[l.kind]}</span>
+          {l.note && <span class="buy-box__note">{l.note}</span>}
+        </li>
+      ))}
+    </ul>
+    <p class="buy-box__fine">Stock and prices change. Check the edition before you buy.{affiliateOn && links.some((l) => l.kind === 'amazon') && <> {SITE.monetization.affiliate.disclosure}</>}</p>
+  </div>
+)}

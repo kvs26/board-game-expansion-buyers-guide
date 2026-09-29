@@ -1,0 +1,14 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Rio Grande Games,publisher,https://www.riograndegames.com/games/race-for-the-galaxy/,,2026-09-29,bing snippet (bot-blocked)
+_base,Miniature Market,retailer,https://www.miniaturemarket.com/rgg301.html,2nd edition (RGG301),2026-09-29,fetch_webpage title match
+the-gathering-storm,Rio Grande Games,publisher,https://www.riograndegames.com/games/rftg-the-gathering-storm/,,2026-09-29,bing snippet (bot-blocked)
+the-gathering-storm,Amazon,amazon,https://www.amazon.com/dp/B001HV9SLS,standalone box,2026-09-29,curl 200 title match
+the-gathering-storm,Miniature Market,retailer,https://www.miniaturemarket.com/rio567.html,"Expansion & Brinkmanship bundle (TGS + RvI + BoW); out of stock 2026-09",2026-09-29,fetch_webpage title match
+alien-artifacts,Rio Grande Games,publisher,https://www.riograndegames.com/games/rftg-alien-artifacts/,,2026-09-29,bing snippet (bot-blocked)
+xeno-invasion,Rio Grande Games,publisher,https://www.riograndegames.com/games/rftg-xeno-invasion/,,2026-09-29,bing snippet (bot-blocked)
+xeno-invasion,Miniature Market,retailer,https://www.miniaturemarket.com/rgg111.html,,2026-09-29,curl 200 title match
+xeno-invasion,Walmart,retailer,https://www.walmart.com/ip/Rio-Grande-Games-Race-for-the-Galaxy-Xeno-Invasion-Board-Game-Expansion/47068718,,2026-09-29,bing snippet (bot-blocked)
+rebel-vs-imperium,Rio Grande Games,publisher,https://www.riograndegames.com/games/rftg-rebel-vs-imperium/,,2026-09-29,bing snippet (bot-blocked)
+rebel-vs-imperium,Miniature Market,retailer,https://www.miniaturemarket.com/rio567.html,"Expansion & Brinkmanship bundle (TGS + RvI + BoW); out of stock 2026-09",2026-09-29,fetch_webpage title match
+the-brink-of-war,Rio Grande Games,publisher,https://www.riograndegames.com/games/rftg-the-brink-of-war/,,2026-09-29,bing snippet (bot-blocked)
+the-brink-of-war,Miniature Market,retailer,https://www.miniaturemarket.com/rio567.html,"Expansion & Brinkmanship bundle (TGS + RvI + BoW); out of stock 2026-09",2026-09-29,fetch_webpage title match

@@ -1,0 +1,56 @@
+---
+/**
+ * AffiliateLink.astro — data-driven affiliate hole (ticket 05) + plain
+ * product-link hole (ticket 18).
+ * Every dataset row may carry an `affiliate` block with a real `affiliate_url`
+ * (untagged, e.g. an Amazon search/product URL) well before an Associates
+ * account exists. Three states:
+ *   1. `SITE.monetization.affiliate.enabled` + row `affiliate_enabled` + URL
+ *      → tagged CTA, rel="sponsored nofollow", disclosure line.
+ *   2. Not (1), but `SITE.monetization.productLinks.enabled` + URL → plain
+ *      outbound link (no sponsored tag, no disclosure) — safe pre-Associates.
+ *   3. Neither → plain text, no <a>.
+ * Flipping `affiliate.enabled` on for a row automatically promotes it from
+ * state 2 to state 1 with no template change.
+ */
+import { SITE } from '../lib/site.config.mjs';
+
+interface AffiliateData {
+  affiliate_enabled?: boolean;
+  affiliate_url?: string | null;
+  requires_disclosure?: boolean;
+  cta?: string;
+}
+interface Props {
+  /** Visible text (product name). */
+  label: string;
+  /** The row's `affiliate` block. */
+  affiliate?: AffiliateData;
+}
+
+const { label, affiliate = {} } = Astro.props;
+const hasUrl = !!affiliate.affiliate_url;
+const affiliateOn = SITE.monetization.affiliate.enabled && affiliate.affiliate_enabled && hasUrl;
+const plainLinkOn = !affiliateOn && SITE.monetization.productLinks?.enabled && hasUrl;
+const cta = affiliate.cta ?? 'View on Amazon';
+---
+{affiliateOn ? (
+  <span class="affiliate-link">
+    {label}
+    <a class="affiliate-cta" href={affiliate.affiliate_url} rel="sponsored nofollow" target="_blank">
+      {cta}<span class="visually-hidden"> (opens in a new tab)</span>
+    </a>
+    {affiliate.requires_disclosure !== false && (
+      <span class="affiliate-disclosure"> · {SITE.monetization.affiliate.disclosure}</span>
+    )}
+  </span>
+) : plainLinkOn ? (
+  <span class="affiliate-link">
+    {label}
+    <a class="affiliate-cta" href={affiliate.affiliate_url} rel="nofollow" target="_blank">
+      {cta}<span class="visually-hidden"> (opens in a new tab)</span>
+    </a>
+  </span>
+) : (
+  <span class="affiliate-link">{label}</span>
+)}

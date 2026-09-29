@@ -1,0 +1,15 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Asmodee Store,publisher,https://store.asmodee.com/products/carcassonne,"Z-Man current edition (ZM7810, incl. River & Abbot)",2026-09-29,Shopify products.json title match + zmangames.com BUY NOW link
+_base,Z-Man Games,publisher,https://www.zmangames.com/game/carcassonne/,current edition (ZM7810),2026-09-29,fetch_webpage title match (curl 403)
+_base,Miniature Market,retailer,https://www.miniaturemarket.com/zmg78100.html,Carcassonne (New Edition) ZM7810,2026-09-29,browser title match
+_base,Target,retailer,https://www.target.com/p/carcassonne-board-game/-/A-17375687,Z-Man Games edition,2026-09-29,browser title match
+inns-cathedrals,Z-Man Games,publisher,https://www.zmangames.com/game/carcassonne-inns-cathedrals/,Z-Man ZM7811; retail now mostly V3.1 reprint,2026-09-29,fetch_webpage title match (curl 403)
+traders-builders,Z-Man Games,publisher,https://www.zmangames.com/game/carcassonne-traders-builders/,Z-Man edition; retail now mostly V3.1 reprint,2026-09-29,fetch_webpage universe listing link (curl 403)
+princess-dragon,Z-Man Games,publisher,https://www.zmangames.com/game/carcassonne-the-princess-the-dragon/,Z-Man edition; V3.1 renamed Dragon & Fairy,2026-09-29,fetch_webpage universe listing link (curl 403)
+the-tower,Z-Man Games,publisher,https://www.zmangames.com/game/carcassonne-the-tower/,Z-Man edition; V3.1 renamed Towers & Thieves,2026-09-29,fetch_webpage universe listing link (curl 403)
+abbey-mayor,Z-Man Games,publisher,https://www.zmangames.com/game/carcassonne-abbey-mayor/,Z-Man edition,2026-09-29,fetch_webpage universe listing link (curl 403)
+abbey-mayor,Walmart,retailer,https://www.walmart.com/ip/Carcassonne-Strategy-Board-Game-Expansion-5-Abbey-Mayor-for-Ages-7-and-up-from-Asmodee/338728940,Z-Man Expansion 5 edition,2026-09-29,browser title match
+count-king-robber,Z-Man Games,publisher,https://www.zmangames.com/game/carcassonne-count-king-robber/,Z-Man edition,2026-09-29,fetch_webpage universe listing link (curl 403)
+bridges-castles-bazaars,Z-Man Games,publisher,https://www.zmangames.com/game/carcassonne-bridges-castles-bazaars/,Z-Man edition; V3.1 renamed Castles & Bridges,2026-09-29,fetch_webpage universe listing link (curl 403)
+hills-sheep,Z-Man Games,publisher,https://www.zmangames.com/game/carcassonne-hills-sheep/,Z-Man edition; V3.1 renamed Sheep & Shepherds,2026-09-29,fetch_webpage universe listing link (curl 403)
+under-the-big-top,Z-Man Games,publisher,https://www.zmangames.com/game/carcassonne-under-the-big-top/,Z-Man edition; V3.1 renamed Circus & Artists,2026-09-29,fetch_webpage universe listing link (curl 403)

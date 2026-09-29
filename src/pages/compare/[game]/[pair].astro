@@ -1,0 +1,74 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import Verdict from '../../../components/Verdict.astro';
+import { games, expansionsFor, TYPE_LABELS, complexityText, styleText } from '../../../lib/catalog.mjs';
+import { comparePairs, rankNext, prereqChain, playersText, priceBand } from '../../../lib/guide.mjs';
+import { breadcrumbLd } from '../../../lib/seo.mjs';
+
+export function getStaticPaths() {
+  return games.flatMap((game) =>
+    comparePairs(expansionsFor(game.slug)).map(([a, b]) => ({ params: { game: game.slug, pair: `${a.slug}-vs-${b.slug}` }, props: { game, a, b } })),
+  );
+}
+const { game, a, b } = Astro.props;
+const all = expansionsFor(game.slug);
+const rank = new Map(rankNext(all).next.map((e) => [e.slug, e.rank]));
+const first = rank.get(a.slug) <= rank.get(b.slug) ? a : b;
+const other = first === a ? b : a;
+const tie = rank.get(a.slug) === rank.get(b.slug);
+const needs = (e) => {
+  const c = prereqChain(e, all);
+  return c.length ? c.map((x) => x.name).join(', ') : 'Just the base game';
+};
+const rows = [
+  ['Our label', (e) => null],
+  ['Buy order', (e) => `#${rank.get(e.slug)} for ${game.name}`],
+  ['What it adds', (e) => e.adds || '—'],
+  ['What it fixes', (e) => e.fixes || '—'],
+  ['Type', (e) => TYPE_LABELS[e.type] || 'Expansion'],
+  ['Players', (e) => (playersText(e) ? `${playersText(e)} players` : '—')],
+  ['Rules load', (e) => complexityText(e.complexity) || '—'],
+  ['Best for', (e) => styleText(e.groupStyle) || '—'],
+  ['You need first', needs],
+  ['Price guide', (e) => priceBand(e) || '—'],
+];
+const path = `/compare/${game.slug}/${a.slug}-vs-${b.slug}/`;
+const title = `${a.name} vs ${b.name}: which ${game.name} expansion first?`;
+const description = tie
+  ? `${a.name} or ${b.name}? For ${game.name} it’s a toss-up — it depends on what your group likes. Side-by-side: what each adds, fixes and needs.`
+  : `${a.name} or ${b.name}? For most ${game.name} groups we’d buy ${first.name} first. Side-by-side: what each adds, fixes and needs.`;
+const crumbs = [{ name: 'Games', href: '/' }, { name: `${game.name} expansions`, href: `/${game.slug}/expansions/` }, { name: `${a.name} vs ${b.name}` }];
+---
+<Layout title={title} description={description} path={path} jsonLdNodes={[breadcrumbLd(crumbs)]}>
+  <Breadcrumbs items={crumbs} />
+  <section class="container">
+    <div class="page-head">
+      <span class="eyebrow">{game.name} expansions</span>
+      <h1>{a.name} vs {b.name}</h1>
+      {tie ? (
+        <p class="lead">Short answer: <strong>it’s a toss-up</strong> — both sit at #{rank.get(a.slug)} in our buy order. Pick the one that sounds more like your group.</p>
+      ) : (
+        <>
+          <p class="lead">Short answer: <strong>buy {first.name} first</strong>. {first.reason}</p>
+          <p class="muted">Pick {other.name} first instead if this sounds more like your table: {other.reason || other.adds}</p>
+        </>
+      )}
+    </div>
+    <div class="table-wrap">
+      <table class="compare-table">
+        <thead><tr><th scope="col"><span class="visually-hidden">Question</span></th><th scope="col">{a.name}</th><th scope="col">{b.name}</th></tr></thead>
+        <tbody>
+          {rows.map(([label, fn]) => (
+            <tr>
+              <th scope="row">{label}</th>
+              {[a, b].map((e) => <td>{label === 'Our label' ? <Verdict verdict={e.verdict} /> : fn(e)}</td>)}
+            </tr>
+          ))}
+          <tr><th scope="row">More</th>{[a, b].map((e) => <td><a href={`/${game.slug}/${e.slug}/`}>{e.name} details</a></td>)}</tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="section"><a class="btn" href={`/${game.slug}/expansions/`}>See the full {game.name} buy order</a></p>
+  </section>
+</Layout>

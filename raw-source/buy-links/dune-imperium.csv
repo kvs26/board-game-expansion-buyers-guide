@@ -1,0 +1,15 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Dire Wolf,publisher,https://shop.direwolfdigital.com/products/dune-imperium-1,,2026-09-29,"curl 200 + Shopify products.json title match"
+_base,Miniature Market,retailer,https://www.miniaturemarket.com/dwd01000.html,,2026-09-29,curl 200 title match
+_base,GameNerdz,retailer,https://www.gamenerdz.com/dune-imperium,,2026-09-29,curl 200 title match
+rise-of-ix,Dire Wolf,publisher,https://shop.direwolfdigital.com/products/dune-imperium-rise-of-ix,,2026-09-29,"curl 200 + Shopify products.json title match"
+rise-of-ix,Miniature Market,retailer,https://www.miniaturemarket.com/dwd01008.html,,2026-09-29,curl 200 title match
+rise-of-ix,GameNerdz,retailer,https://www.gamenerdz.com/dune-imperium-rise-of-ix-expansion,out of stock 2026-09,2026-09-29,curl 200 title match
+immortality,Dire Wolf,publisher,https://shop.direwolfdigital.com/products/dune-imperium-immortality,,2026-09-29,"curl 200 + Shopify products.json title match"
+immortality,Miniature Market,retailer,https://www.miniaturemarket.com/dwd01012.html,,2026-09-29,curl 200 title match
+immortality,GameNerdz,retailer,https://www.gamenerdz.com/dune-imperium-immortality-expansion,out of stock 2026-09,2026-09-29,curl 200 title match
+bloodlines,Dire Wolf,publisher,https://shop.direwolfdigital.com/products/dune-imperium-bloodlines,works with Dune: Imperium and Uprising,2026-09-29,"curl 200 + Shopify products.json title match"
+bloodlines,Miniature Market,retailer,https://www.miniaturemarket.com/dune-imperium-bloodlines-dwd01020.html,,2026-09-29,curl 200 title match
+bloodlines,GameNerdz,retailer,https://www.gamenerdz.com/dune-imperium-bloodlines-expansion,,2026-09-29,curl 200 title match
+uprising,Dire Wolf,publisher,https://shop.direwolfdigital.com/products/dune-imperium-uprising,standalone game,2026-09-29,"curl 200 + Shopify products.json title match"
+uprising,Miniature Market,retailer,https://www.miniaturemarket.com/dune-imperium-uprising-dwd01015.html,standalone game,2026-09-29,curl 200 title match
