@@ -13,7 +13,7 @@ export const SITE = {
   // --- Identity ---------------------------------------------------------
   /** Production origin, no trailing slash. Drives canonical/OG/sitemap URLs. */
   // Production domain.
-  url: 'https://whichexpansions.com',
+  url: 'https://whichexpansion.com',
   /** Short brand name — the wordmark text and the <title> suffix. */
   name: "Board Game Expansion Buyer's Guide",
   /** One-line positioning statement, used in default meta descriptions + hero. */
