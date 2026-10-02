@@ -1,8 +1,9 @@
 # Reddit/forums — board-game-expansion-buyers-guide
-Status: draft
+Status: partially posted (1 of 3)
 
 Found live 2026-10-01 via Arctic Shift (Reddit search RSS not needed). Reddit self-promo: keep roughly 9:1 genuine participation to self-links, disclose it's your site, one link per thread, no repeats. Post from your own aged account; answer the question first.
 
+**Posted:** yes (2026-10-02)
 **Where:** https://www.reddit.com/r/wingspan/comments/1w89hw5/looking_for_purchase_advice_i_own_the_base/ — r/wingspan, posted 2026-09-06, 7 comments, open. OP owns base + European + Fan Art, plays 2-player, asks which expansion next. Check the sub rules for self-promo before linking.
 **Post this:**
 > At 2 players I'd go Oceania next (it adds a new bird-card mix without needing anything else), and Asia/Americas can wait. I built a small tool that lists what's needed first for each Wingspan expansion if you want to double-check: https://whichexpansion.com (my site, free)

@@ -1,10 +1,15 @@
 # Pinterest — board-game-expansion-buyers-guide
 
-Status: draft
+Status: partially posted (1 of 3)
 
 Style references found live (storage/shelf boards dominate this niche; "expansion" boards are mostly game-specific fan boards): [Board Game Storage & Organization](https://www.pinterest.com/HomeMadebyCarmona/board-game-storage-organization/) (30 pins), [Board Game Storage](https://www.pinterest.com/game_rules/board-game-storage/) (20 pins), [Board game storage ideas](https://www.pinterest.com/fullcirclewithjess/board-game-storage-ideas/), [Tabletop/Board Game storage](https://www.pinterest.com/ORCmother/tabletopboard-game-storage/). Create your own board and pin there; don't pin into others' boards.
 
+**Images (ready, 1000x1500):** `pinterest-images/pin-1-which-expansion-next.png`, `pin-2-check-your-shelf.png`, `pin-3-gift-guide.png` (regenerate with `pinterest-images/make_pins.py`).
+
 **Where:** Your new board "Board Game Expansions: What to Buy Next" (style reference: https://www.pinterest.com/HomeMadebyCarmona/board-game-storage-organization/)
+
+**Posted:** yes (2026-10-02)
+**Image:** `pinterest-images/pin-1-which-expansion-next.png`
 
 **Post this:**
 > Title: Which Expansion Should You Buy Next? (Wingspan, Scythe, Catan + more)
@@ -16,6 +21,8 @@ Style references found live (storage/shelf boards dominate this niche; "expansio
 
 **Where:** Same board (idea: shelf-planning pin, in the style of https://www.pinterest.com/game_rules/board-game-storage/)
 
+**Image:** `pinterest-images/pin-2-check-your-shelf.png`
+
 **Post this:**
 > Title: Before You Buy Another Box: Check Your Shelf First
 > Description: Already own base games plus a few expansions? See which ones you're missing and which need a base game or other expansion first. Spirit Island, Everdell, Root, Pandemic and more.
@@ -23,6 +30,8 @@ Style references found live (storage/shelf boards dominate this niche; "expansio
 **Link:** https://whichexpansion.com/?utm_source=pinterest&utm_medium=referral&utm_campaign=spread-site
 
 **Watch for:** Avoid posting identical pins repeatedly; vary the image and title per pin.
+
+**Image:** `pinterest-images/pin-3-gift-guide.png`
 
 **Where:** Same board (idea: gift-guide pin, style reference https://www.pinterest.com/fullcirclewithjess/board-game-storage-ideas/)
 

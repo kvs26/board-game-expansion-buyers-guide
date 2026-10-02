@@ -1,7 +1,8 @@
 # Directories — board-game-expansion-buyers-guide
 
-Status: draft
+Status: partially posted (1 of 4)
 
+**Posted:** yes (2026-10-02, pending SaaSHub approval, up to 32 days)
 **Where:** SaaSHub — https://www.saashub.com/register (then add product via https://www.saashub.com/submit; free list of 110 further directories at https://www.saashub.com/submit/list)
 
 **Post this:**
