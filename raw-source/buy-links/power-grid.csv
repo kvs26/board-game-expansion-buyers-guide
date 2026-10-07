@@ -1,0 +1,26 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Amazon,amazon,https://www.amazon.com/dp/B07HM7WZT9,Power Grid: Recharged,2026-10-08,curl 200 title match
+_base,Rio Grande Games,publisher,https://www.riograndegames.com/games/power-grid-recharged/,Power Grid: Recharged,2026-10-08,Wayback Machine capture 200 with matching title and MSRP; direct curl returns a Cloudflare 403
+power-grid-benelux-central-europe,Amazon,amazon,https://www.amazon.com/dp/B000MMJEY4,,2026-10-08,curl 200 title match
+power-grid-benelux-central-europe,Rio Grande Games,publisher,https://www.riograndegames.com/games/power-grid-central-europe-benelux/,,2026-10-08,Wayback Machine capture 200 with matching title and MSRP; direct curl returns a Cloudflare 403
+power-grid-the-robots,Amazon,amazon,https://www.amazon.com/dp/B006VWVLIQ,,2026-10-08,curl 200 title match
+power-grid-the-robots,Rio Grande Games,publisher,https://www.riograndegames.com/games/power-grid-the-robots/,,2026-10-08,Wayback Machine capture 200 with matching title and MSRP; direct curl returns a Cloudflare 403
+power-grid-korea-china,Amazon,amazon,https://www.amazon.com/dp/B00RAFNMSA,,2026-10-08,curl 200 title match
+power-grid-korea-china,Rio Grande Games,publisher,https://www.riograndegames.com/games/power-grid-korea-china/,,2026-10-08,Wayback Machine capture 200 with matching title and MSRP; direct curl returns a Cloudflare 403
+power-grid-france-italy,Amazon,amazon,https://www.amazon.com/dp/B09SZNS9DH,,2026-10-08,curl 200 title match
+power-grid-france-italy,Rio Grande Games,publisher,https://www.riograndegames.com/games/power-grid-italy-france/,,2026-10-08,Wayback Machine capture 200 with matching title and MSRP; direct curl returns a Cloudflare 403
+power-grid-northern-europe-uk-ireland,Amazon,amazon,https://www.amazon.com/dp/B07Z9TWS7D,,2026-10-08,curl 200 title match
+power-grid-northern-europe-uk-ireland,Rio Grande Games,publisher,https://www.riograndegames.com/games/power-grid-n-europe-uk/,,2026-10-08,Wayback Machine capture 200 with matching title and MSRP; direct curl returns a Cloudflare 403
+power-grid-quebec-baden-wurttemberg,Amazon,amazon,https://www.amazon.com/dp/B008OKMNGC,,2026-10-08,curl 200 title match
+power-grid-quebec-baden-wurttemberg,Rio Grande Games,publisher,https://www.riograndegames.com/games/power-grid-quebec-baden-wurttemberg/,,2026-10-08,Wayback Machine capture 200 with matching title and MSRP; direct curl returns a Cloudflare 403
+power-grid-brazil-spain-portugal,Amazon,amazon,https://www.amazon.com/dp/B08X1HWHRC,,2026-10-08,curl 200 title match
+power-grid-brazil-spain-portugal,Rio Grande Games,publisher,https://www.riograndegames.com/games/power-grid-brazil-spain-amp-portugal/,,2026-10-08,Wayback Machine capture 200 with matching title and MSRP; direct curl returns a Cloudflare 403
+power-grid-russia-japan,Amazon,amazon,https://www.amazon.com/dp/B004ECWTW2,,2026-10-08,curl 200 title match
+power-grid-russia-japan,Rio Grande Games,publisher,https://www.riograndegames.com/games/power-grid-russia-amp-japan/,,2026-10-08,Wayback Machine capture 200 with matching title and MSRP; direct curl returns a Cloudflare 403
+power-grid-middle-east-south-africa,Amazon,amazon,https://www.amazon.com/dp/B003MA71SO,,2026-10-08,curl 200 title match
+power-grid-middle-east-south-africa,Rio Grande Games,publisher,https://www.riograndegames.com/games/power-grid-middle-east-amp-south-africa/,,2026-10-08,Wayback Machine capture 200 with matching title and MSRP; direct curl returns a Cloudflare 403
+power-grid-europe-north-america,Amazon,amazon,https://www.amazon.com/dp/B09YJ33QPG,,2026-10-08,curl 200 title match
+power-grid-europe-north-america,Rio Grande Games,publisher,https://www.riograndegames.com/games/power-grid-europe-north-america-recharged/,,2026-10-08,Wayback Machine capture 200 with matching title and MSRP; direct curl returns a Cloudflare 403
+power-grid-new-power-plant-cards-set-1,Amazon,amazon,https://www.amazon.com/dp/B0B58DWCDF,,2026-10-08,curl 200 title match
+power-grid-new-power-plant-cards-set-1,Rio Grande Games,publisher,https://www.riograndegames.com/games/power-grid-the-new-power-plant-cards/,,2026-10-08,Wayback Machine capture 200 with matching title and MSRP; direct curl returns a Cloudflare 403
+power-grid-europe-north-america,Game Nerdz,retailer,https://www.gamenerdz.com/power-grid-europe-north-american-expansion-recharged-version,Recharged version,2026-10-08,curl 200 title match

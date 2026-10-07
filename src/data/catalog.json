@@ -48,6 +48,81 @@
         {
           "store": "Amazon",
           "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B072BG9Z9V",
+          "note": null
+        },
+        {
+          "store": "Indie Boards & Cards",
+          "kind": "publisher",
+          "url": "https://indieboardsandcards.com/our-games/aeons-end/",
+          "note": "Aeon's End 2nd Edition"
+        }
+      ],
+      "slug": "aeons-end",
+      "name": "Aeon's End",
+      "publisher": "Indie Boards & Cards",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playTime": "60",
+      "oneLine": "Cooperative deck-building game where one to four breach mages defend the city of Gravehold against a nemesis, with no shuffling of discards and a variable turn order.",
+      "priceUsd": 49.99,
+      "sources": [
+        "https://indieboardsandcards.com/our-games/aeons-end/",
+        "https://boardgamegeek.com/boardgame/191189/aeons-end"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B072BG9Z9V",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07BHHC4S1",
+          "note": null
+        },
+        {
+          "store": "Garphill Games",
+          "kind": "publisher",
+          "url": "https://garphill.com/products/architects-of-the-west-kingdom",
+          "note": null
+        },
+        {
+          "store": "Renegade Game Studios",
+          "kind": "publisher",
+          "url": "https://renegadegamestudios.com/architects-of-the-west-kingdom/",
+          "note": "US distributor"
+        }
+      ],
+      "slug": "architects-of-the-west-kingdom",
+      "name": "Architects of the West Kingdom",
+      "publisher": "Garphill Games",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "playTime": "70",
+      "oneLine": "A medieval worker-placement game where you hire apprentices and build landmarks for the king while capturing rivals' workers and balancing your Virtue against dirty dealing.",
+      "priceUsd": 60.0,
+      "sources": [
+        "https://boardgamegeek.com/boardgame/236457/architects-of-the-west-kingdom",
+        "https://garphill.com/products/architects-of-the-west-kingdom",
+        "https://renegadegamestudios.com/architects-of-the-west-kingdom/"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07BHHC4S1",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
           "url": "https://www.amazon.com/dp/B09L6FCP9S",
           "note": "Capstone Games English edition"
         },
@@ -287,8 +362,42 @@
         {
           "store": "Amazon",
           "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07DLGD9K6",
+          "note": null
+        },
+        {
+          "store": "Ravensburger",
+          "kind": "publisher",
+          "url": "https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-the-worst-takes-it-all-60001739",
+          "note": "The Worst Takes It All"
+        }
+      ],
+      "slug": "disney-villainous",
+      "name": "Disney Villainous",
+      "publisher": "Ravensburger",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "playTime": "60",
+      "oneLine": "Asymmetric villain game: each player runs a different Disney villain with their own goal and deck while fate cards from rivals slow them down.",
+      "priceUsd": 34.99,
+      "sources": [
+        "https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-the-worst-takes-it-all-60001739",
+        "https://en.wikipedia.org/wiki/Villainous_(board_game)"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07DLGD9K6",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
           "url": "https://www.amazon.com/dp/B09BSP7B7V",
-          "note": "2021 refresh (up to 8 players)"
+          "note": null
         },
         {
           "store": "Asmodee Store",
@@ -473,6 +582,41 @@
         {
           "store": "Amazon",
           "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0084M8UEE",
+          "note": null
+        },
+        {
+          "store": "Indie Boards and Cards",
+          "kind": "publisher",
+          "url": "https://indieboardsandcards.com/our-games/flash-point-fire-rescue/",
+          "note": null
+        }
+      ],
+      "slug": "flash-point-fire-rescue",
+      "name": "Flash Point: Fire Rescue",
+      "publisher": "Indie Boards and Cards",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "playTime": "45",
+      "oneLine": "A cooperative firefighting game where each player's firefighter spends action points to rescue victims from a burning building before it collapses.",
+      "priceUsd": 39.99,
+      "sources": [
+        "https://indieboardsandcards.com/our-games/flash-point-fire-rescue/",
+        "https://islaythedragon.com/game-reviews/stop-drop-and-roll-a-review-of-flash-point-fire-rescue/",
+        "https://indieboardsandcards.com/type/expansions/"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0084M8UEE",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
           "url": "https://www.amazon.com/dp/B0BGXPZG4B",
           "note": null
         },
@@ -614,6 +758,69 @@
     {
       "buyLinks": [
         {
+          "store": "Fantasy Flight Games",
+          "kind": "publisher",
+          "url": "https://www.fantasyflightgames.com/en/products/marvel-champions-the-card-game/",
+          "note": null
+        }
+      ],
+      "slug": "marvel-champions",
+      "name": "Marvel Champions: The Card Game",
+      "publisher": "Fantasy Flight Games",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playTime": "45-90 min",
+      "oneLine": "Cooperative living card game where 1-4 Marvel heroes build decks to stop a villain's scheme.",
+      "priceUsd": 69.99,
+      "sources": [
+        "https://www.fantasyflightgames.com/en/products/marvel-champions-the-card-game/",
+        "https://marvelcdb.com/"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0002TV2NS",
+          "note": null
+        },
+        {
+          "store": "Asmodee",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/memoir-44-refresh",
+          "note": "Memoir '44 Refresh"
+        }
+      ],
+      "slug": "memoir-44",
+      "name": "Memoir '44",
+      "publisher": "Days of Wonder",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "playTime": "60",
+      "oneLine": "A World War II tactical wargame where two players use command cards and dice on a hex board to fight scenarios from D-Day and other battles.",
+      "priceUsd": 69.99,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Memoir_%2744",
+        "https://boardgamegeek.com/boardgame/10630/memoir-44",
+        "https://store.asmodee.com/products/memoir-44-refresh"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0002TV2NS",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
           "store": "Amazon",
           "kind": "amazon",
           "url": "https://www.amazon.com/dp/B00A2HD40E",
@@ -647,6 +854,41 @@
       "checkedOn": "2026-09-27",
       "affiliate": {
         "affiliate_url": "https://www.amazon.com/dp/B00A2HD40E",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07HM7WZT9",
+          "note": null
+        },
+        {
+          "store": "Rio Grande Games",
+          "kind": "publisher",
+          "url": "https://www.riograndegames.com/games/power-grid-recharged/",
+          "note": "Power Grid: Recharged"
+        }
+      ],
+      "slug": "power-grid",
+      "name": "Power Grid",
+      "publisher": "Rio Grande Games",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "playTime": "120",
+      "oneLine": "An auction-and-network-building economic game where players bid for power plants, buy fuel, and connect cities to power the most of them when the game ends.",
+      "priceUsd": 49.95,
+      "sources": [
+        "https://www.riograndegames.com/games/power-grid-recharged/",
+        "https://en.wikipedia.org/wiki/Power_Grid_(board_game)",
+        "https://boardgamegeek.com/boardgame/2651/power-grid"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07HM7WZT9",
         "affiliate_enabled": false,
         "requires_disclosure": true
       }
@@ -853,6 +1095,41 @@
         {
           "store": "Amazon",
           "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B00875JE0C",
+          "note": null
+        },
+        {
+          "store": "AEG Online Store",
+          "kind": "publisher",
+          "url": "https://alderacstore.com/smash-up-base-game/",
+          "note": null
+        }
+      ],
+      "slug": "smash-up",
+      "name": "Smash Up",
+      "publisher": "Alderac Entertainment Group",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playTime": "45",
+      "oneLine": "A shufflebuilding card game where each player mixes two faction decks of minions and actions to score victory points by smashing bases.",
+      "priceUsd": 34.99,
+      "sources": [
+        "https://alderacstore.com/smash-up-base-game/",
+        "https://boardgamegeek.com/boardgame/122522/smash-up",
+        "https://www.amazon.com/dp/B00875JE0C"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B00875JE0C",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
           "url": "https://www.amazon.com/dp/B01MUHP51S",
           "note": null
         },
@@ -960,6 +1237,41 @@
       "checkedOn": "2026-09-27",
       "affiliate": {
         "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B09HWFK7DG",
+          "note": null
+        },
+        {
+          "store": "Asmodee US Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/lotr-lcg-revised-core-set",
+          "note": "Revised Core Set"
+        }
+      ],
+      "slug": "the-lord-of-the-rings-the-card-game",
+      "name": "The Lord of the Rings: The Card Game",
+      "publisher": "Fantasy Flight Games",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playTime": "90",
+      "oneLine": "A cooperative Living Card Game where one to four players build decks of Middle-earth heroes and quest together against a scenario-driven encounter deck.",
+      "priceUsd": 74.99,
+      "sources": [
+        "https://store.asmodee.com/products/lotr-lcg-revised-core-set",
+        "https://www.fantasyflightgames.com/en/products/the-lord-of-the-rings-the-card-game/",
+        "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Card_Game"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B09HWFK7DG",
         "affiliate_enabled": false,
         "requires_disclosure": true
       }
@@ -2844,7 +3156,7 @@
           "store": "Amazon",
           "kind": "amazon",
           "url": "https://www.amazon.com/dp/B0095S7G6E",
-          "note": "Card-only expansion box"
+          "note": null
         },
         {
           "store": "Tabletop Merchant",
@@ -3238,6 +3550,4075 @@
       },
       "requires": [],
       "listNote": "Needs any Dixit base game (Dixit, Dixit Odyssey or Dixit Disney Edition)."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07QQHPGV7",
+          "note": null
+        },
+        {
+          "store": "Ravensburger",
+          "kind": "publisher",
+          "url": "https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-evil-comes-prepared-60001837",
+          "note": null
+        }
+      ],
+      "id": "disney-villainous--evil-comes-prepared",
+      "slug": "evil-comes-prepared",
+      "game": "disney-villainous",
+      "name": "Evil Comes Prepared",
+      "type": "expansion",
+      "publisher": "Ravensburger",
+      "releaseYear": 2019,
+      "baseRequired": "no",
+      "prerequisiteRule": "Stand-alone box; also mixes with any other Villainous set",
+      "minPlayers": 2,
+      "maxPlayers": 3,
+      "adds": "Three villains: Scar, Ratigan and Yzma",
+      "fixes": "Gives a gentle second box with straightforward goals",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "Wargamer names it the best set for beginners and a Reddit thread lists it as a favourite.",
+      "verdictStatus": "draft",
+      "priceUsd": 34.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-evil-comes-prepared-60001837",
+          "https://en.wikipedia.org/wiki/Villainous_(board_game)"
+        ],
+        "verdict": [
+          "https://www.wargamer.com/disney-villainous/expansion",
+          "https://www.reddit.com/r/DisneyVillainous/comments/ha8axc/"
+        ],
+        "price": [
+          "https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-evil-comes-prepared-60001837"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07QQHPGV7",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Stand-alone box; also mixes with any other Villainous set"
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07PRNJJW6",
+          "note": null
+        },
+        {
+          "store": "Ravensburger",
+          "kind": "publisher",
+          "url": "https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-wicked-to-the-core-60001796",
+          "note": null
+        }
+      ],
+      "id": "disney-villainous--wicked-to-the-core",
+      "slug": "wicked-to-the-core",
+      "game": "disney-villainous",
+      "name": "Wicked to the Core",
+      "type": "expansion",
+      "publisher": "Ravensburger",
+      "releaseYear": 2019,
+      "baseRequired": "no",
+      "prerequisiteRule": "Stand-alone box; also mixes with any other Villainous set",
+      "minPlayers": 2,
+      "maxPlayers": 3,
+      "adds": "Three villains: Hades, the Evil Queen and Dr. Facilier",
+      "fixes": "Adds fan-favourite villains but with uneven balance",
+      "complexity": "heavier",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 2,
+      "reason": "A Reddit favourite, but Wargamer calls it wonky in balance and complexity and not the place to start.",
+      "verdictStatus": "draft",
+      "priceUsd": 34.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-wicked-to-the-core-60001796",
+          "https://en.wikipedia.org/wiki/Villainous_(board_game)"
+        ],
+        "verdict": [
+          "https://www.wargamer.com/disney-villainous/expansion",
+          "https://www.reddit.com/r/DisneyVillainous/comments/ha8axc/"
+        ],
+        "price": [
+          "https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-wicked-to-the-core-60001796"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07PRNJJW6",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Stand-alone box; also mixes with any other Villainous set"
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B083XMTCKP",
+          "note": null
+        },
+        {
+          "store": "Ravensburger",
+          "kind": "publisher",
+          "url": "https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-perfectly-wretched-60001866",
+          "note": null
+        }
+      ],
+      "id": "disney-villainous--perfectly-wretched",
+      "slug": "perfectly-wretched",
+      "game": "disney-villainous",
+      "name": "Perfectly Wretched",
+      "type": "expansion",
+      "publisher": "Ravensburger",
+      "releaseYear": 2020,
+      "baseRequired": "no",
+      "prerequisiteRule": "Stand-alone box; also mixes with any other Villainous set",
+      "minPlayers": 2,
+      "maxPlayers": 3,
+      "adds": "Three villains: Cruella de Vil, Mother Gothel and Pete",
+      "fixes": "Beginner-friendly picks plus one very hard villain (Gothel)",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 3,
+      "reason": "Wargamer calls it beginner-friendly and Reddit rates it best overall, though Gothel is very hard.",
+      "verdictStatus": "draft",
+      "priceUsd": 34.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-perfectly-wretched-60001866",
+          "https://en.wikipedia.org/wiki/Villainous_(board_game)"
+        ],
+        "verdict": [
+          "https://www.wargamer.com/disney-villainous/expansion",
+          "https://www.reddit.com/r/DisneyVillainous/comments/ha8axc/"
+        ],
+        "price": [
+          "https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-perfectly-wretched-60001866"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B083XMTCKP",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Stand-alone box; also mixes with any other Villainous set"
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B091ZGHQ7P",
+          "note": null
+        }
+      ],
+      "id": "disney-villainous--despicable-plots",
+      "slug": "despicable-plots",
+      "game": "disney-villainous",
+      "name": "Despicable Plots",
+      "type": "expansion",
+      "publisher": "Ravensburger",
+      "releaseYear": 2021,
+      "baseRequired": "no",
+      "prerequisiteRule": "Stand-alone box; also mixes with any other Villainous set",
+      "minPlayers": 2,
+      "maxPlayers": 3,
+      "adds": "Three villains: Gaston, Lady Tremaine and the Horned King",
+      "fixes": "Fiddly mechanics; Horned King is the weakest liked",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 6,
+      "reason": "Wargamer says its mechanics are fiddly and it is not the place to start; Amazon reviewers split on Gaston and the Horned King.",
+      "verdictStatus": "draft",
+      "priceUsd": 34.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://en.wikipedia.org/wiki/Villainous_(board_game)",
+          "https://www.amazon.com/dp/B091ZGHQ7P"
+        ],
+        "verdict": [
+          "https://www.wargamer.com/disney-villainous/expansion",
+          "https://www.amazon.com/dp/B08VQD7XVZ"
+        ],
+        "price": [
+          "https://www.ravensburger.us/en-US/products/games/villainous-board-game-expansion-packs"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B091ZGHQ7P",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Stand-alone box; also mixes with any other Villainous set"
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B09VR7RZX4",
+          "note": null
+        }
+      ],
+      "id": "disney-villainous--bigger-and-badder",
+      "slug": "bigger-and-badder",
+      "game": "disney-villainous",
+      "name": "Bigger and Badder",
+      "type": "expansion",
+      "publisher": "Ravensburger",
+      "releaseYear": 2022,
+      "baseRequired": "no",
+      "prerequisiteRule": "Stand-alone box; also mixes with any other Villainous set",
+      "minPlayers": 2,
+      "maxPlayers": 3,
+      "adds": "Three villains: Syndrome, Lotso and Madame Mim",
+      "fixes": "Adds non-classic villains; Mim is the standout",
+      "complexity": "same",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 5,
+      "reason": "Wargamer picks Madame Mim as the standout of the set.",
+      "verdictStatus": "draft",
+      "priceUsd": 34.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://en.wikipedia.org/wiki/Villainous_(board_game)",
+          "https://www.amazon.com/dp/B07PRNJJW6"
+        ],
+        "verdict": [
+          "https://www.wargamer.com/disney-villainous/expansion"
+        ],
+        "price": [
+          "https://www.ravensburger.us/en-US/products/games/villainous-board-game-expansion-packs"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B09VR7RZX4",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Stand-alone box; also mixes with any other Villainous set"
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0D3FCWT7F",
+          "note": null
+        },
+        {
+          "store": "Ravensburger",
+          "kind": "publisher",
+          "url": "https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-introduction-to-evil-60001998",
+          "note": null
+        }
+      ],
+      "id": "disney-villainous--introduction-to-evil",
+      "slug": "introduction-to-evil",
+      "game": "disney-villainous",
+      "name": "Introduction to Evil",
+      "type": "expansion",
+      "publisher": "Ravensburger",
+      "releaseYear": 2023,
+      "baseRequired": "no",
+      "prerequisiteRule": "Repackaged base box; overlaps the original game",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "Ursula, Maleficent, Captain Hook and Prince John in a new box",
+      "fixes": "Cheaper 4-villain entry; drops two of the original six villains",
+      "complexity": "same",
+      "groupStyle": "casual",
+      "verdict": "skip_unless",
+      "buyOrder": 11,
+      "reason": "Repackaged original with fewer villains; Wargamer says it removes enjoyable villains.",
+      "verdictStatus": "draft",
+      "priceUsd": 34.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-introduction-to-evil-60001998",
+          "https://en.wikipedia.org/wiki/Villainous_(board_game)"
+        ],
+        "verdict": [
+          "https://www.wargamer.com/disney-villainous/expansion"
+        ],
+        "price": [
+          "https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-introduction-to-evil-60001998"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0D3FCWT7F",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Repackaged base box; overlaps the original game"
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0CHDN83SV",
+          "note": null
+        },
+        {
+          "store": "Ravensburger",
+          "kind": "publisher",
+          "url": "https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-filled-with-fright-60002044",
+          "note": null
+        }
+      ],
+      "id": "disney-villainous--filled-with-fright",
+      "slug": "filled-with-fright",
+      "game": "disney-villainous",
+      "name": "Filled with Fright",
+      "type": "mini_expansion",
+      "publisher": "Ravensburger",
+      "releaseYear": 2023,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs another Villainous set to play",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "One villain, Oogie Boogie, with a dice mechanic",
+      "fixes": "Gives Nightmare Before Christmas fans a villain",
+      "complexity": "same",
+      "groupStyle": "experienced",
+      "verdict": "skip_unless",
+      "buyOrder": 9,
+      "reason": "Wargamer says it is only for existing fans of the line.",
+      "verdictStatus": "draft",
+      "priceUsd": 17.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-filled-with-fright-60002044",
+          "https://en.wikipedia.org/wiki/Villainous_(board_game)"
+        ],
+        "verdict": [
+          "https://www.wargamer.com/disney-villainous/expansion"
+        ],
+        "price": [
+          "https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-filled-with-fright-60002044"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0CHDN83SV",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0D3FF26D3",
+          "note": null
+        },
+        {
+          "store": "Ravensburger",
+          "kind": "publisher",
+          "url": "https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-sugar-spite-60001991",
+          "note": null
+        }
+      ],
+      "id": "disney-villainous--sugar-and-spite",
+      "slug": "sugar-and-spite",
+      "game": "disney-villainous",
+      "name": "Sugar and Spite",
+      "type": "expansion",
+      "publisher": "Ravensburger",
+      "releaseYear": 2024,
+      "baseRequired": "no",
+      "prerequisiteRule": "Stand-alone box; also mixes with any other Villainous set",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "adds": "Two villains: King Candy and Shere Khan",
+      "fixes": "Compact two-villain box at a lower price",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "depends",
+      "buyOrder": 4,
+      "reason": "Cheaper two-villain box; limited to two players and no review source was read for it.",
+      "verdictStatus": "draft",
+      "priceUsd": 22.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-sugar-spite-60001991",
+          "https://en.wikipedia.org/wiki/Villainous_(board_game)"
+        ],
+        "verdict": [
+          "https://www.wargamer.com/disney-villainous/expansion"
+        ],
+        "price": [
+          "https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-sugar-spite-60001991"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0D3FF26D3",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Stand-alone box; also mixes with any other Villainous set"
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Ravensburger",
+          "kind": "publisher",
+          "url": "https://www.ravensburger.us/en-US/products/games/board-games/disney-villainous-treacherous-tides-23483",
+          "note": null
+        }
+      ],
+      "id": "disney-villainous--treacherous-tides",
+      "slug": "treacherous-tides",
+      "game": "disney-villainous",
+      "name": "Treacherous Tides",
+      "type": "expansion",
+      "publisher": "Ravensburger",
+      "releaseYear": 2025,
+      "baseRequired": "no",
+      "prerequisiteRule": "Stand-alone box; also mixes with any other Villainous set",
+      "minPlayers": 2,
+      "maxPlayers": 3,
+      "adds": "Two villains: Davy Jones and Tamatoa",
+      "fixes": "Adds pirate and sea villains in a short box",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "depends",
+      "buyOrder": 7,
+      "reason": "New two-villain box; no review source was read for it.",
+      "verdictStatus": "draft",
+      "priceUsd": 22.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.ravensburger.us/en-US/products/games/board-games/disney-villainous-treacherous-tides-23483",
+          "https://en.wikipedia.org/wiki/Villainous_(board_game)"
+        ],
+        "verdict": [
+          "https://www.wargamer.com/disney-villainous/expansion"
+        ],
+        "price": [
+          "https://www.ravensburger.us/en-US/products/games/board-games/disney-villainous-treacherous-tides-23483"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Stand-alone box; also mixes with any other Villainous set"
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Ravensburger",
+          "kind": "publisher",
+          "url": "https://www.ravensburger.us/en-US/products/games/board-games/disney-villainous-success-at-any-cost-24890",
+          "note": null
+        }
+      ],
+      "id": "disney-villainous--success-at-any-cost",
+      "slug": "success-at-any-cost",
+      "game": "disney-villainous",
+      "name": "Success at Any Cost",
+      "type": "expansion",
+      "publisher": "Ravensburger",
+      "releaseYear": 2026,
+      "baseRequired": "no",
+      "prerequisiteRule": "Stand-alone box; also mixes with any other Villainous set",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "Two villains: Prince Hans and Ernesto de la Cruz",
+      "fixes": "Adds newer movie villains with a 30 minute playtime",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "depends",
+      "buyOrder": 8,
+      "reason": "New two-villain box; no review source was read for it.",
+      "verdictStatus": "draft",
+      "priceUsd": 22.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.ravensburger.us/en-US/products/games/board-games/disney-villainous-success-at-any-cost-24890",
+          "https://en.wikipedia.org/wiki/Villainous_(board_game)"
+        ],
+        "verdict": [
+          "https://www.wargamer.com/disney-villainous/expansion"
+        ],
+        "price": [
+          "https://www.ravensburger.us/en-US/products/games/board-games/disney-villainous-success-at-any-cost-24890"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Stand-alone box; also mixes with any other Villainous set"
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Ravensburger",
+          "kind": "publisher",
+          "url": "https://www.ravensburger.us/en-US/products/games/board-games/disney-villainous-come-we-fly-24993",
+          "note": null
+        }
+      ],
+      "id": "disney-villainous--come-we-fly",
+      "slug": "come-we-fly",
+      "game": "disney-villainous",
+      "name": "Come We Fly",
+      "type": "mini_expansion",
+      "publisher": "Ravensburger",
+      "releaseYear": 2026,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs another Villainous set to play",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "One box with the Sanderson Sisters",
+      "fixes": "Gives Hocus Pocus fans a villain trio",
+      "complexity": "same",
+      "groupStyle": "experienced",
+      "verdict": "skip_unless",
+      "buyOrder": 10,
+      "reason": "Not stand-alone; Wargamer says Darkness Brewing is better value.",
+      "verdictStatus": "draft",
+      "priceUsd": 14.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.ravensburger.us/en-US/products/games/board-games/disney-villainous-come-we-fly-24993",
+          "https://en.wikipedia.org/wiki/Villainous_(board_game)"
+        ],
+        "verdict": [
+          "https://www.wargamer.com/disney-villainous/expansion"
+        ],
+        "price": [
+          "https://www.ravensburger.us/en-US/products/games/board-games/disney-villainous-come-we-fly-24993"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B06XDWP5BP",
+          "note": null
+        },
+        {
+          "store": "Indie Boards & Cards",
+          "kind": "publisher",
+          "url": "https://indieboardsandcards.com/our-games/aeons-end-war-eternal/",
+          "note": null
+        }
+      ],
+      "id": "aeons-end--war-eternal",
+      "slug": "war-eternal",
+      "game": "aeons-end",
+      "name": "Aeon's End: War Eternal",
+      "type": "big_box",
+      "publisher": "Indie Boards & Cards",
+      "releaseYear": 2017,
+      "baseRequired": "no",
+      "prerequisiteRule": "Standalone: playable on its own and fully compatible with the original game; also usable as the base box for small-box expansions.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "A complete second big box: 8 mages, 4 nemeses, 27 supply sets and 25 basic nemesis cards, with harder nemesis fights.",
+      "fixes": "Gives a first-time owner more mages, nemeses and market variety than the base box alone, with tougher fights than the original nemeses.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "BGG and Reddit buyers say to get a standalone big box before any small box; War Eternal is the pick for harder nemesis fights, though one BGG poster calls it a bit too punitive.",
+      "verdictStatus": "draft",
+      "priceUsd": 49.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://indieboardsandcards.com/our-games/aeons-end-war-eternal/",
+          "https://boardgamegeek.com/boardgame/218417/aeons-end-war-eternal",
+          "https://www.ign.com/articles/aeons-end-board-game-buying-guide"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/Aeonsend/comments/jmbqj2/what_expansion_to_buy_first/",
+          "https://boardgamegeek.com/thread/3212513/aeons-end-what-isare-the-must-have-expansions",
+          "https://www.ign.com/articles/aeons-end-board-game-buying-guide"
+        ],
+        "price": [
+          "https://www.ign.com/articles/aeons-end-board-game-buying-guide"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B06XDWP5BP",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Standalone: playable on its own and fully compatible with the original game; also usable as the base box for small-box expansions."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0C2BD2BKX",
+          "note": null
+        },
+        {
+          "store": "Indie Boards & Cards",
+          "kind": "publisher",
+          "url": "https://indieboardsandcards.com/our-games/aeons-end-past-and-future/",
+          "note": null
+        }
+      ],
+      "id": "aeons-end--past-and-future",
+      "slug": "past-and-future",
+      "game": "aeons-end",
+      "name": "Aeon's End: Past and Future",
+      "type": "big_box",
+      "publisher": "Indie Boards & Cards",
+      "releaseYear": 2023,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs a standalone Aeon's End box to play; it is not standalone itself. Expedition play also needs the Expedition rules from New Age or another box that has them.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "10 mages, 6 nemeses, 18 market cards and two full campaigns (Past and Future) in one large box.",
+      "fixes": "Adds a large mage and nemesis pool plus campaign play for owners who have finished the base box content.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 2,
+      "reason": "Reddit's top-voted advice is to buy New Age, Outcasts and Past and Future as a minimum purchase; it is a large box with campaigns rather than a first buy.",
+      "verdictStatus": "draft",
+      "priceUsd": 60.0,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://indieboardsandcards.com/our-games/aeons-end-past-and-future/",
+          "https://boardgamegeek.com/boardgameexpansion/364426/aeons-end-past-and-future"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/1ddipng/aeons_end_expansions/",
+          "https://www.ign.com/articles/aeons-end-board-game-buying-guide"
+        ],
+        "price": [
+          "https://indieboardsandcards.com/our-games/aeons-end-past-and-future/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0C2BD2BKX",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs a standalone Aeon's End box to play; it is not standalone itself. Expedition play also needs the Expedition rules from New Age or another box that has them."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Indie Boards & Cards",
+          "kind": "publisher",
+          "url": "https://indieboardsandcards.com/our-games/aeons-end-the-nameless-2nd-edition/",
+          "note": null
+        },
+        {
+          "store": "TabletopMerchant",
+          "kind": "retailer",
+          "url": "https://www.tabletopmerchant.com/products/aeons-end-the-nameless",
+          "note": null
+        }
+      ],
+      "id": "aeons-end--the-nameless",
+      "slug": "the-nameless",
+      "game": "aeons-end",
+      "name": "Aeon's End: The Nameless",
+      "type": "expansion",
+      "publisher": "Indie Boards & Cards",
+      "releaseYear": 2017,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs a standalone Aeon's End box (Aeon's End 2nd Edition, War Eternal, New Age, Outcasts or The Descent) to play; works with any of them.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "1 breach mage, 2 nemeses, 7 supply sets, with new gems, relics, spells and minions.",
+      "fixes": "Adds fan-favourite nemeses and a fresh supply of gems and spells for groups that have played the base box nemeses.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 3,
+      "reason": "IGN calls it arguably the best small box and one of the first small boxes most players should buy; a Reddit poster likes its gems and spells.",
+      "verdictStatus": "draft",
+      "priceUsd": 19.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://indieboardsandcards.com/our-games/aeons-end-the-nameless-2nd-edition/",
+          "https://boardgamegeek.com/boardgameexpansion/212139/aeons-end-the-nameless"
+        ],
+        "verdict": [
+          "https://www.ign.com/articles/aeons-end-board-game-buying-guide",
+          "https://www.reddit.com/r/boardgames/comments/1ddipng/aeons_end_expansions/"
+        ],
+        "price": [
+          "https://indieboardsandcards.com/our-games/aeons-end-the-nameless-2nd-edition/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs a standalone Aeon's End box (Aeon's End 2nd Edition, War Eternal, New Age, Outcasts or The Descent) to play; works with any of them."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07T4LYT8B",
+          "note": null
+        },
+        {
+          "store": "Indie Boards & Cards",
+          "kind": "publisher",
+          "url": "https://indieboardsandcards.com/our-games/aeons-end-the-ancients/",
+          "note": null
+        }
+      ],
+      "id": "aeons-end--the-ancients",
+      "slug": "the-ancients",
+      "game": "aeons-end",
+      "name": "Aeon's End: The Ancients",
+      "type": "expansion",
+      "publisher": "Indie Boards & Cards",
+      "releaseYear": 2019,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs a standalone Aeon's End box (Aeon's End 2nd Edition, War Eternal, New Age, Outcasts or The Descent) to play; works with any of them.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "2 breach mages, 1 nemesis, 7 supply sets and 10 treasures.",
+      "fixes": "Adds treasures and variety for both classic and Expedition games.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 4,
+      "reason": "IGN rates it great for both classic and Expedition fans and a BGG poster lists it among their favourite small boxes; Expedition play needs New Age or a similar box.",
+      "verdictStatus": "draft",
+      "priceUsd": 19.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://indieboardsandcards.com/our-games/aeons-end-the-ancients/",
+          "https://boardgamegeek.com/boardgameexpansion/274922/aeons-end-the-ancients"
+        ],
+        "verdict": [
+          "https://www.ign.com/articles/aeons-end-board-game-buying-guide",
+          "https://boardgamegeek.com/thread/3212513/aeons-end-what-isare-the-must-have-expansions"
+        ],
+        "price": [
+          "https://indieboardsandcards.com/our-games/aeons-end-the-ancients/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07T4LYT8B",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs a standalone Aeon's End box (Aeon's End 2nd Edition, War Eternal, New Age, Outcasts or The Descent) to play; works with any of them."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Indie Boards & Cards",
+          "kind": "publisher",
+          "url": "https://indieboardsandcards.com/our-games/aeons-end-the-void/",
+          "note": null
+        },
+        {
+          "store": "TabletopMerchant",
+          "kind": "retailer",
+          "url": "https://www.tabletopmerchant.com/products/aeons-end-the-void",
+          "note": null
+        }
+      ],
+      "id": "aeons-end--the-void",
+      "slug": "the-void",
+      "game": "aeons-end",
+      "name": "Aeon's End: The Void",
+      "type": "expansion",
+      "publisher": "Indie Boards & Cards",
+      "releaseYear": 2018,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs a standalone Aeon's End box (Aeon's End 2nd Edition, War Eternal, New Age, Outcasts or The Descent) to play; works with any of them.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "2 breach mages, 2 nemeses and 8 supply sets, and introduces the Link spells mechanic.",
+      "fixes": "Adds a new spell mechanic and two nemeses to a collection that feels familiar.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 5,
+      "reason": "IGN lists it among the small boxes that add a new mechanic (Link spells) and says every small box works with any standalone box.",
+      "verdictStatus": "draft",
+      "priceUsd": 19.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://indieboardsandcards.com/our-games/aeons-end-the-void/",
+          "https://boardgamegeek.com/boardgameexpansion/223914/aeons-end-the-void"
+        ],
+        "verdict": [
+          "https://www.ign.com/articles/aeons-end-board-game-buying-guide",
+          "https://www.reddit.com/r/boardgames/comments/1ddipng/aeons_end_expansions/"
+        ],
+        "price": [
+          "https://indieboardsandcards.com/our-games/aeons-end-the-void/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs a standalone Aeon's End box (Aeon's End 2nd Edition, War Eternal, New Age, Outcasts or The Descent) to play; works with any of them."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Indie Boards & Cards",
+          "kind": "publisher",
+          "url": "https://indieboardsandcards.com/our-games/aeons-end-the-descent/",
+          "note": null
+        },
+        {
+          "store": "BoardGameBliss",
+          "kind": "retailer",
+          "url": "https://www.boardgamebliss.com/products/aeons-end-the-descent",
+          "note": null
+        }
+      ],
+      "id": "aeons-end--the-descent",
+      "slug": "the-descent",
+      "game": "aeons-end",
+      "name": "Aeon's End: The Descent",
+      "type": "standalone_compatible",
+      "publisher": "Indie Boards & Cards",
+      "releaseYear": 2024,
+      "baseRequired": "no",
+      "prerequisiteRule": "Standalone prequel playable on its own, and compatible with all existing Aeon's End content.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "A prequel set with elemental tokens and the optional Friends & Foes module.",
+      "fixes": "Adds a new, different feel (elements, allies) for owners who want something other than more of the same nemeses.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 6,
+      "reason": "Puzzlewick (an affiliate, AI-assisted site) ranks it third after New Age and Outcasts; no independent forum thread was read for it, so treat this as a lower-confidence pick.",
+      "verdictStatus": "draft",
+      "priceUsd": 60.0,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://indieboardsandcards.com/our-games/aeons-end-the-descent/",
+          "https://boardgamegeek.com/boardgameexpansion/412268/aeons-end-the-descent"
+        ],
+        "verdict": [
+          "https://puzzlewick.com/guides/aeons-end-sets-compared-2026/",
+          "https://www.reddit.com/r/boardgames/comments/1ddipng/aeons_end_expansions/"
+        ],
+        "price": [
+          "https://indieboardsandcards.com/our-games/aeons-end-the-descent/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Standalone prequel playable on its own, and compatible with all existing Aeon's End content."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Indie Boards & Cards",
+          "kind": "publisher",
+          "url": "https://indieboardsandcards.com/our-games/aeons-end-the-depths/",
+          "note": null
+        },
+        {
+          "store": "TabletopMerchant",
+          "kind": "retailer",
+          "url": "https://www.tabletopmerchant.com/products/aeons-end-the-depths",
+          "note": null
+        }
+      ],
+      "id": "aeons-end--the-depths",
+      "slug": "the-depths",
+      "game": "aeons-end",
+      "name": "Aeon's End: The Depths",
+      "type": "expansion",
+      "publisher": "Indie Boards & Cards",
+      "releaseYear": 2017,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs a standalone Aeon's End box (Aeon's End 2nd Edition, War Eternal, New Age, Outcasts or The Descent) to play; works with any of them.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "3 breach mages, 1 nemesis and 8 supply sets, with new spells, relics and minions.",
+      "fixes": "Adds mage variety at a low price.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 7,
+      "reason": "A BGG poster added The Depths and The Nameless after the big boxes; IGN says it was great at launch but newer boxes now have more interesting characters.",
+      "verdictStatus": "draft",
+      "priceUsd": 19.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://indieboardsandcards.com/our-games/aeons-end-the-depths/",
+          "https://boardgamegeek.com/boardgameexpansion/196421/aeons-end-the-depths"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3212513/aeons-end-what-isare-the-must-have-expansions",
+          "https://www.ign.com/articles/aeons-end-board-game-buying-guide"
+        ],
+        "price": [
+          "https://indieboardsandcards.com/our-games/aeons-end-the-depths/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs a standalone Aeon's End box (Aeon's End 2nd Edition, War Eternal, New Age, Outcasts or The Descent) to play; works with any of them."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07T1F7RZQ",
+          "note": null
+        },
+        {
+          "store": "Indie Boards & Cards",
+          "kind": "publisher",
+          "url": "https://indieboardsandcards.com/our-games/aeons-end-shattered-dreams/",
+          "note": null
+        }
+      ],
+      "id": "aeons-end--shattered-dreams",
+      "slug": "shattered-dreams",
+      "game": "aeons-end",
+      "name": "Aeon's End: Shattered Dreams",
+      "type": "expansion",
+      "publisher": "Indie Boards & Cards",
+      "releaseYear": 2019,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs a standalone Aeon's End box (Aeon's End 2nd Edition, War Eternal, New Age, Outcasts or The Descent) to play; works with any of them.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "1 breach mage, 1 nemesis, 10 supply sets and 5 treasures.",
+      "fixes": "Adds a harder nemesis for groups that find the core nemeses too easy.",
+      "complexity": "same",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 8,
+      "reason": "IGN calls it a decent box with a harder nemesis; it is not mentioned among the first small boxes buyers recommend.",
+      "verdictStatus": "draft",
+      "priceUsd": 19.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://indieboardsandcards.com/our-games/aeons-end-shattered-dreams/",
+          "https://boardgamegeek.com/boardgameexpansion/274930/aeons-end-shattered-dreams"
+        ],
+        "verdict": [
+          "https://www.ign.com/articles/aeons-end-board-game-buying-guide"
+        ],
+        "price": [
+          "https://indieboardsandcards.com/our-games/aeons-end-shattered-dreams/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07T1F7RZQ",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs a standalone Aeon's End box (Aeon's End 2nd Edition, War Eternal, New Age, Outcasts or The Descent) to play; works with any of them."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B078JFL8HH",
+          "note": null
+        },
+        {
+          "store": "Indie Boards & Cards",
+          "kind": "publisher",
+          "url": "https://indieboardsandcards.com/our-games/aeons-end-the-outer-dark/",
+          "note": null
+        }
+      ],
+      "id": "aeons-end--the-outer-dark",
+      "slug": "the-outer-dark",
+      "game": "aeons-end",
+      "name": "Aeon's End: The Outer Dark",
+      "type": "expansion",
+      "publisher": "Indie Boards & Cards",
+      "releaseYear": 2018,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs a standalone Aeon's End box (Aeon's End 2nd Edition, War Eternal, New Age, Outcasts or The Descent) to play; works with any of them.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "2 breach mages, 2 nemeses and 11 supply sets, with new gems, relics, spells and minions.",
+      "fixes": "Adds a fan-favourite mage and a large number of supply sets.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "depends",
+      "buyOrder": 9,
+      "reason": "IGN says it does not do anything particularly noteworthy apart from a fan-favourite mage, so it is a pick only if you want more supply variety.",
+      "verdictStatus": "draft",
+      "priceUsd": 19.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://indieboardsandcards.com/our-games/aeons-end-the-outer-dark/",
+          "https://boardgamegeek.com/boardgameexpansion/228552/aeons-end-the-outer-dark"
+        ],
+        "verdict": [
+          "https://www.ign.com/articles/aeons-end-board-game-buying-guide"
+        ],
+        "price": [
+          "https://indieboardsandcards.com/our-games/aeons-end-the-outer-dark/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B078JFL8HH",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs a standalone Aeon's End box (Aeon's End 2nd Edition, War Eternal, New Age, Outcasts or The Descent) to play; works with any of them."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Indie Boards & Cards",
+          "kind": "publisher",
+          "url": "https://indieboardsandcards.com/our-games/aeons-end-return-to-gravehold/",
+          "note": null
+        },
+        {
+          "store": "BoardGameBliss",
+          "kind": "retailer",
+          "url": "https://www.boardgamebliss.com/products/aeons-end-return-to-gravehold",
+          "note": null
+        }
+      ],
+      "id": "aeons-end--return-to-gravehold",
+      "slug": "return-to-gravehold",
+      "game": "aeons-end",
+      "name": "Aeon's End: Return to Gravehold",
+      "type": "expansion",
+      "publisher": "Indie Boards & Cards",
+      "releaseYear": 2020,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs a standalone Aeon's End box (Aeon's End 2nd Edition, War Eternal, New Age, Outcasts or The Descent) to play; works with any of them.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "2 breach mages, 2 nemeses, 3 supply sets and 11 treasures.",
+      "fixes": "Adds treasures and two nemeses for owners who already have several small boxes.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "depends",
+      "buyOrder": 10,
+      "reason": "One BGG poster lists it among their favourite small boxes, but the main buying threads put big boxes first.",
+      "verdictStatus": "draft",
+      "priceUsd": 19.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://indieboardsandcards.com/our-games/aeons-end-return-to-gravehold/",
+          "https://boardgamegeek.com/boardgameexpansion/318951/aeons-end-return-to-gravehold"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3212513/aeons-end-what-isare-the-must-have-expansions",
+          "https://www.reddit.com/r/Aeonsend/comments/jmbqj2/what_expansion_to_buy_first/"
+        ],
+        "price": [
+          "https://indieboardsandcards.com/our-games/aeons-end-return-to-gravehold/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs a standalone Aeon's End box (Aeon's End 2nd Edition, War Eternal, New Age, Outcasts or The Descent) to play; works with any of them."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07T1F7PFN",
+          "note": null
+        },
+        {
+          "store": "Indie Boards & Cards",
+          "kind": "publisher",
+          "url": "https://indieboardsandcards.com/our-games/aeons-end-into-the-wild/",
+          "note": null
+        }
+      ],
+      "id": "aeons-end--into-the-wild",
+      "slug": "into-the-wild",
+      "game": "aeons-end",
+      "name": "Aeon's End: Into the Wild",
+      "type": "expansion",
+      "publisher": "Indie Boards & Cards",
+      "releaseYear": 2019,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs a standalone Aeon's End box (Aeon's End 2nd Edition, War Eternal, New Age, Outcasts or The Descent) to play; works with any of them. Built for Expedition mode, which needs New Age or another box with Expedition rules.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "2 breach mages, 1 nemesis, 3 supply sets and 18 treasures.",
+      "fixes": "Adds a large treasure pool for Expedition play.",
+      "complexity": "same",
+      "groupStyle": "experienced",
+      "verdict": "skip_unless",
+      "buyOrder": 11,
+      "reason": "Skip it unless you own New Age or another Expedition box: IGN says it is best with New Age or a Legacy title and BGG posters say it needs Expedition mode.",
+      "verdictStatus": "draft",
+      "priceUsd": 19.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://indieboardsandcards.com/our-games/aeons-end-into-the-wild/",
+          "https://boardgamegeek.com/boardgameexpansion/274927/aeons-end-into-the-wild"
+        ],
+        "verdict": [
+          "https://www.ign.com/articles/aeons-end-board-game-buying-guide",
+          "https://boardgamegeek.com/thread/3212513/aeons-end-what-isare-the-must-have-expansions"
+        ],
+        "price": [
+          "https://indieboardsandcards.com/our-games/aeons-end-into-the-wild/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07T1F7PFN",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs a standalone Aeon's End box (Aeon's End 2nd Edition, War Eternal, New Age, Outcasts or The Descent) to play; works with any of them. Built for Expedition mode, which needs New Age or another box with Expedition rules."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07NSB4LYB",
+          "note": null
+        },
+        {
+          "store": "Indie Boards & Cards",
+          "kind": "publisher",
+          "url": "https://indieboardsandcards.com/our-games/aeons-end-buried-secrets/",
+          "note": null
+        }
+      ],
+      "id": "aeons-end--buried-secrets",
+      "slug": "buried-secrets",
+      "game": "aeons-end",
+      "name": "Aeon's End: Buried Secrets",
+      "type": "expansion",
+      "publisher": "Indie Boards & Cards",
+      "releaseYear": 2019,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs a standalone Aeon's End box (Aeon's End 2nd Edition, War Eternal, New Age, Outcasts or The Descent) to play; works with any of them. Designed to support the Legacy campaign.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "22 supply sets and 9 basic nemesis cards, with no mages or nemeses.",
+      "fixes": "Adds supply sets and basic nemesis cards for Legacy campaign owners.",
+      "complexity": "same",
+      "groupStyle": "experienced",
+      "verdict": "skip_unless",
+      "buyOrder": 12,
+      "reason": "IGN says it was built to support Legacy and has no mages or nemeses, so skip it unless you play Legacy or want only extra market sets.",
+      "verdictStatus": "draft",
+      "priceUsd": 19.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://indieboardsandcards.com/our-games/aeons-end-buried-secrets/",
+          "https://boardgamegeek.com/boardgameexpansion/246805/aeons-end-buried-secrets"
+        ],
+        "verdict": [
+          "https://www.ign.com/articles/aeons-end-board-game-buying-guide"
+        ],
+        "price": [
+          "https://indieboardsandcards.com/our-games/aeons-end-buried-secrets/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07NSB4LYB",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs a standalone Aeon's End box (Aeon's End 2nd Edition, War Eternal, New Age, Outcasts or The Descent) to play; works with any of them. Designed to support the Legacy campaign."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B000MMJEY4",
+          "note": null
+        },
+        {
+          "store": "Rio Grande Games",
+          "kind": "publisher",
+          "url": "https://www.riograndegames.com/games/power-grid-central-europe-benelux/",
+          "note": null
+        }
+      ],
+      "id": "power-grid--power-grid-benelux-central-europe",
+      "slug": "power-grid-benelux-central-europe",
+      "game": "power-grid",
+      "name": "Benelux / Central Europe Recharged",
+      "type": "expansion",
+      "publisher": "Rio Grande Games",
+      "releaseYear": 2006,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs Power Grid or Power Grid: Recharged.",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "adds": "A double-sided board with a Benelux map and a Central Europe map, each with small rule changes.",
+      "fixes": "Gives a faster, cheaper-to-build map with plentiful resources, so a repeat group can vary the game without a steeper rules load.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "Benelux is described as the map to teach new players and plays about 30% faster, and a BGG regular calls this pair the best bang-for-your-buck map expansion.",
+      "verdictStatus": "draft",
+      "priceUsd": 14.95,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.riograndegames.com/games/power-grid-central-europe-benelux/",
+          "https://en.wikipedia.org/wiki/Power_Grid_(board_game)",
+          "https://boardgamegeek.com/boardgameexpansion/25031/power-grid-beneluxcentral-europe"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/923205/a-brief-comparison-of-all-power-grid-expansions",
+          "https://boardgamegeek.com/thread/2840456/essential-expansions-for-power-grid-recharded"
+        ],
+        "price": [
+          "https://www.riograndegames.com/games/power-grid-central-europe-benelux/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B000MMJEY4",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs Power Grid or Power Grid: Recharged."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B006VWVLIQ",
+          "note": null
+        },
+        {
+          "store": "Rio Grande Games",
+          "kind": "publisher",
+          "url": "https://www.riograndegames.com/games/power-grid-the-robots/",
+          "note": null
+        }
+      ],
+      "id": "power-grid--power-grid-the-robots",
+      "slug": "power-grid-the-robots",
+      "game": "power-grid",
+      "name": "The Robots",
+      "type": "mini_expansion",
+      "publisher": "Rio Grande Games",
+      "releaseYear": 2011,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs Power Grid or Power Grid: Recharged.",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "adds": "30 robot tiles that build computer-controlled players from random behaviour traits for auctions, resources and city building.",
+      "fixes": "Fills the empty seats in a 2-3 player game so Power Grid keeps its auction tension without needing five humans.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 2,
+      "reason": "At under $15 a longtime player calls it an unequivocal yes for 2-3 player tables, though another reviewer says the robots can hand the first player a clear advantage.",
+      "verdictStatus": "draft",
+      "priceUsd": 9.95,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.riograndegames.com/games/power-grid-the-robots/",
+          "https://en.wikipedia.org/wiki/Power_Grid_(board_game)",
+          "https://boardgamegeek.com/boardgame/108667/power-grid-the-robots"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/757745/a-review-of-the-robots-expansion",
+          "https://boardgamegeek.com/thread/923205/a-brief-comparison-of-all-power-grid-expansions"
+        ],
+        "price": [
+          "https://www.riograndegames.com/games/power-grid-the-robots/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B006VWVLIQ",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs Power Grid or Power Grid: Recharged."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B00RAFNMSA",
+          "note": null
+        },
+        {
+          "store": "Rio Grande Games",
+          "kind": "publisher",
+          "url": "https://www.riograndegames.com/games/power-grid-korea-china/",
+          "note": null
+        }
+      ],
+      "id": "power-grid--power-grid-korea-china",
+      "slug": "power-grid-korea-china",
+      "game": "power-grid",
+      "name": "Korea / China Recharged",
+      "type": "expansion",
+      "publisher": "Rio Grande Games",
+      "releaseYear": 2008,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs Power Grid or Power Grid: Recharged.",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "adds": "Korea and China maps: Korea splits buying into two resource markets (North/South), and China brings planned-economy rules where plants come out in ascending order.",
+      "fixes": "Gives experienced groups a tougher, more constrained game once the base maps feel solved.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 3,
+      "reason": "A BGG regular rates Korea the most fun map for very experienced groups and names it among his favourites, but warns China is a brutally scarce map unsuited to beginners.",
+      "verdictStatus": "draft",
+      "priceUsd": 14.95,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.riograndegames.com/games/power-grid-korea-china/",
+          "https://en.wikipedia.org/wiki/Power_Grid_(board_game)",
+          "https://boardgamegeek.com/boardgameexpansion/37397/power-grid-chinakorea"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/923205/a-brief-comparison-of-all-power-grid-expansions",
+          "https://boardgamegeek.com/thread/2840456/essential-expansions-for-power-grid-recharded"
+        ],
+        "price": [
+          "https://www.riograndegames.com/games/power-grid-korea-china/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B00RAFNMSA",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs Power Grid or Power Grid: Recharged."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B09SZNS9DH",
+          "note": null
+        },
+        {
+          "store": "Rio Grande Games",
+          "kind": "publisher",
+          "url": "https://www.riograndegames.com/games/power-grid-italy-france/",
+          "note": null
+        }
+      ],
+      "id": "power-grid--power-grid-france-italy",
+      "slug": "power-grid-france-italy",
+      "game": "power-grid",
+      "name": "France / Italy Recharged",
+      "type": "expansion",
+      "publisher": "Rio Grande Games",
+      "releaseYear": 2005,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs Power Grid or Power Grid: Recharged.",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "adds": "Map pair: France starts nuclear earlier with more uranium, while Italy has expensive coal and oil and more garbage.",
+      "fixes": "Adds a map that plays close to the base rules but changes which plants matter, including the usually weak 11 and 17.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 4,
+      "reason": "A BGG regular puts France/Italy in the less-advanced group of maps that stays close to base play, with the France map also a favourite of the thread author.",
+      "verdictStatus": "draft",
+      "priceUsd": 14.95,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.riograndegames.com/games/power-grid-italy-france/",
+          "https://en.wikipedia.org/wiki/Power_Grid_(board_game)",
+          "https://boardgamegeek.com/boardgameexpansion/19319/power-grid-franceitaly"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2840456/essential-expansions-for-power-grid-recharded",
+          "https://boardgamegeek.com/thread/923205/a-brief-comparison-of-all-power-grid-expansions"
+        ],
+        "price": [
+          "https://www.riograndegames.com/games/power-grid-italy-france/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B09SZNS9DH",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs Power Grid or Power Grid: Recharged."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07Z9TWS7D",
+          "note": null
+        },
+        {
+          "store": "Rio Grande Games",
+          "kind": "publisher",
+          "url": "https://www.riograndegames.com/games/power-grid-n-europe-uk/",
+          "note": null
+        }
+      ],
+      "id": "power-grid--power-grid-northern-europe-uk-ireland",
+      "slug": "power-grid-northern-europe-uk-ireland",
+      "game": "power-grid",
+      "name": "Northern Europe / United Kingdom & Ireland Recharged",
+      "type": "expansion",
+      "publisher": "Rio Grande Games",
+      "releaseYear": 2012,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs Power Grid or Power Grid: Recharged.",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "adds": "Northern Europe and UK/Ireland maps, plus 12 extra power plant cards for the Northern Europe side that work with any map.",
+      "fixes": "Adds regionally varied plant mixes and the quirk of two separate UK/Irish networks.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 5,
+      "reason": "BGG regulars call Northern Europe a lot of fun thanks to its extra plant cards, though they note the UK/Ireland map is quirky with uneven region sizes.",
+      "verdictStatus": "draft",
+      "priceUsd": 19.95,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.riograndegames.com/games/power-grid-n-europe-uk/",
+          "https://en.wikipedia.org/wiki/Power_Grid_(board_game)",
+          "https://boardgamegeek.com/boardgameexpansion/131184/power-grid-northern-europeunited-kingdom-and-irela"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2840456/essential-expansions-for-power-grid-recharded",
+          "https://boardgamegeek.com/thread/923205/a-brief-comparison-of-all-power-grid-expansions"
+        ],
+        "price": [
+          "https://www.riograndegames.com/games/power-grid-n-europe-uk/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07Z9TWS7D",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs Power Grid or Power Grid: Recharged."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B008OKMNGC",
+          "note": null
+        },
+        {
+          "store": "Rio Grande Games",
+          "kind": "publisher",
+          "url": "https://www.riograndegames.com/games/power-grid-quebec-baden-wurttemberg/",
+          "note": null
+        }
+      ],
+      "id": "power-grid--power-grid-quebec-baden-wurttemberg",
+      "slug": "power-grid-quebec-baden-wurttemberg",
+      "game": "power-grid",
+      "name": "Quebec / Baden-Württemberg",
+      "type": "expansion",
+      "publisher": "Rio Grande Games",
+      "releaseYear": 2012,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs Power Grid or Power Grid: Recharged.",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "adds": "Quebec (hub-and-spoke map, lower resource restock) and Baden-Württemberg (turn order set after the auctions).",
+      "fixes": "Adds a tight, bidding-heavy 5-6 player map and a subtle turn-order change.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 6,
+      "reason": "Two BGG regulars say they like both maps, with Quebec favoured for 5-6 player games, though Baden-Württemberg's rule shifts are easy to forget.",
+      "verdictStatus": "draft",
+      "priceUsd": 14.95,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.riograndegames.com/games/power-grid-quebec-baden-wurttemberg/",
+          "https://en.wikipedia.org/wiki/Power_Grid_(board_game)"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/923205/a-brief-comparison-of-all-power-grid-expansions",
+          "https://boardgamegeek.com/thread/2840456/essential-expansions-for-power-grid-recharded"
+        ],
+        "price": [
+          "https://www.riograndegames.com/games/power-grid-quebec-baden-wurttemberg/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B008OKMNGC",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs Power Grid or Power Grid: Recharged."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B08X1HWHRC",
+          "note": null
+        },
+        {
+          "store": "Rio Grande Games",
+          "kind": "publisher",
+          "url": "https://www.riograndegames.com/games/power-grid-brazil-spain-amp-portugal/",
+          "note": null
+        }
+      ],
+      "id": "power-grid--power-grid-brazil-spain-portugal",
+      "slug": "power-grid-brazil-spain-portugal",
+      "game": "power-grid",
+      "name": "Brazil / Spain & Portugal Recharged",
+      "type": "expansion",
+      "publisher": "Rio Grande Games",
+      "releaseYear": 2009,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs Power Grid or Power Grid: Recharged.",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "adds": "Brazil (biogas replaces garbage, scarce resources) and Spain/Portugal (wind plants and nuclear step-2 rules); comes in a storage box.",
+      "fixes": "Gives a resource-scarcity map for groups that want longer, nastier games; the box holds the other map expansions.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 7,
+      "reason": "A BGG reviewer calls Brazil a brutal resource shortage that can drag a 3-player game to 2 hours and says the Spain/Portugal wind rule feels off, though it is the only map set with a storage box.",
+      "verdictStatus": "draft",
+      "priceUsd": 24.95,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.riograndegames.com/games/power-grid-brazil-spain-amp-portugal/",
+          "https://en.wikipedia.org/wiki/Power_Grid_(board_game)",
+          "https://boardgamegeek.com/boardgameexpansion/58708/power-grid-brazilspain-and-portugal"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/923205/a-brief-comparison-of-all-power-grid-expansions",
+          "https://boardgamegeek.com/thread/2840456/essential-expansions-for-power-grid-recharded"
+        ],
+        "price": [
+          "https://www.riograndegames.com/games/power-grid-brazil-spain-amp-portugal/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B08X1HWHRC",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs Power Grid or Power Grid: Recharged."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B004ECWTW2",
+          "note": null
+        },
+        {
+          "store": "Rio Grande Games",
+          "kind": "publisher",
+          "url": "https://www.riograndegames.com/games/power-grid-russia-amp-japan/",
+          "note": null
+        }
+      ],
+      "id": "power-grid--power-grid-russia-japan",
+      "slug": "power-grid-russia-japan",
+      "game": "power-grid",
+      "name": "Russia / Japan Recharged",
+      "type": "expansion",
+      "publisher": "Rio Grande Games",
+      "releaseYear": 2010,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs Power Grid or Power Grid: Recharged.",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "adds": "Russia (restricted plant market, scrapping rule) and Japan (two separate starting networks, claustrophobic long map).",
+      "fixes": "Adds advanced rules changes for groups that already know the base map set.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 8,
+      "reason": "A BGG regular groups Russia/Japan with China/Korea as advanced maps that really change the game, and another reviewer calls Japan claustrophobic with brutal resource shortages.",
+      "verdictStatus": "draft",
+      "priceUsd": 14.95,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.riograndegames.com/games/power-grid-russia-amp-japan/",
+          "https://en.wikipedia.org/wiki/Power_Grid_(board_game)"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2840456/essential-expansions-for-power-grid-recharded",
+          "https://boardgamegeek.com/thread/923205/a-brief-comparison-of-all-power-grid-expansions"
+        ],
+        "price": [
+          "https://www.riograndegames.com/games/power-grid-russia-amp-japan/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B004ECWTW2",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs Power Grid or Power Grid: Recharged."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B003MA71SO",
+          "note": null
+        },
+        {
+          "store": "Rio Grande Games",
+          "kind": "publisher",
+          "url": "https://www.riograndegames.com/games/power-grid-middle-east-amp-south-africa/",
+          "note": null
+        }
+      ],
+      "id": "power-grid--power-grid-middle-east-south-africa",
+      "slug": "power-grid-middle-east-south-africa",
+      "game": "power-grid",
+      "name": "Middle East / South Africa Recharged",
+      "type": "expansion",
+      "publisher": "Rio Grande Games",
+      "releaseYear": 2019,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs Power Grid or Power Grid: Recharged.",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "adds": "Middle East map (cheap oil/natural gas early, no uranium or garbage at first) and a South Africa map (abundant coal, international connections).",
+      "fixes": "Gives a map pair with a shifting fuel mix that forces a mid-game change of plant strategy.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 9,
+      "reason": "A BGG regular who owns most of the maps says he did not much care for these, noting the Middle East's odd shape makes the positional game dominate.",
+      "verdictStatus": "draft",
+      "priceUsd": 19.95,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.riograndegames.com/games/power-grid-middle-east-amp-south-africa/",
+          "https://boardgamegeek.com/boardgame/285448/power-grid-middle-eastsouth-africa"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2840456/essential-expansions-for-power-grid-recharded"
+        ],
+        "price": [
+          "https://www.riograndegames.com/games/power-grid-middle-east-amp-south-africa/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B003MA71SO",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs Power Grid or Power Grid: Recharged."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B09YJ33QPG",
+          "note": null
+        },
+        {
+          "store": "Rio Grande Games",
+          "kind": "publisher",
+          "url": "https://www.riograndegames.com/games/power-grid-europe-north-america-recharged/",
+          "note": null
+        },
+        {
+          "store": "Game Nerdz",
+          "kind": "retailer",
+          "url": "https://www.gamenerdz.com/power-grid-europe-north-american-expansion-recharged-version",
+          "note": "Recharged version"
+        }
+      ],
+      "id": "power-grid--power-grid-europe-north-america",
+      "slug": "power-grid-europe-north-america",
+      "game": "power-grid",
+      "name": "Europe / North America Recharged",
+      "type": "expansion",
+      "publisher": "Rio Grande Games",
+      "releaseYear": 2021,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs Power Grid or Power Grid: Recharged.",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "adds": "Two large 7-region maps (Europe and North America) first released in the 2014 Deluxe edition, redrawn for Recharged.",
+      "fixes": "Lets a table build across whole continents on a bigger board.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "depends",
+      "buyOrder": 10,
+      "reason": "Only a description and community stats back this one (BGG weight 3.0, plays best 4-5), so it suits groups that already own Recharged and want a larger map rather than a first expansion.",
+      "verdictStatus": "draft",
+      "priceUsd": 17.95,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.riograndegames.com/games/power-grid-europe-north-america-recharged/",
+          "https://boardgamegeek.com/boardgame/344428/power-grid-europenorth-america"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/boardgame/344428/power-grid-europenorth-america"
+        ],
+        "price": [
+          "https://www.riograndegames.com/games/power-grid-europe-north-america-recharged/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B09YJ33QPG",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs Power Grid or Power Grid: Recharged."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0B58DWCDF",
+          "note": null
+        },
+        {
+          "store": "Rio Grande Games",
+          "kind": "publisher",
+          "url": "https://www.riograndegames.com/games/power-grid-the-new-power-plant-cards/",
+          "note": null
+        }
+      ],
+      "id": "power-grid--power-grid-new-power-plant-cards-set-1",
+      "slug": "power-grid-new-power-plant-cards-set-1",
+      "game": "power-grid",
+      "name": "The New Power Plant Cards Set 1",
+      "type": "mini_expansion",
+      "publisher": "Rio Grande Games",
+      "releaseYear": 2007,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs Power Grid or Power Grid: Recharged.",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "adds": "A replacement power-plant deck with green-bordered cards, more evenly spaced efficiency, and a variant for longer games.",
+      "fixes": "Smooths the plant market for new groups at the cost of less auction tension.",
+      "complexity": "lighter",
+      "groupStyle": "casual",
+      "verdict": "skip_unless",
+      "buyOrder": 11,
+      "reason": "A BGG reviewer says it is a kinder, gentler deck best for new players and that experienced groups will find the auctions less dynamic, so buy it mainly for teaching.",
+      "verdictStatus": "draft",
+      "priceUsd": 14.95,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.riograndegames.com/games/power-grid-the-new-power-plant-cards/",
+          "https://en.wikipedia.org/wiki/Power_Grid_(board_game)",
+          "https://boardgamegeek.com/boardgame/29416/power-grid-the-new-power-plants-set-1"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/1889468/new-power-plant-cards-not-for-everyone",
+          "https://boardgamegeek.com/thread/923205/a-brief-comparison-of-all-power-grid-expansions"
+        ],
+        "price": [
+          "https://www.riograndegames.com/games/power-grid-the-new-power-plant-cards/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0B58DWCDF",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs Power Grid or Power Grid: Recharged."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B000H7KXHG",
+          "note": null
+        }
+      ],
+      "id": "memoir-44--memoir-44-eastern-front",
+      "slug": "memoir-44-eastern-front",
+      "game": "memoir-44",
+      "name": "Eastern Front",
+      "type": "expansion",
+      "publisher": "Days of Wonder",
+      "releaseYear": 2005,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs Memoir '44.",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "adds": "Soviet army pack: 42 infantry, 24 T-34 tanks, 6 ZIS-3 guns, 44 mostly winter terrain tiles, badges and 8 new scenarios.",
+      "fixes": "Opens up Eastern Front battles and a second army to play, so a pair who has played the base scenarios often gets fresh, different-feeling fights.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "Redditors who own the full set name Eastern or Mediterranean as the first army pack to buy, and say the theaters give the most extra 2-player scenarios for the money.",
+      "verdictStatus": "draft",
+      "priceUsd": 49.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://en.wikipedia.org/wiki/Memoir_%2744",
+          "https://boardgamegeek.com/boardgame/10630/memoir-44/credits",
+          "https://boardgamegeek.com/boardgameexpansion/19245/memoir-44-eastern-front"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/Memoir44/comments/1cuv2ga/",
+          "https://www.reddit.com/r/Memoir44/comments/1ad8zxw/"
+        ],
+        "price": [
+          "https://www.amazon.com/dp/B000H7KXHG"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B000H7KXHG",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B000H7MM7K",
+          "note": null
+        },
+        {
+          "store": "Asmodee",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/memoir-44-terrain-pack-expansion",
+          "note": null
+        }
+      ],
+      "id": "memoir-44--memoir-44-terrain-pack",
+      "slug": "memoir-44-terrain-pack",
+      "game": "memoir-44",
+      "name": "Terrain Pack",
+      "type": "expansion",
+      "publisher": "Days of Wonder",
+      "releaseYear": 2005,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs Memoir '44.",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "adds": "New terrain tiles and landmarks (radar station, roads, railroad and train, bridges) plus Airborne and Engineer badges for building and playing a wider range of scenarios.",
+      "fixes": "Adds the terrain variety that many fan and official scenarios call for, so more scenarios can be set up without substitutes.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 2,
+      "reason": "Owners say the equipment pack and later packs lean on it, and that many official and fan scenarios need Terrain Pack plus a theater pack.",
+      "verdictStatus": "draft",
+      "priceUsd": 34.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://en.wikipedia.org/wiki/Memoir_%2744",
+          "https://boardgamegeek.com/boardgameexpansion/19244/memoir-44-terrain-pack",
+          "https://store.asmodee.com/products/memoir-44-terrain-pack-expansion"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/Memoir44/comments/1cuv2ga/",
+          "https://www.reddit.com/r/Memoir44/comments/1ad8zxw/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/memoir-44-terrain-pack-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B000H7MM7K",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B000H7NW9W",
+          "note": null
+        },
+        {
+          "store": "Asmodee",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/memoir-44-winter-desert-board-map",
+          "note": null
+        }
+      ],
+      "id": "memoir-44--memoir-44-winter-desert-board-map",
+      "slug": "memoir-44-winter-desert-board-map",
+      "game": "memoir-44",
+      "name": "Winter / Desert Board Map",
+      "type": "expansion",
+      "publisher": "Days of Wonder",
+      "releaseYear": 2005,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Requires the base game; best with Eastern Front or Terrain Pack/Mediterranean.",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "adds": "A double-sided board, desert on one side and winter on the other, with simplified campaign rules and Blitz rules.",
+      "fixes": "Gives the desert and snow settings a proper board instead of the base game's green countryside.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 3,
+      "reason": "Redditors recommend it alongside Eastern or Mediterranean so winter and desert scenarios look right, while noting it is mostly aesthetic.",
+      "verdictStatus": "draft",
+      "priceUsd": 21.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://en.wikipedia.org/wiki/Memoir_%2744",
+          "https://boardgamegeek.com/boardgameexpansion/19374/memoir-44-winter-desert-board-map",
+          "https://store.asmodee.com/products/memoir-44-winter-desert-board-map"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/Memoir44/comments/1cuv2ga/",
+          "https://www.reddit.com/r/Memoir44/comments/1ad8zxw/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/memoir-44-winter-desert-board-map"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B000H7NW9W",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Requires the base game; best with Eastern Front or Terrain Pack/Mediterranean."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B003H05K6O",
+          "note": null
+        }
+      ],
+      "id": "memoir-44--memoir-44-breakthrough-kit",
+      "slug": "memoir-44-breakthrough-kit",
+      "game": "memoir-44",
+      "name": "Breakthrough Kit",
+      "type": "expansion",
+      "publisher": "Days of Wonder",
+      "releaseYear": 2010,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs Memoir '44.",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "adds": "Two double-sided 9-panel oversize boards covering countryside, beach, winter and desert, with new Breakthrough scenarios.",
+      "fixes": "Lets Breakthrough battles play out on bigger 13x17 hex maps.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 4,
+      "reason": "A Redditor who owns the line praises Breakthrough as a good option, but the large maps are a niche format for groups that already play those scenarios.",
+      "verdictStatus": "draft",
+      "priceUsd": 59.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://en.wikipedia.org/wiki/Memoir_%2744",
+          "https://boardgamegeek.com/boardgameexpansion/68752/memoir-44-breakthrough",
+          "https://boardgamegeek.com/boardgame/10630/memoir-44"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/Memoir44/comments/1ad8zxw/"
+        ],
+        "price": [
+          "https://www.amazon.com/dp/B003H05K6O"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B003H05K6O",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B078WTQY3K",
+          "note": null
+        },
+        {
+          "store": "Asmodee",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/memoir-44-through-jungle-and-desert",
+          "note": null
+        }
+      ],
+      "id": "memoir-44--memoir-44-through-jungle-and-desert",
+      "slug": "memoir-44-through-jungle-and-desert",
+      "game": "memoir-44",
+      "name": "Through Jungle and Desert",
+      "type": "expansion",
+      "publisher": "Days of Wonder",
+      "releaseYear": 2018,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs Memoir '44.",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "adds": "A battle map set with two decks of combat cards, six pre-printed standard scenarios and two Overlord scenarios in Burma and North Africa.",
+      "fixes": "Gives ready-to-play pre-printed battles without the setup of loose terrain.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "depends",
+      "buyOrder": 5,
+      "reason": "Redditors like battle maps because they are cheap and easy to set up, and say they pair well with Overlord rules.",
+      "verdictStatus": "draft",
+      "priceUsd": 29.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://en.wikipedia.org/wiki/Memoir_%2744",
+          "https://boardgamegeek.com/boardgameexpansion/244078/memoir-44-through-jungle-and-desert",
+          "https://store.asmodee.com/products/memoir-44-through-jungle-and-desert"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/Memoir44/comments/1ad8zxw/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/memoir-44-through-jungle-and-desert"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B078WTQY3K",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0D9BRZFBC",
+          "note": null
+        },
+        {
+          "store": "Asmodee",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/memoir-44-tigers-in-the-snow-battle-map",
+          "note": null
+        }
+      ],
+      "id": "memoir-44--memoir-44-tigers-in-the-snow",
+      "slug": "memoir-44-tigers-in-the-snow",
+      "game": "memoir-44",
+      "name": "Tigers in the Snow",
+      "type": "expansion",
+      "publisher": "Days of Wonder",
+      "releaseYear": 2009,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs Memoir '44; Overlord scenarios need a second copy for 4-8 players.",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "adds": "A pre-printed battle map with 2 Overlord scenarios, 6 Tiger tanks and 2 bonus standard scenarios on the Eastern Front.",
+      "fixes": "Adds large, no-setup battle maps for team play with extra players.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "skip_unless",
+      "buyOrder": 6,
+      "reason": "Redditors note Overlord play is a different beast best reserved for 4-6 players, and name it a later purchase after the theater packs.",
+      "verdictStatus": "draft",
+      "priceUsd": 24.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://en.wikipedia.org/wiki/Memoir_%2744",
+          "https://boardgamegeek.com/boardgameexpansion/41571/memoir-44-tigers-in-the-snow",
+          "https://store.asmodee.com/products/memoir-44-tigers-in-the-snow-battle-map"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/Memoir44/comments/1cuv2ga/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/memoir-44-tigers-in-the-snow-battle-map"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0D9BRZFBC",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Indie Boards and Cards",
+          "kind": "publisher",
+          "url": "https://indieboardsandcards.com/our-games/flash-point-fire-rescue-extreme-danger/",
+          "note": null
+        }
+      ],
+      "id": "flash-point-fire-rescue--extreme-danger",
+      "slug": "extreme-danger",
+      "game": "flash-point-fire-rescue",
+      "name": "Flash Point: Fire Rescue - Extreme Danger",
+      "type": "expansion",
+      "publisher": "Indie Boards and Cards",
+      "releaseYear": 2013,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Flash Point: Fire Rescue base game. Works standalone with the base game; combines with 2nd Story for four extra building layouts.",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "adds": "Six building configurations, firefighter miniatures with coloured bases, explosive-object and hazmat/chemical-spill tokens, fire-proof doors, a fire engine platform and an attic/basement extension board, in a box that holds all prior expansions.",
+      "fixes": "Older expansions were separate silos; its tokens and attic/basement board can be mixed into earlier maps for much more variety.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "The one expansion that mixes with earlier maps and is also the storage box for the rest; iSlaytheDragon rated it 9.5 and called it the best so far, while advising newcomers to ease in via smaller packs.",
+      "verdictStatus": "draft",
+      "priceUsd": 34.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://indieboardsandcards.com/our-games/flash-point-fire-rescue-extreme-danger/",
+          "https://boardgamegeek.com/boardgame/139766/flash-point-fire-rescue-extreme-danger"
+        ],
+        "verdict": [
+          "https://islaythedragon.com/featured/review-flash-point-extreme-danger/"
+        ],
+        "price": [
+          "https://indieboardsandcards.com/our-games/flash-point-fire-rescue-extreme-danger/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Indie Boards and Cards",
+          "kind": "publisher",
+          "url": "https://indieboardsandcards.com/our-games/flash-point-fire-rescue-2nd-story/",
+          "note": null
+        }
+      ],
+      "id": "flash-point-fire-rescue--2nd-story",
+      "slug": "2nd-story",
+      "game": "flash-point-fire-rescue",
+      "name": "Flash Point: Fire Rescue - 2nd Story",
+      "type": "scenario_pack",
+      "publisher": "Indie Boards and Cards",
+      "releaseYear": 2014,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Flash Point: Fire Rescue base game.",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "adds": "Two double-sided mounted half boards (two-storey house and small hotel), plus ladders, windows, stairs, weak walls, an explosion marker and action tokens.",
+      "fixes": "Adds vertical play and new access routes so the single-floor base house stops feeling repetitive.",
+      "complexity": "heavier",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 2,
+      "reason": "Cheapest way to add a second floor and ladders; iSlaytheDragon rated it 9 and called it worth the upgrade, noting action-point costs need a self-made reference sheet.",
+      "verdictStatus": "draft",
+      "priceUsd": 14.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://indieboardsandcards.com/our-games/flash-point-fire-rescue-2nd-story/"
+        ],
+        "verdict": [
+          "https://islaythedragon.com/game-reviews/the-fire-above-a-review-of-flash-point-2nd-story/"
+        ],
+        "price": [
+          "https://indieboardsandcards.com/our-games/flash-point-fire-rescue-2nd-story/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B00FJR7P2A",
+          "note": null
+        },
+        {
+          "store": "Indie Boards and Cards",
+          "kind": "publisher",
+          "url": "https://indieboardsandcards.com/our-games/flash-point-fire-rescue-dangerous-waters/",
+          "note": null
+        }
+      ],
+      "id": "flash-point-fire-rescue--dangerous-waters",
+      "slug": "dangerous-waters",
+      "game": "flash-point-fire-rescue",
+      "name": "Flash Point: Fire Rescue - Dangerous Waters",
+      "type": "scenario_pack",
+      "publisher": "Indie Boards and Cards",
+      "releaseYear": 2013,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Flash Point: Fire Rescue base game.",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "adds": "Two double-sided half boards: a commercial ship (engine room, cabins, steel walls) and a 3x16 submarine with medical bays, plus hull walls, bulkheads, fire-proof doors and must-protect machinery.",
+      "fixes": "Gives very different layouts, especially the long submarine, when the house maps feel stale.",
+      "complexity": "heavier",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 3,
+      "reason": "Cheap and self-contained, with a submarine map reviewers call unique; iSlaytheDragon rated it 9, though it does not mix with other expansions.",
+      "verdictStatus": "draft",
+      "priceUsd": 14.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://indieboardsandcards.com/our-games/flash-point-fire-rescue-dangerous-waters/"
+        ],
+        "verdict": [
+          "https://islaythedragon.com/featured/from-sea-to-shining-sea-a-review-of-flash-point-dangerous-waters/"
+        ],
+        "price": [
+          "https://indieboardsandcards.com/our-games/flash-point-fire-rescue-dangerous-waters/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B00FJR7P2A",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0093B7X4S",
+          "note": null
+        },
+        {
+          "store": "Indie Boards and Cards",
+          "kind": "publisher",
+          "url": "https://indieboardsandcards.com/our-games/flash-point-fire-rescue-urban-structures/",
+          "note": null
+        }
+      ],
+      "id": "flash-point-fire-rescue--urban-structures",
+      "slug": "urban-structures",
+      "game": "flash-point-fire-rescue",
+      "name": "Flash Point: Fire Rescue - Urban Structures",
+      "type": "scenario_pack",
+      "publisher": "Indie Boards and Cards",
+      "releaseYear": 2011,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Flash Point: Fire Rescue base game.",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "adds": "Two new buildings (high-rise office and duplex), a Structural Engineer specialist, new rules, scenarios and variants.",
+      "fixes": "Provides fresh maps and a wall-repairing role that changes how a team splits up work.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 4,
+      "reason": "Low-cost extra maps plus a useful Structural Engineer role; iSlaytheDragon rated it 8.5 and called it worth picking up, with minor ladder-rule ambiguity.",
+      "verdictStatus": "draft",
+      "priceUsd": 14.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://indieboardsandcards.com/our-games/flash-point-fire-rescue-urban-structures/"
+        ],
+        "verdict": [
+          "https://islaythedragon.com/featured/hot-summer-nights-a-review-of-flash-point-urban-structures/"
+        ],
+        "price": [
+          "https://indieboardsandcards.com/our-games/flash-point-fire-rescue-urban-structures/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0093B7X4S",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B075JRGW6R",
+          "note": null
+        },
+        {
+          "store": "Indie Boards and Cards",
+          "kind": "publisher",
+          "url": "https://indieboardsandcards.com/our-games/flash-point-fire-rescue-tragic-events/",
+          "note": null
+        }
+      ],
+      "id": "flash-point-fire-rescue--tragic-events",
+      "slug": "tragic-events",
+      "game": "flash-point-fire-rescue",
+      "name": "Flash Point: Fire Rescue - Tragic Events",
+      "type": "expansion",
+      "publisher": "Indie Boards and Cards",
+      "releaseYear": 2019,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Flash Point: Fire Rescue base game; it replaces the Hot Spot mechanic of the experienced rules.",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "adds": "Fire deck and event deck (42 events, 8 special points of interest), three specialists with miniatures and a revised Structural Engineer.",
+      "fixes": "Replaces dice-driven Hot Spots with a fire deck that escalates over the game and adds story events.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 5,
+      "reason": "Recommended by Unboxed but it makes the game fiddlier and roughly 50% longer, so it suits veterans who want more difficulty rather than first-time expansion buyers.",
+      "verdictStatus": "draft",
+      "priceUsd": 24.95,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://indieboardsandcards.com/our-games/flash-point-fire-rescue-tragic-events/",
+          "https://boardgamegeek.com/boardgame/232247/flash-point-fire-rescue-tragic-events"
+        ],
+        "verdict": [
+          "https://www.unboxedtheboardgameblog.com/post/2018/01/02/day-7-flash-point-fire-rescue-tragic-events"
+        ],
+        "price": [
+          "https://indieboardsandcards.com/our-games/flash-point-fire-rescue-tragic-events/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B075JRGW6R",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B00R35EGN2",
+          "note": null
+        },
+        {
+          "store": "Indie Boards and Cards",
+          "kind": "publisher",
+          "url": "https://indieboardsandcards.com/our-games/flash-point-fire-rescue-honor-duty/",
+          "note": null
+        }
+      ],
+      "id": "flash-point-fire-rescue--honor-and-duty",
+      "slug": "honor-and-duty",
+      "game": "flash-point-fire-rescue",
+      "name": "Flash Point: Fire Rescue - Honor & Duty",
+      "type": "scenario_pack",
+      "publisher": "Indie Boards and Cards",
+      "releaseYear": 2014,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Flash Point: Fire Rescue base game; the attic/basement board also needs Extreme Danger or 2nd Story.",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "adds": "A double-sided board with an airplane fire on one side and a subway station disaster on the other, plus new markers and instructions.",
+      "fixes": "Adds two unusual disaster scenarios to break up repeated house and building maps.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "depends",
+      "buyOrder": 6,
+      "reason": "Only two extra maps and its attic/basement board needs another expansion; BGG users rate it about 7.6, below the other expansions, so buy it last.",
+      "verdictStatus": "draft",
+      "priceUsd": 19.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://indieboardsandcards.com/our-games/flash-point-fire-rescue-honor-duty/"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/boardgame/162616/flash-point-fire-rescue-honor-and-duty"
+        ],
+        "price": [
+          "https://indieboardsandcards.com/our-games/flash-point-fire-rescue-honor-duty/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B00R35EGN2",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs the Flash Point: Fire Rescue base game; the attic/basement board also needs Extreme Danger or 2nd Story."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B00BVED8KI",
+          "note": null
+        },
+        {
+          "store": "AEG Online Store",
+          "kind": "publisher",
+          "url": "https://alderacstore.com/smash-up-awesome-level-9000/",
+          "note": null
+        }
+      ],
+      "id": "smash-up--awesome-level-9000",
+      "slug": "awesome-level-9000",
+      "game": "smash-up",
+      "name": "Awesome Level 9000",
+      "type": "expansion",
+      "publisher": "Alderac Entertainment Group",
+      "releaseYear": 2013,
+      "baseRequired": "conditional",
+      "prerequisiteRule": "Playable alone for 2 players (each player mixes 2 factions); 3-4 players need a second Smash Up set or the base game. Mixes with any other Smash Up set.",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "Four factions (Bear Cavalry, Ghosts, Killer Plants, Steampunks) and 8 bases, introducing Talents, abilities a card can use once per turn.",
+      "fixes": "Gives the base set's mostly straightforward decks more power and combo options without making any pairing unbeatable.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "Assorted Meeples ranks it first and calls these decks among the best in power and versatility, and a BGG forum regular said to take it as one of any two sets.",
+      "verdictStatus": "draft",
+      "priceUsd": 24.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://alderacstore.com/smash-up-awesome-level-9000/",
+          "https://boardgamegeek.com/boardgame/134726",
+          "https://www.amazon.com/dp/B00BVED8KI"
+        ],
+        "verdict": [
+          "https://assortedmeeples.com/best-smash-up-expansions/",
+          "https://boardgamegeek.com/thread/1403852/recommended-expansions-to-buy"
+        ],
+        "price": [
+          "https://alderacstore.com/smash-up-awesome-level-9000/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B00BVED8KI",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Playable alone for 2 players (each player mixes 2 factions); 3-4 players need a second Smash Up set or the base game. Mixes with any other Smash Up set."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B00QD78PII",
+          "note": null
+        },
+        {
+          "store": "AEG Online Store",
+          "kind": "publisher",
+          "url": "https://alderacstore.com/smash-up-pretty-pretty/",
+          "note": null
+        }
+      ],
+      "id": "smash-up--pretty-pretty-smash-up",
+      "slug": "pretty-pretty-smash-up",
+      "game": "smash-up",
+      "name": "Pretty Pretty Smash Up",
+      "type": "expansion",
+      "publisher": "Alderac Entertainment Group",
+      "releaseYear": 2015,
+      "baseRequired": "conditional",
+      "prerequisiteRule": "Playable alone for 2 players (each player mixes 2 factions); 3-4 players need a second Smash Up set or the base game. Mixes with any other Smash Up set.",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "Four factions (Fairies, Kitty Cats, Mythic Horses, Princesses) and 8 bases, with cute themes and distinct playstyles such as 6 power-5 Princesses.",
+      "fixes": "Gives each deck a clearer foil in the set than Awesome Level 9000 did, so there is more variety without runaway pairings.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "buy_first",
+      "buyOrder": 2,
+      "reason": "Assorted Meeples ranks it second and says its decks pair well with many factions, and a BGG poster said it works best alongside the base game and Awesome Level 9000.",
+      "verdictStatus": "draft",
+      "priceUsd": 24.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://alderacstore.com/smash-up-pretty-pretty/",
+          "https://boardgamegeek.com/boardgame/168917",
+          "https://www.amazon.com/dp/B00QD78PII"
+        ],
+        "verdict": [
+          "https://assortedmeeples.com/best-smash-up-expansions/",
+          "https://boardgamegeek.com/thread/1403852/recommended-expansions-to-buy"
+        ],
+        "price": [
+          "https://alderacstore.com/smash-up-pretty-pretty/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B00QD78PII",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Playable alone for 2 players (each player mixes 2 factions); 3-4 players need a second Smash Up set or the base game. Mixes with any other Smash Up set."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B00KU10T3C",
+          "note": null
+        },
+        {
+          "store": "AEG Online Store",
+          "kind": "publisher",
+          "url": "https://alderacstore.com/smash-up-monster-smash/",
+          "note": null
+        }
+      ],
+      "id": "smash-up--monster-smash",
+      "slug": "monster-smash",
+      "game": "smash-up",
+      "name": "Monster Smash",
+      "type": "expansion",
+      "publisher": "Alderac Entertainment Group",
+      "releaseYear": 2014,
+      "baseRequired": "conditional",
+      "prerequisiteRule": "Playable alone for 2 players (each player mixes 2 factions); 3-4 players need a second Smash Up set or the base game. Mixes with any other Smash Up set.",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "Four factions (Vampires, Mad Scientists, Giant Ants, Werewolves) and 8 bases, introducing power counters that give a minion a lasting +1 power.",
+      "fixes": "Adds a simple counter mechanic that opens new strategies even for your older decks.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 3,
+      "reason": "A BGG forum poster called its counter mechanic very straightforward and the factions very competitive (except Vampires), and another named Monster Smash one of the two sets worth buying alongside Pretty Pretty.",
+      "verdictStatus": "draft",
+      "priceUsd": 24.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://alderacstore.com/smash-up-monster-smash/",
+          "https://boardgamegeek.com/boardgame/160018",
+          "https://www.amazon.com/dp/B00KU10T3C"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/1403852/recommended-expansions-to-buy",
+          "https://boardgamegeek.com/geeklist/232405/smash-up-expansions-by-rating"
+        ],
+        "price": [
+          "https://alderacstore.com/smash-up-monster-smash/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B00KU10T3C",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Playable alone for 2 players (each player mixes 2 factions); 3-4 players need a second Smash Up set or the base game. Mixes with any other Smash Up set."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B00HVFBT1G",
+          "note": null
+        },
+        {
+          "store": "AEG Online Store",
+          "kind": "publisher",
+          "url": "https://alderacstore.com/smash-up-science-fiction-double-feature/",
+          "note": null
+        }
+      ],
+      "id": "smash-up--science-fiction-double-feature",
+      "slug": "science-fiction-double-feature",
+      "game": "smash-up",
+      "name": "Science Fiction Double Feature",
+      "type": "expansion",
+      "publisher": "Alderac Entertainment Group",
+      "releaseYear": 2014,
+      "baseRequired": "conditional",
+      "prerequisiteRule": "Playable alone for 2 players (each player mixes 2 factions); 3-4 players need a second Smash Up set or the base game. Mixes with any other Smash Up set.",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "Four factions (Cyborg Apes, Shapeshifters, Super Spies, Time Travelers) and 8 bases, with deck manipulation, discard-pile recursion and copying effects.",
+      "fixes": "Offers sci-fi themed decks with different playstyles that pair with both older and newer factions.",
+      "complexity": "heavier",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 4,
+      "reason": "Assorted Meeples ranks it third and calls the factions reasonably powered, though its Shapeshifters, Super Spies and Time Travelers are among the trickiest; a BGG poster found it less innovative than Pretty Pretty or Monster Smash apart from the Cyborg Apes.",
+      "verdictStatus": "draft",
+      "priceUsd": 24.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://alderacstore.com/smash-up-science-fiction-double-feature/",
+          "https://boardgamegeek.com/boardgame/151004",
+          "https://www.amazon.com/dp/B00HVFBT1G"
+        ],
+        "verdict": [
+          "https://assortedmeeples.com/best-smash-up-expansions/",
+          "https://boardgamegeek.com/thread/1403852/recommended-expansions-to-buy"
+        ],
+        "price": [
+          "https://alderacstore.com/smash-up-science-fiction-double-feature/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B00HVFBT1G",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Playable alone for 2 players (each player mixes 2 factions); 3-4 players need a second Smash Up set or the base game. Mixes with any other Smash Up set."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B002SIBI6W",
+          "note": null
+        },
+        {
+          "store": "AEG Online Store",
+          "kind": "publisher",
+          "url": "https://alderacstore.com/smash-up-what-were-we-thinking/",
+          "note": null
+        }
+      ],
+      "id": "smash-up--what-were-we-thinking",
+      "slug": "what-were-we-thinking",
+      "game": "smash-up",
+      "name": "What Were We Thinking?",
+      "type": "expansion",
+      "publisher": "Alderac Entertainment Group",
+      "releaseYear": 2017,
+      "baseRequired": "conditional",
+      "prerequisiteRule": "Playable alone for 2 players (each player mixes 2 factions); 3-4 players need a second Smash Up set or the base game. Mixes with any other Smash Up set.",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "Four unthemed factions (Explorers, Grannies, Rock Stars, Teddy Bears) and 8 bases with card advantage, minion swarming and deck-manipulation twists.",
+      "fixes": "Adds flexible decks that pair well with factions from any set and are popular picks at the table.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 5,
+      "reason": "Assorted Meeples ranks it sixth, calls the factions flexible and popular with its game group, and BGG's fan geeklist puts it fourth of 14 expansions by average rating.",
+      "verdictStatus": "draft",
+      "priceUsd": 24.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://alderacstore.com/smash-up-what-were-we-thinking/",
+          "https://boardgamegeek.com/boardgame/216658",
+          "https://www.amazon.com/dp/B002SIBI6W"
+        ],
+        "verdict": [
+          "https://assortedmeeples.com/best-smash-up-expansions/",
+          "https://boardgamegeek.com/geeklist/232405/smash-up-expansions-by-rating"
+        ],
+        "price": [
+          "https://alderacstore.com/smash-up-what-were-we-thinking/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B002SIBI6W",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Playable alone for 2 players (each player mixes 2 factions); 3-4 players need a second Smash Up set or the base game. Mixes with any other Smash Up set."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B004SQKV1A",
+          "note": null
+        },
+        {
+          "store": "AEG Online Store",
+          "kind": "publisher",
+          "url": "https://alderacstore.com/smash-up-its-your-fault/",
+          "note": null
+        }
+      ],
+      "id": "smash-up--its-your-fault",
+      "slug": "its-your-fault",
+      "game": "smash-up",
+      "name": "It's Your Fault!",
+      "type": "expansion",
+      "publisher": "Alderac Entertainment Group",
+      "releaseYear": 2016,
+      "baseRequired": "conditional",
+      "prerequisiteRule": "Playable alone for 2 players (each player mixes 2 factions); 3-4 players need a second Smash Up set or the base game. Mixes with any other Smash Up set.",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "Four fan-voted factions (Dragons, Mythic Greeks, Sharks, Super Heroes) and 8 bases.",
+      "fixes": "Delivers the most-requested themes in a casual-friendly set that is easy to bring to a mixed table.",
+      "complexity": "same",
+      "groupStyle": "casual",
+      "verdict": "worth_it",
+      "buyOrder": 6,
+      "reason": "BGG's fan geeklist ranks it first of 14 expansions by average rating (7.5), and a Reddit expansion guide recommends fan-voted sets like this for casual groups.",
+      "verdictStatus": "draft",
+      "priceUsd": 24.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://alderacstore.com/smash-up-its-your-fault/",
+          "https://boardgamegeek.com/boardgame/177802",
+          "https://www.amazon.com/dp/B004SQKV1A"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/geeklist/232405/smash-up-expansions-by-rating",
+          "https://www.reddit.com/r/smashup/comments/87ojf4/smash_up_expansion_guide/"
+        ],
+        "price": [
+          "https://alderacstore.com/smash-up-its-your-fault/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B004SQKV1A",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Playable alone for 2 players (each player mixes 2 factions); 3-4 players need a second Smash Up set or the base game. Mixes with any other Smash Up set."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07QLN7M3H",
+          "note": null
+        },
+        {
+          "store": "AEG Online Store",
+          "kind": "publisher",
+          "url": "https://alderacstore.com/smash-up-world-tour-culture-shock/",
+          "note": null
+        }
+      ],
+      "id": "smash-up--world-tour-culture-shock",
+      "slug": "world-tour-culture-shock",
+      "game": "smash-up",
+      "name": "World Tour: Culture Shock",
+      "type": "expansion",
+      "publisher": "Alderac Entertainment Group",
+      "releaseYear": 2019,
+      "baseRequired": "conditional",
+      "prerequisiteRule": "Playable alone for 2 players (each player mixes 2 factions); 3-4 players need a second Smash Up set or the base game. Mixes with any other Smash Up set.",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "Five factions (Anansi Tales, Ancient Incas, Grimms' Fairy Tales, Polynesian Voyagers, Russian Fairy Tales) with folklore themes.",
+      "fixes": "Gives experienced groups middle-power decks with more intricate lines of play than the older sets.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 7,
+      "reason": "Assorted Meeples ranks it seventh and says its folklore factions won the reviewer over with robust lines of play, though they sit in the middle of the power range.",
+      "verdictStatus": "draft",
+      "priceUsd": 24.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://alderacstore.com/smash-up-world-tour-culture-shock/",
+          "https://boardgamegeek.com/boardgame/274590",
+          "https://www.amazon.com/dp/B07QLN7M3H"
+        ],
+        "verdict": [
+          "https://assortedmeeples.com/best-smash-up-expansions/"
+        ],
+        "price": [
+          "https://alderacstore.com/smash-up-world-tour-culture-shock/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07QLN7M3H",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Playable alone for 2 players (each player mixes 2 factions); 3-4 players need a second Smash Up set or the base game. Mixes with any other Smash Up set."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B071J9DNRD",
+          "note": null
+        },
+        {
+          "store": "AEG Online Store",
+          "kind": "publisher",
+          "url": "https://alderacstore.com/smash-up-big-in-japan/",
+          "note": null
+        }
+      ],
+      "id": "smash-up--big-in-japan",
+      "slug": "big-in-japan",
+      "game": "smash-up",
+      "name": "Big in Japan",
+      "type": "expansion",
+      "publisher": "Alderac Entertainment Group",
+      "releaseYear": 2017,
+      "baseRequired": "conditional",
+      "prerequisiteRule": "Playable alone for 2 players (each player mixes 2 factions); 3-4 players need a second Smash Up set or the base game. Mixes with any other Smash Up set.",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "Four factions (Kaiju, Magical Girls, Mega Troopers, Itty Critters) and 8 bases, introducing oversized Kaiju cards and the optional Titans rule.",
+      "fixes": "Brings the most-requested Japanese pop culture themes to the table.",
+      "complexity": "heavier",
+      "groupStyle": "casual",
+      "verdict": "depends",
+      "buyOrder": 8,
+      "reason": "BGG's fan geeklist rates it second of 14 (7.5), but Assorted Meeples warns its mechanics work less well with factions from other sets.",
+      "verdictStatus": "draft",
+      "priceUsd": 24.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://alderacstore.com/smash-up-big-in-japan/",
+          "https://boardgamegeek.com/boardgame/216199",
+          "https://www.amazon.com/dp/B071J9DNRD"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/geeklist/232405/smash-up-expansions-by-rating",
+          "https://assortedmeeples.com/best-smash-up-expansions/"
+        ],
+        "price": [
+          "https://alderacstore.com/smash-up-big-in-japan/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B071J9DNRD",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Playable alone for 2 players (each player mixes 2 factions); 3-4 players need a second Smash Up set or the base game. Mixes with any other Smash Up set."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B01KJXNK3G",
+          "note": null
+        },
+        {
+          "store": "AEG Online Store",
+          "kind": "publisher",
+          "url": "https://alderacstore.com/smash-up-cease-desist/",
+          "note": null
+        }
+      ],
+      "id": "smash-up--cease-and-desist",
+      "slug": "cease-and-desist",
+      "game": "smash-up",
+      "name": "Cease and Desist",
+      "type": "expansion",
+      "publisher": "Alderac Entertainment Group",
+      "releaseYear": 2016,
+      "baseRequired": "conditional",
+      "prerequisiteRule": "Playable alone for 2 players (each player mixes 2 factions); 3-4 players need a second Smash Up set or the base game. Mixes with any other Smash Up set.",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "Four sci-fi and fantasy parody factions (Astroknights, Star Roamers, Changerbots, Ignobles) and 8 bases.",
+      "fixes": "Adds popular pop-culture parody decks aimed at casual groups.",
+      "complexity": "same",
+      "groupStyle": "casual",
+      "verdict": "depends",
+      "buyOrder": 9,
+      "reason": "BGG's fan geeklist rates it third of 14 (7.4) and a Reddit expansion guide files it with theme-driven fan-request sets that suit casual tables.",
+      "verdictStatus": "draft",
+      "priceUsd": 24.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://alderacstore.com/smash-up-cease-desist/",
+          "https://boardgamegeek.com/boardgame/198487",
+          "https://www.amazon.com/dp/B01KJXNK3G"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/geeklist/232405/smash-up-expansions-by-rating",
+          "https://www.reddit.com/r/smashup/comments/87ojf4/smash_up_expansion_guide/"
+        ],
+        "price": [
+          "https://alderacstore.com/smash-up-cease-desist/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B01KJXNK3G",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Playable alone for 2 players (each player mixes 2 factions); 3-4 players need a second Smash Up set or the base game. Mixes with any other Smash Up set."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07972C2R3",
+          "note": null
+        },
+        {
+          "store": "AEG Online Store",
+          "kind": "publisher",
+          "url": "https://alderacstore.com/smash-up-that-70s-expansion/",
+          "note": null
+        }
+      ],
+      "id": "smash-up--that-70s-expansion",
+      "slug": "that-70s-expansion",
+      "game": "smash-up",
+      "name": "That 70's Expansion",
+      "type": "expansion",
+      "publisher": "Alderac Entertainment Group",
+      "releaseYear": 2018,
+      "baseRequired": "conditional",
+      "prerequisiteRule": "Playable alone for 2 players (each player mixes 2 factions); 3-4 players need a second Smash Up set or the base game. Mixes with any other Smash Up set.",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "Four factions (Truckers, Disco Dancers, Vigilantes, Kung Fu Fighters) and 8 bases.",
+      "fixes": "Adds retro themed decks for groups that already own the older sets.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "depends",
+      "buyOrder": 10,
+      "reason": "A Reddit expansion guide files it with the refinement sets that add new mechanics to older decks, but it was not among Assorted Meeples' eight recommended expansions.",
+      "verdictStatus": "draft",
+      "priceUsd": 24.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://alderacstore.com/smash-up-that-70s-expansion/",
+          "https://boardgamegeek.com/boardgame/241225",
+          "https://www.amazon.com/dp/B07972C2R3"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/smashup/comments/87ojf4/smash_up_expansion_guide/",
+          "https://assortedmeeples.com/best-smash-up-expansions/"
+        ],
+        "price": [
+          "https://alderacstore.com/smash-up-that-70s-expansion/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07972C2R3",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Playable alone for 2 players (each player mixes 2 factions); 3-4 players need a second Smash Up set or the base game. Mixes with any other Smash Up set."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07L1DQHFK",
+          "note": null
+        },
+        {
+          "store": "AEG Online Store",
+          "kind": "publisher",
+          "url": "https://alderacstore.com/smash-up-world-tour-international-incident/",
+          "note": null
+        }
+      ],
+      "id": "smash-up--world-tour-international-incident",
+      "slug": "world-tour-international-incident",
+      "game": "smash-up",
+      "name": "World Tour: International Incident",
+      "type": "expansion",
+      "publisher": "Alderac Entertainment Group",
+      "releaseYear": 2019,
+      "baseRequired": "conditional",
+      "prerequisiteRule": "Playable alone for 2 players (each player mixes 2 factions); 3-4 players need a second Smash Up set or the base game. Mixes with any other Smash Up set.",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "Four factions (Luchadores, Mounties, Musketeers, Sumo Wrestlers) and 8 bases.",
+      "fixes": "Adds present-day national icon themes to the table.",
+      "complexity": "same",
+      "groupStyle": "casual",
+      "verdict": "depends",
+      "buyOrder": 11,
+      "reason": "Assorted Meeples was not wowed by the bland designs of the stereotypical cultural icons here and preferred the Culture Shock half.",
+      "verdictStatus": "draft",
+      "priceUsd": 24.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://alderacstore.com/smash-up-world-tour-international-incident/",
+          "https://boardgamegeek.com/boardgame/266938",
+          "https://www.amazon.com/dp/B07L1DQHFK"
+        ],
+        "verdict": [
+          "https://assortedmeeples.com/best-smash-up-expansions/"
+        ],
+        "price": [
+          "https://alderacstore.com/smash-up-world-tour-international-incident/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07L1DQHFK",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Playable alone for 2 players (each player mixes 2 factions); 3-4 players need a second Smash Up set or the base game. Mixes with any other Smash Up set."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B00E3S8IZ4",
+          "note": null
+        },
+        {
+          "store": "AEG Online Store",
+          "kind": "publisher",
+          "url": "https://alderacstore.com/smash-up-the-obligatory-cthulhu-set/",
+          "note": null
+        }
+      ],
+      "id": "smash-up--the-obligatory-cthulhu-set",
+      "slug": "the-obligatory-cthulhu-set",
+      "game": "smash-up",
+      "name": "The Obligatory Cthulhu Set",
+      "type": "expansion",
+      "publisher": "Alderac Entertainment Group",
+      "releaseYear": 2013,
+      "baseRequired": "conditional",
+      "prerequisiteRule": "Playable alone for 2 players (each player mixes 2 factions); 3-4 players need a second Smash Up set or the base game. Mixes with any other Smash Up set.",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "Four factions (Cthulhu Cultists, Elder Things, Innsmouth, Miskatonic University) and 8 bases, with a Madness card type that costs end-game VP.",
+      "fixes": "Adds a risk-and-reward Madness layer for experienced groups.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "skip_unless",
+      "buyOrder": 12,
+      "reason": "BGG forum posters, including an AEG playtester, said it is the set they would drop or hesitate to play because Madness slows games, and Assorted Meeples warns its factions rarely work with other sets.",
+      "verdictStatus": "draft",
+      "priceUsd": 24.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://alderacstore.com/smash-up-the-obligatory-cthulhu-set/",
+          "https://boardgamegeek.com/boardgame/143185",
+          "https://www.amazon.com/dp/B00E3S8IZ4"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/1403852/recommended-expansions-to-buy",
+          "https://assortedmeeples.com/best-smash-up-expansions/"
+        ],
+        "price": [
+          "https://alderacstore.com/smash-up-the-obligatory-cthulhu-set/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B00E3S8IZ4",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Playable alone for 2 players (each player mixes 2 factions); 3-4 players need a second Smash Up set or the base game. Mixes with any other Smash Up set."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/marvel-champions-the-card-game-next-evolution-expansion",
+          "note": null
+        }
+      ],
+      "id": "marvel-champions--next-evolution",
+      "slug": "next-evolution",
+      "game": "marvel-champions",
+      "name": "NeXt Evolution",
+      "type": "big_box",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2023,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Requires Core Set",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Cable and Domino (X-Force) with pre-built decks, 5 scenarios (Marauders, Juggernaut, Mister Sinister), player side schemes, campaign",
+      "fixes": "Adds player side schemes and X-Force/mutant deck support; no weak scenario",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "Most-recommended campaign box: players call it no big misses, player side schemes, favorite campaign rewards; chosen over Mad Titan's Shadow 18-to-3 in comparison thread.",
+      "verdictStatus": "draft",
+      "priceUsd": 47.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/marvel-champions-the-card-game-next-evolution-expansion",
+          "https://marvelcdb.com/"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/MarvelChampionsLCG/comments/1hwxypx/",
+          "https://www.reddit.com/r/MarvelChampionsLCG/comments/17y31bm/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/marvel-champions-the-card-game-next-evolution-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/marvel-champions-the-card-game-age-of-apocalypse-expansion",
+          "note": null
+        }
+      ],
+      "id": "marvel-champions--age-of-apocalypse",
+      "slug": "age-of-apocalypse",
+      "game": "marvel-champions",
+      "name": "Age of Apocalypse",
+      "type": "big_box",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2024,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Requires Core Set",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Bishop and Magik with pre-built decks, 5 scenarios vs Apocalypse forces, campaign",
+      "fixes": "Concludes the mutant trilogy of boxes",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "buy_first",
+      "buyOrder": 2,
+      "reason": "Published as the conclusion of the mutant trilogy and recommended as a strong later box; best after you own a few expansions.",
+      "verdictStatus": "draft",
+      "priceUsd": 47.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/marvel-champions-the-card-game-age-of-apocalypse-expansion",
+          "https://marvelcdb.com/"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/MarvelChampionsLCG/comments/1ln5o9q/",
+          "https://www.reddit.com/r/MarvelChampionsLCG/comments/17y31bm/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/marvel-champions-the-card-game-age-of-apocalypse-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/marvel-champions-the-card-game-fear-no-evil-expansion",
+          "note": null
+        }
+      ],
+      "id": "marvel-champions--fear-no-evil",
+      "slug": "fear-no-evil",
+      "game": "marvel-champions",
+      "name": "Fear No Evil",
+      "type": "big_box",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2026,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Requires Core Set",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Daredevil and Echo with pre-built decks, 6 scenarios (Kingpin and underlings), evolving campaign",
+      "fixes": "Interchangeable villain pairing gives replayability",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 3,
+      "reason": "Newest box; replayable villain mix but setup is more complex and harder for beginners.",
+      "verdictStatus": "draft",
+      "priceUsd": 47.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/marvel-champions-the-card-game-fear-no-evil-expansion",
+          "https://marvelcdb.com/"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/MarvelChampionsLCG/comments/17y31bm/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/marvel-champions-the-card-game-fear-no-evil-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/marvel-champions-the-card-game-agents-of-s-h-i-e-l-d-expansion",
+          "note": null
+        }
+      ],
+      "id": "marvel-champions--agents-of-shield",
+      "slug": "agents-of-shield",
+      "game": "marvel-champions",
+      "name": "Agents of S.H.I.E.L.D.",
+      "type": "big_box",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2025,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Requires Core Set",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Maria Hill and Nick Fury with pre-built decks, 5 scenarios vs A.I.M. (MODOK, Batroc), traitor campaign",
+      "fixes": "Adds a traitor-hunt campaign and S.H.I.E.L.D. heroes",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 4,
+      "reason": "Recent box with a traitor campaign; less discussed than the top picks.",
+      "verdictStatus": "draft",
+      "priceUsd": 47.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/marvel-champions-the-card-game-agents-of-s-h-i-e-l-d-expansion",
+          "https://marvelcdb.com/"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/MarvelChampionsLCG/comments/17y31bm/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/marvel-champions-the-card-game-agents-of-s-h-i-e-l-d-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Fantasy Flight Games",
+          "kind": "publisher",
+          "url": "https://www.fantasyflightgames.com/en/products/marvel-champions-the-card-game/",
+          "note": null
+        }
+      ],
+      "id": "marvel-champions--sinister-motives",
+      "slug": "sinister-motives",
+      "game": "marvel-champions",
+      "name": "Sinister Motives",
+      "type": "big_box",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2022,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Requires Core Set",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Miles Morales and Ghost-Spider heroes, Sinister Six scenarios, Mysterio, Venom Goblin",
+      "fixes": "Best set of scenarios by community vote; good entry box",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "buy_first",
+      "buyOrder": 5,
+      "reason": "Top vote for best scenarios (32 votes) and best-batting-average campaign; Venom Goblin finale is very hard.",
+      "verdictStatus": "draft",
+      "priceUsd": 44.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.fantasyflightgames.com/en/products/marvel-champions-the-card-game/",
+          "https://marvelcdb.com/"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/MarvelChampionsLCG/comments/1ln5o9q/",
+          "https://www.reddit.com/r/MarvelChampionsLCG/comments/17y31bm/",
+          "https://www.reddit.com/r/MarvelChampionsLCG/comments/17m3x6a/"
+        ],
+        "price": [
+          "https://www.fantasyflightgames.com/en/products/marvel-champions-the-card-game/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Fantasy Flight Games",
+          "kind": "publisher",
+          "url": "https://www.fantasyflightgames.com/en/products/marvel-champions-the-card-game/",
+          "note": null
+        }
+      ],
+      "id": "marvel-champions--mutant-genesis",
+      "slug": "mutant-genesis",
+      "game": "marvel-champions",
+      "name": "Mutant Genesis",
+      "type": "big_box",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2022,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Requires Core Set",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "X-Men heroes, 5 varied scenarios incl. Magneto, Mansion Attack, Master Mold",
+      "fixes": "Varied scenarios and fair difficulty curve",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 6,
+      "reason": "Called favorite all-around group; Magneto tough but fair; a second beginner-friendly campaign.",
+      "verdictStatus": "draft",
+      "priceUsd": 44.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.fantasyflightgames.com/en/products/marvel-champions-the-card-game/",
+          "https://marvelcdb.com/"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/MarvelChampionsLCG/comments/1ln5o9q/",
+          "https://www.reddit.com/r/MarvelChampionsLCG/comments/17y31bm/"
+        ],
+        "price": [
+          "https://www.fantasyflightgames.com/en/products/marvel-champions-the-card-game/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Fantasy Flight Games",
+          "kind": "publisher",
+          "url": "https://www.fantasyflightgames.com/en/products/marvel-champions-the-card-game/",
+          "note": null
+        }
+      ],
+      "id": "marvel-champions--mad-titans-shadow",
+      "slug": "mad-titans-shadow",
+      "game": "marvel-champions",
+      "name": "Mad Titan's Shadow",
+      "type": "big_box",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2021,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Requires Core Set",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Avengers-themed heroes (Adam Warlock, Spectrum), Thanos, Tower Defense, Infinity Gauntlet mechanic",
+      "fixes": "Great villains incl. Thanos; Avengers support",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 7,
+      "reason": "Strong villains but Loki scenario weak and the box is tough without a big card pool.",
+      "verdictStatus": "draft",
+      "priceUsd": 44.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.fantasyflightgames.com/en/products/marvel-champions-the-card-game/",
+          "https://marvelcdb.com/"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/MarvelChampionsLCG/comments/1ln5o9q/",
+          "https://www.reddit.com/r/MarvelChampionsLCG/comments/1hwxypx/"
+        ],
+        "price": [
+          "https://www.fantasyflightgames.com/en/products/marvel-champions-the-card-game/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Fantasy Flight Games",
+          "kind": "publisher",
+          "url": "https://www.fantasyflightgames.com/en/products/marvel-champions-the-card-game/",
+          "note": null
+        }
+      ],
+      "id": "marvel-champions--rise-of-red-skull",
+      "slug": "rise-of-red-skull",
+      "game": "marvel-champions",
+      "name": "Rise of the Red Skull",
+      "type": "big_box",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2020,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Requires Core Set",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "First campaign box, including an Absorbing Man scenario and the Red Skull campaign",
+      "fixes": "Straightforward campaign, friendly difficulty",
+      "complexity": "lighter",
+      "groupStyle": "casual",
+      "verdict": "worth_it",
+      "buyOrder": 8,
+      "reason": "Best beginner box per forum posts; heroes weaker and campaign feels like an afterthought.",
+      "verdictStatus": "draft",
+      "priceUsd": 44.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.fantasyflightgames.com/en/products/marvel-champions-the-card-game/",
+          "https://marvelcdb.com/"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/MarvelChampionsLCG/comments/17m3x6a/",
+          "https://www.reddit.com/r/MarvelChampionsLCG/comments/17y31bm/"
+        ],
+        "price": [
+          "https://www.fantasyflightgames.com/en/products/marvel-champions-the-card-game/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Fantasy Flight Games",
+          "kind": "publisher",
+          "url": "https://www.fantasyflightgames.com/en/products/marvel-champions-the-card-game/",
+          "note": null
+        }
+      ],
+      "id": "marvel-champions--galaxys-most-wanted",
+      "slug": "galaxys-most-wanted",
+      "game": "marvel-champions",
+      "name": "Galaxy's Most Wanted",
+      "type": "big_box",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2021,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Requires Core Set",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Galaxy-themed campaign box with Ronan as a final villain",
+      "fixes": "Space-themed variety",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 9,
+      "reason": "Repeatedly flagged very hard and worst of the first trilogy; avoid as an early purchase.",
+      "verdictStatus": "draft",
+      "priceUsd": 44.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.fantasyflightgames.com/en/products/marvel-champions-the-card-game/",
+          "https://marvelcdb.com/"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/MarvelChampionsLCG/comments/17m3x6a/",
+          "https://www.reddit.com/r/MarvelChampionsLCG/comments/17y31bm/"
+        ],
+        "price": [
+          "https://www.fantasyflightgames.com/en/products/marvel-champions-the-card-game/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/marvel-champions-the-card-game-civil-war-expansion",
+          "note": null
+        }
+      ],
+      "id": "marvel-champions--civil-war",
+      "slug": "civil-war",
+      "game": "marvel-champions",
+      "name": "Civil War",
+      "type": "big_box",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2025,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Requires Core Set",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Tigra and Hulkling, 4 customizable hero-leader scenarios, optional competitive mode",
+      "fixes": "Adds optional PvP and customizable scenarios",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "skip_unless",
+      "buyOrder": 10,
+      "reason": "No villains; centered on hero-vs-hero scenarios and an optional competitive mode, so only for owners wanting that.",
+      "verdictStatus": "draft",
+      "priceUsd": 47.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/marvel-champions-the-card-game-civil-war-expansion",
+          "https://marvelcdb.com/"
+        ],
+        "verdict": [
+          "https://store.asmodee.com/products/marvel-champions-the-card-game-civil-war-expansion"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/marvel-champions-the-card-game-civil-war-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/marvel-champions-the-card-game-venom-hero-pack",
+          "note": null
+        }
+      ],
+      "id": "marvel-champions--venom-hero-pack",
+      "slug": "venom-hero-pack",
+      "game": "marvel-champions",
+      "name": "Venom Hero Pack",
+      "type": "mini_expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2021,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Requires Core Set",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Agent Venom (Flash Thompson), 60-card pre-built deck with Justice cards",
+      "fixes": "Adds a Justice hero for balance",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 11,
+      "reason": "Popular first hero pack; buyers warn this is Flash Thompson, not Eddie Brock.",
+      "verdictStatus": "draft",
+      "priceUsd": 18.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/marvel-champions-the-card-game-venom-hero-pack",
+          "https://marvelcdb.com/"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/MarvelChampionsLCG/comments/17m3x6a/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/marvel-champions-the-card-game-venom-hero-pack"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B082N5N7XB",
+          "note": null
+        },
+        {
+          "store": "Garphill Games",
+          "kind": "publisher",
+          "url": "https://garphill.com/products/architects-age-of-artisans",
+          "note": null
+        }
+      ],
+      "id": "architects-of-the-west-kingdom--architects-age-of-artisans",
+      "slug": "architects-age-of-artisans",
+      "game": "architects-of-the-west-kingdom",
+      "name": "Architects of the West Kingdom: Age of Artisans",
+      "type": "expansion",
+      "publisher": "Garphill Games",
+      "releaseYear": 2020,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs Architects of the West Kingdom; plays on its own with the base game.",
+      "minPlayers": 1,
+      "maxPlayers": 6,
+      "adds": "Components for a 6th player (orange), a personal Artisan meeple that counts as two workers, 24 Craft Cards usable as Adornments or Tools, 12 new Apprentices, 12 new Buildings, a dual-layer Guildhall overlay, two new player boards and a score pad.",
+      "fixes": "Gives a score pad the base game lacks, adds a free starting Apprentice and doubles the Apprentice and Building decks so repeat plays vary more.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "Board Game Quest says to pick this first if you buy only one Architects expansion because it adds strong choices while being very easy to integrate, and a designer says on BGG they would not play without its Buildings and Apprentices.",
+      "verdictStatus": "draft",
+      "priceUsd": 35.0,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://garphill.com/products/architects-age-of-artisans",
+          "https://www.boardgamequest.com/architects-of-the-west-kingdom-expansion-reviews/",
+          "https://zatu.com/blogs/reviews/architects-of-the-west-kingdom-age-of-artisans-review"
+        ],
+        "verdict": [
+          "https://www.boardgamequest.com/architects-of-the-west-kingdom-expansion-reviews/",
+          "https://boardgamegeek.com/thread/3181008/is-this-expansion-a-must-have",
+          "https://zatu.com/blogs/reviews/architects-of-the-west-kingdom-age-of-artisans-review"
+        ],
+        "price": [
+          "https://garphill.com/products/architects-age-of-artisans"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B082N5N7XB",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B09SK21DZT",
+          "note": null
+        },
+        {
+          "store": "Garphill Games",
+          "kind": "publisher",
+          "url": "https://garphill.com/products/architects-works-of-wonder",
+          "note": null
+        }
+      ],
+      "id": "architects-of-the-west-kingdom--architects-works-of-wonder",
+      "slug": "architects-works-of-wonder",
+      "game": "architects-of-the-west-kingdom",
+      "name": "Architects of the West Kingdom: Works of Wonder",
+      "type": "expansion",
+      "publisher": "Garphill Games",
+      "releaseYear": 2022,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs Architects of the West Kingdom; can be combined with Age of Artisans but does not require it.",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "adds": "An Influence board and track, a Princess and a Profiteer meeple that move around the board, five buildable Wonders, 24 Apprentices, 24 Buildings, 12 Reward cards, six new player boards and a new solo system with 3 AI boards and 24 scheme cards.",
+      "fixes": "Adds a way to trigger Black Market resets and a spendable Influence resource, and replaces the base game's solo opponent with a richer one.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 2,
+      "reason": "Board Game Quest and Dude Take Your Turn both like it but call it less elegant and more complex than Age of Artisans, and BGG owners split on whether it is essential outside solo play.",
+      "verdictStatus": "draft",
+      "priceUsd": 25.0,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/327245/architects-of-the-west-kingdom-works-of-wonder",
+          "https://garphill.com/products/architects-works-of-wonder",
+          "https://www.boardgamequest.com/architects-of-the-west-kingdom-expansion-reviews/"
+        ],
+        "verdict": [
+          "https://www.boardgamequest.com/architects-of-the-west-kingdom-expansion-reviews/",
+          "https://dudetakeyourturn.ca/2022/06/29/expansion-review-architects-of-the-west-kingdom-works-of-wonder/",
+          "https://boardgamegeek.com/thread/3181008/is-this-expansion-a-must-have"
+        ],
+        "price": [
+          "https://garphill.com/products/architects-works-of-wonder"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B09SK21DZT",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B085T8VNRC",
+          "note": null
+        },
+        {
+          "store": "Garphill Games",
+          "kind": "publisher",
+          "url": "https://garphill.com/products/the-west-kingdom-tomesaga",
+          "note": "Needs Architects + Paladins + Viscounts"
+        },
+        {
+          "store": "Renegade Game Studios",
+          "kind": "publisher",
+          "url": "https://renegadegamestudios.com/the-west-kingdom-tome-saga/",
+          "note": "Needs Architects + Paladins + Viscounts"
+        }
+      ],
+      "id": "architects-of-the-west-kingdom--architects-west-kingdom-tomesaga",
+      "slug": "architects-west-kingdom-tomesaga",
+      "game": "architects-of-the-west-kingdom",
+      "name": "The West Kingdom Tomesaga",
+      "type": "expansion",
+      "publisher": "Garphill Games",
+      "releaseYear": 2020,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Requires Architects of the West Kingdom plus Paladins of the West Kingdom and Viscounts of the West Kingdom to play.",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "adds": "Campaign mode that links all three West Kingdom games with tome scoring, plus a separate cooperative Overlord mode for each game and 4 bonus Architects player boards.",
+      "fixes": "Gives owners of all three West Kingdom games a way to play them as one linked campaign or co-operatively.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "skip_unless",
+      "buyOrder": 3,
+      "reason": "The publisher states it needs all three West Kingdom games, so it only makes sense for owners of Architects, Paladins and Viscounts who want campaign or co-op play.",
+      "verdictStatus": "draft",
+      "priceUsd": 30.0,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://renegadegamestudios.com/the-west-kingdom-tome-saga/",
+          "https://garphill.com/products/the-west-kingdom-tomesaga",
+          "https://www.boardgamegeek.com/boardgame/296152/the-west-kingdom-tomesaga"
+        ],
+        "verdict": [
+          "https://renegadegamestudios.com/the-west-kingdom-tome-saga/"
+        ],
+        "price": [
+          "https://garphill.com/products/the-west-kingdom-tomesaga"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B085T8VNRC",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Requires Architects of the West Kingdom plus Paladins of the West Kingdom and Viscounts of the West Kingdom to play."
     },
     {
       "buyLinks": [
@@ -4739,6 +9120,479 @@
       "checkedOn": "2026-09-27",
       "affiliate": {
         "affiliate_url": "https://www.amazon.com/dp/B08FRSYGXM",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B09KYJ9QMF",
+          "note": null
+        },
+        {
+          "store": "Asmodee US Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/the-dark-of-mirkwood-scenario",
+          "note": null
+        }
+      ],
+      "id": "the-lord-of-the-rings-the-card-game--the-dark-of-mirkwood-scenario",
+      "slug": "the-dark-of-mirkwood-scenario",
+      "game": "the-lord-of-the-rings-the-card-game",
+      "name": "The Dark of Mirkwood Scenario",
+      "type": "scenario_pack",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2023,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Revised Core Set (MEC101).",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "An 82-card box with two scenarios for the Revised Core Set.",
+      "fixes": "Adds replay content early, before buying a full campaign box.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 1,
+      "reason": "A Reddit buyer following the community buying guide bought Dark of Mirkwood right after the core set; it is the cheapest way to add quests.",
+      "verdictStatus": "draft",
+      "priceUsd": 23.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/the-dark-of-mirkwood-scenario",
+          "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Card_Game",
+          "https://hallofbeorn.com/LotR/Products/The-Dark-of-Mirkwood"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/lotrlcg/comments/1jwvmab/",
+          "https://www.reddit.com/r/lotrlcg/comments/1rz54zo/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/the-dark-of-mirkwood-scenario"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B09KYJ9QMF",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0CVYK55TJ",
+          "note": null
+        },
+        {
+          "store": "Asmodee US Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/ered-mithrin-campaign-expansion",
+          "note": null
+        }
+      ],
+      "id": "the-lord-of-the-rings-the-card-game--ered-mithrin-campaign-expansion",
+      "slug": "ered-mithrin-campaign-expansion",
+      "game": "the-lord-of-the-rings-the-card-game",
+      "name": "Ered Mithrin Campaign Expansion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2024,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Revised Core Set (MEC101).",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "A sequential campaign of scenarios in the north (repackaged Ered Mithrin cycle).",
+      "fixes": "Offers a long wilderness campaign without the saga's difficulty spike.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 2,
+      "reason": "A Reddit owner of all three campaigns says Ered Mithrin sits in the middle on complexity; another notes it as nice after the core set.",
+      "verdictStatus": "draft",
+      "priceUsd": 74.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/ered-mithrin-campaign-expansion",
+          "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Card_Game",
+          "https://hallofbeorn.com/LotR/Products/Ered-Mithrin-Campaign-Expansion"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/lotrlcg/comments/1jwvmab/",
+          "https://www.reddit.com/r/lotrlcg/comments/1rz54zo/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/ered-mithrin-campaign-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0CVYK55TJ",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0DCL7ZG59",
+          "note": null
+        },
+        {
+          "store": "Asmodee US Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/lord-of-the-rings-the-card-game-return-of-the-king-saga-expansion",
+          "note": null
+        }
+      ],
+      "id": "the-lord-of-the-rings-the-card-game--the-return-of-the-king-saga-expansion",
+      "slug": "the-return-of-the-king-saga-expansion",
+      "game": "the-lord-of-the-rings-the-card-game",
+      "name": "The Return of the King Saga Expansion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2024,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Revised Core Set (MEC101).",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Six scenarios finishing the trilogy plus over 60 hero and player cards; its FFG July 2024 announcement marked the last repackaged box.",
+      "fixes": "Completes the saga campaign and brings key Gondor and Rohan heroes.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 3,
+      "reason": "Reddit commenters say complete the trilogy but call RotK very difficult and frustrating on a limited card pool; the player cards are valued.",
+      "verdictStatus": "draft",
+      "priceUsd": 74.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/lord-of-the-rings-the-card-game-return-of-the-king-saga-expansion",
+          "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Card_Game",
+          "https://hallofbeorn.com/LotR/Products/The-Return-of-the-King"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/lotrlcg/comments/1rz54zo/",
+          "https://www.reddit.com/r/lotrlcg/comments/1vzdfr3/",
+          "https://www.reddit.com/r/lotrlcg/comments/1woe2at/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/lord-of-the-rings-the-card-game-return-of-the-king-saga-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0DCL7ZG59",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B09N9V47SV",
+          "note": null
+        },
+        {
+          "store": "Asmodee US Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/elves-of-lorien-starter-deck",
+          "note": null
+        }
+      ],
+      "id": "the-lord-of-the-rings-the-card-game--elves-of-lorien-starter-deck",
+      "slug": "elves-of-lorien-starter-deck",
+      "game": "the-lord-of-the-rings-the-card-game",
+      "name": "Elves of Lorien Starter Deck",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2023,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Revised Core Set (MEC101).",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "A themed starter deck of Elf player cards.",
+      "fixes": "Adds Spirit/Lore player cards that were previously available only in out-of-print cycles.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 4,
+      "reason": "A Reddit poster buying the core set and Dark of Mirkwood added the Elves starter first; commenters report starter decks are solid enough to beat saga quests.",
+      "verdictStatus": "draft",
+      "priceUsd": 23.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/elves-of-lorien-starter-deck",
+          "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Card_Game",
+          "https://hallofbeorn.com/LotR/Products/Elves-of-Lorien"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/lotrlcg/comments/1jwvmab/",
+          "https://www.reddit.com/r/lotrlcg/comments/1vzdfr3/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/elves-of-lorien-starter-deck"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B09N9V47SV",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B09N9S9TRX",
+          "note": null
+        },
+        {
+          "store": "Asmodee US Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/dwarves-of-durin-starter-deck",
+          "note": null
+        }
+      ],
+      "id": "the-lord-of-the-rings-the-card-game--dwarves-of-durin-starter-deck",
+      "slug": "dwarves-of-durin-starter-deck",
+      "game": "the-lord-of-the-rings-the-card-game",
+      "name": "Dwarves of Durin Starter Deck",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2023,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Revised Core Set (MEC101).",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "A themed starter deck of Dwarf player cards.",
+      "fixes": "Replaces key Dwarf cards from out-of-print cycles.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 5,
+      "reason": "Reddit owners buy the four starter decks together with the saga boxes and say they are solid enough for a newer player.",
+      "verdictStatus": "draft",
+      "priceUsd": 23.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/dwarves-of-durin-starter-deck",
+          "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Card_Game",
+          "https://hallofbeorn.com/LotR/Products/Dwarves-of-Durin"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/lotrlcg/comments/1vzdfr3/",
+          "https://www.reddit.com/r/lotrlcg/comments/1rz54zo/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/dwarves-of-durin-starter-deck"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B09N9S9TRX",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0BXQ31J27",
+          "note": null
+        },
+        {
+          "store": "Asmodee US Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/dream-chaser-campaign-expansion",
+          "note": null
+        }
+      ],
+      "id": "the-lord-of-the-rings-the-card-game--dream-chaser-campaign-expansion",
+      "slug": "dream-chaser-campaign-expansion",
+      "game": "the-lord-of-the-rings-the-card-game",
+      "name": "Dream-Chaser Campaign Expansion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2023,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Revised Core Set (MEC101).",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Campaign with ship mechanics and XP upgrades for campaign boons.",
+      "fixes": "Adds a naval-themed campaign unlike the other boxes.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 6,
+      "reason": "A Reddit owner calls Dream-Chaser the most mechanically complex of the three campaigns, with very unique theme.",
+      "verdictStatus": "draft",
+      "priceUsd": 74.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/dream-chaser-campaign-expansion",
+          "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Card_Game",
+          "https://hallofbeorn.com/LotR/Products/Dream-chaser-Campaign-Expansion"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/lotrlcg/comments/1jwvmab/",
+          "https://www.reddit.com/r/lotrlcg/comments/1rz54zo/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/dream-chaser-campaign-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0BXQ31J27",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B09VCPTXSM",
+          "note": null
+        },
+        {
+          "store": "Asmodee US Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/angmar-awakened-hero-expansion",
+          "note": null
+        }
+      ],
+      "id": "the-lord-of-the-rings-the-card-game--angmar-awakened-hero-expansion",
+      "slug": "angmar-awakened-hero-expansion",
+      "game": "the-lord-of-the-rings-the-card-game",
+      "name": "Angmar Awakened Hero Expansion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2023,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Revised Core Set (MEC101).",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Hero and player cards for Dunedain and related cards from the Angmar Awakened cycle.",
+      "fixes": "Lets deckbuilders use Angmar player cards without the campaign.",
+      "complexity": "same",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 7,
+      "reason": "Reddit buyers treat the player-card hero boxes as optional after the saga boxes already supply many cards.",
+      "verdictStatus": "draft",
+      "priceUsd": 47.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/angmar-awakened-hero-expansion",
+          "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Card_Game",
+          "https://hallofbeorn.com/LotR/Products/Angmar-Awakened-Hero-Expansion"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/lotrlcg/comments/1jwvmab/",
+          "https://www.reddit.com/r/lotrlcg/comments/1huepo3/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/angmar-awakened-hero-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B09VCPTXSM",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B09N9SVHM2",
+          "note": null
+        },
+        {
+          "store": "Asmodee US Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/riders-of-rohan-starter-deck",
+          "note": null
+        }
+      ],
+      "id": "the-lord-of-the-rings-the-card-game--riders-of-rohan-starter-deck",
+      "slug": "riders-of-rohan-starter-deck",
+      "game": "the-lord-of-the-rings-the-card-game",
+      "name": "Riders of Rohan Starter Deck",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2023,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Revised Core Set (MEC101).",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "A themed starter deck of Rohan player cards.",
+      "fixes": "Supplies Rohan cards from omitted cycles.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "depends",
+      "buyOrder": 8,
+      "reason": "Reddit owners buy all four starter decks together with the saga boxes; no source rated the Rohan deck apart from the others.",
+      "verdictStatus": "draft",
+      "priceUsd": 23.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/riders-of-rohan-starter-deck",
+          "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Card_Game",
+          "https://hallofbeorn.com/LotR/Products/Riders-of-Rohan"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/lotrlcg/comments/1vzdfr3/",
+          "https://www.reddit.com/r/lotrlcg/comments/1rz54zo/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/riders-of-rohan-starter-deck"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B09N9SVHM2",
         "affiliate_enabled": false,
         "requires_disclosure": true
       },

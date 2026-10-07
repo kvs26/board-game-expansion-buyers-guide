@@ -1,0 +1,11 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Amazon,amazon,https://www.amazon.com/dp/B07BHHC4S1,,2026-10-08,curl 200 title match
+_base,Garphill Games,publisher,https://garphill.com/products/architects-of-the-west-kingdom,,2026-10-08,curl 200 title match + Shopify products.json price $60
+_base,Renegade Game Studios,publisher,https://renegadegamestudios.com/architects-of-the-west-kingdom/,US distributor,2026-10-08,curl 200 title match
+architects-age-of-artisans,Amazon,amazon,https://www.amazon.com/dp/B082N5N7XB,,2026-10-08,curl 200 title match
+architects-age-of-artisans,Garphill Games,publisher,https://garphill.com/products/architects-age-of-artisans,,2026-10-08,curl 200 title match + Shopify products.json price $35
+architects-works-of-wonder,Amazon,amazon,https://www.amazon.com/dp/B09SK21DZT,,2026-10-08,curl 200 title match
+architects-works-of-wonder,Garphill Games,publisher,https://garphill.com/products/architects-works-of-wonder,,2026-10-08,curl 200 title match + Shopify products.json price $25
+architects-west-kingdom-tomesaga,Amazon,amazon,https://www.amazon.com/dp/B085T8VNRC,Needs Architects + Paladins + Viscounts,2026-10-08,curl 200 title match
+architects-west-kingdom-tomesaga,Garphill Games,publisher,https://garphill.com/products/the-west-kingdom-tomesaga,Needs Architects + Paladins + Viscounts,2026-10-08,curl 200 title match + Shopify products.json price $30
+architects-west-kingdom-tomesaga,Renegade Game Studios,publisher,https://renegadegamestudios.com/the-west-kingdom-tome-saga/,Needs Architects + Paladins + Viscounts,2026-10-08,curl 200 title match

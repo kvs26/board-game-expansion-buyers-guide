@@ -1,0 +1,7 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Amazon,amazon,https://www.amazon.com/dp/B0002TV2NS,Memoir '44,2026-10-08,curl 200; title match in browser
+_base,Asmodee,publisher,https://store.asmodee.com/products/memoir-44-refresh,Memoir '44 Refresh,2026-10-08,curl 200; products.json price 69.99
+memoir-44-terrain-pack,Asmodee,publisher,https://store.asmodee.com/products/memoir-44-terrain-pack-expansion,,2026-10-08,curl 200; products.json price match
+memoir-44-winter-desert-board-map,Asmodee,publisher,https://store.asmodee.com/products/memoir-44-winter-desert-board-map,,2026-10-08,curl 200; products.json price match
+memoir-44-through-jungle-and-desert,Asmodee,publisher,https://store.asmodee.com/products/memoir-44-through-jungle-and-desert,,2026-10-08,curl 200; products.json price match
+memoir-44-tigers-in-the-snow,Asmodee,publisher,https://store.asmodee.com/products/memoir-44-tigers-in-the-snow-battle-map,,2026-10-08,curl 200; products.json price match

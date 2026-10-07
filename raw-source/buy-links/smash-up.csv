@@ -1,0 +1,27 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Amazon,amazon,https://www.amazon.com/dp/B00875JE0C,,2026-10-08,browser 200 title match
+_base,AEG Online Store,publisher,https://alderacstore.com/smash-up-base-game/,,2026-10-08,curl 200 title match
+awesome-level-9000,Amazon,amazon,https://www.amazon.com/dp/B00BVED8KI,,2026-10-08,browser 200 title match
+awesome-level-9000,AEG Online Store,publisher,https://alderacstore.com/smash-up-awesome-level-9000/,,2026-10-08,curl 200 title match
+pretty-pretty-smash-up,Amazon,amazon,https://www.amazon.com/dp/B00QD78PII,,2026-10-08,browser 200 title match
+pretty-pretty-smash-up,AEG Online Store,publisher,https://alderacstore.com/smash-up-pretty-pretty/,,2026-10-08,curl 200 title match
+monster-smash,Amazon,amazon,https://www.amazon.com/dp/B00KU10T3C,,2026-10-08,browser 200 title match
+monster-smash,AEG Online Store,publisher,https://alderacstore.com/smash-up-monster-smash/,,2026-10-08,curl 200 title match
+science-fiction-double-feature,Amazon,amazon,https://www.amazon.com/dp/B00HVFBT1G,,2026-10-08,browser 200 title match
+science-fiction-double-feature,AEG Online Store,publisher,https://alderacstore.com/smash-up-science-fiction-double-feature/,,2026-10-08,curl 200 title match
+what-were-we-thinking,Amazon,amazon,https://www.amazon.com/dp/B002SIBI6W,,2026-10-08,browser 200 title match
+what-were-we-thinking,AEG Online Store,publisher,https://alderacstore.com/smash-up-what-were-we-thinking/,,2026-10-08,curl 200 title match
+its-your-fault,Amazon,amazon,https://www.amazon.com/dp/B004SQKV1A,,2026-10-08,browser 200 title match
+its-your-fault,AEG Online Store,publisher,https://alderacstore.com/smash-up-its-your-fault/,,2026-10-08,curl 200 title match
+world-tour-culture-shock,Amazon,amazon,https://www.amazon.com/dp/B07QLN7M3H,,2026-10-08,browser 200 title match
+world-tour-culture-shock,AEG Online Store,publisher,https://alderacstore.com/smash-up-world-tour-culture-shock/,,2026-10-08,curl 200 title match
+big-in-japan,Amazon,amazon,https://www.amazon.com/dp/B071J9DNRD,,2026-10-08,browser 200 title match
+big-in-japan,AEG Online Store,publisher,https://alderacstore.com/smash-up-big-in-japan/,,2026-10-08,curl 200 title match
+cease-and-desist,Amazon,amazon,https://www.amazon.com/dp/B01KJXNK3G,,2026-10-08,browser 200 title match
+cease-and-desist,AEG Online Store,publisher,https://alderacstore.com/smash-up-cease-desist/,,2026-10-08,curl 200 title match
+that-70s-expansion,Amazon,amazon,https://www.amazon.com/dp/B07972C2R3,,2026-10-08,browser 200 title match
+that-70s-expansion,AEG Online Store,publisher,https://alderacstore.com/smash-up-that-70s-expansion/,,2026-10-08,curl 200 title match
+world-tour-international-incident,Amazon,amazon,https://www.amazon.com/dp/B07L1DQHFK,,2026-10-08,browser 200 title match
+world-tour-international-incident,AEG Online Store,publisher,https://alderacstore.com/smash-up-world-tour-international-incident/,,2026-10-08,curl 200 title match
+the-obligatory-cthulhu-set,Amazon,amazon,https://www.amazon.com/dp/B00E3S8IZ4,,2026-10-08,browser 200 title match
+the-obligatory-cthulhu-set,AEG Online Store,publisher,https://alderacstore.com/smash-up-the-obligatory-cthulhu-set/,,2026-10-08,curl 200 title match

@@ -1,0 +1,13 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+next-evolution,Asmodee Store,publisher,https://store.asmodee.com/products/marvel-champions-the-card-game-next-evolution-expansion,,2026-10-08,curl 200 products.json handle match
+age-of-apocalypse,Asmodee Store,publisher,https://store.asmodee.com/products/marvel-champions-the-card-game-age-of-apocalypse-expansion,,2026-10-08,curl 200 products.json handle match
+fear-no-evil,Asmodee Store,publisher,https://store.asmodee.com/products/marvel-champions-the-card-game-fear-no-evil-expansion,,2026-10-08,curl 200 products.json handle match
+agents-of-shield,Asmodee Store,publisher,https://store.asmodee.com/products/marvel-champions-the-card-game-agents-of-s-h-i-e-l-d-expansion,,2026-10-08,curl 200 products.json handle match
+civil-war,Asmodee Store,publisher,https://store.asmodee.com/products/marvel-champions-the-card-game-civil-war-expansion,,2026-10-08,curl 200 products.json handle match
+venom-hero-pack,Asmodee Store,publisher,https://store.asmodee.com/products/marvel-champions-the-card-game-venom-hero-pack,,2026-10-08,curl 200 products.json handle match
+_base,Fantasy Flight Games,publisher,https://www.fantasyflightgames.com/en/products/marvel-champions-the-card-game/,,2026-10-08,publisher product page (not curl-verified)
+sinister-motives,Fantasy Flight Games,publisher,https://www.fantasyflightgames.com/en/products/marvel-champions-the-card-game/,,2026-10-08,publisher product page (price source)
+mutant-genesis,Fantasy Flight Games,publisher,https://www.fantasyflightgames.com/en/products/marvel-champions-the-card-game/,,2026-10-08,publisher product page (price source)
+mad-titans-shadow,Fantasy Flight Games,publisher,https://www.fantasyflightgames.com/en/products/marvel-champions-the-card-game/,,2026-10-08,publisher product page (price source)
+rise-of-red-skull,Fantasy Flight Games,publisher,https://www.fantasyflightgames.com/en/products/marvel-champions-the-card-game/,,2026-10-08,publisher product page (price source)
+galaxys-most-wanted,Fantasy Flight Games,publisher,https://www.fantasyflightgames.com/en/products/marvel-champions-the-card-game/,,2026-10-08,publisher product page (price source)

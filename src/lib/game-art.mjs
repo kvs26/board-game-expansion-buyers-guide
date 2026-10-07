@@ -25,6 +25,16 @@ export const GLYPHS = {
   worm: 'M3 20c0-6 3-9 7-9s5-3 5-5a3 3 0 0 1 6 0c0 5-3 8-7 8s-6 3-6 6zm15-15.2a1 1 0 1 0 0 2 1 1 0 0 0 0-2z',
   grape: 'M13 1c2 0 4 1 5 3-2 0-3.5.5-4.5 1.5l-.5-1c0-1.5 0-2.5 0-3.5zM9 6a2.6 2.6 0 1 1 0 5.2A2.6 2.6 0 0 1 9 6zm6 0a2.6 2.6 0 1 1 0 5.2A2.6 2.6 0 0 1 15 6zm-3 5a2.6 2.6 0 1 1 0 5.2 2.6 2.6 0 0 1 0-5.2zm-5.5 0a2.4 2.4 0 1 1 0 4.8 2.4 2.4 0 0 1 0-4.8zm11 0a2.4 2.4 0 1 1 0 4.8 2.4 2.4 0 0 1 0-4.8zM9 16a2.4 2.4 0 1 1 0 4.8A2.4 2.4 0 0 1 9 16zm6 0a2.4 2.4 0 1 1 0 4.8 2.4 2.4 0 0 1 0-4.8z',
   key: 'M7 5a6 6 0 0 1 5.7 8H23v3h-2v3h-3v-3h-2v-3h-3.3A6 6 0 1 1 7 5zm0 3.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z',
+  crystal: 'M12 1 20 8 12 23 4 8zm0 4.2L8.6 8 12 15.5 15.4 8z',
+  castle: 'M2 21V6h3v2h2V6h3v2h4V6h3v2h2V6h3v15h-7v-5a3 3 0 0 0-6 0v5z',
+  hat: 'M5 20c0-1 .8-1.6 2-2L8 5l4 4 4-4 1 13c1.2.4 2 1 2 2zM3 21h18v2H3z',
+  flame: 'M12 1c1 4 6 7 6 13a6 6 0 0 1-12 0c0-2 1-3.5 2-4.5 0 2 1 3 2 3 0-4-1-8 2-11.5zm0 12c-1.5 1.5-2 2.5-2 3.5a2 2 0 0 0 4 0c0-1-.5-2-2-3.5z',
+  shield: 'M12 1 21 4v7c0 5.5-3.8 10-9 12-5.2-2-9-6.5-9-12V4zm0 4.5-2 4.5H5.5l3.7 2.6-1.4 4.6L12 14.8l4.2 2.9-1.4-4.6 3.7-2.6H14z',
+  star: 'M12 1.5 15 8.6l7.5.6-5.7 5 1.8 7.4L12 17.6 5.4 21.6l1.8-7.4-5.7-5L9 8.6z',
+  bolt: 'M14 1 4 14h6l-2 9 11-14h-6.5z',
+  pylon: 'M11 1h2v4h5l-1 2h-4v3l5 13h-2.2l-1.2-3.5h-5.2L8.2 23H6l5-13V7H7L6 5h5zm1 12.5L10.6 17.5h2.8z',
+  ring: 'M12 3a9 9 0 1 1 0 18 9 9 0 0 1 0-18zm0 3.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11z',
+  bomb: 'M10 7a8 8 0 1 1 0 16 8 8 0 0 1 0-16zm7-5 2 2-3 3.5-2-2zm4 1h2v2h-2z',
   fish: 'M2 12c3-5 8-7 13-6 3 .6 5.5 2.6 7 6-1.5 3.4-4 5.4-7 6-5 1-10-1-13-6zm14-2a1.3 1.3 0 1 0 0 2.6A1.3 1.3 0 0 0 16 10zM0 7l4 5-4 5z',
 };
 
@@ -59,6 +69,15 @@ export const GAME_ART = {
   'heat-pedal-to-the-metal': { color: '#D7372B', ink: '#FFFDF8', glyph: 'gear' },
   splendor: { color: '#2A5C8A', ink: '#F2B705', glyph: 'hex' },
   sagrada: { color: '#6A3D9A', ink: '#FFFDF8', glyph: 'tile' },
+  'aeons-end': { color: '#3B2A6B', ink: '#7FE3F0', glyph: 'crystal' },
+  'architects-of-the-west-kingdom': { color: '#7A5C3A', ink: '#FFFDF8', glyph: 'castle' },
+  'disney-villainous': { color: '#1F5C3A', ink: '#B58CE0', glyph: 'hat' },
+  'flash-point-fire-rescue': { color: '#E2501F', ink: '#FFF2C4', glyph: 'flame' },
+  'marvel-champions': { color: '#B11E2D', ink: '#FFFDF8', glyph: 'shield' },
+  'memoir-44': { color: '#556B3A', ink: '#E8DDB0', glyph: 'star' },
+  'power-grid': { color: '#2D3E50', ink: '#F2D230', glyph: 'pylon' },
+  'smash-up': { color: '#D63E8C', ink: '#FFFDF8', glyph: 'bomb' },
+  'the-lord-of-the-rings-the-card-game': { color: '#2F3B2A', ink: '#E5B94A', glyph: 'ring' },
   dixit: { color: '#E3A33B', ink: '#1D2A44', glyph: 'leaf' },
 };
 

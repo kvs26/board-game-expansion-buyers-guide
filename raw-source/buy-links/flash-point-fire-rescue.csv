@@ -1,0 +1,13 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Amazon,amazon,https://www.amazon.com/dp/B0084M8UEE,2nd edition,2026-10-08,curl 200 title match
+_base,Indie Boards and Cards,publisher,https://indieboardsandcards.com/our-games/flash-point-fire-rescue/,,2026-10-08,curl 200 title match
+extreme-danger,Indie Boards and Cards,publisher,https://indieboardsandcards.com/our-games/flash-point-fire-rescue-extreme-danger/,,2026-10-08,curl 200 title match
+2nd-story,Indie Boards and Cards,publisher,https://indieboardsandcards.com/our-games/flash-point-fire-rescue-2nd-story/,,2026-10-08,curl 200 title match
+dangerous-waters,Amazon,amazon,https://www.amazon.com/dp/B00FJR7P2A,,2026-10-08,curl 200 title match
+dangerous-waters,Indie Boards and Cards,publisher,https://indieboardsandcards.com/our-games/flash-point-fire-rescue-dangerous-waters/,,2026-10-08,curl 200 title match
+urban-structures,Amazon,amazon,https://www.amazon.com/dp/B0093B7X4S,,2026-10-08,curl 200 title match
+urban-structures,Indie Boards and Cards,publisher,https://indieboardsandcards.com/our-games/flash-point-fire-rescue-urban-structures/,,2026-10-08,curl 200 title match
+tragic-events,Amazon,amazon,https://www.amazon.com/dp/B075JRGW6R,,2026-10-08,curl 200 title match
+tragic-events,Indie Boards and Cards,publisher,https://indieboardsandcards.com/our-games/flash-point-fire-rescue-tragic-events/,,2026-10-08,curl 200 title match
+honor-and-duty,Amazon,amazon,https://www.amazon.com/dp/B00R35EGN2,,2026-10-08,curl 200 title match
+honor-and-duty,Indie Boards and Cards,publisher,https://indieboardsandcards.com/our-games/flash-point-fire-rescue-honor-duty/,,2026-10-08,curl 200 title match

@@ -1,0 +1,20 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Amazon,amazon,https://www.amazon.com/dp/B07DLGD9K6,Original 6-villain box,2026-10-08,Amazon carousel title match on a verified Villainous listing
+_base,Ravensburger,publisher,https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-the-worst-takes-it-all-60001739,The Worst Takes It All,2026-10-08,Page fetched; title and price read
+evil-comes-prepared,Amazon,amazon,https://www.amazon.com/dp/B07QQHPGV7,,2026-10-08,curl title match
+evil-comes-prepared,Ravensburger,publisher,https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-evil-comes-prepared-60001837,,2026-10-08,Page fetched; title and price read
+wicked-to-the-core,Amazon,amazon,https://www.amazon.com/dp/B07PRNJJW6,,2026-10-08,fetch_webpage title match
+wicked-to-the-core,Ravensburger,publisher,https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-wicked-to-the-core-60001796,,2026-10-08,Page fetched; title and price read
+perfectly-wretched,Amazon,amazon,https://www.amazon.com/dp/B083XMTCKP,,2026-10-08,Title seen in Amazon brand carousel
+perfectly-wretched,Ravensburger,publisher,https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-perfectly-wretched-60001866,,2026-10-08,Page fetched; title and price read
+despicable-plots,Amazon,amazon,https://www.amazon.com/dp/B091ZGHQ7P,,2026-10-08,curl title match
+bigger-and-badder,Amazon,amazon,https://www.amazon.com/dp/B09VR7RZX4,,2026-10-08,Title seen in Amazon brand carousel; curl blocked
+introduction-to-evil,Amazon,amazon,https://www.amazon.com/dp/B0D3FCWT7F,,2026-10-08,curl title match
+introduction-to-evil,Ravensburger,publisher,https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-introduction-to-evil-60001998,,2026-10-08,Page fetched; title and price read
+filled-with-fright,Amazon,amazon,https://www.amazon.com/dp/B0CHDN83SV,,2026-10-08,Title seen in Amazon related-products widget
+filled-with-fright,Ravensburger,publisher,https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-filled-with-fright-60002044,,2026-10-08,Page fetched; title and price read
+sugar-and-spite,Amazon,amazon,https://www.amazon.com/dp/B0D3FF26D3,,2026-10-08,Title seen in Amazon related-products widget
+sugar-and-spite,Ravensburger,publisher,https://www.ravensburger.us/en-US/products/games/family-games/disney-villainous-sugar-spite-60001991,,2026-10-08,Page fetched; title and price read
+treacherous-tides,Ravensburger,publisher,https://www.ravensburger.us/en-US/products/games/board-games/disney-villainous-treacherous-tides-23483,,2026-10-08,Page fetched; title and price read
+success-at-any-cost,Ravensburger,publisher,https://www.ravensburger.us/en-US/products/games/board-games/disney-villainous-success-at-any-cost-24890,,2026-10-08,Page fetched; title and price read
+come-we-fly,Ravensburger,publisher,https://www.ravensburger.us/en-US/products/games/board-games/disney-villainous-come-we-fly-24993,,2026-10-08,Page fetched; title and price read

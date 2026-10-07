@@ -12,7 +12,30 @@ const crumbs = [{ name: 'Home', href: '/' }, { name: title }];
   <article class="container prose page-head">
     <h1>Contact</h1>
     <p>Email is the best way to reach us. We read everything.</p>
-    <p><a class="btn" href="mailto:kanishk26official@gmail.com">Email us</a></p>
+    <p>
+      <button type="button" class="btn" id="copy-email" data-u="kanishk26official" data-d="gmail.com">Copy our email address</button>
+      <span id="copy-status" role="status" aria-live="polite" style="margin-left:.75rem"></span>
+    </p>
+    <script is:inline>
+      (function () {
+        var b = document.getElementById('copy-email');
+        var s = document.getElementById('copy-status');
+        if (!b) return;
+        b.addEventListener('click', function () {
+          var addr = b.dataset.u + '@' + b.dataset.d;
+          var done = function (ok) { s.textContent = ok ? 'Copied to clipboard.' : 'Copy failed. Please try again.'; };
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(addr).then(function () { done(true); }, function () { done(false); });
+          } else {
+            var t = document.createElement('textarea');
+            t.value = addr; document.body.appendChild(t); t.select();
+            var ok = false;
+            try { ok = document.execCommand('copy'); } catch (e) {}
+            document.body.removeChild(t); done(ok);
+          }
+        });
+      })();
+    </script>
     <h2>Most useful things to send</h2>
     <ul>
       <li><strong>A mistake.</strong> Wrong player count, a box that needs something we missed, a new edition. Include a link if you have one.</li>
