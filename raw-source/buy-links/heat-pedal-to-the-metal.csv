@@ -1,0 +1,11 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Amazon,amazon,https://www.amazon.com/dp/B0BGXPZG4B,,2026-10-08,curl 200 title match
+_base,Asmodee USA,publisher,https://store.asmodee.com/products/heat,,2026-10-08,curl 200 + Shopify products.json title match
+heavy-rain,Amazon,amazon,https://www.amazon.com/dp/B0CRSQLWL2,,2026-10-08,curl 200 title match
+heavy-rain,Asmodee USA,publisher,https://store.asmodee.com/products/heat-heavy-rain,,2026-10-08,curl 200 + Shopify products.json title match
+tunnel-vision,Amazon,amazon,https://www.amazon.com/dp/B0DCM3M1T7,,2026-10-08,curl 200 title match
+tunnel-vision,Asmodee USA,publisher,https://store.asmodee.com/products/heat-tunnel-vision,,2026-10-08,curl 200 + Shopify products.json title match
+rocky-roads,Amazon,amazon,https://www.amazon.com/dp/B0GHBTFPGW,,2026-10-08,curl 200 title match
+rocky-roads,Asmodee USA,publisher,https://store.asmodee.com/products/heat-rocky-roads,,2026-10-08,curl 200 + Shopify products.json title match
+legends,Amazon,amazon,https://www.amazon.com/dp/B0GTVG2L9Q,,2026-10-08,curl 200 title match
+legends,Asmodee USA,publisher,https://store.asmodee.com/products/heat-legends,,2026-10-08,curl 200 + Shopify products.json title match

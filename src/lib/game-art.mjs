@@ -50,6 +50,16 @@ export const GAME_ART = {
   'ticket-to-ride': { color: '#A8322D', ink: '#FFFDF8', glyph: 'train' },
   'viticulture-essential-edition': { color: '#6E2447', ink: '#F2B705', glyph: 'grape' },
   wingspan: { color: '#5AA0B8', ink: '#1D2A44', glyph: 'bird' },
+  'arkham-horror-the-card-game': { color: '#2B3A2E', ink: '#C9B26B', glyph: 'cards' },
+  'eldritch-horror': { color: '#3A2F4F', ink: '#C9B26B', glyph: 'compass' },
+  'mansions-of-madness': { color: '#4A2B2B', ink: '#F2B705', glyph: 'key' },
+  concordia: { color: '#8C2F39', ink: '#FFFDF8', glyph: 'map' },
+  'ark-nova': { color: '#2E7D5B', ink: '#FFFDF8', glyph: 'paw' },
+  'twilight-imperium': { color: '#1B1F3B', ink: '#F2B705', glyph: 'planet' },
+  'heat-pedal-to-the-metal': { color: '#D7372B', ink: '#FFFDF8', glyph: 'gear' },
+  splendor: { color: '#2A5C8A', ink: '#F2B705', glyph: 'hex' },
+  sagrada: { color: '#6A3D9A', ink: '#FFFDF8', glyph: 'tile' },
+  dixit: { color: '#E3A33B', ink: '#1D2A44', glyph: 'leaf' },
 };
 
 export function artFor(slug) {
@@ -91,4 +101,8 @@ export const WATCH_OUT = {
   ],
   clank: ['A newer “Master Thief Edition” exists. Check which edition an expansion is made for before buying.'],
   'lost-ruins-of-arnak': ['The Missing Expedition campaign is for 1–2 players only.'],
+  'arkham-horror-the-card-game': ['Each cycle comes as two boxes: a Campaign Expansion (scenarios) and an Investigator Expansion (player cards). Buy them in pairs for the full cycle.'],
+  'mansions-of-madness': ['Recurring Nightmares and Suppressed Memories are out of print; every expansion listed here also needs the free companion app.'],
+  splendor: ['The Silk Road and The Sun Never Sets re-release the four Cities of Splendor modules. If you own Cities of Splendor, you already have this content.'],
+  'twilight-imperium': ['7–8 player games need Prophecy of Kings, even if you also own Thunder’s Edge.'],
 };

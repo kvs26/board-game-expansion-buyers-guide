@@ -1,0 +1,21 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Amazon,amazon,https://www.amazon.com/dp/B09BSP7B7V,2021 refresh (up to 8 players),2026-10-08,curl 200 title match
+_base,Asmodee Store,publisher,https://store.asmodee.com/products/dixit-2021-refresh,2021 refresh,2026-10-08,curl 200 title match
+dixit-quest,Amazon,amazon,https://www.amazon.com/dp/B00C4XE6CY,,2026-10-08,curl 200 title match
+dixit-quest,Asmodee Store,publisher,https://store.asmodee.com/products/dixit-quest-expansion,,2026-10-08,curl 200 title match
+dixit-memories,Amazon,amazon,https://www.amazon.com/dp/B016MLRLPW,,2026-10-08,curl 200 title match
+dixit-memories,Asmodee Store,publisher,https://store.asmodee.com/products/dixit-memories-expansion,,2026-10-08,curl 200 title match
+dixit-odyssey,Amazon,amazon,https://www.amazon.com/dp/B0095S7G6E,Card-only expansion box,2026-10-08,curl 200 title match
+dixit-odyssey,Tabletop Merchant,retailer,https://tabletopmerchant.com/products/dixit-odyssey,Card-only expansion box,2026-10-08,curl 200 title match + Shopify products.json
+dixit-mirrors,Amazon,amazon,https://www.amazon.com/dp/B08KJNHGW2,,2026-10-08,curl 200 title match
+dixit-mirrors,Asmodee Store,publisher,https://store.asmodee.com/products/dixit-mirrors-expansion,,2026-10-08,curl 200 title match
+dixit-revelations,Amazon,amazon,https://www.amazon.com/dp/B01IHOV8M4,,2026-10-08,curl 200 title match
+dixit-revelations,Asmodee Store,publisher,https://store.asmodee.com/products/dixit-revelations,,2026-10-08,curl 200 title match
+dixit-origins,Amazon,amazon,https://www.amazon.com/dp/B00GP301MS,,2026-10-08,curl 200 title match
+dixit-origins,Asmodee Store,publisher,https://store.asmodee.com/products/dixit-origins-expansion,,2026-10-08,curl 200 title match
+dixit-harmonies,Amazon,amazon,https://www.amazon.com/dp/B0774CKZ3R,,2026-10-08,curl 200 title match
+dixit-harmonies,Asmodee Store,publisher,https://store.asmodee.com/products/dixit-harmonies-expansion,,2026-10-08,curl 200 title match
+dixit-daydreams,Amazon,amazon,https://www.amazon.com/dp/B00OJPN0OK,,2026-10-08,curl 200 title match
+dixit-daydreams,Asmodee Store,publisher,https://store.asmodee.com/products/dixit-daydreams-expansion,,2026-10-08,curl 200 title match
+dixit-anniversary,Amazon,amazon,https://www.amazon.com/dp/B09FKCK9DV,,2026-10-08,curl 200 title match
+dixit-anniversary,Asmodee Store,publisher,https://store.asmodee.com/products/dixit-anniversary-expansion,,2026-10-08,curl 200 title match

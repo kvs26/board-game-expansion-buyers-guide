@@ -1,0 +1,19 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Amazon,amazon,https://www.amazon.com/dp/B01J4NB6CO,,2026-10-08,curl 200 title match
+_base,Asmodee US,publisher,https://store.asmodee.com/products/mansions-of-madness-2nd-edition,,2026-10-08,Shopify search suggest.json title match
+_base,Miniature Market,retailer,https://www.miniaturemarket.com/ffgmad20.html,,2026-10-08,curl 200 title match
+streets-of-arkham,Amazon,amazon,https://www.amazon.com/dp/B075B29BDR,,2026-10-08,curl 200 title match
+streets-of-arkham,Asmodee US,publisher,https://store.asmodee.com/products/mansions-of-madness-streets-of-arkham,,2026-10-08,Shopify search suggest.json title match
+streets-of-arkham,Miniature Market,retailer,https://www.miniaturemarket.com/ffgmad25.html,,2026-10-08,curl 200 title match
+beyond-the-threshold,Amazon,amazon,https://www.amazon.com/dp/B01MDSMNGO,,2026-10-08,curl 200 title match
+beyond-the-threshold,Asmodee US,publisher,https://store.asmodee.com/products/mansions-of-madness-beyond-the-threshold-expansion,,2026-10-08,Shopify search suggest.json title match
+beyond-the-threshold,Miniature Market,retailer,https://www.miniaturemarket.com/ffgmad23.html,,2026-10-08,curl 200 title match
+horrific-journeys,Amazon,amazon,https://www.amazon.com/dp/B07FFGPS47,,2026-10-08,curl 200 title match
+horrific-journeys,Asmodee US,publisher,https://store.asmodee.com/products/mansions-of-madness-horrific-journeys,,2026-10-08,Shopify search suggest.json title match
+horrific-journeys,Miniature Market,retailer,https://www.miniaturemarket.com/ffgmad27.html,,2026-10-08,curl 200 title match
+sanctum-of-twilight,Amazon,amazon,https://www.amazon.com/dp/B0789QHT4P,,2026-10-08,curl 200 title match
+sanctum-of-twilight,Asmodee US,publisher,https://store.asmodee.com/products/mansions-of-madness-sanctum-of-twilight,,2026-10-08,Shopify search suggest.json title match
+sanctum-of-twilight,Miniature Market,retailer,https://www.miniaturemarket.com/ffgmad26.html,,2026-10-08,curl 200 title match
+path-of-the-serpent,Amazon,amazon,https://www.amazon.com/dp/B07VZSM1XF,,2026-10-08,curl 200 title match
+path-of-the-serpent,Asmodee US,publisher,https://store.asmodee.com/products/mansions-of-madness-path-of-the-serpent,,2026-10-08,Shopify search suggest.json title match
+path-of-the-serpent,Miniature Market,retailer,https://www.miniaturemarket.com/ffgmad28.html,,2026-10-08,curl 200 title match

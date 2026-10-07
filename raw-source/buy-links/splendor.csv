@@ -1,0 +1,8 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Amazon,amazon,https://www.amazon.com/dp/B00IZEUFIA,,2026-10-08,curl 200 title match
+_base,Asmodee,publisher,https://store.asmodee.com/products/splendor,,2026-10-08,curl 200 + Shopify products.json title match
+_base,Game Nerdz,retailer,https://www.gamenerdz.com/splendor,,2026-10-08,curl 200 title match
+the-silk-road,Amazon,amazon,https://www.amazon.com/dp/B0DHW3GTDN,,2026-10-08,curl 200 title match
+the-silk-road,Asmodee,publisher,https://store.asmodee.com/products/splendor-the-silk-road-expansion,,2026-10-08,curl 200 + Shopify products.json title match
+the-sun-never-sets,Amazon,amazon,https://www.amazon.com/dp/B0F38NFYRR,,2026-10-08,curl 200 title match
+the-sun-never-sets,Asmodee,publisher,https://store.asmodee.com/products/splendor-the-sun-never-sets-expansion,,2026-10-08,curl 200 + Shopify products.json title match

@@ -46,6 +46,70 @@
     {
       "buyLinks": [
         {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B09L6FCP9S",
+          "note": "Capstone Games English edition"
+        },
+        {
+          "store": "Capstone Games",
+          "kind": "publisher",
+          "url": "https://capstone-games.com/products/ark-nova",
+          "note": null
+        }
+      ],
+      "slug": "ark-nova",
+      "name": "Ark Nova",
+      "publisher": "Capstone Games",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playTime": "90-150 min",
+      "oneLine": "Card-driven strategy game where you plan and build a modern zoo, house animals and fund conservation projects.",
+      "priceUsd": 79.99,
+      "sources": [
+        "https://capstone-games.com/products/ark-nova",
+        "https://capstone-games.com/products/ark-nova.json",
+        "https://boardgamegeek.com/boardgame/342942/ark-nova"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B09L6FCP9S",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Asmodee US Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/arkham-horror-the-card-game-core-set",
+          "note": "2025 Core Set; replaces the Revised Core Set and is fully compatible"
+        }
+      ],
+      "slug": "arkham-horror-the-card-game",
+      "name": "Arkham Horror: The Card Game",
+      "publisher": "Fantasy Flight Games",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playTime": "45-180 min",
+      "oneLine": "Cooperative Lovecraftian living card game where 1-4 investigators play linked scenarios as a story campaign.",
+      "priceUsd": 59.95,
+      "sources": [
+        "https://www.fantasyflightgames.com/product/arkham-horror-the-card-game-revised-core-set/",
+        "https://en.wikipedia.org/wiki/Arkham_Horror:_The_Card_Game",
+        "https://www.ign.com/articles/arkham-horror-the-card-game-buying-guide"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
           "store": "Asmodee Store",
           "kind": "publisher",
           "url": "https://store.asmodee.com/products/carcassonne",
@@ -188,6 +252,77 @@
         {
           "store": "Amazon",
           "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B00HFDSQP6",
+          "note": null
+        },
+        {
+          "store": "Game Nerdz",
+          "kind": "retailer",
+          "url": "https://www.gamenerdz.com/concordia",
+          "note": null
+        }
+      ],
+      "slug": "concordia",
+      "name": "Concordia",
+      "publisher": "Rio Grande Games",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "playTime": "100 min",
+      "oneLine": "Card-driven Roman trade game: spread colonists, build houses and score through your hand of god cards.",
+      "priceUsd": 64.95,
+      "sources": [
+        "https://boardgamegeek.com/boardgame/124361/concordia",
+        "https://www.gamenerdz.com/concordia",
+        "https://www.amazon.com/dp/B00HFDSQP6"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B00HFDSQP6",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B09BSP7B7V",
+          "note": "2021 refresh (up to 8 players)"
+        },
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/dixit-2021-refresh",
+          "note": "2021 refresh"
+        }
+      ],
+      "slug": "dixit",
+      "name": "Dixit",
+      "publisher": "Libellud",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "playTime": "30",
+      "oneLine": "A storytelling party game where one player gives a clue for a surreal illustrated card and everyone else tries to pick it out from decoys.",
+      "priceUsd": 39.99,
+      "sources": [
+        "https://www.libellud.com/en/our-games/dixit-expansions/",
+        "https://en.wikipedia.org/wiki/Dixit_(board_game)",
+        "https://boardgamegeek.com/boardgame/39856/dixit",
+        "https://store.asmodee.com/products/dixit-2021-refresh"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B09BSP7B7V",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
           "url": "https://www.amazon.com/dp/B01LYLIS2U",
           "note": null
         },
@@ -266,6 +401,41 @@
     {
       "buyLinks": [
         {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/1616617667",
+          "note": null
+        },
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/eldritch-horror",
+          "note": null
+        }
+      ],
+      "slug": "eldritch-horror",
+      "name": "Eldritch Horror",
+      "publisher": "Fantasy Flight Games",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "playTime": "120-240 min",
+      "oneLine": "Co-op globe-trotting Lovecraft adventure: solve mysteries and close gates before an Ancient One wakes.",
+      "priceUsd": 79.99,
+      "sources": [
+        "https://store.asmodee.com/products/eldritch-horror",
+        "https://en.wikipedia.org/wiki/Eldritch_Horror",
+        "https://boardgamegeek.com/boardgame/146021/eldritch-horror"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/1616617667",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
           "store": "Tabletop Tycoon",
           "kind": "publisher",
           "url": "https://tycoongames.com/products/everdell-standard-edition-3rd-edition",
@@ -294,6 +464,41 @@
       "checkedOn": "2026-09-27",
       "affiliate": {
         "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0BGXPZG4B",
+          "note": null
+        },
+        {
+          "store": "Asmodee USA",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/heat",
+          "note": null
+        }
+      ],
+      "slug": "heat-pedal-to-the-metal",
+      "name": "Heat: Pedal to the Metal",
+      "publisher": "Days of Wonder",
+      "minPlayers": 1,
+      "maxPlayers": 6,
+      "playTime": "60 min",
+      "oneLine": "Card-driven 1960s motor racing: push your speed, manage engine heat, and nail every corner.",
+      "priceUsd": 74.99,
+      "sources": [
+        "https://www.daysofwonder.com/game/heat/",
+        "https://store.asmodee.com/products/heat.json",
+        "https://boardgamegeek.com/boardgame/366013/heat-pedal-to-the-metal"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0BGXPZG4B",
         "affiliate_enabled": false,
         "requires_disclosure": true
       }
@@ -361,6 +566,47 @@
       "checkedOn": "2026-09-27",
       "affiliate": {
         "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B01J4NB6CO",
+          "note": null
+        },
+        {
+          "store": "Asmodee US",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/mansions-of-madness-2nd-edition",
+          "note": null
+        },
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/ffgmad20.html",
+          "note": null
+        }
+      ],
+      "slug": "mansions-of-madness",
+      "name": "Mansions of Madness",
+      "publisher": "Fantasy Flight Games",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "playTime": "120-180 min",
+      "oneLine": "App-driven cooperative horror mystery: explore haunted locations, solve puzzles and fight monsters.",
+      "priceUsd": 119.99,
+      "sources": [
+        "https://store.asmodee.com/products/mansions-of-madness-2nd-edition",
+        "https://www.miniaturemarket.com/ffgmad20.html",
+        "https://boardgamegeek.com/boardgame/205059/mansions-of-madness-second-edition"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B01J4NB6CO",
         "affiliate_enabled": false,
         "requires_disclosure": true
       }
@@ -476,6 +722,47 @@
       "checkedOn": "2026-09-27",
       "affiliate": {
         "affiliate_url": "https://www.amazon.com/dp/B07F454YF3",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0GL8SJRFC",
+          "note": "Remastered Edition (2026)"
+        },
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0GL8V2VFD",
+          "note": "Remastered Deluxe Edition (2026)"
+        },
+        {
+          "store": "Floodgate Games",
+          "kind": "publisher",
+          "url": "https://floodgate.games/products/sagrada",
+          "note": "Remastered Standard and Deluxe"
+        }
+      ],
+      "slug": "sagrada",
+      "name": "Sagrada",
+      "publisher": "Floodgate Games",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playTime": "30-45 min",
+      "oneLine": "Dice-drafting puzzle where you build a stained-glass window.",
+      "priceUsd": 45.0,
+      "sources": [
+        "https://floodgate.games/products/sagrada",
+        "https://boardgamegeek.com/boardgame/199561/sagrada",
+        "https://floodgate.games/blogs/news/building-something-beautiful-the-story-behind-sagrada-remastered"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0GL8SJRFC",
         "affiliate_enabled": false,
         "requires_disclosure": true
       }
@@ -605,6 +892,47 @@
     {
       "buyLinks": [
         {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B00IZEUFIA",
+          "note": null
+        },
+        {
+          "store": "Asmodee",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/splendor",
+          "note": null
+        },
+        {
+          "store": "Game Nerdz",
+          "kind": "retailer",
+          "url": "https://www.gamenerdz.com/splendor",
+          "note": null
+        }
+      ],
+      "slug": "splendor",
+      "name": "Splendor",
+      "publisher": "Space Cowboys",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playTime": "30 min",
+      "oneLine": "Collect gem chips, buy development cards and attract nobles in a fast engine-building race to 15 prestige points.",
+      "priceUsd": 39.99,
+      "sources": [
+        "https://store.asmodee.com/products/splendor.json",
+        "https://en.wikipedia.org/wiki/Splendor_(game)",
+        "https://boardgamegeek.com/boardgame/148228/splendor"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B00IZEUFIA",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
           "store": "Stronghold Games",
           "kind": "publisher",
           "url": "https://strongholdgames.com/our-games/terraforming-mars/",
@@ -665,6 +993,47 @@
       "checkedOn": "2026-09-27",
       "affiliate": {
         "affiliate_url": "https://www.amazon.com/dp/B0F8PKN4B7",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B074YPSTRP",
+          "note": "Twilight Imperium 4th Edition (Asmodee/FFG)"
+        },
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/twilight-imperium-4th-edition",
+          "note": "Twilight Imperium 4th Edition (SKU TI07)"
+        },
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/ffgti07.html",
+          "note": "Twilight Imperium (4th Edition)"
+        }
+      ],
+      "slug": "twilight-imperium",
+      "name": "Twilight Imperium: Fourth Edition",
+      "publisher": "Fantasy Flight Games",
+      "minPlayers": 3,
+      "maxPlayers": 6,
+      "playTime": "240-480 min",
+      "oneLine": "Epic galactic conquest where 17 factions fight, trade and vote for the throne of Mecatol Rex.",
+      "priceUsd": 189.99,
+      "sources": [
+        "https://store.asmodee.com/products/twilight-imperium-4th-edition.json",
+        "https://www.fantasyflightgames.com/thunders-edge-announcement/",
+        "https://boardgamegeek.com/boardgame/233078/twilight-imperium-fourth-edition"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B074YPSTRP",
         "affiliate_enabled": false,
         "requires_disclosure": true
       }
@@ -2353,6 +2722,522 @@
       },
       "requires": [],
       "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B00C4XE6CY",
+          "note": null
+        },
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/dixit-quest-expansion",
+          "note": null
+        }
+      ],
+      "id": "dixit--dixit-quest",
+      "slug": "dixit-quest",
+      "game": "dixit",
+      "name": "Dixit: Quest",
+      "type": "expansion",
+      "publisher": "Libellud",
+      "releaseYear": 2010,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs any Dixit base game (Dixit, Dixit Odyssey or Dixit Disney Edition).",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "adds": "84 new cards illustrated by Marie Cardouat, the artist of the base game.",
+      "fixes": "Stops repeat cards after the base deck has been seen a few times, without changing the art style.",
+      "complexity": "same",
+      "groupStyle": "casual",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "Same artist as the base game, so it blends in seamlessly; buyer guides treat it as the natural first card pack.",
+      "verdictStatus": "draft",
+      "priceUsd": 32.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://www.libellud.com/en/our-games/dixit-expansions/",
+          "https://en.wikipedia.org/wiki/Dixit_(board_game)"
+        ],
+        "verdict": [
+          "https://rolltoreview.com/the-ultimate-dixit-buyers-guide/",
+          "https://boardgamegeek.com/thread/724904/which-dixit-i-should-buy"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/dixit-quest-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B00C4XE6CY",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs any Dixit base game (Dixit, Dixit Odyssey or Dixit Disney Edition)."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B016MLRLPW",
+          "note": null
+        },
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/dixit-memories-expansion",
+          "note": null
+        }
+      ],
+      "id": "dixit--dixit-memories",
+      "slug": "dixit-memories",
+      "game": "dixit",
+      "name": "Dixit: Memories",
+      "type": "expansion",
+      "publisher": "Libellud",
+      "releaseYear": 2015,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs any Dixit base game (Dixit, Dixit Odyssey or Dixit Disney Edition).",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "adds": "84 new cards illustrated by Carine Hinder and Jérôme Pélissier.",
+      "fixes": "Adds bright, colourful images that give fresh clue angles once the original deck feels familiar.",
+      "complexity": "same",
+      "groupStyle": "casual",
+      "verdict": "worth_it",
+      "buyOrder": 2,
+      "reason": "Repeatedly named a community favourite for its bright, varied art.",
+      "verdictStatus": "draft",
+      "priceUsd": 32.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://www.libellud.com/en/our-games/dixit-expansions/"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3160343/a-buyers-guide-aka-an-exposition-of-dixit-stella-a",
+          "https://rolltoreview.com/the-ultimate-dixit-buyers-guide/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/dixit-memories-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B016MLRLPW",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs any Dixit base game (Dixit, Dixit Odyssey or Dixit Disney Edition)."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0095S7G6E",
+          "note": "Card-only expansion box"
+        },
+        {
+          "store": "Tabletop Merchant",
+          "kind": "retailer",
+          "url": "https://tabletopmerchant.com/products/dixit-odyssey",
+          "note": "Card-only expansion box"
+        }
+      ],
+      "id": "dixit--dixit-odyssey",
+      "slug": "dixit-odyssey",
+      "game": "dixit",
+      "name": "Dixit: Odyssey (expansion)",
+      "type": "expansion",
+      "publisher": "Libellud",
+      "releaseYear": 2013,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs any Dixit base game (Dixit or Dixit Disney Edition) to use the cards.",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "adds": "84 cards from Dixit Odyssey, drawn by Pierô and coloured by Marie Cardouat.",
+      "fixes": "Gives a second big batch of cards in a style close to the original, which helps when larger groups burn through the deck fast.",
+      "complexity": "same",
+      "groupStyle": "casual",
+      "verdict": "worth_it",
+      "buyOrder": 3,
+      "reason": "Odyssey cards are a frequent pick for first-time buyers and big groups.",
+      "verdictStatus": "draft",
+      "priceUsd": 32.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgame/92828/dixit-odyssey",
+          "https://www.libellud.com/game/dixit-odyssey/",
+          "https://tabletopmerchant.com/products/dixit-odyssey"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/724904/which-dixit-i-should-buy",
+          "https://boardgamegeek.com/thread/2015349"
+        ],
+        "price": [
+          "https://tabletopmerchant.com/products/dixit-odyssey"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0095S7G6E",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs any Dixit base game (Dixit or Dixit Disney Edition) to use the cards."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B08KJNHGW2",
+          "note": null
+        },
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/dixit-mirrors-expansion",
+          "note": null
+        }
+      ],
+      "id": "dixit--dixit-mirrors",
+      "slug": "dixit-mirrors",
+      "game": "dixit",
+      "name": "Dixit: Mirrors",
+      "type": "expansion",
+      "publisher": "Libellud",
+      "releaseYear": 2020,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs any Dixit base game (Dixit, Dixit Odyssey or Dixit Disney Edition).",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "adds": "84 new cards illustrated by Sébastien Telleschi.",
+      "fixes": "Adds gentle, child-friendly images that keep family games fresh.",
+      "complexity": "same",
+      "groupStyle": "casual",
+      "verdict": "worth_it",
+      "buyOrder": 4,
+      "reason": "Recommended in community buyer's guides and called the most kid-friendly pack.",
+      "verdictStatus": "draft",
+      "priceUsd": 32.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://www.libellud.com/en/our-games/dixit-expansions/"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3160343/a-buyers-guide-aka-an-exposition-of-dixit-stella-a",
+          "https://rolltoreview.com/the-ultimate-dixit-buyers-guide/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/dixit-mirrors-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B08KJNHGW2",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs any Dixit base game (Dixit, Dixit Odyssey or Dixit Disney Edition)."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B01IHOV8M4",
+          "note": null
+        },
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/dixit-revelations",
+          "note": null
+        }
+      ],
+      "id": "dixit--dixit-revelations",
+      "slug": "dixit-revelations",
+      "game": "dixit",
+      "name": "Dixit: Revelations",
+      "type": "expansion",
+      "publisher": "Libellud",
+      "releaseYear": 2017,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs any Dixit base game (Dixit, Dixit Odyssey or Dixit Disney Edition).",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "adds": "84 new cards illustrated by Marina Coudray.",
+      "fixes": "Adds elegant, Art Deco-style images that suit groups wanting more subtle clues.",
+      "complexity": "same",
+      "groupStyle": "casual",
+      "verdict": "worth_it",
+      "buyOrder": 5,
+      "reason": "Named as a favourite expansion by players and praised for its elegant art.",
+      "verdictStatus": "draft",
+      "priceUsd": 32.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://www.libellud.com/en/our-games/dixit-expansions/"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/amoxli/which_dixit_expansions_can_you_recommend/",
+          "https://rolltoreview.com/the-ultimate-dixit-buyers-guide/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/dixit-revelations"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B01IHOV8M4",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs any Dixit base game (Dixit, Dixit Odyssey or Dixit Disney Edition)."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B00GP301MS",
+          "note": null
+        },
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/dixit-origins-expansion",
+          "note": null
+        }
+      ],
+      "id": "dixit--dixit-origins",
+      "slug": "dixit-origins",
+      "game": "dixit",
+      "name": "Dixit: Origins",
+      "type": "expansion",
+      "publisher": "Libellud",
+      "releaseYear": 2013,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs any Dixit base game (Dixit, Dixit Odyssey or Dixit Disney Edition).",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "adds": "84 new cards illustrated by Clément Lefèvre.",
+      "fixes": "Adds more card variety so a 5–6 player group doesn't see repeats.",
+      "complexity": "same",
+      "groupStyle": "casual",
+      "verdict": "worth_it",
+      "buyOrder": 6,
+      "reason": "Players report every pack is good and that bigger groups want at least two packs for enough variety.",
+      "verdictStatus": "draft",
+      "priceUsd": 32.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://www.libellud.com/en/our-games/dixit-expansions/"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/amoxli/which_dixit_expansions_can_you_recommend/",
+          "https://www.reddit.com/r/boardgames/comments/c1y8oo/dixit_expansions_which_are_the_best/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/dixit-origins-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B00GP301MS",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs any Dixit base game (Dixit, Dixit Odyssey or Dixit Disney Edition)."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0774CKZ3R",
+          "note": null
+        },
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/dixit-harmonies-expansion",
+          "note": null
+        }
+      ],
+      "id": "dixit--dixit-harmonies",
+      "slug": "dixit-harmonies",
+      "game": "dixit",
+      "name": "Dixit: Harmonies",
+      "type": "expansion",
+      "publisher": "Libellud",
+      "releaseYear": 2017,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs any Dixit base game (Dixit, Dixit Odyssey or Dixit Disney Edition).",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "adds": "84 new cards illustrated by Paul Echegoyen.",
+      "fixes": "Adds detailed, fairy-tale-themed images for groups that like a storybook feel.",
+      "complexity": "same",
+      "groupStyle": "casual",
+      "verdict": "depends",
+      "buyOrder": 7,
+      "reason": "The art is lovely, but its strong single theme can narrow the clues you can give.",
+      "verdictStatus": "draft",
+      "priceUsd": 32.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://www.libellud.com/en/our-games/dixit-expansions/"
+        ],
+        "verdict": [
+          "https://rolltoreview.com/the-ultimate-dixit-buyers-guide/",
+          "https://www.reddit.com/r/boardgames/comments/amoxli/which_dixit_expansions_can_you_recommend/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/dixit-harmonies-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0774CKZ3R",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs any Dixit base game (Dixit, Dixit Odyssey or Dixit Disney Edition)."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B00OJPN0OK",
+          "note": null
+        },
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/dixit-daydreams-expansion",
+          "note": null
+        }
+      ],
+      "id": "dixit--dixit-daydreams",
+      "slug": "dixit-daydreams",
+      "game": "dixit",
+      "name": "Dixit: Daydreams",
+      "type": "expansion",
+      "publisher": "Libellud",
+      "releaseYear": 2014,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs any Dixit base game (Dixit, Dixit Odyssey or Dixit Disney Edition).",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "adds": "84 new cards illustrated by Franck Dion.",
+      "fixes": "Adds darker, stranger images for adult groups who find the base deck too gentle.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "depends",
+      "buyOrder": 8,
+      "reason": "Its moody, borderline creepy art is great for adults but not a good fit for young kids.",
+      "verdictStatus": "draft",
+      "priceUsd": 32.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://www.libellud.com/en/our-games/dixit-expansions/"
+        ],
+        "verdict": [
+          "https://rolltoreview.com/the-ultimate-dixit-buyers-guide/",
+          "https://www.reddit.com/r/boardgames/comments/c1y8oo/dixit_expansions_which_are_the_best/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/dixit-daydreams-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B00OJPN0OK",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs any Dixit base game (Dixit, Dixit Odyssey or Dixit Disney Edition)."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B09FKCK9DV",
+          "note": null
+        },
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/dixit-anniversary-expansion",
+          "note": null
+        }
+      ],
+      "id": "dixit--dixit-anniversary",
+      "slug": "dixit-anniversary",
+      "game": "dixit",
+      "name": "Dixit: Anniversary",
+      "type": "expansion",
+      "publisher": "Libellud",
+      "releaseYear": 2018,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs any Dixit base game (Dixit, Dixit Odyssey or Dixit Disney Edition).",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "adds": "84 new cards from all the earlier Dixit illustrators, made for the game's 10th birthday.",
+      "fixes": "Gives a sampler of every art style in one box.",
+      "complexity": "same",
+      "groupStyle": "casual",
+      "verdict": "skip_unless",
+      "buyOrder": 9,
+      "reason": "Reviewers call it one of the last packs to pick up; it shines mainly once you already own several and like every style.",
+      "verdictStatus": "draft",
+      "priceUsd": 32.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://www.libellud.com/en/our-games/dixit-expansions/"
+        ],
+        "verdict": [
+          "https://rolltoreview.com/the-ultimate-dixit-buyers-guide/",
+          "https://boardgamegeek.com/thread/3160343/a-buyers-guide-aka-an-exposition-of-dixit-stella-a"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/dixit-anniversary-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B09FKCK9DV",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs any Dixit base game (Dixit, Dixit Odyssey or Dixit Disney Edition)."
     },
     {
       "buyLinks": [
@@ -8025,6 +8910,3505 @@
       "checkedOn": "2026-09-27",
       "affiliate": {
         "affiliate_url": "https://www.amazon.com/dp/B0CB9BRD5N",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Fantasy Flight Games",
+          "kind": "publisher",
+          "url": "https://www.fantasyflightgames.com/product/edge-of-the-earth-investigator-expansion/",
+          "note": null
+        },
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/ffgahc63.html",
+          "note": null
+        }
+      ],
+      "id": "arkham-horror-the-card-game--edge-of-the-earth-investigator-expansion",
+      "slug": "edge-of-the-earth-investigator-expansion",
+      "game": "arkham-horror-the-card-game",
+      "name": "Arkham Horror: The Card Game – Edge of the Earth Investigator Expansion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2021,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Arkham Horror: The Card Game Revised Core Set (or original core) to play.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "5 investigators (Daniela Reyes, Norman Withers, Monterey Jack, Lily Chen and Bob Jenkins) plus the full set of player cards and deckbuilding options for the Edge of the Earth cycle.",
+      "fixes": "Core-set card pool is thin; adds many more deckbuilding choices and investigators for any campaign.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "BGG 'Best Investigator Expansions?' replies call it hands down the best box for building a card pool; it was also the first box sold in the new investigator/campaign format.",
+      "verdictStatus": "draft",
+      "priceUsd": 47.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.fantasyflightgames.com/product/edge-of-the-earth-investigator-expansion/",
+          "https://www.miniaturemarket.com/ffgahc63.html",
+          "https://raw.githubusercontent.com/Kamalisk/arkhamdb-json-data/master/packs.json",
+          "https://www.fantasyflightgames.com/en/news/2021/11/19/available-now-november-19/",
+          "https://en.wikipedia.org/wiki/Arkham_Horror:_The_Card_Game"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3007393/best-investigator-expansions",
+          "https://boardgamegeek.com/thread/2824026/what-order-to-purchase-extensions"
+        ],
+        "price": [
+          "https://www.miniaturemarket.com/ffgahc63.html"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/ffgahc66.html",
+          "note": "Campaign expansion (2022 repackage)"
+        }
+      ],
+      "id": "arkham-horror-the-card-game--the-dunwich-legacy-campaign-expansion",
+      "slug": "the-dunwich-legacy-campaign-expansion",
+      "game": "arkham-horror-the-card-game",
+      "name": "The Dunwich Legacy Campaign Expansion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2022,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Arkham Horror: The Card Game core set (Revised Core Set or the 2025 Core Set).",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "The full 8-scenario Dunwich Legacy campaign in one box: hunt for missing Miskatonic professors around Dunwich, with a spiral-bound campaign guide.",
+      "fixes": "The core set has only one short campaign; this is the natural next full-length story.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "buy_first",
+      "buyOrder": 2,
+      "reason": "BGG replies repeatedly name Dunwich as the first campaign to buy: a gentle step up from the core with no big new rules, so new groups are not overwhelmed.",
+      "verdictStatus": "draft",
+      "priceUsd": 74.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.fantasyflightgames.com/product/the-dunwich-legacy-campaign-expansion/",
+          "https://www.miniaturemarket.com/ffgahc66.html",
+          "https://en.wikipedia.org/wiki/Arkham_Horror:_The_Card_Game"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2901580/what-pick-after-playing-through-core",
+          "https://boardgamegeek.com/thread/2824026/what-order-to-purchase-extensions",
+          "https://www.ign.com/articles/arkham-horror-the-card-game-buying-guide"
+        ],
+        "price": [
+          "https://www.miniaturemarket.com/ffgahc66.html"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs the Arkham Horror: The Card Game core set (Revised Core Set or the 2025 Core Set)."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Fantasy Flight Games",
+          "kind": "publisher",
+          "url": "https://www.fantasyflightgames.com/product/the-dunwich-legacy-investigator-expansion/",
+          "note": null
+        },
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/ffgahc65.html",
+          "note": null
+        }
+      ],
+      "id": "arkham-horror-the-card-game--the-dunwich-legacy-investigator-expansion",
+      "slug": "the-dunwich-legacy-investigator-expansion",
+      "game": "arkham-horror-the-card-game",
+      "name": "Arkham Horror: The Card Game – The Dunwich Legacy Investigator Expansion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2022,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Arkham Horror: The Card Game Revised Core Set (or original core) to play.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "5 investigators (Zoey Samaras, Rex Murphy, Jenny Barnes, Jim Culver and \"Ashcan\" Pete) plus the full set of player cards and deckbuilding options for the The Dunwich Legacy cycle.",
+      "fixes": "Core-set card pool is thin; adds many more deckbuilding choices and investigators for any campaign.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 3,
+      "reason": "Reddit buyers advising new players say to do Dunwich first (investigator box plus campaign box) because its cards are cheap, flexible upgrades to the core set pool.",
+      "verdictStatus": "draft",
+      "priceUsd": 47.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.fantasyflightgames.com/product/the-dunwich-legacy-investigator-expansion/",
+          "https://www.miniaturemarket.com/ffgahc65.html",
+          "https://raw.githubusercontent.com/Kamalisk/arkhamdb-json-data/master/packs.json",
+          "https://www.fantasyflightgames.com/en/news/2022/2/25/available-now-february-25/",
+          "https://en.wikipedia.org/wiki/Arkham_Horror:_The_Card_Game"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/arkhamhorrorlcg/comments/zuqvqm/what_expansions_to_get/",
+          "https://boardgamegeek.com/thread/3007393/best-investigator-expansions"
+        ],
+        "price": [
+          "https://www.miniaturemarket.com/ffgahc65.html"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/ffgahc68.html",
+          "note": "Campaign expansion (2022 repackage)"
+        }
+      ],
+      "id": "arkham-horror-the-card-game--the-path-to-carcosa-campaign-expansion",
+      "slug": "the-path-to-carcosa-campaign-expansion",
+      "game": "arkham-horror-the-card-game",
+      "name": "The Path to Carcosa Campaign Expansion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2022,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Arkham Horror: The Card Game core set (Revised Core Set or the 2025 Core Set).",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "The complete Path to Carcosa campaign: a cursed stage play of The King in Yellow drags investigators toward Carcosa, with heavy use of doubt/conviction story branches.",
+      "fixes": "Gives groups that finished Dunwich a moodier, story-heavy campaign without a big rules jump.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 4,
+      "reason": "Commonly recommended as the second campaign after Dunwich on BGG; IGN calls its added rules user-friendly for new players.",
+      "verdictStatus": "draft",
+      "priceUsd": 74.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.fantasyflightgames.com/product/the-path-to-carcosa-campaign-expansion/",
+          "https://www.miniaturemarket.com/ffgahc68.html",
+          "https://en.wikipedia.org/wiki/Arkham_Horror:_The_Card_Game"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2901580/what-pick-after-playing-through-core",
+          "https://www.ign.com/articles/arkham-horror-the-card-game-buying-guide"
+        ],
+        "price": [
+          "https://www.miniaturemarket.com/ffgahc68.html"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs the Arkham Horror: The Card Game core set (Revised Core Set or the 2025 Core Set)."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0DJ3LDNZ6",
+          "note": null
+        },
+        {
+          "store": "Fantasy Flight Games",
+          "kind": "publisher",
+          "url": "https://www.fantasyflightgames.com/product/the-drowned-city-investigator-expansion/",
+          "note": null
+        },
+        {
+          "store": "Asmodee US",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/arkham-horror-the-card-game-the-drowned-city-investigator-expansion",
+          "note": null
+        },
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/arkham-horror-lcg-drowned-city-investigator-expansion-ffgahc83en.html",
+          "note": null
+        }
+      ],
+      "id": "arkham-horror-the-card-game--the-drowned-city-investigator-expansion",
+      "slug": "the-drowned-city-investigator-expansion",
+      "game": "arkham-horror-the-card-game",
+      "name": "Arkham Horror: The Card Game – The Drowned City Investigator Expansion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2025,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Arkham Horror: The Card Game Revised Core Set (or original core) to play.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "6 investigators (Marion Tavares, Lucius Galloway, Micheal McGlen, Agatha Crane, Gloria Goldberg and George Barnaby) plus the full set of player cards and deckbuilding options for the The Drowned City cycle.",
+      "fixes": "Core-set card pool is thin; adds many more deckbuilding choices and investigators for any campaign.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 5,
+      "reason": "Newest box and the one Asmodee still stocks directly; adds trait-based Specialist cards, so it is the easiest to buy at list price today.",
+      "verdictStatus": "draft",
+      "priceUsd": 47.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://www.fantasyflightgames.com/product/the-drowned-city-investigator-expansion/",
+          "https://www.miniaturemarket.com/arkham-horror-lcg-drowned-city-investigator-expansion-ffgahc83en.html",
+          "https://raw.githubusercontent.com/Kamalisk/arkhamdb-json-data/master/packs.json",
+          "https://www.fantasyflightgames.com/en/news/2025/3/7/available-now-march-7/",
+          "https://en.wikipedia.org/wiki/Arkham_Horror:_The_Card_Game"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3007393/best-investigator-expansions",
+          "https://www.reddit.com/r/arkhamhorrorlcg/comments/vyhyfd/which_investigator_expansion_should_i_get/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/arkham-horror-the-card-game-the-drowned-city-investigator-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0DJ3LDNZ6",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/ffgahc64.html",
+          "note": null
+        }
+      ],
+      "id": "arkham-horror-the-card-game--edge-of-the-earth-campaign-expansion",
+      "slug": "edge-of-the-earth-campaign-expansion",
+      "game": "arkham-horror-the-card-game",
+      "name": "Edge of the Earth Campaign Expansion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2021,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Arkham Horror: The Card Game core set (Revised Core Set or the 2025 Core Set).",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "An Antarctic expedition campaign with expedition-team partner cards, tent/supply tracking and a branching route through the ice.",
+      "fixes": "Adds a self-contained expedition story with more resource management than the early campaigns.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 6,
+      "reason": "Liked by many, but a BGG reply warns it has a lot of bookkeeping and is not the best first campaign for new players.",
+      "verdictStatus": "draft",
+      "priceUsd": 74.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.fantasyflightgames.com/product/edge-of-the-earth-campaign-expansion/",
+          "https://www.miniaturemarket.com/ffgahc64.html",
+          "https://en.wikipedia.org/wiki/Arkham_Horror:_The_Card_Game"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2901580/what-pick-after-playing-through-core",
+          "https://boardgamegeek.com/thread/2824026/what-order-to-purchase-extensions",
+          "https://www.ign.com/articles/arkham-horror-the-card-game-buying-guide"
+        ],
+        "price": [
+          "https://www.miniaturemarket.com/ffgahc64.html"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs the Arkham Horror: The Card Game core set (Revised Core Set or the 2025 Core Set)."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Fantasy Flight Games",
+          "kind": "publisher",
+          "url": "https://www.fantasyflightgames.com/product/the-scarlet-keys-investigator-expansion/",
+          "note": null
+        },
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/ffgahc69.html",
+          "note": null
+        }
+      ],
+      "id": "arkham-horror-the-card-game--the-scarlet-keys-investigator-expansion",
+      "slug": "the-scarlet-keys-investigator-expansion",
+      "game": "arkham-horror-the-card-game",
+      "name": "Arkham Horror: The Card Game – The Scarlet Keys Investigator Expansion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2022,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Arkham Horror: The Card Game Revised Core Set (or original core) to play.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "6 investigators (Carson Sinclair, Vincent Lee, Kymani Jones, Amina Zidane, Darrell Simmons and Charlie Kane) plus the full set of player cards and deckbuilding options for the The Scarlet Keys cycle.",
+      "fixes": "Core-set card pool is thin; adds many more deckbuilding choices and investigators for any campaign.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 7,
+      "reason": "Community picks rate its customizable upgrade cards highly, though BGG/Reddit replies note the box is more complex and better after a simpler box.",
+      "verdictStatus": "draft",
+      "priceUsd": 47.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.fantasyflightgames.com/product/the-scarlet-keys-investigator-expansion/",
+          "https://www.miniaturemarket.com/ffgahc69.html",
+          "https://raw.githubusercontent.com/Kamalisk/arkhamdb-json-data/master/packs.json",
+          "https://www.fantasyflightgames.com/en/news/2022/9/30/available-now-september-30/",
+          "https://en.wikipedia.org/wiki/Arkham_Horror:_The_Card_Game"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3007393/best-investigator-expansions",
+          "https://www.reddit.com/r/arkhamhorrorlcg/comments/vyhyfd/which_investigator_expansion_should_i_get/"
+        ],
+        "price": [
+          "https://www.miniaturemarket.com/ffgahc69.html"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/ffgahc70.html",
+          "note": null
+        }
+      ],
+      "id": "arkham-horror-the-card-game--the-scarlet-keys-campaign-expansion",
+      "slug": "the-scarlet-keys-campaign-expansion",
+      "game": "arkham-horror-the-card-game",
+      "name": "The Scarlet Keys Campaign Expansion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2022,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Arkham Horror: The Card Game core set (Revised Core Set or the 2025 Core Set).",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "A globe-trotting campaign against the Red Coterie with a world map, non-linear mission order and collectible keys.",
+      "fixes": "Breaks the strictly linear scenario order of older campaigns; you choose where to travel next.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 8,
+      "reason": "IGN highlights it as less linear than other campaigns; best once your group is comfortable with the core rules.",
+      "verdictStatus": "draft",
+      "priceUsd": 74.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.miniaturemarket.com/ffgahc70.html",
+          "https://en.wikipedia.org/wiki/Arkham_Horror:_The_Card_Game",
+          "https://www.ign.com/articles/arkham-horror-the-card-game-buying-guide"
+        ],
+        "verdict": [
+          "https://www.ign.com/articles/arkham-horror-the-card-game-buying-guide",
+          "https://boardgamegeek.com/thread/2824026/what-order-to-purchase-extensions"
+        ],
+        "price": [
+          "https://www.miniaturemarket.com/ffgahc70.html"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs the Arkham Horror: The Card Game core set (Revised Core Set or the 2025 Core Set)."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B09V1TLZD2",
+          "note": null
+        },
+        {
+          "store": "Fantasy Flight Games",
+          "kind": "publisher",
+          "url": "https://www.fantasyflightgames.com/product/the-path-to-carcosa-investigator-expansion/",
+          "note": null
+        },
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/ffgahc67.html",
+          "note": null
+        }
+      ],
+      "id": "arkham-horror-the-card-game--the-path-to-carcosa-investigator-expansion",
+      "slug": "the-path-to-carcosa-investigator-expansion",
+      "game": "arkham-horror-the-card-game",
+      "name": "Arkham Horror: The Card Game – The Path to Carcosa Investigator Expansion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2022,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Arkham Horror: The Card Game Revised Core Set (or original core) to play.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "6 investigators (Lola Hayes, Mark Harrigan, Minh Thi Phan, Sefina Rousseau, Akachi Onyele and William Yorick) plus the full set of player cards and deckbuilding options for the The Path to Carcosa cycle.",
+      "fixes": "Core-set card pool is thin; adds many more deckbuilding choices and investigators for any campaign.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 9,
+      "reason": "Recommended in Reddit and BGG buying threads as the natural next box after Dunwich for a broad, classic card pool.",
+      "verdictStatus": "draft",
+      "priceUsd": 47.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.fantasyflightgames.com/product/the-path-to-carcosa-investigator-expansion/",
+          "https://www.miniaturemarket.com/ffgahc67.html",
+          "https://raw.githubusercontent.com/Kamalisk/arkhamdb-json-data/master/packs.json",
+          "https://www.fantasyflightgames.com/en/news/2022/5/27/available-now-may-27/",
+          "https://en.wikipedia.org/wiki/Arkham_Horror:_The_Card_Game"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/arkhamhorrorlcg/comments/zuqvqm/what_expansions_to_get/",
+          "https://boardgamegeek.com/thread/3007393/best-investigator-expansions"
+        ],
+        "price": [
+          "https://www.miniaturemarket.com/ffgahc67.html"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B09V1TLZD2",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/arkham-horror-lcg-innsmouth-conspiracy-campaign-expansion-ffgahc82.html",
+          "note": "Campaign expansion (repackage)"
+        }
+      ],
+      "id": "arkham-horror-the-card-game--the-innsmouth-conspiracy-campaign-expansion",
+      "slug": "the-innsmouth-conspiracy-campaign-expansion",
+      "game": "arkham-horror-the-card-game",
+      "name": "The Innsmouth Conspiracy Campaign Expansion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2024,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Arkham Horror: The Card Game core set (Revised Core Set or the 2025 Core Set).",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "The Innsmouth campaign: flooding locations that change as water levels rise, memory flashbacks and the Deep Ones' conspiracy.",
+      "fixes": "Adds a dynamic flood mechanic so maps shift during play.",
+      "complexity": "heavier",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 10,
+      "reason": "IGN singles out the flood-level mechanic as an added strategic layer; a solid pick after the first two campaigns.",
+      "verdictStatus": "draft",
+      "priceUsd": 74.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.fantasyflightgames.com/product/the-innsmouth-conspiracy-campaign-expansion/",
+          "https://www.miniaturemarket.com/arkham-horror-lcg-innsmouth-conspiracy-campaign-expansion-ffgahc82.html",
+          "https://en.wikipedia.org/wiki/Arkham_Horror:_The_Card_Game"
+        ],
+        "verdict": [
+          "https://www.ign.com/articles/arkham-horror-the-card-game-buying-guide",
+          "https://boardgamegeek.com/thread/2824026/what-order-to-purchase-extensions"
+        ],
+        "price": [
+          "https://www.miniaturemarket.com/arkham-horror-lcg-innsmouth-conspiracy-campaign-expansion-ffgahc82.html"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs the Arkham Horror: The Card Game core set (Revised Core Set or the 2025 Core Set)."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Fantasy Flight Games",
+          "kind": "publisher",
+          "url": "https://www.fantasyflightgames.com/product/the-feast-of-hemlock-vale-investigator-expansion/",
+          "note": null
+        },
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/arkham-horror-lcg-feast-hemlock-vale-investigator-expansion-ffgahc76en.html",
+          "note": null
+        }
+      ],
+      "id": "arkham-horror-the-card-game--the-feast-of-hemlock-vale-investigator-expansion",
+      "slug": "the-feast-of-hemlock-vale-investigator-expansion",
+      "game": "arkham-horror-the-card-game",
+      "name": "Arkham Horror: The Card Game – The Feast of Hemlock Vale Investigator Expansion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2024,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Arkham Horror: The Card Game Revised Core Set (or original core) to play.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "5 investigators (Wilson Richards, Kate Winthrop, Alessandra Zorzi, Kōhaku Narukami and Hank Samson) plus the full set of player cards and deckbuilding options for the The Feast of Hemlock Vale cycle.",
+      "fixes": "Core-set card pool is thin; adds many more deckbuilding choices and investigators for any campaign.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 11,
+      "reason": "Recent box with new-format cards; community threads rank it below Edge of the Earth and Dunwich as a first pick.",
+      "verdictStatus": "draft",
+      "priceUsd": 47.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.fantasyflightgames.com/product/the-feast-of-hemlock-vale-investigator-expansion/",
+          "https://www.miniaturemarket.com/arkham-horror-lcg-feast-hemlock-vale-investigator-expansion-ffgahc76en.html",
+          "https://raw.githubusercontent.com/Kamalisk/arkhamdb-json-data/master/packs.json",
+          "https://www.fantasyflightgames.com/en/news/2024/2/16/available-now-february-16/",
+          "https://en.wikipedia.org/wiki/Arkham_Horror:_The_Card_Game",
+          "https://raw.githubusercontent.com/Kamalisk/arkhamdb-json-data/master/pack/fhv/fhvp.json"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3007393/best-investigator-expansions",
+          "https://www.reddit.com/r/arkhamhorrorlcg/comments/vyhyfd/which_investigator_expansion_should_i_get/"
+        ],
+        "price": [
+          "https://www.miniaturemarket.com/arkham-horror-lcg-feast-hemlock-vale-investigator-expansion-ffgahc76en.html"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/arkham-horror-lcg-feast-hemlock-vale-campaign-expansion-ffgahc77en.html",
+          "note": null
+        }
+      ],
+      "id": "arkham-horror-the-card-game--the-feast-of-hemlock-vale-campaign-expansion",
+      "slug": "the-feast-of-hemlock-vale-campaign-expansion",
+      "game": "arkham-horror-the-card-game",
+      "name": "The Feast of Hemlock Vale Campaign Expansion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2024,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Arkham Horror: The Card Game core set (Revised Core Set or the 2025 Core Set).",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "A three-day campaign on an island village preparing for a festival, with day/night phases and town residents you build relationships with.",
+      "fixes": "Adds a hub-style campaign where day and night play differently.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 12,
+      "reason": "IGN describes its day/night structure as a fresh dynamic; a good later pick for groups wanting variety.",
+      "verdictStatus": "draft",
+      "priceUsd": 74.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.fantasyflightgames.com/product/the-feast-of-hemlock-vale-campaign-expansion/",
+          "https://www.miniaturemarket.com/arkham-horror-lcg-feast-hemlock-vale-campaign-expansion-ffgahc77en.html",
+          "https://en.wikipedia.org/wiki/Arkham_Horror:_The_Card_Game"
+        ],
+        "verdict": [
+          "https://www.ign.com/articles/arkham-horror-the-card-game-buying-guide",
+          "https://boardgamegeek.com/thread/2824026/what-order-to-purchase-extensions"
+        ],
+        "price": [
+          "https://www.miniaturemarket.com/arkham-horror-lcg-feast-hemlock-vale-campaign-expansion-ffgahc77en.html"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs the Arkham Horror: The Card Game core set (Revised Core Set or the 2025 Core Set)."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Fantasy Flight Games",
+          "kind": "publisher",
+          "url": "https://www.fantasyflightgames.com/product/the-circle-undone-investigator-expansion/",
+          "note": null
+        },
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/arkham-horror-lcg-the-circle-undone-investigator-expansion-ffgahc74.html",
+          "note": null
+        }
+      ],
+      "id": "arkham-horror-the-card-game--the-circle-undone-investigator-expansion",
+      "slug": "the-circle-undone-investigator-expansion",
+      "game": "arkham-horror-the-card-game",
+      "name": "Arkham Horror: The Card Game – The Circle Undone Investigator Expansion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2023,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Arkham Horror: The Card Game Revised Core Set (or original core) to play.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "6 investigators (Carolyn Fern, Joe Diamond, Preston Fairmont, Diana Stanley, Rita Young and Marie Lambeau) plus the full set of player cards and deckbuilding options for the The Circle Undone cycle.",
+      "fixes": "Core-set card pool is thin; adds many more deckbuilding choices and investigators for any campaign.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 13,
+      "reason": "Good investigators but several are build-around (Preston, Carolyn); thread replies suggest it once you know which archetypes you enjoy.",
+      "verdictStatus": "draft",
+      "priceUsd": 47.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.fantasyflightgames.com/product/the-circle-undone-investigator-expansion/",
+          "https://www.miniaturemarket.com/arkham-horror-lcg-the-circle-undone-investigator-expansion-ffgahc74.html",
+          "https://raw.githubusercontent.com/Kamalisk/arkhamdb-json-data/master/packs.json",
+          "https://www.fantasyflightgames.com/en/news/2023/6/9/available-now-june-9/",
+          "https://en.wikipedia.org/wiki/Arkham_Horror:_The_Card_Game"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3007393/best-investigator-expansions",
+          "https://www.reddit.com/r/arkhamhorrorlcg/comments/vyhyfd/which_investigator_expansion_should_i_get/"
+        ],
+        "price": [
+          "https://www.miniaturemarket.com/arkham-horror-lcg-the-circle-undone-investigator-expansion-ffgahc74.html"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0DJ3M1WMD",
+          "note": null
+        },
+        {
+          "store": "Asmodee US Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/akrham-horror-the-card-game-the-drowned-city-campaign-expansion",
+          "note": null
+        },
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/arkham-horror-lcg-the-drowned-city-campaign-expansion-ffgahc84en.html",
+          "note": null
+        }
+      ],
+      "id": "arkham-horror-the-card-game--the-drowned-city-campaign-expansion",
+      "slug": "the-drowned-city-campaign-expansion",
+      "game": "arkham-horror-the-card-game",
+      "name": "The Drowned City Campaign Expansion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2025,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Arkham Horror: The Card Game core set (Revised Core Set or the 2025 Core Set).",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Explore R'lyeh as it rises from the ocean, with a story that changes based on your chosen investigators and a climactic fight against Cthulhu.",
+      "fixes": "Gives veterans the newest Chapter One campaign and an end-game confrontation with Cthulhu.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 14,
+      "reason": "IGN lists it as the newest Chapter One campaign; FFG says it only needs the Revised Core Set to start.",
+      "verdictStatus": "draft",
+      "priceUsd": 74.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://www.fantasyflightgames.com/product/the-drowned-city-campaign-expansion/",
+          "https://store.asmodee.com/products/akrham-horror-the-card-game-the-drowned-city-campaign-expansion",
+          "https://en.wikipedia.org/wiki/Arkham_Horror:_The_Card_Game"
+        ],
+        "verdict": [
+          "https://www.ign.com/articles/arkham-horror-the-card-game-buying-guide",
+          "https://boardgamegeek.com/thread/2824026/what-order-to-purchase-extensions"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/akrham-horror-the-card-game-the-drowned-city-campaign-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0DJ3M1WMD",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs the Arkham Horror: The Card Game core set (Revised Core Set or the 2025 Core Set)."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Fantasy Flight Games",
+          "kind": "publisher",
+          "url": "https://www.fantasyflightgames.com/product/the-forgotten-age-investigator-expansion/",
+          "note": null
+        },
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/arkham-horror-lcg-the-forgotten-age-investigator-expansion-ffgahc72.html",
+          "note": null
+        }
+      ],
+      "id": "arkham-horror-the-card-game--the-forgotten-age-investigator-expansion",
+      "slug": "the-forgotten-age-investigator-expansion",
+      "game": "arkham-horror-the-card-game",
+      "name": "Arkham Horror: The Card Game – The Forgotten Age Investigator Expansion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2023,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Arkham Horror: The Card Game Revised Core Set (or original core) to play.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "5 investigators (Leo Anderson, Ursula Downs, Finn Edwards, Father Mateo and Calvin Wright) plus the full set of player cards and deckbuilding options for the The Forgotten Age cycle.",
+      "fixes": "Core-set card pool is thin; adds many more deckbuilding choices and investigators for any campaign.",
+      "complexity": "same",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 15,
+      "reason": "Solid exploration-era cards but frequently out of stock; buy it if you are also playing The Forgotten Age campaign.",
+      "verdictStatus": "draft",
+      "priceUsd": 47.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.fantasyflightgames.com/product/the-forgotten-age-investigator-expansion/",
+          "https://www.miniaturemarket.com/arkham-horror-lcg-the-forgotten-age-investigator-expansion-ffgahc72.html",
+          "https://raw.githubusercontent.com/Kamalisk/arkhamdb-json-data/master/packs.json",
+          "https://www.fantasyflightgames.com/en/news/2023/2/17/available-now-february-17/",
+          "https://en.wikipedia.org/wiki/Arkham_Horror:_The_Card_Game"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3007393/best-investigator-expansions",
+          "https://www.reddit.com/r/arkhamhorrorlcg/comments/vyhyfd/which_investigator_expansion_should_i_get/"
+        ],
+        "price": [
+          "https://www.miniaturemarket.com/arkham-horror-lcg-the-forgotten-age-investigator-expansion-ffgahc72.html"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/arkham-horror-lcg-the-forgotten-age-campaign-expansion-ffgahc73.html",
+          "note": "Campaign expansion (repackage)"
+        }
+      ],
+      "id": "arkham-horror-the-card-game--the-forgotten-age-campaign-expansion",
+      "slug": "the-forgotten-age-campaign-expansion",
+      "game": "arkham-horror-the-card-game",
+      "name": "The Forgotten Age Campaign Expansion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2023,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Arkham Horror: The Card Game core set (Revised Core Set or the 2025 Core Set).",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "An Amazon-jungle expedition into a forgotten city, with exploration decks, poison and supply choices, and time-travel story threads.",
+      "fixes": "Gives experienced groups a punishing, survival-flavored campaign.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 16,
+      "reason": "BGG and IGN both flag it as one of the hardest campaigns and not recommended for newcomers; buy it once your group has a campaign or two behind it.",
+      "verdictStatus": "draft",
+      "priceUsd": 74.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.fantasyflightgames.com/product/the-forgotten-age-campaign-expansion/",
+          "https://www.miniaturemarket.com/arkham-horror-lcg-the-forgotten-age-campaign-expansion-ffgahc73.html",
+          "https://en.wikipedia.org/wiki/Arkham_Horror:_The_Card_Game"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2824026/what-order-to-purchase-extensions",
+          "https://www.ign.com/articles/arkham-horror-the-card-game-buying-guide"
+        ],
+        "price": [
+          "https://www.miniaturemarket.com/arkham-horror-lcg-the-forgotten-age-campaign-expansion-ffgahc73.html"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs the Arkham Horror: The Card Game core set (Revised Core Set or the 2025 Core Set)."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Fantasy Flight Games",
+          "kind": "publisher",
+          "url": "https://www.fantasyflightgames.com/product/the-innsmouth-conspiracy-investigator-expansion/",
+          "note": null
+        },
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/arkham-horror-lcg-innsmouth-conspiracy-investigator-expansion-ffgahc81en.html",
+          "note": null
+        }
+      ],
+      "id": "arkham-horror-the-card-game--the-innsmouth-conspiracy-investigator-expansion",
+      "slug": "the-innsmouth-conspiracy-investigator-expansion",
+      "game": "arkham-horror-the-card-game",
+      "name": "Arkham Horror: The Card Game – The Innsmouth Conspiracy Investigator Expansion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2024,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Arkham Horror: The Card Game Revised Core Set (or original core) to play.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "5 investigators (Sister Mary, Amanda Sharpe, Trish Scarborough, Dexter Drake and Silas Marsh) plus the full set of player cards and deckbuilding options for the The Innsmouth Conspiracy cycle.",
+      "fixes": "Core-set card pool is thin; adds many more deckbuilding choices and investigators for any campaign.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 17,
+      "reason": "Bless/curse and spy cards are fun but niche; buying threads place it after the earlier cycles unless you want those mechanics.",
+      "verdictStatus": "draft",
+      "priceUsd": 47.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.fantasyflightgames.com/product/the-innsmouth-conspiracy-investigator-expansion/",
+          "https://www.miniaturemarket.com/arkham-horror-lcg-innsmouth-conspiracy-investigator-expansion-ffgahc81en.html",
+          "https://raw.githubusercontent.com/Kamalisk/arkhamdb-json-data/master/packs.json",
+          "https://www.fantasyflightgames.com/en/news/2024/9/13/available-now-september-13-1/",
+          "https://en.wikipedia.org/wiki/Arkham_Horror:_The_Card_Game"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3007393/best-investigator-expansions",
+          "https://www.reddit.com/r/arkhamhorrorlcg/comments/vyhyfd/which_investigator_expansion_should_i_get/"
+        ],
+        "price": [
+          "https://www.miniaturemarket.com/arkham-horror-lcg-innsmouth-conspiracy-investigator-expansion-ffgahc81en.html"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/arkham-horror-lcg-the-circle-undone-campaign-expansion-ffgahc75.html",
+          "note": "Campaign expansion (repackage)"
+        }
+      ],
+      "id": "arkham-horror-the-card-game--the-circle-undone-campaign-expansion",
+      "slug": "the-circle-undone-campaign-expansion",
+      "game": "arkham-horror-the-card-game",
+      "name": "The Circle Undone Campaign Expansion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2023,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Arkham Horror: The Card Game core set (Revised Core Set or the 2025 Core Set).",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "A witch-themed campaign into Arkham's past: the Silver Twilight Lodge, missing persons and spectral 'Witching Hour' mechanics.",
+      "fixes": "Adds a darker, harder story for veterans.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 18,
+      "reason": "BGG replies call it too difficult for new players and IGN calls it one of the tougher campaigns; great for veterans only.",
+      "verdictStatus": "draft",
+      "priceUsd": 74.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.fantasyflightgames.com/product/the-circle-undone-campaign-expansion/",
+          "https://www.miniaturemarket.com/arkham-horror-lcg-the-circle-undone-campaign-expansion-ffgahc75.html",
+          "https://en.wikipedia.org/wiki/Arkham_Horror:_The_Card_Game"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2824026/what-order-to-purchase-extensions",
+          "https://www.ign.com/articles/arkham-horror-the-card-game-buying-guide"
+        ],
+        "price": [
+          "https://www.miniaturemarket.com/arkham-horror-lcg-the-circle-undone-campaign-expansion-ffgahc75.html"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs the Arkham Horror: The Card Game core set (Revised Core Set or the 2025 Core Set)."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Fantasy Flight Games",
+          "kind": "publisher",
+          "url": "https://www.fantasyflightgames.com/product/the-dream-eaters-investigator-expansion/",
+          "note": null
+        },
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/arkham-horror-lcg-dream-eaters-investigator-expansion-ffgahc78en.html",
+          "note": null
+        }
+      ],
+      "id": "arkham-horror-the-card-game--the-dream-eaters-investigator-expansion",
+      "slug": "the-dream-eaters-investigator-expansion",
+      "game": "arkham-horror-the-card-game",
+      "name": "Arkham Horror: The Card Game – The Dream-Eaters Investigator Expansion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2024,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Arkham Horror: The Card Game Revised Core Set (or original core) to play.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "5 investigators (Tommy Muldoon, Mandy Thompson, Tony Morgan, Luke Robinson and Patrice Hathaway) plus the full set of player cards and deckbuilding options for the The Dream-Eaters cycle.",
+      "fixes": "Core-set card pool is thin; adds many more deckbuilding choices and investigators for any campaign.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "skip_unless",
+      "buyOrder": 19,
+      "reason": "Investigators like Patrice and Luke play very differently from the norm; community advice is to pick it up only for those investigators or the matching campaign.",
+      "verdictStatus": "draft",
+      "priceUsd": 47.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.fantasyflightgames.com/product/the-dream-eaters-investigator-expansion/",
+          "https://www.miniaturemarket.com/arkham-horror-lcg-dream-eaters-investigator-expansion-ffgahc78en.html",
+          "https://raw.githubusercontent.com/Kamalisk/arkhamdb-json-data/master/packs.json",
+          "https://www.fantasyflightgames.com/en/news/2024/5/10/available-now-may-10/",
+          "https://en.wikipedia.org/wiki/Arkham_Horror:_The_Card_Game"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3007393/best-investigator-expansions",
+          "https://www.reddit.com/r/arkhamhorrorlcg/comments/vyhyfd/which_investigator_expansion_should_i_get/"
+        ],
+        "price": [
+          "https://www.miniaturemarket.com/arkham-horror-lcg-dream-eaters-investigator-expansion-ffgahc78en.html"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0CV4GKVHF",
+          "note": null
+        },
+        {
+          "store": "One Eyed Jacques",
+          "kind": "retailer",
+          "url": "https://oneeyedjacques.com/arkham-horror-lcg-the-dream-eaters-campaign-expansion/",
+          "note": null
+        }
+      ],
+      "id": "arkham-horror-the-card-game--the-dream-eaters-campaign-expansion",
+      "slug": "the-dream-eaters-campaign-expansion",
+      "game": "arkham-horror-the-card-game",
+      "name": "The Dream-Eaters Campaign Expansion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2024,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Arkham Horror: The Card Game core set (Revised Core Set or the 2025 Core Set).",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Two interlocking 4-scenario campaigns set in the Dreamlands and the waking world, playable separately or combined into one 8-scenario story.",
+      "fixes": "Offers shorter 4-scenario campaigns for groups that cannot commit to a full 8-part run.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 20,
+      "reason": "BGG replies say it is probably not for new players because of its split two-campaign structure; IGN notes the two halves can be combined into one long campaign.",
+      "verdictStatus": "draft",
+      "priceUsd": 74.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.fantasyflightgames.com/product/the-dream-eaters-campaign-expansion/",
+          "https://en.wikipedia.org/wiki/Arkham_Horror:_The_Card_Game"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2824026/what-order-to-purchase-extensions",
+          "https://www.ign.com/articles/arkham-horror-the-card-game-buying-guide"
+        ],
+        "price": [
+          "https://oneeyedjacques.com/arkham-horror-lcg-the-dream-eaters-campaign-expansion/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0CV4GKVHF",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs the Arkham Horror: The Card Game core set (Revised Core Set or the 2025 Core Set)."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0H8YNG1QQ",
+          "note": null
+        },
+        {
+          "store": "Asmodee US Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/arkham-horror-the-card-game-children-of-blood-small-campaign-expansion",
+          "note": null
+        }
+      ],
+      "id": "arkham-horror-the-card-game--children-of-blood-small-campaign-expansion",
+      "slug": "children-of-blood-small-campaign-expansion",
+      "game": "arkham-horror-the-card-game",
+      "name": "Children of Blood Small Campaign Expansion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2026,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Arkham Horror: The Card Game core set (Revised Core Set or the 2025 Core Set).",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "A short campaign box (fewer scenarios than a full campaign) released for the 2025 Chapter Two era of the game.",
+      "fixes": "Gives owners a shorter campaign to play in a few sessions instead of a full 8-scenario commitment.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "depends",
+      "buyOrder": 21,
+      "reason": "Newest and smallest box; designed around the 2025 Core Set, so Revised Core owners should check which core they own first.",
+      "verdictStatus": "draft",
+      "priceUsd": 44.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://www.fantasyflightgames.com/product/children-of-blood/",
+          "https://store.asmodee.com/products/arkham-horror-the-card-game-children-of-blood-small-campaign-expansion",
+          "https://en.wikipedia.org/wiki/Arkham_Horror:_The_Card_Game"
+        ],
+        "verdict": [
+          "https://www.fantasyflightgames.com/product/children-of-blood/",
+          "https://en.wikipedia.org/wiki/Arkham_Horror:_The_Card_Game"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/arkham-horror-the-card-game-children-of-blood-small-campaign-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0H8YNG1QQ",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs the Arkham Horror: The Card Game core set (Revised Core Set or the 2025 Core Set)."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/1616618086",
+          "note": null
+        },
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/eldritch-horror-forsaken-lore",
+          "note": null
+        }
+      ],
+      "id": "eldritch-horror--forsaken-lore",
+      "slug": "forsaken-lore",
+      "game": "eldritch-horror",
+      "name": "Forsaken Lore",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2014,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Eldritch Horror base game.",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "adds": "Yig as a new Ancient One, extra Mystery and Research cards for the base-game Ancient Ones, new encounters, Spells, Assets and Artifacts.",
+      "fixes": "Base-game encounter and Mystery decks repeat quickly; this fills them out with no new rules.",
+      "complexity": "same",
+      "groupStyle": "casual",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "BGG regulars call it the only must-have: it fills out the base game to what it should have been, adds encounters and 50% more Mysteries per base Ancient One.",
+      "verdictStatus": "draft",
+      "priceUsd": 32.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/eldritch-horror-forsaken-lore",
+          "https://en.wikipedia.org/wiki/Eldritch_Horror",
+          "https://boardgamegeek.com/boardgameexpansion/154842/eldritch-horror-forsaken-lore"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2133453/what-are-the-essential-expansions-and-why",
+          "https://boardgamegeek.com/thread/3641284/getting-into-eldritch-horror-in-2026",
+          "https://everythingisagame.com/eldritch-horror-expansions/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/eldritch-horror-forsaken-lore.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/1616618086",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B06ZZRQ6JX",
+          "note": null
+        },
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/eldritch-horror-cities-in-ruin",
+          "note": null
+        }
+      ],
+      "id": "eldritch-horror--cities-in-ruin",
+      "slug": "cities-in-ruin",
+      "game": "eldritch-horror",
+      "name": "Cities in Ruin",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2017,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Eldritch Horror base game.",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "adds": "Shudde M'ell as a new Ancient One with Disasters and Devastation that can wreck cities, four new investigators, new monsters and encounters.",
+      "fixes": "Adds a sense of the world crumbling around you, so the map changes over the game instead of staying static.",
+      "complexity": "heavier",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 2,
+      "reason": "Several BGG players name it their favourite small box after Forsaken Lore for its cinematic city-smashing twist; pairs fine with Under the Pyramids.",
+      "verdictStatus": "draft",
+      "priceUsd": 32.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/eldritch-horror-cities-in-ruin",
+          "https://en.wikipedia.org/wiki/Eldritch_Horror"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2133453/what-are-the-essential-expansions-and-why"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/eldritch-horror-cities-in-ruin.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B06ZZRQ6JX",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/163344127X",
+          "note": null
+        },
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/eldritch-horror-strange-remnants",
+          "note": null
+        }
+      ],
+      "id": "eldritch-horror--strange-remnants",
+      "slug": "strange-remnants",
+      "game": "eldritch-horror",
+      "name": "Strange Remnants",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2015,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Eldritch Horror base game.",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "adds": "Syzygy as a new Ancient One, the Mystic Ruins encounter deck (Stonehenge, Chichen Itza, Easter Island, Great Wall), Glamour spells, Relic unique assets, four investigators and four Preludes.",
+      "fixes": "Gives teams a genuinely different Ancient One puzzle and more item and encounter variety without a side board.",
+      "complexity": "heavier",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 3,
+      "reason": "BGG players rate the small boxes as best value; one 2026 thread suggests starting with Forsaken Lore plus Strange Remnants to beef up item and encounter decks and add Focus.",
+      "verdictStatus": "draft",
+      "priceUsd": 32.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/eldritch-horror-strange-remnants",
+          "https://en.wikipedia.org/wiki/Eldritch_Horror"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2133453/what-are-the-essential-expansions-and-why",
+          "https://boardgamegeek.com/thread/3641284/getting-into-eldritch-horror-in-2026"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/eldritch-horror-strange-remnants.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/163344127X",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B01MCRSMPZ",
+          "note": null
+        },
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/eldritch-horror-the-dreamlands",
+          "note": null
+        }
+      ],
+      "id": "eldritch-horror--the-dreamlands",
+      "slug": "the-dreamlands",
+      "game": "eldritch-horror",
+      "name": "The Dreamlands",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2017,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Eldritch Horror base game.",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "adds": "A Dreamlands side board, eight investigators, two Ancient Ones (Atlach-Nacha and Hypnos), Adventures, plus new Spells, Conditions, Assets, Mythos cards and encounters for every location.",
+      "fixes": "Adds a second map to explore and a big jump in investigator and encounter variety.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 4,
+      "reason": "Most-liked big box in BGG threads; even a player who dislikes side boards called it the only big box worth adding after the small boxes.",
+      "verdictStatus": "draft",
+      "priceUsd": 64.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/eldritch-horror-the-dreamlands",
+          "https://en.wikipedia.org/wiki/Eldritch_Horror"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2133453/what-are-the-essential-expansions-and-why"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/eldritch-horror-the-dreamlands.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B01MCRSMPZ",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B013TRXWXM",
+          "note": null
+        },
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/eldritch-horror-under-the-pyramids",
+          "note": null
+        }
+      ],
+      "id": "eldritch-horror--under-the-pyramids",
+      "slug": "under-the-pyramids",
+      "game": "eldritch-horror",
+      "name": "Under the Pyramids",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2015,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Eldritch Horror base game.",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "adds": "An Egypt side board with six locations, eight investigators, Nephren-Ka and Abhoth as Ancient Ones, Impairment, Relics, Glamour spells, Museum Heist Adventures and six Preludes.",
+      "fixes": "Makes the game bite harder for groups who find the base game too forgiving, and adds a lot of new investigators.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 5,
+      "reason": "One BGG player calls it excellent and the best of the three big side-board boxes; pick it if the Egypt theme appeals more than the Dreamlands.",
+      "verdictStatus": "draft",
+      "priceUsd": 64.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/eldritch-horror-under-the-pyramids",
+          "https://en.wikipedia.org/wiki/Eldritch_Horror"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2133453/what-are-the-essential-expansions-and-why",
+          "https://everythingisagame.com/eldritch-horror-expansions/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/eldritch-horror-under-the-pyramids.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B013TRXWXM",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B01E1FY3H0",
+          "note": null
+        },
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/eldritch-horror-signs-of-carcosa",
+          "note": null
+        }
+      ],
+      "id": "eldritch-horror--signs-of-carcosa",
+      "slug": "signs-of-carcosa",
+      "game": "eldritch-horror",
+      "name": "Signs of Carcosa",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2016,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Eldritch Horror base game.",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "adds": "Hastur as a new Ancient One, four investigators, new encounters for every continent, plus new Conditions, Spells, Assets, Artifacts and Mythos cards built around madness.",
+      "fixes": "Freshens up every encounter deck with a madness theme without adding a side board.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "depends",
+      "buyOrder": 6,
+      "reason": "Recommended as a small box if you skipped Under the Pyramids; BGG players warn its Impairment effects pile up unpleasantly when combined with that box.",
+      "verdictStatus": "draft",
+      "priceUsd": 32.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/eldritch-horror-signs-of-carcosa",
+          "https://en.wikipedia.org/wiki/Eldritch_Horror",
+          "https://boardgamegeek.com/boardgame/197586/eldritch-horror-signs-of-carcosa"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2133453/what-are-the-essential-expansions-and-why"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/eldritch-horror-signs-of-carcosa.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B01E1FY3H0",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/1616619775",
+          "note": null
+        },
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/eldritch-horror-the-mountains-of-madness",
+          "note": null
+        }
+      ],
+      "id": "eldritch-horror--mountains-of-madness",
+      "slug": "mountains-of-madness",
+      "game": "eldritch-horror",
+      "name": "Mountains of Madness",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2014,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Eldritch Horror base game.",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "adds": "An Antarctica side board, eight investigators, two Ancient Ones (Ithaqua and Rise of the Elder Things), 156 encounter cards, and the first Adventures and Preludes.",
+      "fixes": "Expands the investigator pool and adds Adventures and Preludes to vary setups.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 7,
+      "reason": "Its eight investigators are strong, but several BGG players find its Ancient One mechanics the least interesting of the three side-board boxes; buy for the Antarctica theme.",
+      "verdictStatus": "draft",
+      "priceUsd": 64.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/eldritch-horror-the-mountains-of-madness",
+          "https://en.wikipedia.org/wiki/Eldritch_Horror"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2133453/what-are-the-essential-expansions-and-why",
+          "https://everythingisagame.com/eldritch-horror-expansions/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/eldritch-horror-the-mountains-of-madness.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/1616619775",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B077PC12C2",
+          "note": null
+        },
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/eldritch-horror-masks-of-nyarlathotep",
+          "note": null
+        }
+      ],
+      "id": "eldritch-horror--masks-of-nyarlathotep",
+      "slug": "masks-of-nyarlathotep",
+      "game": "eldritch-horror",
+      "name": "Masks of Nyarlathotep",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2018,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Eldritch Horror base game.",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "adds": "Two Ancient Ones (Nyarlathotep and Antediluvium), seven investigators, cult-hunting Adventures, Resource tokens, Personal Stories for every investigator in the line, and a Campaign mode.",
+      "fixes": "Adds a campaign structure and personal goals for investigators once you own most of the line.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "skip_unless",
+      "buyOrder": 8,
+      "reason": "The only big box without a side board; BGG players say its Personal Stories are wasted unless you own the other expansions and advise getting it last.",
+      "verdictStatus": "draft",
+      "priceUsd": 64.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/eldritch-horror-masks-of-nyarlathotep",
+          "https://en.wikipedia.org/wiki/Eldritch_Horror",
+          "https://boardgamegeek.com/boardgameexpansion/236930/eldritch-horror-masks-nyarlathotep"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2133453/what-are-the-essential-expansions-and-why"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/eldritch-horror-masks-of-nyarlathotep.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B077PC12C2",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B075B29BDR",
+          "note": null
+        },
+        {
+          "store": "Asmodee US",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/mansions-of-madness-streets-of-arkham",
+          "note": null
+        },
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/ffgmad25.html",
+          "note": null
+        }
+      ],
+      "id": "mansions-of-madness--streets-of-arkham",
+      "slug": "streets-of-arkham",
+      "game": "mansions-of-madness",
+      "name": "Mansions of Madness: Streets of Arkham",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2017,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Mansions of Madness Second Edition base game and its free companion app.",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "adds": "Four investigators, new monsters, Arkham city-street map tiles, improvement tokens and three new app scenarios.",
+      "fixes": "Base-game mansions start to feel samey; adds open city maps whose tiles show up across many later scenarios.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "Most recommended first big box on BGG: varied scenarios, strong investigators and tiles reused across the game.",
+      "verdictStatus": "draft",
+      "priceUsd": 74.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/mansions-of-madness-streets-of-arkham",
+          "https://www.miniaturemarket.com/ffgmad25.html"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2501488/expansion-buying-guide",
+          "https://boardgamegeek.com/thread/2817603/expansion-order"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/mansions-of-madness-streets-of-arkham"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B075B29BDR",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B01MDSMNGO",
+          "note": null
+        },
+        {
+          "store": "Asmodee US",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/mansions-of-madness-beyond-the-threshold-expansion",
+          "note": null
+        },
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/ffgmad23.html",
+          "note": null
+        }
+      ],
+      "id": "mansions-of-madness--beyond-the-threshold",
+      "slug": "beyond-the-threshold",
+      "game": "mansions-of-madness",
+      "name": "Mansions of Madness: Beyond the Threshold",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2017,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Mansions of Madness Second Edition base game and its free companion app.",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "adds": "Two investigators, a new monster, the mesmerized condition, new tiles and two app scenarios.",
+      "fixes": "Cheap way to get more scenarios once the base game runs dry, without changing the rules.",
+      "complexity": "same",
+      "groupStyle": "casual",
+      "verdict": "worth_it",
+      "buyOrder": 2,
+      "reason": "Half the price of a big box with two well-liked scenarios (Gates of Silverwood Manor); content stays close to the base game.",
+      "verdictStatus": "draft",
+      "priceUsd": 34.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/mansions-of-madness-beyond-the-threshold-expansion",
+          "https://www.miniaturemarket.com/ffgmad23.html"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2501488/expansion-buying-guide",
+          "https://boardgamegeek.com/thread/2817603/expansion-order"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/mansions-of-madness-beyond-the-threshold-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B01MDSMNGO",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07FFGPS47",
+          "note": null
+        },
+        {
+          "store": "Asmodee US",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/mansions-of-madness-horrific-journeys",
+          "note": null
+        },
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/ffgmad27.html",
+          "note": null
+        }
+      ],
+      "id": "mansions-of-madness--horrific-journeys",
+      "slug": "horrific-journeys",
+      "game": "mansions-of-madness",
+      "name": "Mansions of Madness: Horrific Journeys",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2018,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Mansions of Madness Second Edition base game and its free companion app.",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "adds": "Four investigators, new monsters, train and ship tiles, time-rift and lost-in-time-and-space mechanics, and three app scenarios.",
+      "fixes": "Adds new mechanics and themes beyond haunted houses, including some of the highest-rated scenarios.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 3,
+      "reason": "Divisive but many BGG players call it their favorite; 10:50 to Arkham is highly rated.",
+      "verdictStatus": "draft",
+      "priceUsd": 74.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/mansions-of-madness-horrific-journeys",
+          "https://www.miniaturemarket.com/ffgmad27.html"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2501488/expansion-buying-guide",
+          "https://boardgamegeek.com/thread/2817603/expansion-order"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/mansions-of-madness-horrific-journeys"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07FFGPS47",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0789QHT4P",
+          "note": null
+        },
+        {
+          "store": "Asmodee US",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/mansions-of-madness-sanctum-of-twilight",
+          "note": null
+        },
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/ffgmad26.html",
+          "note": null
+        }
+      ],
+      "id": "mansions-of-madness--sanctum-of-twilight",
+      "slug": "sanctum-of-twilight",
+      "game": "mansions-of-madness",
+      "name": "Mansions of Madness: Sanctum of Twilight",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2018,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Mansions of Madness Second Edition base game and its free companion app.",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "adds": "Two investigators (Lily Chen, Charlie Kane), Silver Twilight Lodge tiles, a contention mechanic and two app scenarios.",
+      "fixes": "Breaks away from the base-game theme with a cult-lodge setting at small-box price.",
+      "complexity": "same",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 4,
+      "reason": "Good investigators and the well-liked Twilight Diadem scenario, but its tiles rarely appear elsewhere and Behind Closed Doors is notoriously hard.",
+      "verdictStatus": "draft",
+      "priceUsd": 34.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/mansions-of-madness-sanctum-of-twilight",
+          "https://www.miniaturemarket.com/ffgmad26.html"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2501488/expansion-buying-guide",
+          "https://boardgamegeek.com/thread/2817603/expansion-order"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/mansions-of-madness-sanctum-of-twilight"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0789QHT4P",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07VZSM1XF",
+          "note": null
+        },
+        {
+          "store": "Asmodee US",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/mansions-of-madness-path-of-the-serpent",
+          "note": null
+        },
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/ffgmad28.html",
+          "note": null
+        }
+      ],
+      "id": "mansions-of-madness--path-of-the-serpent",
+      "slug": "path-of-the-serpent",
+      "game": "mansions-of-madness",
+      "name": "Mansions of Madness: Path of the Serpent",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2019,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Mansions of Madness Second Edition base game and its free companion app.",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "adds": "Four investigators, new monsters, jungle and ruin tiles, exploration mechanics and three app scenarios.",
+      "fixes": "Gives veteran groups a distinct jungle-expedition setting with strong new investigators.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "skip_unless",
+      "buyOrder": 5,
+      "reason": "Strong investigators, but its mechanics and tiles stay within its own scenarios; BGG players suggest buying it last.",
+      "verdictStatus": "draft",
+      "priceUsd": 74.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/mansions-of-madness-path-of-the-serpent",
+          "https://www.miniaturemarket.com/ffgmad28.html"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2501488/expansion-buying-guide",
+          "https://boardgamegeek.com/thread/2817603/expansion-order"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/mansions-of-madness-path-of-the-serpent"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07VZSM1XF",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0189AQKJ2",
+          "note": null
+        },
+        {
+          "store": "Game Nerdz",
+          "kind": "retailer",
+          "url": "https://www.gamenerdz.com/concordia-salsa-expansion",
+          "note": null
+        }
+      ],
+      "id": "concordia--salsa",
+      "slug": "salsa",
+      "game": "concordia",
+      "name": "Concordia: Salsa",
+      "type": "expansion",
+      "publisher": "Rio Grande Games",
+      "releaseYear": 2015,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the base game (or Concordia Venus).",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "adds": "Salt as a wild resource, Forum tiles that give each player special powers, and two new maps (Byzantium and Hispania).",
+      "fixes": "Gives the vine resource a real use (salt cities) and makes awkward storehouse turns more forgiving, so mistakes hurt less.",
+      "complexity": "heavier",
+      "groupStyle": "mixed",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "Ranked the best all-round Concordia expansion by The Dice Drop, and the most-recommended pick in BGG buy-order threads; salt and two strong maps in one box.",
+      "verdictStatus": "draft",
+      "priceUsd": 39.95,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/181084/concordia-salsa",
+          "https://www.gamenerdz.com/concordia-salsa-expansion",
+          "https://www.amazon.com/dp/B0189AQKJ2"
+        ],
+        "verdict": [
+          "https://thedicedrop.com/posts/is-it-worth-it-concordia-expansions-ranked/",
+          "https://boardgamegeek.com/thread/2877548/recommended-expansions"
+        ],
+        "price": [
+          "https://www.gamenerdz.com/concordia-salsa-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0189AQKJ2",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0CQMFJH1H",
+          "note": null
+        },
+        {
+          "store": "Game Nerdz",
+          "kind": "retailer",
+          "url": "https://www.gamenerdz.com/concordia-roma-sicilia-expansion",
+          "note": null
+        }
+      ],
+      "id": "concordia--roma-sicilia",
+      "slug": "roma-sicilia",
+      "game": "concordia",
+      "name": "Concordia: Roma & Sicilia",
+      "type": "expansion",
+      "publisher": "Rio Grande Games",
+      "releaseYear": 2023,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the base game (or Concordia Venus).",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "adds": "Double-sided map: Roma (with a ship track) and Sicilia (with production bonuses).",
+      "fixes": "Fresh openings once the Italia/Imperium boards feel solved, and the Sicilia side makes low-count and solo games tighter.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 2,
+      "reason": "The Dice Drop calls the map packs essential and names Roma / Sicilia the standout first map, with Sicilia the preferred side.",
+      "verdictStatus": "draft",
+      "priceUsd": 29.95,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/380917/concordia-roma-sicilia",
+          "https://www.gamenerdz.com/concordia-roma-sicilia-expansion",
+          "https://www.amazon.com/dp/B0CQMFJH1H"
+        ],
+        "verdict": [
+          "https://thedicedrop.com/posts/is-it-worth-it-concordia-expansions-ranked/"
+        ],
+        "price": [
+          "https://www.gamenerdz.com/concordia-roma-sicilia-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0CQMFJH1H",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B077TFTRSS",
+          "note": null
+        },
+        {
+          "store": "Game Nerdz",
+          "kind": "retailer",
+          "url": "https://www.gamenerdz.com/concordia-aegyptus-creta",
+          "note": null
+        }
+      ],
+      "id": "concordia--aegyptus-creta",
+      "slug": "aegyptus-creta",
+      "game": "concordia",
+      "name": "Concordia: Aegyptus & Creta",
+      "type": "expansion",
+      "publisher": "Rio Grande Games",
+      "releaseYear": 2017,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the base game (or Concordia Venus).",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "adds": "Double-sided map: Aegyptus (Nile flood food bonus, frankincense/gold trade for money and points) and Creta (tight 20-city map in nine provinces).",
+      "fixes": "Base maps feel open at 2-3 players; Creta and Aegyptus give small groups a crowded, competitive board.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 3,
+      "reason": "BGG players single it out for 2-3 player groups: Creta is near-ideal for two and Aegyptus for two or three, with its own special rules.",
+      "verdictStatus": "draft",
+      "priceUsd": 24.95,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/232917/concordia-aegyptus-creta",
+          "https://www.gamenerdz.com/concordia-aegyptus-creta",
+          "https://www.amazon.com/dp/B077TFTRSS"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2877548/recommended-expansions",
+          "https://boardgamegeek.com/thread/3498791/concordia-and-its-all-expansions"
+        ],
+        "price": [
+          "https://www.gamenerdz.com/concordia-aegyptus-creta"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B077TFTRSS",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B09RQ6BQ6R",
+          "note": null
+        },
+        {
+          "store": "Game Nerdz",
+          "kind": "retailer",
+          "url": "https://www.gamenerdz.com/concordia-solitaria-expansion",
+          "note": null
+        }
+      ],
+      "id": "concordia--solitaria",
+      "slug": "solitaria",
+      "game": "concordia",
+      "name": "Concordia: Solitaria",
+      "type": "expansion",
+      "publisher": "Rio Grande Games",
+      "releaseYear": 2021,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the base game or Concordia Venus.",
+      "minPlayers": 1,
+      "maxPlayers": 2,
+      "adds": "Solo mode and 2-player co-op against an automated opponent (Contrarius) run by a card deck and dice; can also act as a third player in a 2-player game.",
+      "fixes": "Concordia has no solo mode out of the box, and 2-player games can feel loose without a third presence on the board.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "depends",
+      "buyOrder": 4,
+      "reason": "Essential for solo players per The Dice Drop and BGG, but easy to skip for groups that never play alone; best paired with a map pack.",
+      "verdictStatus": "draft",
+      "priceUsd": 29.95,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/325490/concordia-solitaria",
+          "https://www.gamenerdz.com/concordia-solitaria-expansion",
+          "https://www.amazon.com/dp/B09RQ6BQ6R"
+        ],
+        "verdict": [
+          "https://thedicedrop.com/posts/is-it-worth-it-concordia-expansions-ranked/",
+          "https://boardgamegeek.com/thread/2877548/recommended-expansions"
+        ],
+        "price": [
+          "https://www.gamenerdz.com/concordia-solitaria-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B09RQ6BQ6R",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs the base game or Concordia Venus."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07Z9TT86B",
+          "note": null
+        },
+        {
+          "store": "Game Nerdz",
+          "kind": "retailer",
+          "url": "https://www.gamenerdz.com/concordia-balearica-cyprus-expansion",
+          "note": null
+        }
+      ],
+      "id": "concordia--balearica-cyprus",
+      "slug": "balearica-cyprus",
+      "game": "concordia",
+      "name": "Concordia: Balearica & Cyprus",
+      "type": "expansion",
+      "publisher": "Rio Grande Games",
+      "releaseYear": 2019,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the original Concordia base game.",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "adds": "Fish market module (changes the Prefect action and the economy) plus a double-sided map: Balearica and Cyprus.",
+      "fixes": "Adds a new economic module that works on every map, not just more geography.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 5,
+      "reason": "BGG regulars rate the fish market as an excellent module usable with all maps and expansions, and suggest getting it before Venus if you skip team play.",
+      "verdictStatus": "draft",
+      "priceUsd": 29.95,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/283177/concordia-balearica-cyprus",
+          "https://www.gamenerdz.com/concordia-balearica-cyprus-expansion",
+          "https://www.amazon.com/dp/B07Z9TT86B"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2877548/recommended-expansions",
+          "https://boardgamegeek.com/thread/3498791/concordia-and-its-all-expansions"
+        ],
+        "price": [
+          "https://www.gamenerdz.com/concordia-balearica-cyprus-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07Z9TT86B",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07L8YFB7X",
+          "note": "expansion box (not the standalone Venus)"
+        },
+        {
+          "store": "Game Nerdz",
+          "kind": "retailer",
+          "url": "https://www.gamenerdz.com/concordia-venus-expansion",
+          "note": "expansion box (not the standalone Venus)"
+        }
+      ],
+      "id": "concordia--venus-expansion",
+      "slug": "venus-expansion",
+      "game": "concordia",
+      "name": "Concordia: Venus (Expansion)",
+      "type": "expansion",
+      "publisher": "Rio Grande Games",
+      "releaseYear": 2018,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the original Concordia base game.",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "adds": "Team play (2v2, 3v3), a sixth player color, Venus god cards, and two maps (Hellas and the modular Ionium).",
+      "fixes": "Lets 6 players play and adds a partnership mode; Ionium can be sized for 2-6 players.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 6,
+      "reason": "Rated worth it for team play or 6 players, but The Dice Drop and BGG posters say it is skippable if your group plays 3-5 without teams.",
+      "verdictStatus": "draft",
+      "priceUsd": 44.95,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/262711/concordia-venus-expansion",
+          "https://www.gamenerdz.com/concordia-venus-expansion",
+          "https://www.amazon.com/dp/B07L8YFB7X"
+        ],
+        "verdict": [
+          "https://thedicedrop.com/posts/is-it-worth-it-concordia-expansions-ranked/",
+          "https://boardgamegeek.com/thread/2877548/recommended-expansions"
+        ],
+        "price": [
+          "https://www.gamenerdz.com/concordia-venus-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07L8YFB7X",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B00OY5TUAI",
+          "note": null
+        },
+        {
+          "store": "Game Nerdz",
+          "kind": "retailer",
+          "url": "https://www.gamenerdz.com/concordia-britannia-germania-expansion",
+          "note": null
+        }
+      ],
+      "id": "concordia--britannia-germania",
+      "slug": "britannia-germania",
+      "game": "concordia",
+      "name": "Concordia: Britannia & Germania",
+      "type": "expansion",
+      "publisher": "Rio Grande Games",
+      "releaseYear": 2014,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the base game (or Concordia Venus).",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "adds": "Double-sided map: Britannia and Germania; Germania has its own quirky special rules.",
+      "fixes": "Adds new board layouts to change openings after many plays on Italia and Imperium.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "depends",
+      "buyOrder": 7,
+      "reason": "BGG players call Britannia / Germania a nice variant map pack; buy it once you want more map variety rather than as a first add-on.",
+      "verdictStatus": "draft",
+      "priceUsd": 24.95,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/165023/concordia-britannia-germania",
+          "https://www.gamenerdz.com/concordia-britannia-germania-expansion",
+          "https://www.amazon.com/dp/B00OY5TUAI"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2877548/recommended-expansions"
+        ],
+        "price": [
+          "https://www.gamenerdz.com/concordia-britannia-germania-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B00OY5TUAI",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Game Nerdz",
+          "kind": "retailer",
+          "url": "https://www.gamenerdz.com/concordia-gallia-corsica-expansion",
+          "note": null
+        }
+      ],
+      "id": "concordia--gallia-corsica",
+      "slug": "gallia-corsica",
+      "game": "concordia",
+      "name": "Concordia: Gallia & Corsica",
+      "type": "expansion",
+      "publisher": "Rio Grande Games",
+      "releaseYear": 2016,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the base game (or Concordia Venus).",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "adds": "Double-sided map: the large Gallia board and the small Corsica board.",
+      "fixes": "Gives both bigger and smaller groups another board to learn after the base maps.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "depends",
+      "buyOrder": 8,
+      "reason": "BGG advice is to pick map packs by the player counts you actually play; Gallia & Corsica is pure map variety with no new module.",
+      "verdictStatus": "draft",
+      "priceUsd": 24.95,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/208364/concordia-gallia-corsica",
+          "https://www.gamenerdz.com/concordia-gallia-corsica-expansion"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3498791/concordia-and-its-all-expansions",
+          "https://thedicedrop.com/posts/is-it-worth-it-concordia-expansions-ranked/"
+        ],
+        "price": [
+          "https://www.gamenerdz.com/concordia-gallia-corsica-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07Z9TY63W",
+          "note": "for Concordia Venus owners"
+        },
+        {
+          "store": "Game Nerdz",
+          "kind": "retailer",
+          "url": "https://www.gamenerdz.com/concordia-balearica-italia-expansion",
+          "note": "for Concordia Venus owners"
+        }
+      ],
+      "id": "concordia--balearica-italia",
+      "slug": "balearica-italia",
+      "game": "concordia",
+      "name": "Concordia Venus: Balearica & Italia",
+      "type": "expansion",
+      "publisher": "Rio Grande Games",
+      "releaseYear": 2019,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs Concordia Venus (standalone); also works with the original Concordia.",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "adds": "Fish market module plus a double-sided map: Balearica and Italia.",
+      "fixes": "Gives Concordia Venus owners the fish market and the classic Italia map, which the Venus box does not include.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "skip_unless",
+      "buyOrder": 9,
+      "reason": "Same fish market BGG players praise in Balearica & Cyprus; only the right buy if you own the Concordia Venus standalone box.",
+      "verdictStatus": "draft",
+      "priceUsd": 29.95,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/283362/concordia-venus-balearica-italia",
+          "https://www.gamenerdz.com/concordia-balearica-italia-expansion",
+          "https://www.amazon.com/dp/B07Z9TY63W"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3498791/concordia-and-its-all-expansions",
+          "https://boardgamegeek.com/thread/2877548/recommended-expansions"
+        ],
+        "price": [
+          "https://www.gamenerdz.com/concordia-balearica-italia-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07Z9TY63W",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0C82CNHDY",
+          "note": "Capstone Games English edition"
+        },
+        {
+          "store": "Capstone Games",
+          "kind": "publisher",
+          "url": "https://capstone-games.com/products/ark-nova-marine-worlds",
+          "note": null
+        }
+      ],
+      "id": "ark-nova--marine-worlds",
+      "slug": "marine-worlds",
+      "game": "ark-nova",
+      "name": "Ark Nova: Marine Worlds",
+      "type": "expansion",
+      "publisher": "Capstone Games",
+      "releaseYear": 2023,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the base game.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Sea animals that live in new aquarium enclosures built next to water, reef-dweller chain abilities, a fourth university, 20 alternate action cards (swap in 2 at setup), new sponsors, conservation projects, bonus tiles and final scoring cards, plus shaped wooden track markers.",
+      "fixes": "Base-game card rows can clog with cards nobody wants; wave icons on sea cards flush the display, and the alternate action cards make each player's engine feel different.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "Won the 2023 Golden Geek Best Expansion award and is rated 8.9 on BGG; reviewers single out the alternate action cards and faster card-row churn as the reason it improves the base game.",
+      "verdictStatus": "draft",
+      "priceUsd": 34.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://capstone-games.com/products/ark-nova-marine-worlds",
+          "https://boardgamegeek.com/boardgame/368966/ark-nova-marine-worlds",
+          "https://boardgamegeek.com/boardgame/342942/ark-nova/expansions"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/boardgame/368966/ark-nova-marine-worlds",
+          "https://www.meeplemountain.com/reviews/ark-nova-marine-worlds/",
+          "https://boardgamegeek.com/thread/3570899/does-it-require-marine-worlds"
+        ],
+        "price": [
+          "https://capstone-games.com/products/ark-nova-marine-worlds.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0C82CNHDY",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0DLXZJ644",
+          "note": "Capstone Games English edition"
+        },
+        {
+          "store": "Capstone Games",
+          "kind": "publisher",
+          "url": "https://capstone-games.com/products/ark-nova-zoo-map-pack-2",
+          "note": null
+        }
+      ],
+      "id": "ark-nova--zoo-map-pack-2",
+      "slug": "zoo-map-pack-2",
+      "game": "ark-nova",
+      "name": "Ark Nova: Zoo Map Pack 2",
+      "type": "mini_expansion",
+      "publisher": "Capstone Games",
+      "releaseYear": 2024,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the base game. Works with or without Marine Worlds.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Five new zoo-map layouts: four double-sided boards with the Tournament 1 map on one side (so all 4 players can share it) and Artificial Intelligence, Caves, Drawing Board and Lagoon on the other, with a reference sheet for the new map abilities.",
+      "fixes": "Gives experienced players fresh opening puzzles once the 8 base-game maps feel solved, and adds a shared map so everyone starts on equal footing.",
+      "complexity": "same",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 2,
+      "reason": "Cheap way to add variety (5 maps for about $13) and rated 8.6 on BGG; Feuerland confirmed on BGG it does not require Marine Worlds.",
+      "verdictStatus": "draft",
+      "priceUsd": 12.95,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://capstone-games.com/products/ark-nova-zoo-map-pack-2",
+          "https://boardgamegeek.com/boardgame/426978/ark-nova-zoo-map-pack-2",
+          "https://boardgamegeek.com/thread/3474805/expansion-pack-question"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3570899/does-it-require-marine-worlds",
+          "https://boardgamegeek.com/boardgame/426978/ark-nova-zoo-map-pack-2"
+        ],
+        "price": [
+          "https://capstone-games.com/products/ark-nova-zoo-map-pack-2.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0DLXZJ644",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs the base game. Works with or without Marine Worlds."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Capstone Games",
+          "kind": "publisher",
+          "url": "https://capstone-games.com/products/ark-nova-zoo-map-pack-1",
+          "note": null
+        }
+      ],
+      "id": "ark-nova--zoo-map-pack-1",
+      "slug": "zoo-map-pack-1",
+      "game": "ark-nova",
+      "name": "Ark Nova: Zoo Map Pack 1",
+      "type": "mini_expansion",
+      "publisher": "Capstone Games",
+      "releaseYear": 2022,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the base game.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Two identical double-sided zoo maps: Map 9 Geographical Zoo (continent areas give a one-time bonus when you house a matching animal there) and Map 10 Rescue Station (dig bonuses let you tuck discarded animals under your map so their icons count).",
+      "fixes": "Adds two new map puzzles for groups that have played the base maps many times.",
+      "complexity": "same",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 3,
+      "reason": "Only two new layouts and a lower BGG rating (8.2) than Map Pack 2, so it's best for players who want every map once they own the other expansions.",
+      "verdictStatus": "draft",
+      "priceUsd": 9.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://capstone-games.com/products/ark-nova-zoo-map-pack-1",
+          "https://boardgamegeek.com/boardgame/368158/ark-nova-zoo-map-pack-1"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/boardgame/368158/ark-nova-zoo-map-pack-1",
+          "https://boardgamegeek.com/thread/3474805/expansion-pack-question"
+        ],
+        "price": [
+          "https://capstone-games.com/products/ark-nova-zoo-map-pack-1.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/twilight-imperium-prophecy-of-kings",
+          "note": "Prophecy of Kings expansion (SKU TI10)"
+        },
+        {
+          "store": "Miniature Market",
+          "kind": "retailer",
+          "url": "https://www.miniaturemarket.com/ffgti10.html",
+          "note": "Twilight Imperium (4th Edition): Prophecy of Kings Expansion"
+        }
+      ],
+      "id": "twilight-imperium--prophecy-of-kings",
+      "slug": "prophecy-of-kings",
+      "game": "twilight-imperium",
+      "name": "Twilight Imperium: Prophecy of Kings",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2020,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Twilight Imperium Fourth Edition base game.",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "adds": "Seven new factions, faction mechs, three leaders per faction (agent, commander, hero), exploration decks with relics, 40 new system and hyperlane tiles, legendary planets, and two extra player colors for up to 8 players.",
+      "fixes": "Base-game factions can feel thin and the map static; exploration, leaders and mechs give every faction more to do, and 7–8 player games become possible.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "Regular TI4 groups treat it as the default way to play: one BGG regular calls it \"clean and elegant\" next to Thunder's Edge, and another says they would never play the base game without it. It is all-or-nothing, so groups who find base TI4 heavy enough may skip it.",
+      "verdictStatus": "draft",
+      "priceUsd": 124.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/twilight-imperium-prophecy-of-kings",
+          "https://www.fantasyflightgames.com/thunders-edge-announcement/",
+          "https://boardgamegeek.com/boardgame/233078/twilight-imperium-fourth-edition"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3605153/thunders-edge-without-prophecy-of-kings-expansion"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/twilight-imperium-prophecy-of-kings.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0FSNZMNTF",
+          "note": "Thunder's Edge expansion (Asmodee/FFG)"
+        },
+        {
+          "store": "Asmodee Store",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/twilight-imperium-thunders-edge",
+          "note": "Thunder's Edge expansion (SKU TI11EN)"
+        }
+      ],
+      "id": "twilight-imperium--thunders-edge",
+      "slug": "thunders-edge",
+      "game": "twilight-imperium",
+      "name": "Twilight Imperium: Thunder's Edge",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2025,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Twilight Imperium Fourth Edition base game; works with or without Prophecy of Kings.",
+      "minPlayers": 3,
+      "maxPlayers": 6,
+      "adds": "Five new factions, a breakthrough card for every faction, the Thunder's Edge expedition and legendary planet, the Fracture with neutral units and relics, 20 optional galactic event cards, the printed Twilight Codex content including the Council Keleres faction, new faction reference cards, and the Twilight's Fall alternate game mode.",
+      "fixes": "Breakthroughs buff weaker factions, galactic events let groups vary each game, and players who never printed the free Codex PDFs get that content in the box.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 2,
+      "reason": "BGG regulars like that it is modular (use as much or as little as you want) but warn that it adds overlapping rules and is wilder than Prophecy of Kings; buy it after Prophecy of Kings if your group wants more variety.",
+      "verdictStatus": "draft",
+      "priceUsd": 129.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/twilight-imperium-thunders-edge",
+          "https://www.fantasyflightgames.com/thunders-edge-announcement/",
+          "https://boardgamegeek.com/thread/3605153/thunders-edge-without-prophecy-of-kings-expansion"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3605153/thunders-edge-without-prophecy-of-kings-expansion"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/twilight-imperium-thunders-edge.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0FSNZMNTF",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs the Twilight Imperium Fourth Edition base game; works with or without Prophecy of Kings."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0CRSQLWL2",
+          "note": null
+        },
+        {
+          "store": "Asmodee USA",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/heat-heavy-rain",
+          "note": null
+        }
+      ],
+      "id": "heat-pedal-to-the-metal--heavy-rain",
+      "slug": "heavy-rain",
+      "game": "heat-pedal-to-the-metal",
+      "name": "Heat: Heavy Rain",
+      "type": "expansion",
+      "publisher": "Days of Wonder",
+      "releaseYear": 2024,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Heat: Pedal to the Metal base game.",
+      "minPlayers": 1,
+      "maxPlayers": 7,
+      "adds": "Two new tracks (Japan with rain puddles that limit downshifting, Mexico with chicanes), the 1964 Championship season, Air Intake upgrade cards for extra cooling, and a 7th car (orange) with its own deck and mat.",
+      "fixes": "Base tracks start to feel familiar; adds two very different circuits, a strong all-round upgrade, and room for a seventh player.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "Most replies in BGG's \"which expansion?\" thread picked Heavy Rain over Tunnel Vision: rain puddles are easy to grasp and Air Intake cooling is useful on every track.",
+      "verdictStatus": "draft",
+      "priceUsd": 37.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://www.daysofwonder.com/game/heat-heavy-rain/",
+          "https://boardgamegeek.com/boardgame/410291/heat-heavy-rain",
+          "https://store.asmodee.com/products/heat-heavy-rain"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3478012/which-expansion",
+          "https://boardgamegeek.com/thread/3479184/first-impressions-of-heat-tunnel-vision-is-more-of"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/heat-heavy-rain.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0CRSQLWL2",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0DCM3M1T7",
+          "note": null
+        },
+        {
+          "store": "Asmodee USA",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/heat-tunnel-vision",
+          "note": null
+        }
+      ],
+      "id": "heat-pedal-to-the-metal--tunnel-vision",
+      "slug": "tunnel-vision",
+      "game": "heat-pedal-to-the-metal",
+      "name": "Heat: Tunnel Vision",
+      "type": "expansion",
+      "publisher": "Days of Wonder",
+      "releaseYear": 2025,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Heat: Pedal to the Metal base game.",
+      "minPlayers": 1,
+      "maxPlayers": 7,
+      "adds": "Two new tracks (Spain with tunnels where you can't discard, the Netherlands with chicanes), the 1965 Championship season, Front Wing upgrades with the new Draft move, and an extra car (purple) for one more player.",
+      "fixes": "Adds a reliable slipstream strategy for groups that always pick the same upgrades, plus more tracks for building custom championships.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 2,
+      "reason": "BGG reviewers call it a close twin of Heavy Rain: just as good if you want more tracks, but slightly less fresh, so most suggest it second.",
+      "verdictStatus": "draft",
+      "priceUsd": 37.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://www.daysofwonder.com/game/heat-tunnel-vision/",
+          "https://boardgamegeek.com/boardgame/436904/heat-tunnel-vision",
+          "https://store.asmodee.com/products/heat-tunnel-vision"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3479184/first-impressions-of-heat-tunnel-vision-is-more-of",
+          "https://boardgamegeek.com/thread/3478012/which-expansion"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/heat-tunnel-vision.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0DCM3M1T7",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0GHBTFPGW",
+          "note": null
+        },
+        {
+          "store": "Asmodee USA",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/heat-rocky-roads",
+          "note": null
+        }
+      ],
+      "id": "heat-pedal-to-the-metal--rocky-roads",
+      "slug": "rocky-roads",
+      "game": "heat-pedal-to-the-metal",
+      "name": "Heat: Rocky Roads",
+      "type": "expansion",
+      "publisher": "Days of Wonder",
+      "releaseYear": 2026,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Heat: Pedal to the Metal base game.",
+      "minPlayers": 1,
+      "maxPlayers": 7,
+      "adds": "Two new tracks (South Africa with loose gravel, Germany with chicanes on a long straight), the 1966 Championship season, Sliding Skirts upgrades, and an extra car with its own deck and mat.",
+      "fixes": "Gives groups who have played every track another two circuits and a new upgrade type, plus more cars to pick from.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 3,
+      "reason": "Same formula as the first two boxes; BGG first impressions frame it as more of what fans already like, best once your group is hooked on Heat.",
+      "verdictStatus": "draft",
+      "priceUsd": 37.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://www.daysofwonder.com/game/heat-rocky-roads/",
+          "https://boardgamegeek.com/boardgame/459763/heat-rocky-roads",
+          "https://store.asmodee.com/products/heat-rocky-roads"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3680793/first-impressions-of-heat-rocky-roads-you-want-mor",
+          "https://puzzlewick.com/guides/heat-expansions-ranked-heavy-rain-tunnel-vision-rocky-roads-legends-2026/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/heat-rocky-roads.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0GHBTFPGW",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0GTVG2L9Q",
+          "note": null
+        },
+        {
+          "store": "Asmodee USA",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/heat-legends",
+          "note": null
+        }
+      ],
+      "id": "heat-pedal-to-the-metal--legends",
+      "slug": "legends",
+      "game": "heat-pedal-to-the-metal",
+      "name": "Heat: Legends",
+      "type": "expansion",
+      "publisher": "Days of Wonder",
+      "releaseYear": 2026,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Heat: Pedal to the Metal base game.",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "adds": "Card pack only: new Legend cards at three difficulty levels covering every car color, Power Up cards that give Legends abilities like slipstream and draft, Rival cards, and new Sponsorship cards.",
+      "fixes": "Base-game Legends (bots) get too easy for experienced players and only cover base-game colors; this makes bots tougher, adjustable, and usable with the expansion cars.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 4,
+      "reason": "BGG's top review calls it essential if you race against bots, but several fans in the announcement thread said they'd pass because they rarely use Legends.",
+      "verdictStatus": "draft",
+      "priceUsd": 18.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://www.daysofwonder.com/game/heat-legends/",
+          "https://boardgamegeek.com/boardgame/463405/heat-legends",
+          "https://store.asmodee.com/products/heat-legends"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3699155/an-essential-expansion-at-all-player-counts",
+          "https://boardgamegeek.com/thread/3649807/days-of-wonder-just-posted-legends-expansion-updat"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/heat-legends.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0GTVG2L9Q",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0DHW3GTDN",
+          "note": null
+        },
+        {
+          "store": "Asmodee",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/splendor-the-silk-road-expansion",
+          "note": null
+        }
+      ],
+      "id": "splendor--the-silk-road",
+      "slug": "the-silk-road",
+      "game": "splendor",
+      "name": "Splendor: The Silk Road",
+      "type": "expansion",
+      "publisher": "Space Cowboys",
+      "releaseYear": 2024,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the base game.",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "Two modules: The Cities (3 of 7 double-sided city tiles replace the race to 15 points; first to meet a city's points-and-cards goal wins) and The Trading Posts (20 tiles that grant permanent bonuses, like an extra gem or extra noble points, once you own the right cards).",
+      "fixes": "Every game of base Splendor ends the same way, racing to 15 points; city goals give each game a different target while turns stay just as quick.",
+      "complexity": "same",
+      "groupStyle": "casual",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "BGG reviewers call it variety without added complexity: easy to teach to new players and it doesn't make games longer. The Cities module is the favourite.",
+      "verdictStatus": "draft",
+      "priceUsd": 18.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/splendor-the-silk-road-expansion",
+          "https://boardgamegeek.com/boardgame/428581/splendor-the-silk-road"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3459120/perfect-expansion-added-variety-without-added-comp",
+          "https://boardgamegeek.com/thread/3567389/splendor-the-silk-road-review"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/splendor-the-silk-road-expansion.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0DHW3GTDN",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0F38NFYRR",
+          "note": null
+        },
+        {
+          "store": "Asmodee",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/splendor-the-sun-never-sets-expansion",
+          "note": null
+        }
+      ],
+      "id": "splendor--the-sun-never-sets",
+      "slug": "the-sun-never-sets",
+      "game": "splendor",
+      "name": "Splendor: The Sun Never Sets",
+      "type": "expansion",
+      "publisher": "Space Cowboys",
+      "releaseYear": 2025,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the base game.",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "Two modules: The Orient (30 extra development cards, 10 per level, with special powers like double bonuses, wild-colour bonuses and chaining into a free card) and Strongholds (3 towers per player that lock face-up cards; put all 3 on one card and you can buy it as an extra action).",
+      "fixes": "Base Splendor has almost no direct interaction; Strongholds let you block and claim cards, and Orient cards let you chain big turns, so it plays more like a real engine-builder.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 2,
+      "reason": "A BGG reviewer who disliked these modules in Cities of Splendor found that Orient plus Strongholds together add real timing tricks and blocking, but more to think about than The Silk Road.",
+      "verdictStatus": "draft",
+      "priceUsd": 18.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/splendor-the-sun-never-sets-expansion",
+          "https://boardgamegeek.com/boardgame/433146/splendor-the-sun-never-sets"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3697328/revisiting-splendor-why-the-sun-never-sets-finally",
+          "https://boardgamegeek.com/thread/3567385/splendor-the-sun-never-sets-short-review"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/splendor-the-sun-never-sets-expansion.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0F38NFYRR",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0GTRPHQK5",
+          "note": "2026 release"
+        },
+        {
+          "store": "Floodgate Games",
+          "kind": "publisher",
+          "url": "https://floodgate.games/products/sagrada-panorama",
+          "note": "2026 release"
+        }
+      ],
+      "id": "sagrada--sagrada-panorama",
+      "slug": "sagrada-panorama",
+      "game": "sagrada",
+      "name": "Sagrada: Panorama",
+      "type": "player_count_extension",
+      "publisher": "Floodgate Games",
+      "releaseYear": 2026,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Requires the Sagrada base game (Remastered or original).",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "adds": "Three modules: 5-6 player support (extra dice, two player boards, dice tray); Lightboards giving each player a personal 10-die reserve plus 6 new tool cards; Focal Point private objectives and Panorama objectives shared with your neighbours.",
+      "fixes": "Lets 5-6 people play and adds more control over the luck of the dice draft.",
+      "complexity": "heavier",
+      "groupStyle": "mixed",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "If your group ever has more than four players, this is the one to get. The Lightboards also give you more choice each turn, so it's a good pick even at smaller counts.",
+      "verdictStatus": "draft",
+      "priceUsd": 30.0,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://floodgate.games/products/sagrada-panorama",
+          "https://boardgamegeek.com/boardgame/466710/sagrada-panorama",
+          "https://boardgamegeek.com/thread/3699118/does-it-fit-in-the-original-game-box-and-fit-with"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/boardgame/466710/sagrada-panorama",
+          "https://boardgamegeek.com/video/607233/sagrada-panorama/sagrada-panorama-expansion-review-does-it-make-the"
+        ],
+        "price": [
+          "https://floodgate.games/products/sagrada-panorama"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0GTRPHQK5",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Requires the Sagrada base game (Remastered or original)."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Floodgate Games",
+          "kind": "publisher",
+          "url": "https://floodgate.games/products/sagrada-life",
+          "note": "Great Facades 2 of 3"
+        }
+      ],
+      "id": "sagrada--sagrada-life",
+      "slug": "sagrada-life",
+      "game": "sagrada",
+      "name": "Sagrada: Life",
+      "type": "expansion",
+      "publisher": "Floodgate Games",
+      "releaseYear": 2020,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Requires the Sagrada base game.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Apprentice cards, Masterwork dice that score prestige for meeting tricky restrictions, and Toil public objectives.",
+      "fixes": "Adds new goals and a way to reward risky placements when the base game starts to feel samey.",
+      "complexity": "heavier",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 2,
+      "reason": "Players often name Life's Toil objectives among their favourite modules. It adds variety without slowing the game much, so it's the safest Great Facades box to start with.",
+      "verdictStatus": "draft",
+      "priceUsd": 19.95,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://floodgate.games/products/sagrada-life",
+          "https://boardgamegeek.com/thread/3699118/does-it-fit-in-the-original-game-box-and-fit-with"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3110295/sagrada-w-all-expansions-whats-your-favorite-modul",
+          "https://www.reddit.com/r/boardgames/comments/ygj29j/best_sagrada_expansion/"
+        ],
+        "price": [
+          "https://floodgate.games/products/sagrada-life"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Floodgate Games",
+          "kind": "publisher",
+          "url": "https://floodgate.games/products/sagrada-passion",
+          "note": "Great Facades 1 of 3; out of stock at publisher on checked_on"
+        }
+      ],
+      "id": "sagrada--sagrada-passion",
+      "slug": "sagrada-passion",
+      "game": "sagrada",
+      "name": "Sagrada: Passion",
+      "type": "expansion",
+      "publisher": "Floodgate Games",
+      "releaseYear": 2019,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Requires the Sagrada base game.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Inspiration cards that give players special powers, Rare Glass dice with new private objectives, and symmetry/balance public objectives.",
+      "fixes": "Gives players unique powers and more ways to score, which adds variety to repeat plays.",
+      "complexity": "heavier",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 3,
+      "reason": "Inspiration cards and the Symmetry objectives are fan favourites. It's a good second box, but it's harder to find now than Life or Glory.",
+      "verdictStatus": "draft",
+      "priceUsd": 19.95,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://floodgate.games/products/sagrada-passion",
+          "https://boardgamegeek.com/boardgame/263695/sagrada-great-facades-passion",
+          "https://boardgamegeek.com/thread/3699118/does-it-fit-in-the-original-game-box-and-fit-with"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3110295/sagrada-w-all-expansions-whats-your-favorite-modul",
+          "https://www.reddit.com/r/boardgames/comments/9r0gvg/3_sagrada_expansions_the_great_facades_passion/"
+        ],
+        "price": [
+          "https://floodgate.games/products/sagrada-passion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Floodgate Games",
+          "kind": "publisher",
+          "url": "https://floodgate.games/products/sagrada-glory",
+          "note": "Great Facades 3 of 3"
+        }
+      ],
+      "id": "sagrada--sagrada-glory",
+      "slug": "sagrada-glory",
+      "game": "sagrada",
+      "name": "Sagrada: Glory",
+      "type": "expansion",
+      "publisher": "Floodgate Games",
+      "releaseYear": 2022,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Requires the Sagrada base game.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Strife dice, Pioneer cards that reward being first to meet objectives, Flourish private objectives, and Rivalry public objectives.",
+      "fixes": "Adds more direct competition to a game that otherwise feels like everyone is solving their own puzzle.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 4,
+      "reason": "Get this if your group wants to race and compete with each other. If you like Sagrada as a calm puzzle, Life or Passion is the better buy.",
+      "verdictStatus": "draft",
+      "priceUsd": 19.95,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://floodgate.games/products/sagrada-glory",
+          "https://boardgamegeek.com/thread/3699118/does-it-fit-in-the-original-game-box-and-fit-with"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3110295/sagrada-w-all-expansions-whats-your-favorite-modul"
+        ],
+        "price": [
+          "https://floodgate.games/products/sagrada-glory"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Floodgate Games",
+          "kind": "publisher",
+          "url": "https://floodgate.games/products/sagrada-2026-promo-pack",
+          "note": "2017-2025 promo collection"
+        }
+      ],
+      "id": "sagrada--sagrada-2025-promo-pack",
+      "slug": "sagrada-2025-promo-pack",
+      "game": "sagrada",
+      "name": "Sagrada 2025 Promo Pack",
+      "type": "mini_expansion",
+      "publisher": "Floodgate Games",
+      "releaseYear": 2026,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Requires the Sagrada base game.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Every promo window pattern card released from 2017 to 2025, plus a new foil exclusive.",
+      "fixes": "Adds more window patterns for variety.",
+      "complexity": "same",
+      "groupStyle": "casual",
+      "verdict": "skip_unless",
+      "buyOrder": 5,
+      "reason": "These are just extra window patterns. Only worth it if you've played the base patterns to death or you collect Sagrada promos.",
+      "verdictStatus": "draft",
+      "priceUsd": 25.0,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://floodgate.games/products/sagrada-2026-promo-pack",
+          "https://boardgamegeek.com/boardgame/465171/sagrada-2025-promo-card-collection"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/boardgame/465171/sagrada-2025-promo-card-collection"
+        ],
+        "price": [
+          "https://floodgate.games/products/sagrada-2026-promo-pack"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Floodgate Games",
+          "kind": "publisher",
+          "url": "https://floodgate.games/products/sagrada-remaster-celebration-2026-promo-pack",
+          "note": "6 foil promos"
+        }
+      ],
+      "id": "sagrada--sagrada-remaster-celebration-promo-pack",
+      "slug": "sagrada-remaster-celebration-promo-pack",
+      "game": "sagrada",
+      "name": "Sagrada Remaster Celebration 2026 Promo Pack",
+      "type": "mini_expansion",
+      "publisher": "Floodgate Games",
+      "releaseYear": 2026,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Requires the Sagrada base game.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Six new foil promo window pattern cards.",
+      "fixes": "Adds a few new window patterns.",
+      "complexity": "same",
+      "groupStyle": "casual",
+      "verdict": "skip_unless",
+      "buyOrder": 6,
+      "reason": "It's a cheap add-on, but it's only six cards. Grab it if you're already ordering from Floodgate.",
+      "verdictStatus": "draft",
+      "priceUsd": 5.0,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://floodgate.games/products/sagrada-remaster-celebration-2026-promo-pack",
+          "https://boardgamegeek.com/boardgame/465172"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/boardgame/465172"
+        ],
+        "price": [
+          "https://floodgate.games/products/sagrada-remaster-celebration-2026-promo-pack"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
         "affiliate_enabled": false,
         "requires_disclosure": true
       },

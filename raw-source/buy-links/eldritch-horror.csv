@@ -1,0 +1,19 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Amazon,amazon,https://www.amazon.com/dp/1616617667,,2026-10-08,curl 200 title match
+_base,Asmodee Store,publisher,https://store.asmodee.com/products/eldritch-horror,,2026-10-08,curl 200 + Shopify products.json title match
+forsaken-lore,Amazon,amazon,https://www.amazon.com/dp/1616618086,,2026-10-08,curl 200 title match
+forsaken-lore,Asmodee Store,publisher,https://store.asmodee.com/products/eldritch-horror-forsaken-lore,,2026-10-08,curl 200 + Shopify products.json title match
+cities-in-ruin,Amazon,amazon,https://www.amazon.com/dp/B06ZZRQ6JX,,2026-10-08,curl 200 title match
+cities-in-ruin,Asmodee Store,publisher,https://store.asmodee.com/products/eldritch-horror-cities-in-ruin,,2026-10-08,curl 200 + Shopify products.json title match
+strange-remnants,Amazon,amazon,https://www.amazon.com/dp/163344127X,,2026-10-08,curl 200 title match
+strange-remnants,Asmodee Store,publisher,https://store.asmodee.com/products/eldritch-horror-strange-remnants,,2026-10-08,curl 200 + Shopify products.json title match
+the-dreamlands,Amazon,amazon,https://www.amazon.com/dp/B01MCRSMPZ,,2026-10-08,curl 200 title match
+the-dreamlands,Asmodee Store,publisher,https://store.asmodee.com/products/eldritch-horror-the-dreamlands,,2026-10-08,curl 200 + Shopify products.json title match
+under-the-pyramids,Amazon,amazon,https://www.amazon.com/dp/B013TRXWXM,,2026-10-08,curl 200 title match
+under-the-pyramids,Asmodee Store,publisher,https://store.asmodee.com/products/eldritch-horror-under-the-pyramids,,2026-10-08,curl 200 + Shopify products.json title match
+signs-of-carcosa,Amazon,amazon,https://www.amazon.com/dp/B01E1FY3H0,,2026-10-08,curl 200 title match
+signs-of-carcosa,Asmodee Store,publisher,https://store.asmodee.com/products/eldritch-horror-signs-of-carcosa,,2026-10-08,curl 200 + Shopify products.json title match
+mountains-of-madness,Amazon,amazon,https://www.amazon.com/dp/1616619775,,2026-10-08,curl 200 title match
+mountains-of-madness,Asmodee Store,publisher,https://store.asmodee.com/products/eldritch-horror-the-mountains-of-madness,,2026-10-08,curl 200 + Shopify products.json title match
+masks-of-nyarlathotep,Amazon,amazon,https://www.amazon.com/dp/B077PC12C2,,2026-10-08,curl 200 title match
+masks-of-nyarlathotep,Asmodee Store,publisher,https://store.asmodee.com/products/eldritch-horror-masks-of-nyarlathotep,,2026-10-08,curl 200 + Shopify products.json title match

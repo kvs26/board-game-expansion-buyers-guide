@@ -1,0 +1,20 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Amazon,amazon,https://www.amazon.com/dp/B00HFDSQP6,,2026-10-08,curl 200 title match
+_base,Game Nerdz,retailer,https://www.gamenerdz.com/concordia,,2026-10-08,curl 200 title match
+salsa,Amazon,amazon,https://www.amazon.com/dp/B0189AQKJ2,,2026-10-08,curl 200 title match
+salsa,Game Nerdz,retailer,https://www.gamenerdz.com/concordia-salsa-expansion,,2026-10-08,curl 200 title match
+roma-sicilia,Amazon,amazon,https://www.amazon.com/dp/B0CQMFJH1H,,2026-10-08,curl 200 title match
+roma-sicilia,Game Nerdz,retailer,https://www.gamenerdz.com/concordia-roma-sicilia-expansion,,2026-10-08,curl 200 title match
+aegyptus-creta,Amazon,amazon,https://www.amazon.com/dp/B077TFTRSS,,2026-10-08,curl 200 title match
+aegyptus-creta,Game Nerdz,retailer,https://www.gamenerdz.com/concordia-aegyptus-creta,,2026-10-08,curl 200 title match
+solitaria,Amazon,amazon,https://www.amazon.com/dp/B09RQ6BQ6R,,2026-10-08,curl 200 title match
+solitaria,Game Nerdz,retailer,https://www.gamenerdz.com/concordia-solitaria-expansion,,2026-10-08,curl 200 title match
+balearica-cyprus,Amazon,amazon,https://www.amazon.com/dp/B07Z9TT86B,,2026-10-08,curl 200 title match
+balearica-cyprus,Game Nerdz,retailer,https://www.gamenerdz.com/concordia-balearica-cyprus-expansion,,2026-10-08,curl 200 title match
+venus-expansion,Amazon,amazon,https://www.amazon.com/dp/B07L8YFB7X,expansion box (not the standalone Venus),2026-10-08,curl 200 title match
+venus-expansion,Game Nerdz,retailer,https://www.gamenerdz.com/concordia-venus-expansion,expansion box (not the standalone Venus),2026-10-08,curl 200 title match
+britannia-germania,Amazon,amazon,https://www.amazon.com/dp/B00OY5TUAI,,2026-10-08,curl 200 title match
+britannia-germania,Game Nerdz,retailer,https://www.gamenerdz.com/concordia-britannia-germania-expansion,,2026-10-08,curl 200 title match
+gallia-corsica,Game Nerdz,retailer,https://www.gamenerdz.com/concordia-gallia-corsica-expansion,,2026-10-08,curl 200 title match
+balearica-italia,Amazon,amazon,https://www.amazon.com/dp/B07Z9TY63W,for Concordia Venus owners,2026-10-08,curl 200 title match
+balearica-italia,Game Nerdz,retailer,https://www.gamenerdz.com/concordia-balearica-italia-expansion,for Concordia Venus owners,2026-10-08,curl 200 title match

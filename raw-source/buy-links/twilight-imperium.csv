@@ -1,0 +1,8 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Amazon,amazon,https://www.amazon.com/dp/B074YPSTRP,Twilight Imperium 4th Edition (Asmodee/FFG),2026-10-08,curl 200 + product page title match
+_base,Asmodee Store,publisher,https://store.asmodee.com/products/twilight-imperium-4th-edition,Twilight Imperium 4th Edition (SKU TI07),2026-10-08,curl 200 + Shopify products.json title match
+_base,Miniature Market,retailer,https://www.miniaturemarket.com/ffgti07.html,Twilight Imperium (4th Edition),2026-10-08,curl 200 + product page title match
+prophecy-of-kings,Asmodee Store,publisher,https://store.asmodee.com/products/twilight-imperium-prophecy-of-kings,Prophecy of Kings expansion (SKU TI10),2026-10-08,curl 200 + Shopify products.json title match
+prophecy-of-kings,Miniature Market,retailer,https://www.miniaturemarket.com/ffgti10.html,Twilight Imperium (4th Edition): Prophecy of Kings Expansion,2026-10-08,curl 200 + product page title match
+thunders-edge,Amazon,amazon,https://www.amazon.com/dp/B0FSNZMNTF,Thunder's Edge expansion (Asmodee/FFG),2026-10-08,curl 200 + product page title match
+thunders-edge,Asmodee Store,publisher,https://store.asmodee.com/products/twilight-imperium-thunders-edge,Thunder's Edge expansion (SKU TI11EN),2026-10-08,curl 200 + Shopify products.json title match

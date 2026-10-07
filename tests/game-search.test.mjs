@@ -26,7 +26,7 @@ test('game name and publisher are direct hits', () => {
 
 test('multi-word queries can mix game and expansion words', () => {
   assert.deepEqual(find('catan cities knights').map(([s]) => s), ['catan']);
-  assert.deepEqual(find('cities').map(([s]) => s).sort(), ['7-wonders', 'catan']);
+  assert.deepEqual(find('cities').map(([s]) => s).sort(), ['7-wonders', 'catan', 'eldritch-horror']);
 });
 
 test('empty query matches everything; nonsense matches nothing', () => {

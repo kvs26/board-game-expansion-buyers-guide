@@ -123,7 +123,11 @@ def merge_links(asin_url, extra):
 
 def read(pattern):
     rows = []
+    batch = re.compile(r'research-batch\d+(-games)?\.csv$')
     for f in sorted(glob.glob(os.path.join(HERE, pattern))):
+        name = os.path.basename(f)
+        if not batch.match(name) or name.endswith('-games.csv') != pattern.endswith('-games.csv'):
+            continue
         with open(f, encoding='utf-8') as fh:
             rows.extend(csv.DictReader(fh))
     return rows
@@ -133,7 +137,7 @@ def main():
     buy = read_buy_links()
     used = set()
     games = []
-    for r in read('research-batch?-games.csv'):
+    for r in read('research-batch*-games.csv'):
         slug = r['base_game_slug'].strip()
         used.add((slug, '_base'))
         links = merge_links(link(r['amazon_asin']), buy.get((slug, '_base')))
@@ -158,7 +162,7 @@ def main():
     game_slugs = {g['slug'] for g in games}
 
     expansions = []
-    for r in read('research-batch?.csv'):
+    for r in read('research-batch*.csv'):
         game = r['base_game_slug'].strip()
         assert game in game_slugs, f'unknown game {game}'
         exp_slug = blank(r['expansion_slug']) or slugify(r['expansion_name'])

@@ -1,0 +1,8 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Amazon,amazon,https://www.amazon.com/dp/B09L6FCP9S,Capstone Games English edition,2026-10-08,curl 200 title match
+_base,Capstone Games,publisher,https://capstone-games.com/products/ark-nova,,2026-10-08,curl 200 + Shopify products.json title match
+marine-worlds,Amazon,amazon,https://www.amazon.com/dp/B0C82CNHDY,Capstone Games English edition,2026-10-08,curl 200 title match
+marine-worlds,Capstone Games,publisher,https://capstone-games.com/products/ark-nova-marine-worlds,,2026-10-08,curl 200 + Shopify products.json title match
+zoo-map-pack-2,Amazon,amazon,https://www.amazon.com/dp/B0DLXZJ644,Capstone Games English edition,2026-10-08,curl 200 title match
+zoo-map-pack-2,Capstone Games,publisher,https://capstone-games.com/products/ark-nova-zoo-map-pack-2,,2026-10-08,curl 200 + Shopify products.json title match
+zoo-map-pack-1,Capstone Games,publisher,https://capstone-games.com/products/ark-nova-zoo-map-pack-1,,2026-10-08,curl 200 + Shopify products.json title match

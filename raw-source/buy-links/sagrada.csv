@@ -1,0 +1,11 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Amazon,amazon,https://www.amazon.com/dp/B0GL8SJRFC,Remastered Edition (2026),2026-10-08,curl 200 title match
+_base,Amazon,amazon,https://www.amazon.com/dp/B0GL8V2VFD,Remastered Deluxe Edition (2026),2026-10-08,curl 200 title match
+_base,Floodgate Games,publisher,https://floodgate.games/products/sagrada,Remastered Standard and Deluxe,2026-10-08,curl 200 + Shopify products.json title match
+sagrada-panorama,Amazon,amazon,https://www.amazon.com/dp/B0GTRPHQK5,2026 release,2026-10-08,curl 200 title match
+sagrada-panorama,Floodgate Games,publisher,https://floodgate.games/products/sagrada-panorama,2026 release,2026-10-08,curl 200 + Shopify products.json title match
+sagrada-life,Floodgate Games,publisher,https://floodgate.games/products/sagrada-life,Great Facades 2 of 3,2026-10-08,curl 200 + Shopify products.json title match
+sagrada-passion,Floodgate Games,publisher,https://floodgate.games/products/sagrada-passion,Great Facades 1 of 3; out of stock at publisher on checked_on,2026-10-08,curl 200 + Shopify products.json title match
+sagrada-glory,Floodgate Games,publisher,https://floodgate.games/products/sagrada-glory,Great Facades 3 of 3,2026-10-08,curl 200 + Shopify products.json title match
+sagrada-2025-promo-pack,Floodgate Games,publisher,https://floodgate.games/products/sagrada-2026-promo-pack,2017-2025 promo collection,2026-10-08,curl 200 + Shopify products.json title match
+sagrada-remaster-celebration-promo-pack,Floodgate Games,publisher,https://floodgate.games/products/sagrada-remaster-celebration-2026-promo-pack,6 foil promos,2026-10-08,curl 200 + Shopify products.json title match
