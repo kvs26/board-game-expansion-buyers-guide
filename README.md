@@ -80,3 +80,5 @@ that re-points the same semantic roles (no extra skin needed).
   `calculator.astro`). Reach for Preact only if a tool crosses a genuine interdependent-reactive-state
   threshold (ticket 08).
 - Never invent search/CPC/traffic/revenue numbers; dataset entries are hand-verified.
+
+<!-- Auto-deploy test: 2026-10-07T20:13:43Z -->
