@@ -1,0 +1,6 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,CMYK,publisher,https://www.cmyk.games/products/quacks,"Standard $39.99, Deluxe $59.99, All-In $99.99 (All-In includes The Witches and The Alchemists)",2026-10-08,CMYK Shopify products.json lists handle 'quacks' with these three variants and prices
+_base,Amazon,amazon,https://www.amazon.com/dp/B0F4SRMRG9,"Current Standard edition listing ('Quacks Board Game')",2026-10-08,curl page title 'Quacks Board Game – Brew Potions. Push Your Luck. Explode.' matches
+the-quacks-of-quedlinburg-the-herb-witches,CMYK,publisher,https://www.cmyk.games/products/quacks,"Only available inside the All-In edition ($99.99) at CMYK; no standalone expansion page",2026-10-08,CMYK products.json: All-In variant description says it includes The Witches and The Alchemists
+the-quacks-of-quedlinburg-the-alchemists,CMYK,publisher,https://www.cmyk.games/products/quacks,"Only available inside the All-In edition ($99.99) at CMYK; no standalone expansion page",2026-10-08,CMYK products.json: All-In variant description says it includes The Witches and The Alchemists
+the-quacks-of-quedlinburg-the-alchemists,Amazon,amazon,https://www.amazon.com/dp/B08T3T8T28,"CMYK listing; page said currently unavailable on 2026-10-08",2026-10-08,integrated browser page title 'CMYK The Quacks of Quedlinburg: The Alchemists' matches

@@ -1,0 +1,7 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Asmodee US,publisher,https://store.asmodee.com/products/7-wonders-duel,Asmodee US SKU SEV07,2026-10-08,fetched page + title '7 Wonders Duel' matches; $36.99
+_base,Amazon,amazon,https://www.amazon.com/dp/B014DMSTXK,Asmodee base game listing,2026-10-08,curl page title match + browser fetch
+pantheon,Asmodee US,publisher,https://store.asmodee.com/products/7-wonders-duel-pantheon-expansion,Asmodee US SKU SEV09; page og:title wrongly says Armada but body and SKU are Pantheon,2026-10-08,fetched page: body text and SKU SEV09 match Pantheon
+pantheon,Amazon,amazon,https://www.amazon.com/dp/B01K9MNAOG,Asmodee Pantheon expansion listing,2026-10-08,curl page title match + browser fetch
+agora,Asmodee US,publisher,https://store.asmodee.com/products/7-wonders-duel-agora,Asmodee US SKU SEV15,2026-10-08,curl 200 + page title '7 Wonders Duel Agora Board Game Expansion' matches
+agora,Amazon,amazon,https://www.amazon.com/dp/B08PQ17FG1,Asmodee Agora expansion listing,2026-10-08,curl page title match + browser fetch

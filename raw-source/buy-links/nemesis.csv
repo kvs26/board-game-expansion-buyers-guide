@@ -1,0 +1,9 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/167355/nemesis,Reference page only; no verified Amazon or publisher store link for the base game,2026-10-08,page fetched
+aftermath,Amazon,amazon,https://www.amazon.com/dp/B0CY5QZTWJ,Rebel Studio retail reprint,2026-10-08,browser page title match: Rebel Studio Nemesis Aftermath Board Game
+carnomorphs,Amazon,amazon,https://www.amazon.com/dp/B082LR83N6,Compatible with Classic Aftermath and Lockdown,2026-10-08,browser page title match: Nemesis Carnomorph Board Game EXPANSION
+medic-character-expansion,Amazon,amazon,https://www.amazon.com/dp/B09T59LV9G,Kickstarter Exclusive,2026-10-08,browser page title match: Nemesis Board Game Medic Expansion
+untold-stories-1,The Games Steward,retailer,https://www.thegamesteward.com/products/nemesis-untold-stories-1-kickstarter-edition-board-game-expansion,Kickstarter edition,2026-10-08,Shopify product JSON fetched
+untold-stories-1,Board Game Exclusives,retailer,https://www.boardgameexclusives.com/products/untold-stories-1-co-op-campaign-expansion-gamefound-exclusive-pre-order,Gamefound exclusive,2026-10-08,Shopify product JSON fetched
+untold-stories-2,Board Game Exclusives,retailer,https://www.boardgameexclusives.com/products/untold-stories-2-co-op-campaign-expansion-gamefound-exclusive-pre-order,Gamefound exclusive,2026-10-08,Shopify product JSON fetched
+void-seeders,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/313790,Reference page only; no verified standalone retail listing found (unverified),2026-10-08,page fetched

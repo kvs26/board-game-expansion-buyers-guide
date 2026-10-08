@@ -57,6 +57,12 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
           {game.publisher && <span class="pill">{game.publisher}</span>}
           <span class="pill">{all.length} expansions checked</span>
         </div>
+        {game.buyLinks?.length > 0 && (
+          <p class="small" style="margin:var(--space-3) 0 0">
+            <strong>Don’t own the base game yet?</strong>{' '}
+            <BuyLinks links={game.buyLinks} compact name={`${game.name} base game`} />
+          </p>
+        )}
       </div>
     </div>
 

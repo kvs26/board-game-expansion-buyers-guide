@@ -35,6 +35,11 @@ export const GLYPHS = {
   pylon: 'M11 1h2v4h5l-1 2h-4v3l5 13h-2.2l-1.2-3.5h-5.2L8.2 23H6l5-13V7H7L6 5h5zm1 12.5L10.6 17.5h2.8z',
   ring: 'M12 3a9 9 0 1 1 0 18 9 9 0 0 1 0-18zm0 3.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11z',
   bomb: 'M10 7a8 8 0 1 1 0 16 8 8 0 0 1 0-16zm7-5 2 2-3 3.5-2-2zm4 1h2v2h-2z',
+  column: 'M12 1 22 6v2H2V6zM3 9h18v2H3zm2 3h3v7H5zm5.5 0h3v7h-3zM16 12h3v7h-3zM2 20h20v3H2z',
+  cauldron: 'M5 9h14v1.5c2 1.2 3 3.2 3 5.2 0 3.8-4.5 6.3-10 6.3S2 19.500 2 15.700c0-2 1-4 3-5.200zM7 3a1.500 1.500 0 1 1 0 3 1.500 1.500 0 0 1 0-3zm5 1a1.200 1.200 0 1 1 0 2.400 1.200 1.200 0 0 1 0-2.400zm5-1a1.500 1.500 0 1 1 0 3 1.500 1.500 0 0 1 0-3z',
+  alien: 'M12 1c5 0 8 5 8 11 0 3-1 5-3 6.200l1 4.800h-3l-1-3h-4l-1 3H7l1-4.800C6 17 5 15 5 12 5 6 7 1 12 1zM7.500 10l3.500 2.500-3.500 1.500zm9 0v4L13 12.500z',
+  tower: 'M7 1h3v3h4V1h3v6l-1.500 1.500V21H17v2H7v-2h1.500V8.500L7 7zm5 12a2 2 0 0 0-2 2v6h4v-6a2 2 0 0 0-2-2z',
+  saucer: 'M12 3c3 0 5 1.800 5.300 4.200C20.500 8.300 23 9.800 23 11.500 23 14 18 16 12 16S1 14 1 11.500c0-1.700 2.500-3.200 5.700-4.300C7 4.800 9 3 12 3zm0 2.500c-1.600 0-2.700.8-3 2 .9-.2 1.900-.3 3-.3s2.100.1 3 .3c-.3-1.200-1.400-2-3-2zM6 18l-2 4h2l2-3.500zm6 .8-.8 4.200h1.600zm6-.8-2 3.500 2 3.500h2z',
   fish: 'M2 12c3-5 8-7 13-6 3 .6 5.5 2.6 7 6-1.5 3.4-4 5.4-7 6-5 1-10-1-13-6zm14-2a1.3 1.3 0 1 0 0 2.6A1.3 1.3 0 0 0 16 10zM0 7l4 5-4 5z',
 };
 
@@ -78,6 +83,11 @@ export const GAME_ART = {
   'power-grid': { color: '#2D3E50', ink: '#F2D230', glyph: 'pylon' },
   'smash-up': { color: '#D63E8C', ink: '#FFFDF8', glyph: 'bomb' },
   'the-lord-of-the-rings-the-card-game': { color: '#2F3B2A', ink: '#E5B94A', glyph: 'ring' },
+  '7-wonders-duel': { color: '#2F6F8F', ink: '#F5D58A', glyph: 'column' },
+  'the-quacks-of-quedlinburg': { color: '#5B3A8C', ink: '#8BE08B', glyph: 'cauldron' },
+  nemesis: { color: '#14201C', ink: '#9BE04A', glyph: 'alien' },
+  'lords-of-waterdeep': { color: '#8A1F2B', ink: '#E8C468', glyph: 'tower' },
+  'cosmic-encounter': { color: '#1F2A6B', ink: '#FF8FB1', glyph: 'saucer' },
   dixit: { color: '#E3A33B', ink: '#1D2A44', glyph: 'leaf' },
 };
 

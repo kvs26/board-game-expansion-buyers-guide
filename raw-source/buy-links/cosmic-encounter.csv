@@ -1,0 +1,13 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Asmodee US,publisher,https://store.asmodee.com/products/cosmic-encounter,42nd Anniversary Edition (Asmodee US sells it as SKU CE01),2026-10-08,curl 200 + page title 'Cosmic Encounter 42nd Anniversary Ed.' matches; page data flags it unavailable
+_base,Amazon,amazon,https://www.amazon.com/dp/1589944968,"Title says '4th Edition', cannot be tied to 2008 vs 42nd Anniversary print",2026-10-08,curl page title match
+cosmic-incursion,Asmodee US,publisher,https://store.asmodee.com/products/cosmic-incursion,"Fantasy Flight line, compatible with 2008 and 42nd Anniversary core sets",2026-10-08,curl 200 + page title 'Cosmic Incursion Board Game Expansion' matches
+cosmic-conflict,Asmodee US,publisher,https://store.asmodee.com/products/cosmic-conflict,"Fantasy Flight line, compatible with 2008 and 42nd Anniversary core sets",2026-10-08,curl 200 + page title 'Cosmic Conflict Board Game Expansion' matches
+cosmic-alliance,Asmodee US,publisher,https://store.asmodee.com/products/cosmic-alliance,"Fantasy Flight line, compatible with 2008 and 42nd Anniversary core sets",2026-10-08,curl 200 + page title 'Cosmic Alliance Board Game Expansion' matches
+cosmic-alliance,Amazon,amazon,https://www.amazon.com/dp/1616613629,Fantasy Flight Games,2026-10-08,curl page title match
+cosmic-storm,Asmodee US,publisher,https://store.asmodee.com/products/cosmic-storm,"Fantasy Flight line, compatible with 2008 and 42nd Anniversary core sets",2026-10-08,curl 200 + page title 'Cosmic Storm Board Game Expansion' matches
+cosmic-storm,Amazon,amazon,https://www.amazon.com/dp/1616616512,Fantasy Flight Games,2026-10-08,curl page title match
+cosmic-dominion,Asmodee US,publisher,https://store.asmodee.com/products/cosmic-dominion,"Fantasy Flight line, compatible with 2008 and 42nd Anniversary core sets",2026-10-08,curl 200 + page title 'Cosmic Dominion Board Game Expansion' matches
+cosmic-eons,Asmodee US,publisher,https://store.asmodee.com/products/cosmic-eons,"Fantasy Flight line, compatible with 2008 and 42nd Anniversary core sets",2026-10-08,curl 200 + page title 'Cosmic Eons Board Game Expansion' matches
+cosmic-eons,Amazon,amazon,https://www.amazon.com/dp/B01L0LUDR2,Fantasy Flight Games,2026-10-08,curl page title match
+cosmic-odyssey,Asmodee US,publisher,https://store.asmodee.com/products/cosmic-odyssey,"Fantasy Flight line, compatible with 2008 and 42nd Anniversary core sets",2026-10-08,curl 200 + page title 'Cosmic Odyssey Board Game Expansion' matches

@@ -48,6 +48,41 @@
         {
           "store": "Amazon",
           "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B014DMSTXK",
+          "note": "Asmodee base game listing"
+        },
+        {
+          "store": "Asmodee US",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/7-wonders-duel",
+          "note": "Asmodee US SKU SEV07"
+        }
+      ],
+      "slug": "7-wonders-duel",
+      "name": "7 Wonders Duel",
+      "publisher": "Repos Production (Asmodee)",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "playTime": "30",
+      "oneLine": "A two-player card-drafting game where you build a city and wonders over three Ages and win by military conquest or scientific supremacy or on victory points.",
+      "priceUsd": 36.99,
+      "sources": [
+        "https://store.asmodee.com/products/7-wonders-duel",
+        "https://boardgamegeek.com/boardgame/173346/7-wonders-duel",
+        "https://en.wikipedia.org/wiki/7_Wonders_Duel"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B014DMSTXK",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
           "url": "https://www.amazon.com/dp/B072BG9Z9V",
           "note": null
         },
@@ -353,6 +388,40 @@
       "checkedOn": "2026-10-08",
       "affiliate": {
         "affiliate_url": "https://www.amazon.com/dp/B00HFDSQP6",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/1589944968",
+          "note": "Title says '4th Edition', cannot be tied to 2008 vs 42nd Anniversary print"
+        },
+        {
+          "store": "Asmodee US",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/cosmic-encounter",
+          "note": "42nd Anniversary Edition (Asmodee US sells it as SKU CE01)"
+        }
+      ],
+      "slug": "cosmic-encounter",
+      "name": "Cosmic Encounter",
+      "publisher": "Fantasy Flight Games",
+      "minPlayers": 3,
+      "maxPlayers": 5,
+      "playTime": "90",
+      "oneLine": "A negotiation and alliance game where each player takes an alien race with a rule-breaking power and fights to be first to five foreign colonies.",
+      "priceUsd": 76.99,
+      "sources": [
+        "https://store.asmodee.com/products/cosmic-encounter",
+        "https://en.wikipedia.org/wiki/Cosmic_Encounter"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/1589944968",
         "affiliate_enabled": false,
         "requires_disclosure": true
       }
@@ -689,6 +758,35 @@
     {
       "buyLinks": [
         {
+          "store": "Renegade Game Studios",
+          "kind": "publisher",
+          "url": "https://renegadegamestudios.com/lords-of-waterdeep/",
+          "note": "2026 Renegade reprint"
+        }
+      ],
+      "slug": "lords-of-waterdeep",
+      "name": "Lords of Waterdeep",
+      "publisher": "Renegade Game Studios",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "playTime": "90",
+      "oneLine": "A worker-placement game set in the Forgotten Realms where players secretly lead masked Lords, hiring adventurers and sending them on quests to win victory points.",
+      "priceUsd": 55.0,
+      "sources": [
+        "https://renegadegamestudios.com/lords-of-waterdeep/",
+        "https://www.phdgames.com/2026/01/30/lords-of-waterdeep-scoundrels-of-skullport-expansion-renegade-game-studios/",
+        "https://en.wikipedia.org/wiki/Lords_of_Waterdeep"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
           "store": "Czech Games Edition",
           "kind": "publisher",
           "url": "https://czechgames.com/games/lost-ruins-of-arnak/",
@@ -814,6 +912,35 @@
       "checkedOn": "2026-10-08",
       "affiliate": {
         "affiliate_url": "https://www.amazon.com/dp/B0002TV2NS",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "BoardGameGeek",
+          "kind": "retailer",
+          "url": "https://boardgamegeek.com/boardgame/167355/nemesis",
+          "note": "Reference page only; no verified Amazon or publisher store link for the base game"
+        }
+      ],
+      "slug": "nemesis",
+      "name": "Nemesis",
+      "publisher": "Awaken Realms",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "playTime": "180",
+      "oneLine": "A semi-cooperative sci-fi survival game where each player has secret objectives aboard a ship overrun by alien intruders; not everyone gets out alive.",
+      "priceUsd": null,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nemesis_(board_game)",
+        "https://boardgamegeek.com/boardgame/167355/nemesis",
+        "https://www.ign.com/articles/nemesis-board-game-buying-guide-expansions"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
         "affiliate_enabled": false,
         "requires_disclosure": true
       }
@@ -1272,6 +1399,41 @@
       "checkedOn": "2026-10-08",
       "affiliate": {
         "affiliate_url": "https://www.amazon.com/dp/B09HWFK7DG",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0F4SRMRG9",
+          "note": "Current Standard edition listing ('Quacks Board Game')"
+        },
+        {
+          "store": "CMYK",
+          "kind": "publisher",
+          "url": "https://www.cmyk.games/products/quacks",
+          "note": "Standard $39.99, Deluxe $59.99, All-In $99.99 (All-In includes The Witches and The Alchemists)"
+        }
+      ],
+      "slug": "the-quacks-of-quedlinburg",
+      "name": "The Quacks of Quedlinburg",
+      "publisher": "CMYK (US; Schmidt Spiele original)",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playTime": "45",
+      "oneLine": "A push-your-luck bag-building game where players draw ingredient chips from a bag to brew potions, without letting too many cherry bombs make the cauldron explode.",
+      "priceUsd": 39.99,
+      "sources": [
+        "https://www.cmyk.games/products.json",
+        "https://boardgamegeek.com/boardgame/244521/quacks",
+        "https://en.wikipedia.org/wiki/The_Quacks_of_Quedlinburg"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0F4SRMRG9",
         "affiliate_enabled": false,
         "requires_disclosure": true
       }
@@ -9593,6 +9755,1003 @@
       "checkedOn": "2026-10-08",
       "affiliate": {
         "affiliate_url": "https://www.amazon.com/dp/B09N9SVHM2",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B01K9MNAOG",
+          "note": "Asmodee Pantheon expansion listing"
+        },
+        {
+          "store": "Asmodee US",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/7-wonders-duel-pantheon-expansion",
+          "note": "Asmodee US SKU SEV09; page og:title wrongly says Armada but body and SKU are Pantheon"
+        }
+      ],
+      "id": "7-wonders-duel--pantheon",
+      "slug": "pantheon",
+      "game": "7-wonders-duel",
+      "name": "7 Wonders Duel: Pantheon",
+      "type": "expansion",
+      "publisher": "Repos Production (Asmodee)",
+      "releaseYear": 2016,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the 7 Wonders Duel base game; Asmodee US lists it as SKU SEV09 and it works with Agora.",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "adds": "A Pantheon board with 16 deity powers drawn from five Mediterranean cultures, mythology and offering tokens, three Grand Temples that replace the Guilds in Age III, two new Wonders and three Progress tokens.",
+      "fixes": "Adds a second action type (summoning a god instead of taking a card) and gives players more ways to change turn order and spend coins.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "A BGG reviewer who plays the base game over a thousand times says Pantheon lifted it from below average to one of the best two-player games; a 2016 review calls it bigger but not essential, and r/7WondersDuel posters still call it fun cool abilities and play it every time.",
+      "verdictStatus": "draft",
+      "priceUsd": 26.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/7-wonders-duel-pantheon-expansion",
+          "https://boardgamegeek.com/boardgameexpansion/202976/7-wonders-duel-pantheon"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2529545/review-after-the-100th-game-of-base-plus-agora",
+          "https://boardgamegeek.com/thread/1660300/7-wonders-duel-pantheon-pay-heed-to-the-gods-pay-i",
+          "https://www.reddit.com/r/7WondersDuel/comments/1sgb8om/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/7-wonders-duel-pantheon-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B01K9MNAOG",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B08PQ17FG1",
+          "note": "Asmodee Agora expansion listing"
+        },
+        {
+          "store": "Asmodee US",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/7-wonders-duel-agora",
+          "note": "Asmodee US SKU SEV15"
+        }
+      ],
+      "id": "7-wonders-duel--agora",
+      "slug": "agora",
+      "game": "7-wonders-duel",
+      "name": "7 Wonders Duel: Agora",
+      "type": "expansion",
+      "publisher": "Repos Production (Asmodee)",
+      "releaseYear": 2020,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the 7 Wonders Duel base game; Asmodee US lists it as SKU SEV15 and it is compatible with Pantheon.",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "adds": "A Senate board with six chambers and 24 influence cubes, 13 Senator cards, 16 Conspiracy cards, 16 Decree tokens, two new Wonders and two Progress tokens, plus a political-supremacy instant win.",
+      "fixes": "Gives blue cards a reason to be taken early and adds a fourth victory condition and more player interaction.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 2,
+      "reason": "A BGG player with 100 Agora games says Pantheon is the better buy and that senators can create a runaway leader; r/7WondersDuel players who play both say Agora is not unbalanced and makes early blue cards useful, and Amazon reviewers say it is best for experienced Duel players.",
+      "verdictStatus": "draft",
+      "priceUsd": 26.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/7-wonders-duel-agora",
+          "https://boardgamegeek.com/boardgameexpansion/309116/7-wonders-duel-agora"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2529545/review-after-the-100th-game-of-base-plus-agora",
+          "https://www.reddit.com/r/7WondersDuel/comments/1k5n3be/",
+          "https://www.reddit.com/r/7WondersDuel/comments/1sgb8om/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/7-wonders-duel-agora"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B08PQ17FG1",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "CMYK",
+          "kind": "publisher",
+          "url": "https://www.cmyk.games/products/quacks",
+          "note": "Only available inside the All-In edition ($99.99) at CMYK; no standalone expansion page"
+        }
+      ],
+      "id": "the-quacks-of-quedlinburg--the-quacks-of-quedlinburg-the-herb-witches",
+      "slug": "the-quacks-of-quedlinburg-the-herb-witches",
+      "game": "the-quacks-of-quedlinburg",
+      "name": "The Herb Witches",
+      "type": "player_count_extension",
+      "publisher": "Schmidt Spiele / North Star Games (US) / CMYK (US)",
+      "releaseYear": 2019,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the base Quacks of Quedlinburg game; works with the older North Star and the newer CMYK editions (BGG and Reddit buyers say the tokens are hard to tell apart).",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "adds": "A black fifth-player kit (pot board, bag, flask, rat stone, scoring marker), 12 Herb Witch cards with three one-time coin powers per player, the Locoweed ingredient, 8 new ingredient books, a 6-point pumpkin chip and overflow bowls.",
+      "fixes": "Lets a fifth player join, gives catch-up swings through witch powers and adds ingredient-book variety.",
+      "complexity": "same",
+      "groupStyle": "casual",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "BGG 'Which Expansion to Get?' (2022) replies mostly pick Witches first for the fifth player plus books/Locoweed/6-pumpkin and say it barely adds complexity; a 2021 BGG thread says its books and overflow bowls end up in every game; r/boardgames posters call it a must-have. Meeple Mountain also rates it the deeper of the two and it won the 2019 Diamond Climber for best expansion. Caveat: standalone copies are now out of print in the US.",
+      "verdictStatus": "draft",
+      "priceUsd": 39.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/269259/the-quacks-of-quedlinburg-the-herb-witches",
+          "https://www.cmyk.games/products.json",
+          "https://www.ign.com/articles/the-quacks-of-quedlinburg-buyers-guide"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2896412/which-expansion-to-get",
+          "https://boardgamegeek.com/thread/2704277/which-expansion",
+          "https://www.reddit.com/r/boardgames/comments/rtnh3j/quacks_of_quedlinburg_expansions_or_not/",
+          "https://www.meeplemountain.com/reviews/the-quacks-of-quedlinburg-expansions/",
+          "https://www.ign.com/articles/the-quacks-of-quedlinburg-buyers-guide"
+        ],
+        "price": [
+          "https://www.ign.com/articles/the-quacks-of-quedlinburg-buyers-guide"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B08T3T8T28",
+          "note": "CMYK listing; page said currently unavailable on 2026-10-08"
+        },
+        {
+          "store": "CMYK",
+          "kind": "publisher",
+          "url": "https://www.cmyk.games/products/quacks",
+          "note": "Only available inside the All-In edition ($99.99) at CMYK; no standalone expansion page"
+        }
+      ],
+      "id": "the-quacks-of-quedlinburg--the-quacks-of-quedlinburg-the-alchemists",
+      "slug": "the-quacks-of-quedlinburg-the-alchemists",
+      "game": "the-quacks-of-quedlinburg",
+      "name": "The Alchemists",
+      "type": "expansion",
+      "publisher": "Schmidt Spiele / CMYK (US)",
+      "releaseYear": 2020,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the base Quacks of Quedlinburg game; can be played with the base alone or combined with The Herb Witches. Does not add a fifth-player kit, so five players need The Herb Witches or All-In.",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "adds": "Five alchemist flask boards with an essence track, 8 patient cards and markers, 20 essence cards, 20 new Fortune Teller cards, 2 ingredient books and 70 chips (cherry bombs and Locoweed).",
+      "fixes": "Adds an Essence phase each round with asymmetric patient goals and extra Fortune Teller variety.",
+      "complexity": "heavier",
+      "groupStyle": "mixed",
+      "verdict": "depends",
+      "buyOrder": 2,
+      "reason": "BGG threads and Reddit split: some say it adds asymmetry and bag diversification, but more say it bloats a light game (more steps, higher scores, extra table space) and prefer Witches first. Meeple Mountain calls it largely empty calories next to Witches, while IGN lists both as non-essential; r/boardgames posters like it only for new Fortune Teller cards and asymmetry.",
+      "verdictStatus": "draft",
+      "priceUsd": 39.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/316597/the-quacks-of-quedlinburg-the-alchemists",
+          "https://www.cmyk.games/products.json",
+          "https://www.ign.com/articles/the-quacks-of-quedlinburg-buyers-guide"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2896412/which-expansion-to-get",
+          "https://boardgamegeek.com/thread/2704277/which-expansion",
+          "https://www.reddit.com/r/boardgames/comments/rtnh3j/quacks_of_quedlinburg_expansions_or_not/",
+          "https://www.meeplemountain.com/reviews/the-quacks-of-quedlinburg-expansions/",
+          "https://www.ign.com/articles/the-quacks-of-quedlinburg-buyers-guide"
+        ],
+        "price": [
+          "https://www.ign.com/articles/the-quacks-of-quedlinburg-buyers-guide"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B08T3T8T28",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs the base Quacks of Quedlinburg game; can be played with the base alone or combined with The Herb Witches. Does not add a fifth-player kit, so five players need The Herb Witches or All-In."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0CY5QZTWJ",
+          "note": "Rebel Studio retail reprint"
+        }
+      ],
+      "id": "nemesis--aftermath",
+      "slug": "aftermath",
+      "game": "nemesis",
+      "name": "Aftermath",
+      "type": "expansion",
+      "publisher": "Awaken Realms",
+      "releaseYear": 2021,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Nemesis base game or Nemesis: Lockdown.",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "adds": "5 new characters, character trait cards, new rooms and turrets, a shuttle board, and Epilogue and Research Mission modes that extend or reshape the game.",
+      "fixes": "Gives the base game more character variety and asymmetry; the Research Mission variant folds everything into one longer game.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "Reddit threads call it the one most owners rate worth it for the characters and trait cards; several say the Epilogue mode rarely gets played after a long base game and recommend the Research Mission variant instead.",
+      "verdictStatus": "draft",
+      "priceUsd": 76.65,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/318351",
+          "https://www.ign.com/articles/nemesis-board-game-buying-guide-expansions"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/qfo7re/are_the_expansions_for_nemesis_worth_it/",
+          "https://www.reddit.com/r/boardgames/comments/ns8pql/how_do_the_nemesis_expansions_hold_up_do_you_prefer_them_or/"
+        ],
+        "price": [
+          "https://www.amazon.com/dp/B0CY5QZTWJ"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0CY5QZTWJ",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs the Nemesis base game or Nemesis: Lockdown."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B082LR83N6",
+          "note": "Compatible with Classic Aftermath and Lockdown"
+        }
+      ],
+      "id": "nemesis--carnomorphs",
+      "slug": "carnomorphs",
+      "game": "nemesis",
+      "name": "Carnomorphs",
+      "type": "expansion",
+      "publisher": "Awaken Realms",
+      "releaseYear": 2019,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Nemesis base game; also compatible with Nemesis: Lockdown and Aftermath.",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "adds": "A second alien race (Larvae, Metagorgers, Shamblers, Fleshbeasts and a Butcher), mutation cards and burnable corpses; players can be infected and mutate.",
+      "fixes": "Adds a different threat to the intruders and changes how infected players behave.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 2,
+      "reason": "Reddit owners find it a distinct feel from the base aliens but one says it made their game easy; it is seen as optional variety rather than essential.",
+      "verdictStatus": "draft",
+      "priceUsd": 79.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/245845",
+          "https://www.ign.com/articles/nemesis-board-game-buying-guide-expansions"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/qfo7re/are_the_expansions_for_nemesis_worth_it/",
+          "https://www.reddit.com/r/boardgames/comments/ns8pql/how_do_the_nemesis_expansions_hold_up_do_you_prefer_them_or/"
+        ],
+        "price": [
+          "https://www.ign.com/articles/nemesis-board-game-buying-guide-expansions"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B082LR83N6",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "BoardGameGeek",
+          "kind": "retailer",
+          "url": "https://boardgamegeek.com/boardgameexpansion/313790",
+          "note": "Reference page only; no verified standalone retail listing found (unverified)"
+        }
+      ],
+      "id": "nemesis--void-seeders",
+      "slug": "void-seeders",
+      "game": "nemesis",
+      "name": "Void Seeders",
+      "type": "expansion",
+      "publisher": "Awaken Realms",
+      "releaseYear": 2019,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Nemesis base game or Nemesis: Lockdown.",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "adds": "A third alien race (Voidlurkers, Whisperers, Stalker, Despoiler) with insanity and contamination cards and multiple nests.",
+      "fixes": "Replaces the intruder threat with one that manipulates players mentally.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 3,
+      "reason": "Reddit owners say Void Seeders can be an even harder challenge than the base game and one prefers it over Carnomorphs; it is treated as optional variety.",
+      "verdictStatus": "draft",
+      "priceUsd": 64.14,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/313790",
+          "https://www.ign.com/articles/nemesis-board-game-buying-guide-expansions"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/qfo7re/are_the_expansions_for_nemesis_worth_it/",
+          "https://www.reddit.com/r/boardgames/comments/ns8pql/how_do_the_nemesis_expansions_hold_up_do_you_prefer_them_or/"
+        ],
+        "price": [
+          "https://www.ign.com/articles/nemesis-board-game-buying-guide-expansions"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs the Nemesis base game or Nemesis: Lockdown."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B09T59LV9G",
+          "note": "Kickstarter Exclusive"
+        }
+      ],
+      "id": "nemesis--medic-character-expansion",
+      "slug": "medic-character-expansion",
+      "game": "nemesis",
+      "name": "Medic Character Expansion",
+      "type": "mini_expansion",
+      "publisher": "Awaken Realms",
+      "releaseYear": null,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Nemesis base game or Nemesis: Lockdown.",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "adds": "A Medic character with its own cards.",
+      "fixes": "Adds one more character option.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "depends",
+      "buyOrder": 4,
+      "reason": "Reddit owners say the Medic is worth a solo pick-up only for character variety; the Amazon listing is labelled Kickstarter Exclusive.",
+      "verdictStatus": "draft",
+      "priceUsd": 34.4,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://www.amazon.com/dp/B09T59LV9G"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/qfo7re/are_the_expansions_for_nemesis_worth_it/"
+        ],
+        "price": [
+          "https://www.amazon.com/dp/B09T59LV9G"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B09T59LV9G",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs the Nemesis base game or Nemesis: Lockdown."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "The Games Steward",
+          "kind": "retailer",
+          "url": "https://www.thegamesteward.com/products/nemesis-untold-stories-1-kickstarter-edition-board-game-expansion",
+          "note": "Kickstarter edition"
+        },
+        {
+          "store": "Board Game Exclusives",
+          "kind": "retailer",
+          "url": "https://www.boardgameexclusives.com/products/untold-stories-1-co-op-campaign-expansion-gamefound-exclusive-pre-order",
+          "note": "Gamefound exclusive"
+        }
+      ],
+      "id": "nemesis--untold-stories-1",
+      "slug": "untold-stories-1",
+      "game": "nemesis",
+      "name": "Untold Stories #1",
+      "type": "scenario_pack",
+      "publisher": "Awaken Realms",
+      "releaseYear": 2021,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Nemesis base game.",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "adds": "A co-op branching multi-mission campaign told as an 80+ page A5 comic book, with a token punchboard.",
+      "fixes": "Gives the game a scripted cooperative campaign instead of the semi-co-op secret-objective format.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "skip_unless",
+      "buyOrder": 5,
+      "reason": "Gamefound/Kickstarter-exclusive with limited supply; only worth hunting for if your group wants a co-op campaign.",
+      "verdictStatus": "draft",
+      "priceUsd": 29.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://www.thegamesteward.com/products/nemesis-untold-stories-1-kickstarter-edition-board-game-expansion",
+          "https://boardgamegeek.com/boardgameexpansion/275277"
+        ],
+        "verdict": [
+          "https://www.boardgameexclusives.com/products/untold-stories-1-co-op-campaign-expansion-gamefound-exclusive-pre-order"
+        ],
+        "price": [
+          "https://www.thegamesteward.com/products/nemesis-untold-stories-1-kickstarter-edition-board-game-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Board Game Exclusives",
+          "kind": "retailer",
+          "url": "https://www.boardgameexclusives.com/products/untold-stories-2-co-op-campaign-expansion-gamefound-exclusive-pre-order",
+          "note": "Gamefound exclusive"
+        }
+      ],
+      "id": "nemesis--untold-stories-2",
+      "slug": "untold-stories-2",
+      "game": "nemesis",
+      "name": "Untold Stories #2",
+      "type": "scenario_pack",
+      "publisher": "Awaken Realms",
+      "releaseYear": null,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Nemesis base game.",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "adds": "A set of stand-alone scenarios, each retelling core-game events, as a comic book plus 10 cards and tokens.",
+      "fixes": "Adds a storytelling spin to standard semi-coop games.",
+      "complexity": "same",
+      "groupStyle": "experienced",
+      "verdict": "skip_unless",
+      "buyOrder": 6,
+      "reason": "Gamefound-exclusive with limited supply; only worth hunting for as a collector or narrative add-on.",
+      "verdictStatus": "draft",
+      "priceUsd": 29.95,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://www.boardgameexclusives.com/products/untold-stories-2-co-op-campaign-expansion-gamefound-exclusive-pre-order"
+        ],
+        "verdict": [
+          "https://www.boardgameexclusives.com/products/untold-stories-2-co-op-campaign-expansion-gamefound-exclusive-pre-order"
+        ],
+        "price": [
+          "https://www.boardgameexclusives.com/products/untold-stories-2-co-op-campaign-expansion-gamefound-exclusive-pre-order"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0GS3PH8SH",
+          "note": "Renegade 2026 edition"
+        },
+        {
+          "store": "Renegade Game Studios",
+          "kind": "publisher",
+          "url": "https://renegadegamestudios.com/lords-of-waterdeep-scoundrels-of-skullport-expansion/",
+          "note": "2026 Renegade reprint"
+        }
+      ],
+      "id": "lords-of-waterdeep--scoundrels-of-skullport",
+      "slug": "scoundrels-of-skullport",
+      "game": "lords-of-waterdeep",
+      "name": "Scoundrels of Skullport",
+      "type": "expansion",
+      "publisher": "Renegade Game Studios",
+      "releaseYear": 2013,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Lords of Waterdeep core game (any printing; the 2026 Renegade reprint is a straight reprint of the original).",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "adds": "Two modules that can be used separately or together: Undermountain (bigger quests and resources placed on board spaces) and Skullport (a Corruption mechanic with negative end-game points). Adds new Lords, buildings, Intrigue and Quest cards, and a sixth player faction (Gray Hands).",
+      "fixes": "Adds replay variety after many plays of the base game and lets a sixth player join.",
+      "complexity": "heavier",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 1,
+      "reason": "On a 2013 r/boardgames thread owners called it pretty fun with many more actions and new buildings and quests; one said the corruption risk/reward is a nice addition, while another warned it will not win over hardcore gamers and mostly keeps the light game fresh longer. The 2026 BGG reprint thread confirms the reprint is the same content.",
+      "verdictStatus": "draft",
+      "priceUsd": 40.0,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://renegadegamestudios.com/lords-of-waterdeep-scoundrels-of-skullport-expansion/",
+          "https://www.phdgames.com/2026/01/30/lords-of-waterdeep-scoundrels-of-skullport-expansion-renegade-game-studios/",
+          "https://icv2.com/articles/news/view/60835/renegade-will-reprint-lords-waterdeep-d-d-board-game",
+          "https://en.wikipedia.org/wiki/Lords_of_Waterdeep"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/1kca5m/",
+          "https://boardgamegeek.com/thread/3635343/new-reprint-in-2026-same-as-old-edition"
+        ],
+        "price": [
+          "https://renegadegamestudios.com/lords-of-waterdeep-scoundrels-of-skullport-expansion/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0GS3PH8SH",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Asmodee US",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/cosmic-incursion",
+          "note": "Fantasy Flight line, compatible with 2008 and 42nd Anniversary core sets"
+        }
+      ],
+      "id": "cosmic-encounter--cosmic-incursion",
+      "slug": "cosmic-incursion",
+      "game": "cosmic-encounter",
+      "name": "Cosmic Incursion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2010,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Cosmic Encounter 42nd Anniversary Edition core set (or the 2008 Fantasy Flight core set); not compatible with the 1977-2000 Eon/West End/Mayfair/Avalon Hill editions.",
+      "minPlayers": 3,
+      "maxPlayers": 6,
+      "adds": "20 new aliens, an orange sixth player color, a Reward deck and the Cosmic Quakes rules.",
+      "fixes": "Fixes the five-player cap and gives winning encounters extra payoff.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "BGG buyers' threads call it the easy first buy (6th player plus Reward deck) and Rob Burns rates its 20 aliens outstanding with one dud and its Reward module widely considered the best; SU&SD ranks it fourth in its 2015 order.",
+      "verdictStatus": "draft",
+      "priceUsd": 32.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/cosmic-incursion",
+          "https://en.wikipedia.org/wiki/Cosmic_Encounter"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2960248/which-expansions-to-get",
+          "https://boardgamegeek.com/thread/3635424/interested-in-buying-expansions-here-are-three-pos",
+          "https://www.shutupandsitdown.com/guide-cosmic-encounters-expansions/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/cosmic-incursion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Asmodee US",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/cosmic-conflict",
+          "note": "Fantasy Flight line, compatible with 2008 and 42nd Anniversary core sets"
+        }
+      ],
+      "id": "cosmic-encounter--cosmic-conflict",
+      "slug": "cosmic-conflict",
+      "game": "cosmic-encounter",
+      "name": "Cosmic Conflict",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2011,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Cosmic Encounter 42nd Anniversary Edition core set (or the 2008 Fantasy Flight core set); not compatible with the 1977-2000 Eon/West End/Mayfair/Avalon Hill editions.",
+      "minPlayers": 3,
+      "maxPlayers": 6,
+      "adds": "20 new aliens, a black sixth/seventh player color, a Hazard deck and Cosmic Quakes.",
+      "fixes": "Adds a seventh player slot with Incursion and a random-hazard variant.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 4,
+      "reason": "SU&SD found the Hazard deck too random for its reviewer but still ranks it third; Rob Burns says its aliens have one dud and Hazards are a good module; Messianic ranks it fourth of seven.",
+      "verdictStatus": "draft",
+      "priceUsd": 32.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/cosmic-conflict",
+          "https://en.wikipedia.org/wiki/Cosmic_Encounter"
+        ],
+        "verdict": [
+          "https://www.shutupandsitdown.com/guide-cosmic-encounters-expansions/",
+          "https://boardgamegeek.com/thread/2960248/which-expansions-to-get",
+          "https://boardgamegeek.com/thread/3635424/interested-in-buying-expansions-here-are-three-pos"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/cosmic-conflict"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/1616613629",
+          "note": "Fantasy Flight Games"
+        },
+        {
+          "store": "Asmodee US",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/cosmic-alliance",
+          "note": "Fantasy Flight line, compatible with 2008 and 42nd Anniversary core sets"
+        }
+      ],
+      "id": "cosmic-encounter--cosmic-alliance",
+      "slug": "cosmic-alliance",
+      "game": "cosmic-encounter",
+      "name": "Cosmic Alliance",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2012,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Cosmic Encounter 42nd Anniversary Edition core set (or the 2008 Fantasy Flight core set); not compatible with the 1977-2000 Eon/West End/Mayfair/Avalon Hill editions.",
+      "minPlayers": 3,
+      "maxPlayers": 6,
+      "adds": "20 new aliens, a white player color, 7-8 player large-group cards and Team Cosmic rules.",
+      "fixes": "Lets big groups of 7-8 play the game.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "depends",
+      "buyOrder": 6,
+      "reason": "SU&SD calls it the bad expansion and easiest to skip, but BGG posters say it is the large-group expansion par excellence; its Team Cosmic rules also appear in Odyssey, so it is only needed for 7-8 players.",
+      "verdictStatus": "draft",
+      "priceUsd": 32.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/cosmic-alliance",
+          "https://en.wikipedia.org/wiki/Cosmic_Encounter"
+        ],
+        "verdict": [
+          "https://www.shutupandsitdown.com/guide-cosmic-encounters-expansions/",
+          "https://boardgamegeek.com/thread/2960248/which-expansions-to-get",
+          "https://boardgamegeek.com/thread/3635424/interested-in-buying-expansions-here-are-three-pos"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/cosmic-alliance"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/1616613629",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/1616616512",
+          "note": "Fantasy Flight Games"
+        },
+        {
+          "store": "Asmodee US",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/cosmic-storm",
+          "note": "Fantasy Flight line, compatible with 2008 and 42nd Anniversary core sets"
+        }
+      ],
+      "id": "cosmic-encounter--cosmic-storm",
+      "slug": "cosmic-storm",
+      "game": "cosmic-encounter",
+      "name": "Cosmic Storm",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2013,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Cosmic Encounter 42nd Anniversary Edition core set (or the 2008 Fantasy Flight core set); not compatible with the 1977-2000 Eon/West End/Mayfair/Avalon Hill editions.",
+      "minPlayers": 3,
+      "maxPlayers": 5,
+      "adds": "25 new aliens and ten space station cards and tokens with the Space Station Conquest variant.",
+      "fixes": "Adds a map-like objective layer to the standard game.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "skip_unless",
+      "buyOrder": 7,
+      "reason": "BGG threads call it the weakest expansion by far, with mostly dud aliens; SU&SD still rated its space stations second in 2015, so it suits fans of that module only.",
+      "verdictStatus": "draft",
+      "priceUsd": 32.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/cosmic-storm",
+          "https://en.wikipedia.org/wiki/Cosmic_Encounter"
+        ],
+        "verdict": [
+          "https://www.shutupandsitdown.com/guide-cosmic-encounters-expansions/",
+          "https://boardgamegeek.com/thread/2960248/which-expansions-to-get",
+          "https://boardgamegeek.com/thread/3635424/interested-in-buying-expansions-here-are-three-pos"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/cosmic-storm"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/1616616512",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Asmodee US",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/cosmic-dominion",
+          "note": "Fantasy Flight line, compatible with 2008 and 42nd Anniversary core sets"
+        }
+      ],
+      "id": "cosmic-encounter--cosmic-dominion",
+      "slug": "cosmic-dominion",
+      "game": "cosmic-encounter",
+      "name": "Cosmic Dominion",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2014,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Cosmic Encounter 42nd Anniversary Edition core set (or the 2008 Fantasy Flight core set); not compatible with the 1977-2000 Eon/West End/Mayfair/Avalon Hill editions.",
+      "minPlayers": 3,
+      "maxPlayers": 5,
+      "adds": "30 new aliens, a 32-card Reward deck, four variants and ship markers.",
+      "fixes": "Adds the largest alien pool and a second Reward deck.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 3,
+      "reason": "SU&SD called it possibly the only true must-buy of the original five; BGG posters say it holds arguably the single best alien design of any expansion.",
+      "verdictStatus": "draft",
+      "priceUsd": 32.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/cosmic-dominion",
+          "https://en.wikipedia.org/wiki/Cosmic_Encounter"
+        ],
+        "verdict": [
+          "https://www.shutupandsitdown.com/guide-cosmic-encounters-expansions/",
+          "https://boardgamegeek.com/thread/2960248/which-expansions-to-get",
+          "https://boardgamegeek.com/thread/3635424/interested-in-buying-expansions-here-are-three-pos"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/cosmic-dominion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B01L0LUDR2",
+          "note": "Fantasy Flight Games"
+        },
+        {
+          "store": "Asmodee US",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/cosmic-eons",
+          "note": "Fantasy Flight line, compatible with 2008 and 42nd Anniversary core sets"
+        }
+      ],
+      "id": "cosmic-encounter--cosmic-eons",
+      "slug": "cosmic-eons",
+      "game": "cosmic-encounter",
+      "name": "Cosmic Eons",
+      "type": "expansion",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2016,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Cosmic Encounter 42nd Anniversary Edition core set (or the 2008 Fantasy Flight core set); not compatible with the 1977-2000 Eon/West End/Mayfair/Avalon Hill editions.",
+      "minPlayers": 3,
+      "maxPlayers": 5,
+      "adds": "30 new aliens, Hidden Alliance dials and essence cards.",
+      "fixes": "Reworks the alliance dynamic with hidden dial bids.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 5,
+      "reason": "Nerdist says the Hidden Alliance dials almost solved the game's alliance dynamic; BGG calls it hit-and-miss with complex aliens, so best for experienced groups.",
+      "verdictStatus": "draft",
+      "priceUsd": 32.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/cosmic-eons",
+          "https://en.wikipedia.org/wiki/Cosmic_Encounter"
+        ],
+        "verdict": [
+          "https://nerdist.com/article/cosmic-eons-the-must-have-expansion-for-cosmic-encounter/",
+          "https://boardgamegeek.com/thread/2960248/which-expansions-to-get",
+          "https://boardgamegeek.com/thread/3635424/interested-in-buying-expansions-here-are-three-pos"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/cosmic-eons"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B01L0LUDR2",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Asmodee US",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/cosmic-odyssey",
+          "note": "Fantasy Flight line, compatible with 2008 and 42nd Anniversary core sets"
+        }
+      ],
+      "id": "cosmic-encounter--cosmic-odyssey",
+      "slug": "cosmic-odyssey",
+      "game": "cosmic-encounter",
+      "name": "Cosmic Odyssey",
+      "type": "big_box",
+      "publisher": "Fantasy Flight Games",
+      "releaseYear": 2022,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Cosmic Encounter 42nd Anniversary Edition core set (or the 2008 Fantasy Flight core set); not compatible with the 1977-2000 Eon/West End/Mayfair/Avalon Hill editions.",
+      "minPlayers": 3,
+      "maxPlayers": 5,
+      "adds": "A campaign mode, 30 aliens plus 12 alternate-timeline aliens, Lux, Moons, Tech, Hazards, Rewards, Stations, Age/Evolution/Envoy cards and Team Cosmic rules.",
+      "fixes": "Packs most earlier expansion modules in one box, with many Green Alert aliens for newcomers.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 2,
+      "reason": "BGG posters call it the most bang for the buck and a good sampler, and designer Jack Reda suggests only Odyssey unless you need more players; others note it costs as much as another game.",
+      "verdictStatus": "draft",
+      "priceUsd": 69.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/cosmic-odyssey",
+          "https://en.wikipedia.org/wiki/Cosmic_Encounter"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2960248/which-expansions-to-get",
+          "https://boardgamegeek.com/thread/3635424/interested-in-buying-expansions-here-are-three-pos"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/cosmic-odyssey"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
         "affiliate_enabled": false,
         "requires_disclosure": true
       },

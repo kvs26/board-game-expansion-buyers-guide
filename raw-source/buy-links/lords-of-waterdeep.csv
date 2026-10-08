@@ -1,0 +1,4 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Renegade Game Studios,publisher,https://renegadegamestudios.com/lords-of-waterdeep/,2026 Renegade reprint,2026-10-08,curl 200 + title and $55 price match (Renegade store)
+scoundrels-of-skullport,Amazon,amazon,https://www.amazon.com/dp/B0GS3PH8SH,Renegade 2026 edition,2026-10-08,curl page title match
+scoundrels-of-skullport,Renegade Game Studios,publisher,https://renegadegamestudios.com/lords-of-waterdeep-scoundrels-of-skullport-expansion/,2026 Renegade reprint,2026-10-08,curl 200 + title and $40 price match (Renegade store; page still labelled pre-order)
