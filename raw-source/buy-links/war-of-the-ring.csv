@@ -1,0 +1,8 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/115746/war-of-the-ring-second-edition,Second Edition page with marketplace listings,2026-10-09,"fetch_webpage returned page titled War of the Ring: Second Edition (2011), publisher Ares Games"
+lords-of-middle-earth,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/122328/war-of-the-ring-lords-of-middle-earth,BGG reference row; marketplace lists Amazon and others,2026-10-09,BGG expansions list for the base game names this item id 122328; geekitems API title matches
+warriors-of-middle-earth,Amazon,amazon,https://www.amazon.com/dp/B01I5GPG7W,English edition,2026-10-09,curl page title 'Amazon.com: War of The Ring: Warriors of Middle-Earth : Toys & Games' (first check; later re-check blank)
+warriors-of-middle-earth,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/179404/war-of-the-ring-warriors-of-middle-earth,BGG reference row,2026-10-09,geekitems API title matches
+kings-of-middle-earth,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/299490/war-of-the-ring-kings-of-middle-earth,BGG reference row; marketplace lists new English copies,2026-10-09,fetch_webpage returned page titled War of the Ring: Kings of Middle-earth (2023)
+the-fate-of-erebor,Amazon,amazon,https://www.amazon.com/dp/B09B3GGP8X,English version,2026-10-09,curl page title 'War of The Ring: The Fate of Erebor - Card Game Expansion by Ares Games'
+the-fate-of-erebor,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/339076/war-of-the-ring-the-fate-of-erebor,BGG reference row,2026-10-09,geekitems API title matches

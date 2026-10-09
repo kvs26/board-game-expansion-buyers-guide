@@ -1,0 +1,6 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Amazon,amazon,https://www.amazon.com/dp/B09L55YLJC,Great Western Trail 2nd Edition,2026-10-08,curl page title 'Asmodee Great Western Trail 2nd Edition Board Game' matches
+_base,Asmodee US,publisher,https://store.asmodee.com/products/great-western-trail,Second Edition (SKU ES5190),2026-10-08,curl 200 on .json product; body says Second Edition
+rails-to-the-north-2nd-edition,Amazon,amazon,https://www.amazon.com/dp/B0BBV7S7X6,For 2nd-edition base game,2026-10-08,curl page title 'Great Western Trail 2nd Edition Rails to the North Board Game Expansion' matches; BGG forum thread on the 2nd-edition expansion links this ASIN
+rails-to-the-north-2nd-edition,Asmodee US,publisher,https://store.asmodee.com/products/great-western-trail-rails-to-the-north,Second Edition (SKU ESG50161EN),2026-10-08,curl 200 on .json product; body says Second Edition
+rails-to-the-north-1st-edition,Amazon,amazon,https://www.amazon.com/dp/B07HZMZ4PP,For 1st-edition base game only,2026-10-08,curl page title 'Plan B Games Great Western Trail - Rails to The North' matches; BGG's 2019 thread for the original (1st-edition) expansion links this ASIN; listing shows 2-4 players

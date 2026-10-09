@@ -40,7 +40,17 @@ export const GLYPHS = {
   alien: 'M12 1c5 0 8 5 8 11 0 3-1 5-3 6.200l1 4.800h-3l-1-3h-4l-1 3H7l1-4.800C6 17 5 15 5 12 5 6 7 1 12 1zM7.500 10l3.500 2.500-3.500 1.500zm9 0v4L13 12.500z',
   tower: 'M7 1h3v3h4V1h3v6l-1.500 1.500V21H17v2H7v-2h1.500V8.500L7 7zm5 12a2 2 0 0 0-2 2v6h4v-6a2 2 0 0 0-2-2z',
   saucer: 'M12 3c3 0 5 1.800 5.300 4.200C20.500 8.300 23 9.800 23 11.500 23 14 18 16 12 16S1 14 1 11.500c0-1.700 2.500-3.200 5.700-4.300C7 4.800 9 3 12 3zm0 2.500c-1.600 0-2.700.8-3 2 .9-.2 1.900-.3 3-.3s2.100.1 3 .3c-.3-1.200-1.400-2-3-2zM6 18l-2 4h2l2-3.500zm6 .8-.8 4.200h1.600zm6-.8-2 3.500 2 3.500h2z',
+  hourglass: 'M5 1h14v2h-1.500v4.500L13.500 12l4 4.500V21H19v2H5v-2h1.500v-4.500l4-4.500-4-4.500V3H5zm3.500 2v3.700L12 10.500 15.500 6.700V3zM12 13.500l-3.500 4V21h7v-3.500z',
+  longship: 'M1 14h22c-1 4-4 7-8 7H9c-4 0-7-3-8-7zM11 2l8 9h-8zM9 4v7H4zM11.500 1.500h1V14h-1z',
+  cow: 'M3 7 1 4l4 1h3l1.500-2h5L16 5h3l4-1-2 3v3c0 2-1 3-2 3v6h-3v-5H9v5H6v-6c-1.500 0-3-1.500-3-4zm5 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm8 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z',
+  wheat: 'M11 2h2v20h-2zM12 2c2 1.500 3 3.500 3 6-2-.5-3-2-3-6zm0 0c-2 1.500-3 3.500-3 6 2-.5 3-2 3-6zm0 7c2.500 1 4 3 4 6-3-.5-4-3-4-6zm0 0c-2.500 1-4 3-4 6 3-.5 4-3 4-6zm0 7c2 1 3.500 2.500 3.500 5-2.500-.5-3.500-2-3.500-5zm0 0c-2 1-3.500 2.500-3.500 5 2.500-.5 3.500-2 3.500-5z',
+  sword: 'M20 1h3v3L11 16l-1.500-1.500zM6 14l4 4-2 2 1.500 1.500-1.500 1.500-3-3-3 3-1.500-1.500 3-3-3-3L2.500 13z',
   fish: 'M2 12c3-5 8-7 13-6 3 .6 5.5 2.6 7 6-1.5 3.4-4 5.4-7 6-5 1-10-1-13-6zm14-2a1.3 1.3 0 1 0 0 2.6A1.3 1.3 0 0 0 16 10zM0 7l4 5-4 5z',
+  dice: 'M5 2h14a3 3 0 0 1 3 3v14a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3zm2.500 4a1.500 1.500 0 1 0 0 3 1.500 1.500 0 0 0 0-3zm9 0a1.500 1.500 0 1 0 0 3 1.500 1.500 0 0 0 0-3zM12 10.500a1.500 1.500 0 1 0 0 3 1.500 1.500 0 0 0 0-3zM7.500 15a1.500 1.500 0 1 0 0 3 1.500 1.500 0 0 0 0-3zm9 0a1.500 1.500 0 1 0 0 3 1.500 1.500 0 0 0 0-3z',
+  eye: 'M12 4c5 0 9.500 3.500 11 8-1.500 4.500-6 8-11 8S2.500 16.500 1 12c1.500-4.500 6-8 11-8zm0 3a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 2.500a1 4 0 1 1 0 5 1 4 0 0 1 0-5z',
+  orbit: 'M12 8.500a3.500 3.500 0 1 1 0 7 3.500 3.500 0 0 1 0-7zM12 1a11 11 0 1 1 0 22 11 11 0 0 1 0-22zm0 2a9 9 0 1 0 0 18 9 9 0 0 0 0-18zm7.500 1.500a2 2 0 1 1 0 4 2 2 0 0 1 0-4z',
+  volcano: 'M9 3h6l1.500 5L23 21H1L7.500 8zm1 3-1 3h6l-1-3zM11 1h2v2h-2z',
+  helm: 'M12 2c5 0 9 4 9 9v3h-4v8h-3v-8h-4v8H7v-8H3v-3c0-5 4-9 9-9zm0 4c-2 0-4 2-4 5h8c0-3-2-5-4-5z',
 };
 
 /** colour = box tile colour, ink = glyph colour. */
@@ -88,7 +98,17 @@ export const GAME_ART = {
   nemesis: { color: '#14201C', ink: '#9BE04A', glyph: 'alien' },
   'lords-of-waterdeep': { color: '#8A1F2B', ink: '#E8C468', glyph: 'tower' },
   'cosmic-encounter': { color: '#1F2A6B', ink: '#FF8FB1', glyph: 'saucer' },
+  anachrony: { color: '#1E4A5C', ink: '#F2B705', glyph: 'hourglass' },
+  'a-feast-for-odin': { color: '#2C3F5C', ink: '#E8DDB0', glyph: 'longship' },
+  'great-western-trail': { color: '#A8582B', ink: '#FFF2C4', glyph: 'cow' },
+  agricola: { color: '#6F8F3A', ink: '#FFFDF8', glyph: 'wheat' },
+  gloomhaven: { color: '#3A3F47', ink: '#E2A23B', glyph: 'sword' },
   dixit: { color: '#E3A33B', ink: '#1D2A44', glyph: 'leaf' },
+  'castles-of-burgundy': { color: '#7A2E3A', ink: '#F2D58A', glyph: 'dice' },
+  'war-of-the-ring': { color: '#2A2420', ink: '#F2B705', glyph: 'eye' },
+  'gaia-project': { color: '#1B3A4B', ink: '#7FE3C0', glyph: 'orbit' },
+  'terra-mystica': { color: '#5E3B2A', ink: '#E8C468', glyph: 'volcano' },
+  heroquest: { color: '#8C1D18', ink: '#F2E6C0', glyph: 'helm' },
 };
 
 export function artFor(slug) {

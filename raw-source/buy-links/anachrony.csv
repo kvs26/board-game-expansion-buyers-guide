@@ -1,0 +1,9 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+fractures-of-time,Amazon,amazon,https://www.amazon.com/dp/B0CN9LSPYN,English edition,2026-10-08,curl page title 'Anachrony - Fractures of Time (Expansion)' matches
+_base,Mindclash Games,publisher,https://mindclashgames.com/our-games/anachrony/,Publisher game page listing Essential Edition and expansions with webshop links,2026-10-08,page fetched OK; title ANACHRONY and shop section lists Essential Edition / Fractures of Time / Future Imperfect / Classic Expansion Pack
+_base,Mindclash Games US shop,publisher,https://us.shop.mindclashgames.com/product/anachrony-essential-edition/,"Anachrony Essential Edition, US$60.00",2026-10-08,fetch_webpage returned the shop product page with title and price
+fractures-of-time,Mindclash Games US shop,publisher,https://us.shop.mindclashgames.com/product/anachrony-fractures-of-time/,US$50.00,2026-10-08,fetch_webpage returned the shop product page with title and price
+future-imperfect,Mindclash Games US shop,publisher,https://us.shop.mindclashgames.com/product/anachrony-future-imperfect/,US$30.00,2026-10-08,fetch_webpage returned the shop product page with title and price
+future-imperfect,Amazon,amazon,https://www.amazon.com/dp/B0CN9LGFHY,English edition,2026-10-08,curl page title 'Anachrony - Future Imperfect (Expansion)' matches
+classic-expansion-pack,Mindclash Games US shop,publisher,https://us.shop.mindclashgames.com/product/anachrony-classic-expansion-pack/,US$40.00; page says requires Essential Edition,2026-10-08,fetch_webpage returned the shop product page with title and price
+infinity-box,"BoardGameGeek (reference page, secondhand only)",retailer,https://boardgamegeek.com/boardgame/278292/anachrony-infinity-box,Kickstarter-exclusive; second-hand listings only,2026-10-09,BGG page read

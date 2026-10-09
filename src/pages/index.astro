@@ -37,7 +37,7 @@ const total = games.reduce((n, g) => n + expansionsFor(g.slug).length, 0);
       <li class="token pad"><strong>3. Buy the top one.</strong><br /><span class="muted">We warn you if it needs another box first.</span></li>
     </ol>
     <p class="small muted" style="margin-top:var(--space-4)">
-      Our four labels:
+      <span style="margin-right:.5rem">Our four labels:</span>
       {Object.values(VERDICTS).map((v) => <span class={`verdict verdict--${v.tone}`} style="margin:0 .3rem .3rem 0">{v.label}</span>)}
     </p>
   </section>

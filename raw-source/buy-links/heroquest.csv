@@ -1,0 +1,15 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Amazon,amazon,https://www.amazon.com/dp/B08Q4J1XHZ,Hasbro 2021 base game listing,2026-10-09,fetch_webpage; title 'Hasbro Gaming Avalon Hill HeroQuest Game System' matches
+kellars-keep,Amazon,amazon,https://www.amazon.com/dp/B0957Q2B52,Requires HeroQuest base game,2026-10-09,fetch_webpage; product title 'Kellar's Keep Expansion' matches (amazon curl blocked)
+return-of-the-witch-lord,Amazon,amazon,https://www.amazon.com/dp/B0957R8MW8,Requires HeroQuest base game,2026-10-09,fetch_webpage; product title 'Return of The Witch Lord Quest Pack' matches (amazon curl blocked)
+the-frozen-horror,Amazon,amazon,https://www.amazon.com/dp/B09XRDWGMK,Requires HeroQuest base game,2026-10-09,fetch_webpage; product title 'The Frozen Horror' matches (amazon curl blocked)
+prophecy-of-telor,Amazon,amazon,https://www.amazon.com/dp/B0C62WCBJP,Requires HeroQuest base game,2026-10-09,fetch_webpage; product title 'Prophecy of Telor Quest Pack' matches (amazon curl blocked)
+spirit-queens-torment,Amazon,amazon,https://www.amazon.com/dp/B0C6361QFY,Requires HeroQuest base game,2026-10-09,fetch_webpage; product title 'Spirit Queen's Torment Quest Pack' matches (amazon curl blocked)
+jungles-of-delthrak,Amazon,amazon,https://www.amazon.com/dp/B0CS7G51Y1,Requires HeroQuest base game,2026-10-09,fetch_webpage; product title 'Jungles of Delthrak Quest Pack' matches (amazon curl blocked)
+the-crypt-of-perpetual-darkness,Amazon,amazon,https://www.amazon.com/dp/B0DN2ZLCN8,Requires HeroQuest base game,2026-10-09,fetch_webpage; product title 'Joe Manganiello's The Crypt of Perpetual Darkness Quest Pack' matches (amazon curl blocked)
+wizards-of-morcar,Amazon,amazon,https://www.amazon.com/dp/B0FJBPW4L7,Requires HeroQuest base game,2026-10-09,fetch_webpage; product title 'Wizards of Morcar Quest Pack' matches (amazon curl blocked)
+the-mage-of-the-mirror,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/368275/heroquest-the-mage-of-the-mirror,BGG reference row,2026-10-09,"geekitems API title matches (HeroQuest: The Mage of the Mirror, 2023)"
+rise-of-the-dread-moon,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/392147/heroquest-rise-of-the-dread-moon-quest-pack,BGG reference row,2026-10-09,geekitems API title matches (2023)
+against-the-ogre-horde,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/415535/heroquest-against-the-ogre-horde,BGG reference row,2026-10-09,geekitems API title matches (2024)
+rogue-heir-of-elethorn,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/368246/heroquest-hero-collection-the-rogue-heir-of-elethorn,BGG reference row,2026-10-09,geekdo linkeditems list of HeroQuest expansions (2022)
+path-of-the-wandering-monk,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/397439/heroquest-hero-collection-path-of-the-wandering-monk,BGG reference row,2026-10-09,geekdo linkeditems list of HeroQuest expansions (2024)

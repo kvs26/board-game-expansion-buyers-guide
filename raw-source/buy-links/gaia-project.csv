@@ -1,0 +1,6 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Capstone Games,publisher,https://capstone-games.com/products/gaia-project,US$99.95; English Capstone edition,2026-10-09,products/gaia-project.json returned title 'Gaia Project' and price 99.95; page <title> 'Gaia Project - Capstone Games'
+_base,Capstone Games (bundle),publisher,https://capstone-games.com/products/gaia-project-bundle,"Base game + The Lost Fleet bundle, US$74.99 (list $133.95)",2026-10-09,page <title> 'Gaia Project Bundle - Capstone Games'; description lists Gaia Project and The Lost Fleet; marked unavailable on 2026-10-09
+the-lost-fleet,Capstone Games,publisher,https://capstone-games.com/products/gaia-project-the-lost-fleet,US$34.00 (list $50.00),2026-10-09,page <title> 'Gaia Project: The Lost Fleet - Capstone Games'; .json price 34.00
+the-lost-fleet,Capstone Games (bundle),publisher,https://capstone-games.com/products/gaia-project-bundle,Cheaper only if you also need the base game,2026-10-09,bundle page title and contents verified
+the-lost-fleet,"BoardGameGeek (reference page, no retail link verified)",retailer,https://boardgamegeek.com/boardgameexpansion/396802/gaia-project-the-lost-fleet,Reference page with marketplace listings; check edition,2026-10-09,BGG page read (fetch_webpage)

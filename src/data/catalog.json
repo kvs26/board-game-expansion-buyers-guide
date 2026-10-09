@@ -83,6 +83,42 @@
         {
           "store": "Amazon",
           "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B01KGST1TQ",
+          "note": "Title says 'Made by Feuerland... Ages 14+'; cannot tie it to the 2016 vs 2023+ printing, so check the listing for the island boards"
+        },
+        {
+          "store": "Asmodee US",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/a-feast-for-odin",
+          "note": "Z-Man 2023+ printing (SKU FL100, 109.99); page says it includes an alternate 2-player board and most of the content of the existing mini-expansions"
+        }
+      ],
+      "slug": "a-feast-for-odin",
+      "name": "A Feast for Odin",
+      "publisher": "Z-Man Games / Feuerland Spiele",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playTime": "120",
+      "oneLine": "A heavy Viking worker-placement game where you puzzle polyomino goods onto your home board while hunting, raiding, exploring and feeding a feast each round.",
+      "priceUsd": 109.99,
+      "sources": [
+        "https://store.asmodee.com/products/a-feast-for-odin",
+        "https://boardgamegeek.com/boardgame/177736/a-feast-for-odin",
+        "https://en.wikipedia.org/wiki/A_Feast_for_Odin",
+        "https://www.feuerland-spiele.de/spiele/ein-fest-fuer-odin/"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B01KGST1TQ",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
           "url": "https://www.amazon.com/dp/B072BG9Z9V",
           "note": null
         },
@@ -108,6 +144,82 @@
       "checkedOn": "2026-10-08",
       "affiliate": {
         "affiliate_url": "https://www.amazon.com/dp/B072BG9Z9V",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B01DREMT68",
+          "note": null
+        },
+        {
+          "store": "Lookout Games",
+          "kind": "publisher",
+          "url": "https://www.lookout-spiele.de/en/games/agricolare.html",
+          "note": "Revised Edition"
+        },
+        {
+          "store": "Amazon",
+          "kind": "retailer",
+          "url": "https://www.amazon.com/dp/B07JZFN8WS",
+          "note": "Revised Edition (Lookout listing)"
+        }
+      ],
+      "slug": "agricola",
+      "name": "Agricola (Revised Edition)",
+      "publisher": "Lookout Games",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playTime": "90",
+      "oneLine": "Farming worker-placement classic: build your farm, feed your family, and out-develop rivals over 14 rounds.",
+      "priceUsd": null,
+      "sources": [
+        "https://www.lookout-spiele.de/en/games/agricolare.html",
+        "https://boardgamegeek.com/boardgame/200680/agricola-revised-edition"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B01DREMT68",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Mindclash Games",
+          "kind": "publisher",
+          "url": "https://mindclashgames.com/our-games/anachrony/",
+          "note": "Publisher game page listing Essential Edition and expansions with webshop links"
+        },
+        {
+          "store": "Mindclash Games US shop",
+          "kind": "publisher",
+          "url": "https://us.shop.mindclashgames.com/product/anachrony-essential-edition/",
+          "note": "Anachrony Essential Edition, US$60.00"
+        }
+      ],
+      "slug": "anachrony",
+      "name": "Anachrony",
+      "publisher": "Mindclash Games",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playTime": "120",
+      "oneLine": "A heavy worker-placement and tableau-building game where leaders of four rival Paths use Exosuits and time travel to prepare for an asteroid impact and become the new seat of the World Capital.",
+      "priceUsd": 60.0,
+      "sources": [
+        "https://boardgamegeek.com/boardgame/185343/anachrony",
+        "https://mindclashgames.com/our-games/anachrony/",
+        "https://mindclashgames.com/news/the-new-product-line-up/",
+        "https://us.shop.mindclashgames.com/product/anachrony-essential-edition/"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
         "affiliate_enabled": false,
         "requires_disclosure": true
       }
@@ -684,6 +796,98 @@
     {
       "buyLinks": [
         {
+          "store": "Capstone Games",
+          "kind": "publisher",
+          "url": "https://capstone-games.com/products/gaia-project",
+          "note": "US$99.95; English Capstone edition"
+        },
+        {
+          "store": "Capstone Games (bundle)",
+          "kind": "publisher",
+          "url": "https://capstone-games.com/products/gaia-project-bundle",
+          "note": "Base game + The Lost Fleet bundle, US$74.99 (list $133.95)"
+        }
+      ],
+      "slug": "gaia-project",
+      "name": "Gaia Project",
+      "publisher": "Feuerland Spiele / Capstone Games",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playTime": "120",
+      "oneLine": "A heavy sci-fi engine-builder and territory game where one of 14 factions terraforms planets, climbs six research tracks and builds federations across a modular galaxy.",
+      "priceUsd": 99.95,
+      "sources": [
+        "https://boardgamegeek.com/boardgame/220308/gaia-project",
+        "https://capstone-games.com/products/gaia-project",
+        "https://capstone-games.com/products/gaia-project.json"
+      ],
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [],
+      "slug": "gloomhaven",
+      "name": "Gloomhaven",
+      "publisher": "Cephalofair Games",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playTime": "60-120 minutes",
+      "oneLine": "Giant GM-less cooperative dungeon-crawl campaign (first edition; Cephalofair now sells a revised Gloomhaven Second Edition at $199.99).",
+      "priceUsd": null,
+      "sources": [
+        "https://cephalofair.com/products/gloomhaven-board-game-2nd-edition.json",
+        "https://en.wikipedia.org/wiki/Gloomhaven"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B09L55YLJC",
+          "note": null
+        },
+        {
+          "store": "Asmodee US",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/great-western-trail",
+          "note": "Second Edition (SKU ES5190)"
+        }
+      ],
+      "slug": "great-western-trail",
+      "name": "Great Western Trail",
+      "publisher": "eggertspiele / Plan B Games (Asmodee)",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playTime": "75-150",
+      "oneLine": "A heavy Alexander Pfister cattle-driving Eurogame where you build a deck of cows, hire workers, build along the trail and deliver herds by rail to Kansas City and beyond (2nd edition adds solo rules).",
+      "priceUsd": 72.99,
+      "sources": [
+        "https://store.asmodee.com/products/great-western-trail",
+        "https://boardgamegeek.com/boardgame/193738/great-western-trail",
+        "https://en.wikipedia.org/wiki/Great_Western_Trail_(board_game)",
+        "https://www.polygon.com/reviews/22620179/great-western-trail-second-edition-review-solo-mode"
+      ],
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B09L55YLJC",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
           "store": "Amazon",
           "kind": "amazon",
           "url": "https://www.amazon.com/dp/B0BGXPZG4B",
@@ -712,6 +916,34 @@
       "checkedOn": "2026-10-08",
       "affiliate": {
         "affiliate_url": "https://www.amazon.com/dp/B0BGXPZG4B",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B08Q4J1XHZ",
+          "note": "Hasbro 2021 base game listing"
+        }
+      ],
+      "slug": "heroquest",
+      "name": "HeroQuest",
+      "publisher": "Avalon Hill / Hasbro",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "playTime": null,
+      "oneLine": "A semi-cooperative fantasy dungeon crawler where one player is the evil wizard Zargon and up to four heroes (Barbarian, Dwarf, Elf, Wizard) fight through 14 quests with 65+ miniatures; this is the 2021 Hasbro edition with a free companion app.",
+      "priceUsd": null,
+      "sources": [
+        "https://www.amazon.com/dp/B08Q4J1XHZ",
+        "https://en.wikipedia.org/wiki/HeroQuest"
+      ],
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B08Q4J1XHZ",
         "affiliate_enabled": false,
         "requires_disclosure": true
       }
@@ -1337,6 +1569,41 @@
     {
       "buyLinks": [
         {
+          "store": "Capstone Games",
+          "kind": "publisher",
+          "url": "https://capstone-games.com/products/terra-mystica",
+          "note": "Terra Mystica base game, US$45.00 listed; page marked Sold Out on 2026-10-09"
+        },
+        {
+          "store": "Capstone Games",
+          "kind": "publisher",
+          "url": "https://capstone-games.com/products/terra-mystica-big-box",
+          "note": "Terra Mystica: Big Box (base + Fire & Ice + Merchants + Automa), US$149.99"
+        }
+      ],
+      "slug": "terra-mystica",
+      "name": "Terra Mystica",
+      "publisher": "Feuerland Spiele / Z-Man Games / Capstone Games",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "playTime": "150",
+      "oneLine": "A heavy strategy game where each of 14 factions terraforms its home terrain, builds and upgrades buildings, joins four cults and fights for room on a shared hex map.",
+      "priceUsd": 45.0,
+      "sources": [
+        "https://boardgamegeek.com/boardgame/120677/terra-mystica",
+        "https://capstone-games.com/products/terra-mystica",
+        "https://capstone-games.com/products/terra-mystica.json"
+      ],
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
           "store": "Stronghold Games",
           "kind": "publisher",
           "url": "https://strongholdgames.com/our-games/terraforming-mars/",
@@ -1364,6 +1631,36 @@
       "checkedOn": "2026-09-27",
       "affiliate": {
         "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07R5ZH6FQ",
+          "note": "Ravensburger 20th Anniversary Alea Edition (includes Shields, Trade Routes, Team, Solo and other expansions)"
+        }
+      ],
+      "slug": "castles-of-burgundy",
+      "name": "The Castles of Burgundy",
+      "publisher": "alea / Ravensburger",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playTime": "90",
+      "oneLine": "A medium-weight Stefan Feld dice-and-tile game where you roll two dice a turn to draft hexagonal tiles and fill the regions of your personal Burgundian duchy board across five phases.",
+      "priceUsd": null,
+      "sources": [
+        "https://boardgamegeek.com/boardgame/84876/the-castles-of-burgundy",
+        "https://boardgamegeek.com/boardgame/271320/the-castles-of-burgundy",
+        "https://en.wikipedia.org/wiki/The_Castles_of_Burgundy",
+        "https://www.amazon.com/dp/B07R5ZH6FQ"
+      ],
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07R5ZH6FQ",
         "affiliate_enabled": false,
         "requires_disclosure": true
       }
@@ -1539,6 +1836,34 @@
         "https://stonemaiergames.com/games/viticulture/"
       ],
       "checkedOn": "2026-09-27",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      }
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "BoardGameGeek",
+          "kind": "retailer",
+          "url": "https://boardgamegeek.com/boardgame/115746/war-of-the-ring-second-edition",
+          "note": "Second Edition page with marketplace listings"
+        }
+      ],
+      "slug": "war-of-the-ring",
+      "name": "War of the Ring (Second Edition)",
+      "publisher": "Ares Games",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playTime": "150-240",
+      "oneLine": "A two-player asymmetric Lord of the Rings war game where the Free Peoples and Shadow race between a hunt for the Ring-bearer and a continent-wide military campaign.",
+      "priceUsd": null,
+      "sources": [
+        "https://boardgamegeek.com/boardgame/115746/war-of-the-ring-second-edition",
+        "https://en.wikipedia.org/wiki/War_of_the_Ring_(board_game)"
+      ],
+      "checkedOn": "2026-10-09",
       "affiliate": {
         "affiliate_url": "",
         "affiliate_enabled": false,
@@ -10750,6 +11075,3360 @@
         ]
       },
       "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0CN9LSPYN",
+          "note": null
+        },
+        {
+          "store": "Mindclash Games US shop",
+          "kind": "publisher",
+          "url": "https://us.shop.mindclashgames.com/product/anachrony-fractures-of-time/",
+          "note": "US$50.00"
+        }
+      ],
+      "id": "anachrony--fractures-of-time",
+      "slug": "fractures-of-time",
+      "game": "anachrony",
+      "name": "Anachrony: Fractures of Time",
+      "type": "expansion",
+      "publisher": "Mindclash Games",
+      "releaseYear": 2020,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Anachrony base game (original or Essential Edition). The Path of Unity can only be played with this expansion. It is also the only source of the solo Chronossus and improved Chronobot modes.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "A new playable faction (Path of Unity with 6 Paladin miniatures), a Valley board with new action spaces, a Fracture device that lets you \"blink\" an Exosuit to a second action for Flux Cores, glitch and Operator-worker rules, Technology cards, new leaders for the original Paths, a Variable Anomalies module, and two solo modes (Chronobot and Chronossus).",
+      "fixes": "Gives the weak research action a real use, adds competition for Capital spaces and lets you take two actions with one Exosuit, at the cost of a shorter game (5 rounds instead of 7) with more decisions per round.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "A Silver Duck reviewer on BGG rates it 9.5 out of 10 and calls it an expansion that fixes the base game's small flaws, but says to use it only with players who have 5 to 10 base games behind them and that play time rises about 20 percent. A BGG poster says that after a few games with it they do not want to play without it again. The unofficial modules guide lists it as the most complex add-on. In a Reddit thread on which expansions to buy, commenters call it \"the must own for long term play\" and say the base game \"gets stale after like 6 plays\"; one says it is needed for solo play, while another has not tried it because they like very tight worker placement and read that it loosens that.",
+      "verdictStatus": "draft",
+      "priceUsd": 50.0,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/272077/anachrony-fractures-of-time",
+          "https://mindclashgames.com/our-games/anachrony/",
+          "https://mindclashgames.com/news/the-new-product-line-up/",
+          "https://us.shop.mindclashgames.com/product/anachrony-fractures-of-time/"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2686055/silver-duck-reviews-anachrony-fractures-of-time-ex",
+          "https://boardgamegeek.com/thread/2797941/is-this-worth-getting-in-a-post-fractures-world",
+          "https://boardgamegeek.com/thread/2577318/all-modules-and-variants-guide-unofficial",
+          "https://www.reddit.com/r/boardgames/comments/1t3f4k4/"
+        ],
+        "price": [
+          "https://us.shop.mindclashgames.com/product/anachrony-fractures-of-time/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0CN9LSPYN",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs the Anachrony base game (original or Essential Edition). The Path of Unity can only be played with this expansion. It is also the only source of the solo Chronossus and improved Chronobot modes."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0CN9LGFHY",
+          "note": null
+        },
+        {
+          "store": "Mindclash Games US shop",
+          "kind": "publisher",
+          "url": "https://us.shop.mindclashgames.com/product/anachrony-future-imperfect/",
+          "note": "US$30.00"
+        }
+      ],
+      "id": "anachrony--future-imperfect",
+      "slug": "future-imperfect",
+      "game": "anachrony",
+      "name": "Anachrony: Future Imperfect",
+      "type": "expansion",
+      "publisher": "Mindclash Games",
+      "releaseYear": 2020,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Anachrony base game. Its four modules work on their own and mix with each other and with most other modules. Solo play with Quantum Loops or Hypersync needs Fractures of Time for the Chronossus; Intrigues of the Council cannot be used with the Chronossus solo mode.",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "Four mix-and-match modules: Neutronide Buildings (4 buildings that scale with Power Plants), Hypersync Future Actions (take a Capital action now and repay it later), Quantum Loops (a new warp tile with Quantum Effect cards paid back with Breakthroughs), and Intrigues of the Council (Council Chamber board, mission cards and Agenda tiles that replace the base game's endgame condition cards).",
+      "fixes": "Adds the player interaction and flexibility the base game lacks: Hypersync lowers the pressure to grab Capital spaces first, and Intrigues lets players shape and contest the endgame scoring.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 2,
+      "reason": "A Silver Duck reviewer rates it 9 out of 10 as a great next step once you are comfortable with the base game and calls the mission cards a favourite, but advises playing it only with people who have played the base game at least 5 times; three modules add little time while Intrigues adds about 20 percent. The unofficial modules guide marks Intrigues as the heaviest module and the Neutronide Buildings as very light, so you may not even see them in a game. In the same Reddit thread one commenter calls it a great bridge to Fractures of Time and, starting over, would buy it for Quantum Loops and Hypersync; another would barely use it once Fractures is in the game.",
+      "verdictStatus": "draft",
+      "priceUsd": 30.0,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/286574/anachrony-future-imperfect",
+          "https://mindclashgames.com/our-games/anachrony/",
+          "https://mindclashgames.com/news/the-new-product-line-up/",
+          "https://us.shop.mindclashgames.com/product/anachrony-future-imperfect/"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2733449/silver-duck-reviews-anachrony-future-imperfect-exp",
+          "https://boardgamegeek.com/thread/2577318/all-modules-and-variants-guide-unofficial",
+          "https://www.reddit.com/r/boardgames/comments/1t3f4k4/"
+        ],
+        "price": [
+          "https://us.shop.mindclashgames.com/product/anachrony-future-imperfect/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0CN9LGFHY",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs the Anachrony base game. Its four modules work on their own and mix with each other and with most other modules. Solo play with Quantum Loops or Hypersync needs Fractures of Time for the Chronossus; Intrigues of the Council cannot be used with the Chronossus solo mode."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Mindclash Games US shop",
+          "kind": "publisher",
+          "url": "https://us.shop.mindclashgames.com/product/anachrony-classic-expansion-pack/",
+          "note": "US$40.00; page says requires Essential Edition"
+        }
+      ],
+      "id": "anachrony--classic-expansion-pack",
+      "slug": "classic-expansion-pack",
+      "game": "anachrony",
+      "name": "Anachrony: Classic Expansion Pack",
+      "type": "expansion",
+      "publisher": "Mindclash Games",
+      "releaseYear": 2020,
+      "baseRequired": "yes",
+      "prerequisiteRule": "The Mindclash US shop page states it requires Anachrony - Essential Edition and is not standalone. Bundles the older Doomsday, Pioneers of New Earth and Guardians of the Council modules plus 6 Guardian Exosuit miniatures. A BGG poster reports that with Fractures of Time installed Pioneers works, Doomsday does not, and Guardians needs a house rule.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Three modules: Doomsday (Experiments that move the asteroid Impact earlier, later or cancel it), Pioneers of New Earth (dice-and-card Adventure action plus Exosuit upgrade boards) and Guardians of the Council (worker-free Guardian Exosuits and a private action space), with 6 Guardian miniatures.",
+      "fixes": "Adds variety and some relief from Capital blocking (Guardians), but changes the timeline in ways that clash with the newer expansions.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 3,
+      "reason": "A BGG poster who plays with Fractures of Time says Pioneers works with it, Doomsday does not and Guardians needs a house rule. Another says they would not go out of their way to buy the pack: they found Doomsday not good enough to replay, have not tried Pioneers, but like Guardians for making 4-player games feel less crowded. The unofficial modules guide advises using Doomsday only if you plan no other modules because it moves the timeline. In a Reddit thread the poster summarises Doomsday as not well regarded and Guardians as interesting, and a Reddit player who used most expansions left out Doomsday as not compatible with the others (both Reddit reports are second-hand).",
+      "verdictStatus": "draft",
+      "priceUsd": 40.0,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/297528/anachrony-classic-expansion-pack",
+          "https://mindclashgames.com/news/the-new-product-line-up/",
+          "https://mindclashgames.com/our-games/anachrony/",
+          "https://us.shop.mindclashgames.com/product/anachrony-classic-expansion-pack/"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2797941/is-this-worth-getting-in-a-post-fractures-world",
+          "https://boardgamegeek.com/thread/2577318/all-modules-and-variants-guide-unofficial",
+          "https://www.reddit.com/r/boardgames/comments/1t3f4k4/",
+          "https://www.reddit.com/r/boardgames/comments/1qo483f/"
+        ],
+        "price": [
+          "https://us.shop.mindclashgames.com/product/anachrony-classic-expansion-pack/"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "The Mindclash US shop page states it requires Anachrony - Essential Edition and is not standalone. Bundles the older Doomsday, Pioneers of New Earth and Guardians of the Council modules plus 6 Guardian Exosuit miniatures. A BGG poster reports that with Fractures of Time installed Pioneers works, Doomsday does not, and Guardians needs a house rule."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "BoardGameGeek (reference page, secondhand only)",
+          "kind": "retailer",
+          "url": "https://boardgamegeek.com/boardgame/278292/anachrony-infinity-box",
+          "note": "Kickstarter-exclusive; second-hand listings only"
+        }
+      ],
+      "id": "anachrony--infinity-box",
+      "slug": "infinity-box",
+      "game": "anachrony",
+      "name": "Anachrony: Infinity Box",
+      "type": "big_box",
+      "publisher": "Mindclash Games",
+      "releaseYear": 2020,
+      "baseRequired": "no",
+      "prerequisiteRule": "Stand-alone bundle: contains the base game plus every expansion and module released so far. Do not buy it on top of the separate items. Per BGG it is exclusive to Kickstarter, so it is only available second-hand.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "The Anachrony base game, Fractures of Time, Future Imperfect, the Doomsday, Pioneers of New Earth and Guardians of the Council modules, 36 large Exosuit miniatures, plastic trays, printed plastic warp tiles, an art and story book and all stretch goals.",
+      "fixes": null,
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "skip_unless",
+      "buyOrder": 4,
+      "reason": "The highest-scored r/boardgames comments say the only real added value is the limited-run serial number and that the pieces are easy to get separately; another would not pay over $200. At Mindclash US retail, Essential Edition plus Fractures of Time, Future Imperfect and the Classic Expansion Pack cost $180, while used boxes list at about US$165-180 or EUR 250-300 on BGG. Buy it only if you are a collector who wants every module and the miniatures.",
+      "verdictStatus": "draft",
+      "priceUsd": 180.0,
+      "priceKind": "secondhand_estimate",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgame/278292/anachrony-infinity-box"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/1l9f3n7/",
+          "https://www.reddit.com/r/boardgames/comments/kyq3d5/",
+          "https://boardgamegeek.com/boardgame/278292/anachrony-infinity-box"
+        ],
+        "price": [
+          "https://boardgamegeek.com/boardgame/278292/anachrony-infinity-box"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Stand-alone bundle: contains the base game plus every expansion and module released so far. Do not buy it on top of the separate items. Per BGG it is exclusive to Kickstarter, so it is only available second-hand."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07HMCQW9T",
+          "note": null
+        },
+        {
+          "store": "Asmodee US",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/a-feast-for-odin-the-norwegians-expansion",
+          "note": "Z-Man Games (SKU FL102; 42.99)"
+        }
+      ],
+      "id": "a-feast-for-odin--the-norwegians",
+      "slug": "the-norwegians",
+      "game": "a-feast-for-odin",
+      "name": "The Norwegians",
+      "type": "big_box",
+      "publisher": "Z-Man Games / Feuerland Spiele",
+      "releaseYear": 2018,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the A Feast for Odin base game; Asmodee US lists it as SKU FL102 and the publisher page says it only plays with the base game.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "A modular action board that changes with player count and adds a fifth column for your last action each round, four new exploration boards, two new animals (pigs and horses), a personal artisan shed for each player and the option to discard unwanted occupation cards for victory points.",
+      "fixes": "Tightens the loose two-player board, removes the rush for a single exploration board and rebalances weak and overpowered action spaces.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "A BGG reviewer with about 20 plays says it is almost a version 2.0 that rebalances the action spaces without adding real complexity and calls it the perfect kind of expansion for a heavy game; two replies agree you can teach new players with it from the start. A 2020 review scores it 7.5 out of 10 and calls it more of a remaster than an expansion but recommends adding it for anyone who will keep playing, and a reader there calls it essential and especially good at two players. A German reader review says it simplifies the base game for newcomers. Reddit availability threads (r/boardgames, 2023-2024) show buyers calling it the expansion everyone recommends, with US stock coming and going between reprints.",
+      "verdictStatus": "draft",
+      "priceUsd": 42.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/a-feast-for-odin-the-norwegians-expansion",
+          "https://boardgamegeek.com/boardgameexpansion/216788/a-feast-for-odin-the-norwegians",
+          "https://www.feuerland-spiele.de/spiele/ein-fest-fuer-odin-die-norweger/",
+          "https://en.wikipedia.org/wiki/A_Feast_for_Odin"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2171943/a-review-of-the-norwegians-or-as-i-call-it-a-feast",
+          "https://boardgamegeek.com/thread/2470686/jrams-alphabetical-rundown-vol-55-a-feast-for-odin",
+          "https://www.hall9000.de/html/spiel/ein_fest_fuer_odin_die_norweger",
+          "https://www.reddit.com/r/boardgames/comments/17nc28q/"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/a-feast-for-odin-the-norwegians-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07HMCQW9T",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "BoardGameGeek (reference page, no retail link verified)",
+          "kind": "retailer",
+          "url": "https://boardgamegeek.com/boardgameexpansion/292592/a-feast-for-odin-mini-expansion-2",
+          "note": "Reference page with marketplace listings; check edition"
+        }
+      ],
+      "id": "a-feast-for-odin--mini-expansion-2-harvest",
+      "slug": "mini-expansion-2-harvest",
+      "game": "a-feast-for-odin",
+      "name": "Mini Expansion #2: Harvest",
+      "type": "mini_expansion",
+      "publisher": "Feuerland Spiele",
+      "releaseYear": 2019,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the A Feast for Odin base game; works with or without The Norwegians per the rules text quoted in a BGG review.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Randomised harvests (eight harvest tokens drawn each round), nine double-sided harvest resource tokens, new 1x1 tiles (berries, eggs, amber, gullgubber), the Isle of Mull / Caithness exploration board, an accelerated start for the 6-round game and a list of occupation cards to remove.",
+      "fixes": "Adds unpredictability to the fixed harvest schedule and gives the short 6-round game a stronger opening.",
+      "complexity": "same",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 3,
+      "reason": "Not confirmed to be in the renewed base print and hard to find new; the BGG item page rates it 8.3 from 588 ratings. It adds randomised harvests, best for groups that already know the base game and The Norwegians. Little detailed review evidence was found.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/292592/a-feast-for-odin-mini-expansion-2",
+          "https://www.feuerland-spiele.de/spiele/ein-fest-fuer-odin/"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/boardgameexpansion/292592/a-feast-for-odin-mini-expansion-2",
+          "https://boardgamegeek.com/thread/2690316/a-bountiful-harvest"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs the A Feast for Odin base game; works with or without The Norwegians per the rules text quoted in a BGG review."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "BoardGameGeek (reference page, no retail link verified)",
+          "kind": "retailer",
+          "url": "https://boardgamegeek.com/boardgameexpansion/236902/a-feast-for-odin-lofoten-orkney-and-tierra-del-fue",
+          "note": "Reference page with marketplace listings; check edition"
+        }
+      ],
+      "id": "a-feast-for-odin--mini-expansion-1-lofoten-orkney-tierra-del-fuego",
+      "slug": "mini-expansion-1-lofoten-orkney-tierra-del-fuego",
+      "game": "a-feast-for-odin",
+      "name": "Mini Expansion #1: Lofoten and Orkney (Tierra del Fuego)",
+      "type": "mini_expansion",
+      "publisher": "Feuerland Spiele",
+      "releaseYear": 2017,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the A Feast for Odin base game; BGG lists it as an expansion for the base game and the designer says its islands can be used with the Norwegians.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Two new double-sided exploration boards: Lofoten and Orkney, plus Tierra del Fuego (listed on BGG under the title Lofoten, Orkney, and Tierra del Fuego), each worth points and giving income and bonuses when filled.",
+      "fixes": "Adds more exploration choices, which helps in games where the exploration boards run out.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "depends",
+      "buyOrder": 2,
+      "reason": "Designer Gernot Koepke wrote on BGG (2025) that Orkney and Lofoten are in the renewed base game print since 2023, so only owners of an older print need this mini. He called Lofoten a good start push but not so strong for stone and wood, and rated Tierra del Fuego weaker than the others. The BGG item page rates it 8.1. Tierra del Fuego is not in the new base.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/236902/a-feast-for-odin-lofoten-orkney-and-tierra-del-fue",
+          "https://www.feuerland-spiele.de/spiele/ein-fest-fuer-odin/"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3590023/reprint-as-part-of-renewed-basic-game",
+          "https://boardgamegeek.com/boardgameexpansion/236902/a-feast-for-odin-lofoten-orkney-and-tierra-del-fue"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0BBV7S7X6",
+          "note": null
+        },
+        {
+          "store": "Asmodee US",
+          "kind": "publisher",
+          "url": "https://store.asmodee.com/products/great-western-trail-rails-to-the-north",
+          "note": "Second Edition (SKU ESG50161EN)"
+        }
+      ],
+      "id": "great-western-trail--rails-to-the-north-2nd-edition",
+      "slug": "rails-to-the-north-2nd-edition",
+      "game": "great-western-trail",
+      "name": "Rails to the North (2nd Edition)",
+      "type": "expansion",
+      "publisher": "eggertspiele / Plan B Games (Asmodee; Lookout Games on the Asmodee US page)",
+      "releaseYear": 2022,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Built for Great Western Trail Second Edition: Asmodee Germany says it needs the 2nd-edition base game and is compatible only with it, and BGG lists it as an expansion of the 2nd edition only. A BGG reviewer who owns the 1st-edition base reports playing it anyway but recommends matching editions, because icons, card backs, player colors and piece counts differ and the 1st edition lacks the Simmental cow section.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "A game-board extension with new rail paths north and west (cities such as Montreal and Oregon City), branchlets you place in towns for extra delivery spots and rewards, reworked medium town tiles, dual-layer player boards, new objective cards, a revised building 13a/13b, solo materials for Sam and a new orange cow breed.",
+      "fixes": "Gives more delivery choices so you are less likely to be stuck delivering to cities close to Kansas City.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 1,
+      "reason": "Opinion is split but mostly positive for repeat players. A BGG first-impressions review (Aug 2026) calls it effectively one extra auxiliary action (branchlets) that gives delivery and scoring options, says it fixes the old problem of one player grabbing every end-game station token, and says the reviewer now mixes the pieces into the base box and will not play without it; the BGG rating is 8.6 from about 1.1K ratings. A r/boardgames thread on teaching the 2nd edition finds some saying include it for experienced players (one says it fixes the game with much less chance of being unable to deliver), while others call it extra and fiddly, say it complicates a complex game and adds balance issues at higher levels, or prefer the Argentina or New Zealand standalones. A Reddit best-iteration thread has votes for 2e plus Rails (one group plays it every time) but also a player who found the branchlet mini-game stale quickly. The 2019 BGG thread on the 1st-edition version argues builder strategy becomes too strong, which many replies dispute; those concerns are about the first printing and may not match the 2nd edition rework. Net: good for people who already like the base game, not for a first teach.",
+      "verdictStatus": "draft",
+      "priceUsd": 44.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://store.asmodee.com/products/great-western-trail-rails-to-the-north",
+          "https://www.asmodee.de/produkte/great-western-trail-rails-to-the-north",
+          "https://boardgamegeek.com/boardgameexpansion/359451/great-western-trail-second-edition-rails-to-the-no",
+          "https://boardgamegeek.com/thread/3756241/overview-and-first-impressions",
+          "https://www.amazon.com/dp/B0BBV7S7X6"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3756241/overview-and-first-impressions",
+          "https://boardgamegeek.com/boardgameexpansion/359451/great-western-trail-second-edition-rails-to-the-no",
+          "https://www.reddit.com/r/boardgames/comments/1ctelty/",
+          "https://www.reddit.com/r/boardgames/comments/1ia500o/",
+          "https://www.reddit.com/r/boardgames/comments/18v97np/",
+          "https://boardgamegeek.com/thread/2139324/seemed-great-at-first-but"
+        ],
+        "price": [
+          "https://store.asmodee.com/products/great-western-trail-rails-to-the-north"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0BBV7S7X6",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07HZMZ4PP",
+          "note": null
+        }
+      ],
+      "id": "great-western-trail--rails-to-the-north-1st-edition",
+      "slug": "rails-to-the-north-1st-edition",
+      "game": "great-western-trail",
+      "name": "Rails to the North (1st Edition)",
+      "type": "expansion",
+      "publisher": "eggertspiele / Plan B Games",
+      "releaseYear": 2018,
+      "baseRequired": "yes",
+      "prerequisiteRule": "For the 1st-edition Great Western Trail base game: BGG lists it as expanding the original 2015 base game, and it is reimplemented by the 2nd-edition Rails. Asmodee Germany says the current 2nd-edition Rails works only with the 2nd-edition base, so match editions.",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "BGG contents: 1 extension board, 60 branchlets, 8 private building tiles, 10 medium town tiles x2 sets, 6 station master tiles, 4 auxiliary add-ons and 4 extra player discs; new rail system to the northeast (Chicago, Detroit, New York) with branchlets and towns.",
+      "fixes": "Same delivery-flexibility fix as the 2nd-edition version, for 1st-edition owners.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "skip_unless",
+      "buyOrder": 2,
+      "reason": "Only worth chasing if you own the 1st-edition base. Amazon customer reviews on the Plan B listing (4.7 stars, 119 ratings, Amazon's review summary) call it a wonderful addition that adds new strategies and consider it essential for first-edition owners; BGG rates the original 8.4 from about 4.1K ratings and it won the 2019 Gra Roku best expansion award. The 2019 BGG thread 'Seemed Great at First, But....' (a heavy player after four plays) argues builder strategy became too easy and strong because of free-build medium town tiles and a 25 VP building, while replies defend it as adding balance and options and suggest house rules, so experienced groups should expect to tune it. A r/boardgames thread says the 1st-edition base has unbalanced buildings. Current Asmodee US stock is the 2nd-edition product, so the 1st-edition expansion is mostly secondhand or old stock.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/245744/great-western-trail-rails-to-the-north",
+          "https://www.asmodee.de/produkte/great-western-trail-rails-to-the-north",
+          "https://www.amazon.com/dp/B07HZMZ4PP",
+          "https://en.wikipedia.org/wiki/Great_Western_Trail_(board_game)"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2139324/seemed-great-at-first-but",
+          "https://boardgamegeek.com/boardgameexpansion/245744/great-western-trail-rails-to-the-north",
+          "https://www.amazon.com/dp/B07HZMZ4PP",
+          "https://www.reddit.com/r/boardgames/comments/1b1ekjk/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07HZMZ4PP",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Lookout Games",
+          "kind": "publisher",
+          "url": "https://www.lookout-spiele.de/en/games/agricolare_artifex.html",
+          "note": "Revised Edition"
+        }
+      ],
+      "id": "agricola--artifex-deck",
+      "slug": "artifex-deck",
+      "game": "agricola",
+      "name": "Artifex Deck",
+      "type": "expansion",
+      "publisher": "Lookout Games",
+      "releaseYear": 2017,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Revised Edition base game needed; occupation/minor-improvement cards shuffle into the base deck.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "120 cards (occupations + minor improvements).",
+      "fixes": "Adds variety; base game ships a curated subset of the A/B decks so repeat plays feel samey.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "Reddit r/boardgames posters say start with decks A and B; Artifex and Bubulcus are the second halves of the A and B decks that the base game only samples.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/234218/"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/tkuxsh/",
+          "https://www.reddit.com/r/boardgames/comments/1hnw593/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Lookout Games",
+          "kind": "publisher",
+          "url": "https://www.lookout-spiele.de/en/games/agricolare_bubulcus.html",
+          "note": "Revised Edition"
+        }
+      ],
+      "id": "agricola--bubulcus-deck",
+      "slug": "bubulcus-deck",
+      "game": "agricola",
+      "name": "Bubulcus Deck",
+      "type": "expansion",
+      "publisher": "Lookout Games",
+      "releaseYear": 2018,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Revised Edition base game needed; occupation/minor-improvement cards shuffle into the base deck.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "120 cards (occupations + minor improvements).",
+      "fixes": "Adds variety; base game ships a curated subset of the A/B decks so repeat plays feel samey.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "buy_first",
+      "buyOrder": 2,
+      "reason": "Same Reddit advice: A and B decks first; Bubulcus completes the B deck that the base game only samples.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/247720/"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/tkuxsh/",
+          "https://www.reddit.com/r/boardgames/comments/1hnw593/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B081VYHGCW",
+          "note": null
+        }
+      ],
+      "id": "agricola--corbarius-deck",
+      "slug": "corbarius-deck",
+      "game": "agricola",
+      "name": "Corbarius Deck",
+      "type": "expansion",
+      "publisher": "Lookout Games",
+      "releaseYear": 2019,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Revised Edition base game needed; occupation/minor-improvement cards shuffle into the base deck.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "120 cards (occupations + minor improvements).",
+      "fixes": "Adds variety; base game ships a curated subset of the A/B decks so repeat plays feel samey.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 3,
+      "reason": "One Reddit poster found C/D designs 'not as good as A and B', but a commenter still recommended A, B, then C and D; Corbarius was used for 2020 tournaments.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/271144/"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/tkuxsh/",
+          "https://www.reddit.com/r/boardgames/comments/123xq98/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B081VYHGCW",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Lookout Games",
+          "kind": "publisher",
+          "url": "https://www.lookout-spiele.de/en/games/agricolare_dulcinaria.html",
+          "note": "Revised Edition"
+        }
+      ],
+      "id": "agricola--dulcinaria-deck",
+      "slug": "dulcinaria-deck",
+      "game": "agricola",
+      "name": "Dulcinaria Deck",
+      "type": "expansion",
+      "publisher": "Lookout Games",
+      "releaseYear": 2020,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Revised Edition base game needed; occupation/minor-improvement cards shuffle into the base deck.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "120 cards (occupations + minor improvements).",
+      "fixes": "Adds variety; base game ships a curated subset of the A/B decks so repeat plays feel samey.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 4,
+      "reason": "Reddit commenters say C and D decks are incomplete on their own; they put A, B, then C and D together as the recommended set.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/311545/"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/123xq98/",
+          "https://www.reddit.com/r/boardgames/comments/tkuxsh/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Lookout Games",
+          "kind": "publisher",
+          "url": "https://www.lookout-spiele.de/en/games/agricolare_consuldirigens.html",
+          "note": "Revised Edition"
+        }
+      ],
+      "id": "agricola--consul-dirigens-deck",
+      "slug": "consul-dirigens-deck",
+      "game": "agricola",
+      "name": "Consul Dirigens Deck",
+      "type": "expansion",
+      "publisher": "Lookout Games",
+      "releaseYear": 2021,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Completes the Corbarius and Dulcinaria decks; needs both.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "120 cards (occupations + minor improvements).",
+      "fixes": "Adds variety; base game ships a curated subset of the A/B decks so repeat plays feel samey.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "depends",
+      "buyOrder": 5,
+      "reason": "Silver Duck (BGG) rated it 7/10: not essential unless you want to complete the C/D decks; Reddit commenter says it completes C and D. Mother/father cards are friendlier for new players.",
+      "verdictStatus": "draft",
+      "priceUsd": 19.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/329847/agricola-consul-dirigens-deck"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3247876",
+          "https://www.reddit.com/r/boardgames/comments/123xq98/"
+        ],
+        "price": [
+          "https://boardgamegeek.com/boardgameexpansion/329847/agricola-consul-dirigens-deck"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [
+        "agricola--corbarius-deck",
+        "agricola--dulcinaria-deck"
+      ],
+      "listNote": null
+    },
+    {
+      "buyLinks": [],
+      "id": "agricola--ephipparius-deck",
+      "slug": "ephipparius-deck",
+      "game": "agricola",
+      "name": "Ephipparius Deck",
+      "type": "expansion",
+      "publisher": "Lookout Games",
+      "releaseYear": 2023,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Revised Edition base game needed; cards can be shuffled with any deck.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "168 cards (84+84) in a bigger box.",
+      "fixes": "Adds a large pool of extra cards.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": null,
+      "buyOrder": null,
+      "reason": null,
+      "verdictStatus": null,
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/393922/"
+        ],
+        "verdict": [],
+        "price": []
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07G5HYRNV",
+          "note": null
+        },
+        {
+          "store": "Lookout Games",
+          "kind": "publisher",
+          "url": "https://www.lookout-spiele.de/en/games/agricolare_farmers_re.html",
+          "note": "Revised Edition"
+        }
+      ],
+      "id": "agricola--farmers-of-the-moor-revised-edition",
+      "slug": "farmers-of-the-moor-revised-edition",
+      "game": "agricola",
+      "name": "Farmers of the Moor",
+      "type": "big_box",
+      "publisher": "Lookout Games",
+      "releaseYear": 2018,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Revised Edition base game.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Fuel and peat-digging mechanics, new farm tiles; 153 cards, 55 fuel tokens.",
+      "fixes": "Adds longer, harder play for fans wanting more challenge.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 6,
+      "reason": "Ameeple (BGG) says it makes the game harder, for fans wanting a challenge; Reddit calls it divisive, more setup/time, not an every-time expansion, hard to buy in the US.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://www.lookout-spiele.de/en/games/agricolare_farmers_re.html",
+          "https://boardgamegeek.com/boardgameexpansion/257344/"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3691384",
+          "https://www.reddit.com/r/boardgames/comments/tkuxsh/",
+          "https://www.reddit.com/r/boardgames/comments/1kaz692/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07G5HYRNV",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B01MPWXP2C",
+          "note": null
+        }
+      ],
+      "id": "agricola--5-6-player-expansion-revised-edition",
+      "slug": "5-6-player-expansion-revised-edition",
+      "game": "agricola",
+      "name": "5-6 Player Extension",
+      "type": "player_count_extension",
+      "publisher": "Lookout Games",
+      "releaseYear": null,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Revised Edition base game needed.",
+      "minPlayers": 5,
+      "maxPlayers": 6,
+      "adds": "Components for 5-6 players.",
+      "fixes": "Allows larger groups.",
+      "complexity": "same",
+      "groupStyle": "casual",
+      "verdict": "skip_unless",
+      "buyOrder": 7,
+      "reason": "Reddit commenters say Agricola is poor at 5-6 players and don't recommend the extension, suggesting Caverna or Nusfjord instead.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://www.lookout-spiele.de/en/games/agricolare.html"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/1tvmmmp/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B01MPWXP2C",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [],
+      "id": "agricola--belgium-deck",
+      "slug": "belgium-deck",
+      "game": "agricola",
+      "name": "Belgium Deck",
+      "type": "expansion",
+      "publisher": "Lookout Games",
+      "releaseYear": 2012,
+      "baseRequired": "yes",
+      "prerequisiteRule": "For the older 2007 edition (out of print); mixing with Revised Edition only for experienced players per Lookout FAQ (card names/backs differ, balance untested).",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "adds": "120 cards.",
+      "fixes": null,
+      "complexity": "same",
+      "groupStyle": "experienced",
+      "verdict": null,
+      "buyOrder": null,
+      "reason": null,
+      "verdictStatus": null,
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/131403/",
+          "https://www.lookout-spiele.de/en/games/agricolare.html"
+        ],
+        "verdict": [],
+        "price": []
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [],
+      "id": "agricola--netherlands-deck",
+      "slug": "netherlands-deck",
+      "game": "agricola",
+      "name": "Netherlands Deck",
+      "type": "expansion",
+      "publisher": "Lookout Games",
+      "releaseYear": 2011,
+      "baseRequired": "yes",
+      "prerequisiteRule": "For the older 2007 edition (out of print); mixing with Revised Edition only for experienced players per Lookout FAQ (card names/backs differ, balance untested).",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "adds": "120 cards.",
+      "fixes": null,
+      "complexity": "same",
+      "groupStyle": "experienced",
+      "verdict": null,
+      "buyOrder": null,
+      "reason": null,
+      "verdictStatus": null,
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/103182/",
+          "https://www.lookout-spiele.de/en/games/agricolare.html"
+        ],
+        "verdict": [],
+        "price": []
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [],
+      "id": "agricola--gamers-deck",
+      "slug": "gamers-deck",
+      "game": "agricola",
+      "name": "Gamers' Deck",
+      "type": "expansion",
+      "publisher": "Lookout Games",
+      "releaseYear": 2010,
+      "baseRequired": "yes",
+      "prerequisiteRule": "For the older 2007 edition (out of print); mixing with Revised Edition only for experienced players per Lookout FAQ (card names/backs differ, balance untested).",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "adds": "59+60 cards.",
+      "fixes": null,
+      "complexity": "same",
+      "groupStyle": "experienced",
+      "verdict": null,
+      "buyOrder": null,
+      "reason": null,
+      "verdictStatus": null,
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/85704/",
+          "https://www.lookout-spiele.de/en/games/agricolare.html"
+        ],
+        "verdict": [],
+        "price": []
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Cephalofair",
+          "kind": "publisher",
+          "url": "https://cephalofair.com/products/gloomhaven-forgotten-circles",
+          "note": "Publisher store; check edition"
+        }
+      ],
+      "id": "gloomhaven--forgotten-circles",
+      "slug": "forgotten-circles",
+      "game": "gloomhaven",
+      "name": "Forgotten Circles",
+      "type": "expansion",
+      "publisher": "Cephalofair Games",
+      "releaseYear": 2019,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Gloomhaven 1st Edition expansion (publisher store page says 1st Edition only). Designer Isaac Childres said on BGG it is playable with 2nd Edition with 'wonkiness': scenario numbers 96-100 overlap, difficulty above the curve, some monster ability cards and a few map tiles/aid tokens changed.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "20 post-campaign scenarios, the Aesther Diviner class, 7 monster types (3 bosses) and 14 items.",
+      "fixes": null,
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 1,
+      "reason": "Worth it only for a group that finished the campaign and wants a harder, rules-heavy follow-up. A BGG thread and a Reddit thread (r/Gloomhaven) both report scenarios feeling tedious with many special rules, while another BGG poster's group enjoyed it. The designer says it runs above the curve and is only loosely compatible with 2nd Edition.",
+      "verdictStatus": "draft",
+      "priceUsd": 20.0,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://cephalofair.com/products/gloomhaven-forgotten-circles.json"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3094814/forgotten-circles-and-gh2",
+          "https://www.reddit.com/r/Gloomhaven/comments/12b0vu8/should_i_power_through_forgotten_circles/",
+          "https://www.backerkit.com/c/projects/cephalofair/gloomhaven/discussions/5641"
+        ],
+        "price": [
+          "https://cephalofair.com/products/gloomhaven-forgotten-circles.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Cephalofair",
+          "kind": "publisher",
+          "url": "https://cephalofair.com/products/gloomhaven-envelope-x-reward",
+          "note": "Publisher store; check edition"
+        }
+      ],
+      "id": "gloomhaven--envelope-x-reward",
+      "slug": "envelope-x-reward",
+      "game": "gloomhaven",
+      "name": "Envelope X Reward",
+      "type": "mini_expansion",
+      "publisher": "Cephalofair Games",
+      "releaseYear": 2023,
+      "baseRequired": "yes",
+      "prerequisiteRule": "For Gloomhaven 1st Edition campaigns that unlocked Envelope X.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Production-quality printing of the Envelope X reward content.",
+      "fixes": null,
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "skip_unless",
+      "buyOrder": 6,
+      "reason": "No community reviews were found; Cephalofair describes it as a $5 production-quality upgrade of the Envelope X reward for 1st Edition, and it is not needed to play. Buy it only if you have opened Envelope X in a 1st Edition campaign and want the printed version.",
+      "verdictStatus": "draft",
+      "priceUsd": 5.0,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://cephalofair.com/products/gloomhaven-envelope-x-reward.json"
+        ],
+        "verdict": [
+          "https://cephalofair.com/products/gloomhaven-envelope-x-reward.json"
+        ],
+        "price": [
+          "https://cephalofair.com/products/gloomhaven-envelope-x-reward.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Cephalofair",
+          "kind": "publisher",
+          "url": "https://cephalofair.com/products/gloomhaven-2nd-edition-solo-scenarios",
+          "note": "Publisher store; check edition"
+        }
+      ],
+      "id": "gloomhaven--solo-scenarios",
+      "slug": "solo-scenarios",
+      "game": "gloomhaven",
+      "name": "Solo Scenarios",
+      "type": "scenario_pack",
+      "publisher": "Cephalofair Games",
+      "releaseYear": 2024,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Publisher store sells only the 2nd Edition version (Gloomhaven 2nd Edition: Solo Scenarios); 1st Edition owners should check edition match before buying.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "24-page book of 18 solo scenarios plus 18 item cards (one reward item per class).",
+      "fixes": null,
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 4,
+      "reason": "r/Gloomhaven commenters say the 2nd Edition solos are redesigned with new items and are worth it if you have time to sit down with them, but warn that 1st Edition solos do not transfer cleanly. Buy it if you play solo or want each class's reward item.",
+      "verdictStatus": "draft",
+      "priceUsd": 15.0,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://cephalofair.com/products/gloomhaven-2nd-edition-solo-scenarios.json"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/Gloomhaven/comments/1riypii/",
+          "https://cephalofair.com/products/gloomhaven-2nd-edition-solo-scenarios.json"
+        ],
+        "price": [
+          "https://cephalofair.com/products/gloomhaven-2nd-edition-solo-scenarios.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Cephalofair",
+          "kind": "publisher",
+          "url": "https://cephalofair.com/products/gloomhaven-2nd-edition-class-upgrade-pack",
+          "note": "Publisher store; check edition"
+        }
+      ],
+      "id": "gloomhaven--class-upgrade-pack-to-2nd-edition",
+      "slug": "class-upgrade-pack-to-2nd-edition",
+      "game": "gloomhaven",
+      "name": "Class Upgrade Pack to 2nd Edition",
+      "type": "expansion",
+      "publisher": "Cephalofair Games",
+      "releaseYear": 2025,
+      "baseRequired": "yes",
+      "prerequisiteRule": "For 1st Edition owners who want 2nd Edition classes. BGG: does not let you play the 2nd Edition campaign without the full 2nd Edition game.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "18 Class Envelopes with updated ability cards, advance modifier decks, mats, tokens, punchboards and sheet pads; usable in Gloomhaven 1E, Jaws of the Lion and Frosthaven.",
+      "fixes": "Replaces 1st Edition class components with 2nd Edition rebalanced/reworded versions.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "skip_unless",
+      "buyOrder": 2,
+      "reason": "Skip unless you want updated 2nd Edition classes in an existing 1st Edition game. BGG posters say it cannot be used to play the 2nd Edition campaign without the full game, is largely a reprint of the 18 class boxes, and is not playtested with 1st Edition.",
+      "verdictStatus": "draft",
+      "priceUsd": 100.0,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://cephalofair.com/products/gloomhaven-2nd-edition-class-upgrade-pack.json"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3557076/1st-ed-to-2nd-ed-character-upgrade-pack",
+          "https://boardgamegeek.com/thread/3549539/upgrade-2nd-printing"
+        ],
+        "price": [
+          "https://cephalofair.com/products/gloomhaven-2nd-edition-class-upgrade-pack.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Cephalofair",
+          "kind": "publisher",
+          "url": "https://cephalofair.com/products/mercenary-pack-hail",
+          "note": "Publisher store; check edition"
+        }
+      ],
+      "id": "gloomhaven--mercenary-pack-hail",
+      "slug": "mercenary-pack-hail",
+      "game": "gloomhaven",
+      "name": "Mercenary Pack: Hail, Irritable Enchanter",
+      "type": "mini_expansion",
+      "publisher": "Cephalofair Games",
+      "releaseYear": 2025,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Publisher describes packs as cross-compatible with its most popular titles; exact per-edition support not itemised.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "One new mercenary, Hail the enchanter.",
+      "fixes": null,
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "A r/Gloomhaven thread titled 'Praise for Hail Mercenary Pack' (40 points) says the designers nailed the theme, and commenters call her a strong support; one says her level 1 heal is among the strongest in the franchise. The same thread notes some players skipped the packs because of the price. She works with Gloomhaven 2nd Edition per a separate r/Gloomhaven thread.",
+      "verdictStatus": "draft",
+      "priceUsd": 19.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://cephalofair.com/products/mercenary-pack-hail.json"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/Gloomhaven/comments/1tgfe3z/",
+          "https://www.reddit.com/r/Gloomhaven/comments/1u89qcw/",
+          "https://cephalofair.com/products/mercenary-pack-hail.json"
+        ],
+        "price": [
+          "https://cephalofair.com/products/mercenary-pack-hail.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Cephalofair",
+          "kind": "publisher",
+          "url": "https://cephalofair.com/products/mercenary-pack-anaphi",
+          "note": "Publisher store; check edition"
+        }
+      ],
+      "id": "gloomhaven--mercenary-pack-anaphi",
+      "slug": "mercenary-pack-anaphi",
+      "game": "gloomhaven",
+      "name": "Mercenary Pack: Anaphi, Fallen Lion",
+      "type": "mini_expansion",
+      "publisher": "Cephalofair Games",
+      "releaseYear": 2025,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Same cross-compatibility claim; per-edition support not itemised.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "One new mercenary, Anaphi the vermling, a former Jaws of the Lion character with augments and summons.",
+      "fixes": null,
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "depends",
+      "buyOrder": 5,
+      "reason": "Community evidence is thin: one r/Gloomhaven thread is a guide to a melee-damage Anaphi in a two-character Frosthaven solo campaign, another reports a pack missing its second miniature, and a third notes the included Jaws of the Lion scenario confused a new player. The Cephalofair listing showed it sold out on 2026-10-07.",
+      "verdictStatus": "draft",
+      "priceUsd": 19.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://cephalofair.com/products/mercenary-pack-anaphi.json"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/Gloomhaven/comments/1sz1kx9/",
+          "https://www.reddit.com/r/Gloomhaven/comments/1rivavq/",
+          "https://www.reddit.com/r/Gloomhaven/comments/1ryinuz/",
+          "https://cephalofair.com/products/mercenary-pack-anaphi.json"
+        ],
+        "price": [
+          "https://cephalofair.com/products/mercenary-pack-anaphi.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Cephalofair",
+          "kind": "publisher",
+          "url": "https://cephalofair.com/products/mercenary-pack-satha",
+          "note": "Publisher store; check edition"
+        }
+      ],
+      "id": "gloomhaven--mercenary-pack-satha",
+      "slug": "mercenary-pack-satha",
+      "game": "gloomhaven",
+      "name": "Mercenary Pack: Satha, Mayor of Frosthaven",
+      "type": "mini_expansion",
+      "publisher": "Cephalofair Games",
+      "releaseYear": 2025,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Same cross-compatibility claim; per-edition support not itemised.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "One new mercenary, Satha, a leader/support character.",
+      "fixes": null,
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 2,
+      "reason": "In an r/Gloomhaven thread the top answer (14 points) says 'Satha is universally great' with flexible move, attack and grant cards, and another says she works with just about anyone. She is a Frosthaven character that players use with Gloomhaven 2nd Edition.",
+      "verdictStatus": "draft",
+      "priceUsd": 19.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://cephalofair.com/products/mercenary-pack-satha.json"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/Gloomhaven/comments/1wv3i0z/",
+          "https://www.reddit.com/r/Gloomhaven/comments/1vp5t4f/",
+          "https://cephalofair.com/products/mercenary-pack-satha.json"
+        ],
+        "price": [
+          "https://cephalofair.com/products/mercenary-pack-satha.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Cephalofair",
+          "kind": "publisher",
+          "url": "https://cephalofair.com/products/mercenary-pack-cassandra",
+          "note": "Publisher store; check edition"
+        }
+      ],
+      "id": "gloomhaven--mercenary-pack-cassandra",
+      "slug": "mercenary-pack-cassandra",
+      "game": "gloomhaven",
+      "name": "Mercenary Pack: Cassandra, Forgotten Diviner",
+      "type": "mini_expansion",
+      "publisher": "Cephalofair Games",
+      "releaseYear": 2025,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Same cross-compatibility claim; per-edition support not itemised.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "One new mercenary, Cassandra, inspired by the Forgotten Circles Aesther Diviner with new design and art.",
+      "fixes": "Offers a Diviner-style class without the out-of-print Forgotten Circles box.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 3,
+      "reason": "An r/Gloomhaven thread calls her the same Diviner concept as Forgotten Circles but better balanced, rebuilt for 2nd Edition and Frosthaven with new perks and masteries; one commenter says she is worth the upgrade. A long-time-player thread calls her a deep class with strong curse builds, and one commenter dislikes knowing the modifier draws.",
+      "verdictStatus": "draft",
+      "priceUsd": 19.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://cephalofair.com/products/mercenary-pack-cassandra.json"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/Gloomhaven/comments/1uz030l/",
+          "https://www.reddit.com/r/Gloomhaven/comments/1t1smxc/",
+          "https://cephalofair.com/products/mercenary-pack-cassandra.json"
+        ],
+        "price": [
+          "https://cephalofair.com/products/mercenary-pack-cassandra.json"
+        ]
+      },
+      "checkedOn": "2026-10-08",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0CC9M3RV3",
+          "note": "Contains Vineyard (Special Edition)"
+        },
+        {
+          "store": "Awaken Realms",
+          "kind": "publisher",
+          "url": "https://awakenrealms.com/games/awaken-realms/castles-of-burgundy",
+          "note": "Vineyard is inside the Special Edition only; no separate copy found"
+        }
+      ],
+      "id": "castles-of-burgundy--vineyard",
+      "slug": "vineyard",
+      "game": "castles-of-burgundy",
+      "name": "The Castles of Burgundy: Vineyard",
+      "type": "expansion",
+      "publisher": "Awaken Realms / Ravensburger",
+      "releaseYear": 2023,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Part of The Castles of Burgundy: Special Edition (2023) only. The Special Edition rulebook lists it as its own expansion with vineyard boards, double hex tiles, a vineyard depot, a cloth bag and vine bonus tiles; no separate retail copy was found.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "A tile rack beside the main board and a vineyard sideboard on each player's duchy board (4 vineyard boards, 51 double hex tiles, 1 vineyard depot, 1 vineyard store, 1 cloth bag per the Special Edition rulebook). Double hex tiles are placed on your vineyard board, and the more tiles of the same type you place, the more victory points you gain.",
+      "fixes": "No base-game flaw is cited by reviewers; it adds a second set of tile-placement goals rather than fixing something.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 1,
+      "reason": "Meeple Mountain's reviewer calls Vineyard and Shields 'pure awesomeness' and, of all the Castles of Burgundy expansions, 'these two are the very best', but says Vineyard has a hefty rules overhead and no player aid (you must look up how many points a group of grapes scores in the rulebook). Punchboard says it is a 'big, newer expansion' with a whole new set of pieces and that it is 'really well done'. A BGG poster picked the Special Edition over the 2019 edition partly for 'a new significant expansion (vineyards)'. A Reddit poster who played it twice said it 'felt a little off' (post text only; comments not read).",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://awakenrealms.com/games/awaken-realms/castles-of-burgundy",
+          "https://boardgamegeek.com/boardgamecompilation/363622/the-castles-of-burgundy-special-edition",
+          "https://en.wikipedia.org/wiki/The_Castles_of_Burgundy"
+        ],
+        "verdict": [
+          "https://www.meeplemountain.com/reviews/the-castles-of-burgundy-special-edition/",
+          "https://punchboard.co.uk/castles-of-burgundy-special-edition-review/",
+          "https://boardgamegeek.com/thread/3449046/which-version-do-you-recommend-and-why",
+          "https://www.reddit.com/r/boardgames/comments/1mxjfui/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0CC9M3RV3",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07R5ZH6FQ",
+          "note": "Contained in the 20th Anniversary edition per BGG wiki and forum posters; the Amazon page itself was not checked for a Shields mention"
+        },
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0CC9M3RV3",
+          "note": "Contained in the Special Edition (rulebook)"
+        }
+      ],
+      "id": "castles-of-burgundy--shields",
+      "slug": "shields",
+      "game": "castles-of-burgundy",
+      "name": "The Castles of Burgundy: The Shields",
+      "type": "expansion",
+      "publisher": "alea / Ravensburger",
+      "releaseYear": 2019,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the base game. Included in the 2019 20th Anniversary edition (per the BGG edition wiki and forum posters who own it) and in the Special Edition; not a separate retail product.",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "18 shield tiles set face down on the goods spaces of the six depots (1 or 2 per depot depending on player count; the rest go back in the box). When you roll doubles you may take the shield from the matching depot instead of your two actions and place it on a castle in your duchy; each shield grants a power, and you pay 1 silver per shield at the end of every phase (before mines pay out) or lose it.",
+      "fixes": "Gives a trailing player a way to pivot or catch up, and an alternative use of turns that would otherwise be poor.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 5,
+      "reason": "Players disagree. In a BGG thread one group found shields #16 (change one die to any value) and #17 (enlarge every area like an inn) 'too impactful', and a player with 150+ plays said 'shields are broken', they never use them, and 'if shields didn't exist, no one would miss them'. The original poster, after 11 games, said they were 'leaning more towards the they actually seem fine and pretty nice camp' and described shields as a catch-up mechanism that is not unbeatable. Meeple Mountain's reviewer says the shields' advantages are 'beefy', rules overhead is low, and 'there's really no reason NOT to add this expansion to all of your games'.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgame/271320/the-castles-of-burgundy",
+          "https://boardgamegeek.com/thread/3682288/playing-with-and-against-certain-shields"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3682288/playing-with-and-against-certain-shields",
+          "https://www.meeplemountain.com/reviews/the-castles-of-burgundy-special-edition/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07R5ZH6FQ",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07R5ZH6FQ",
+          "note": "Ravensburger 20th Anniversary Alea edition; module included per BGG edition wiki and forum posters"
+        },
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0CC9M3RV3",
+          "note": "Special Edition; module listed in its rulebook"
+        }
+      ],
+      "id": "castles-of-burgundy--trade-routes",
+      "slug": "trade-routes",
+      "game": "castles-of-burgundy",
+      "name": "The Castles of Burgundy: 8th Expansion - Trade Routes",
+      "type": "mini_expansion",
+      "publisher": "alea / Ravensburger",
+      "releaseYear": 2017,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the base game. First released inside Notre Dame: 10th Anniversary; included in the 2019 edition and the Special Edition.",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "Trade-route tiles with 3 spaces each. Each player gets 5 tiles (2 players), 4 (3 players) or 3 (4 players) and lines them up under their board; sold goods go onto the route left to right, and you get the bonus shown when the tile's number matches the route space.",
+      "fixes": "Gives selling goods a more varied payoff than the base game's fixed sale spaces.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 2,
+      "reason": "Reddit owners of the Special Edition say they 'always' play with Trade Routes once added (r/boardgames thread on which expansions to combine); it buffs selling goods, an action already in the base game, and adds little overhead. One thread poster likened it to the boats module in Bruges. Evidence is a handful of forum posts, not a full review.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/214005/the-castles-of-burgundy-8th-expansion-trade-routes",
+          "https://boardgamegeek.com/boardgame/271320/the-castles-of-burgundy",
+          "https://www.reddit.com/r/boardgames/comments/5dqjr1/"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/1vjpggr/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07R5ZH6FQ",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07R5ZH6FQ",
+          "note": "Ravensburger 20th Anniversary Alea edition; module included per BGG edition wiki and forum posters"
+        },
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0CC9M3RV3",
+          "note": "Special Edition; module listed in its rulebook"
+        }
+      ],
+      "id": "castles-of-burgundy--solo",
+      "slug": "solo",
+      "game": "castles-of-burgundy",
+      "name": "The Castles of Burgundy: 10th Expansion - Solo",
+      "type": "mini_expansion",
+      "publisher": "alea / Ravensburger",
+      "releaseYear": 2018,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the base game. First released as a Brettspiel Adventskalender 2018 promo; included in the 2019 edition and the Special Edition.",
+      "minPlayers": 1,
+      "maxPlayers": 1,
+      "adds": "A double-sided solo duchy board (A side for beginners, B side for advanced). You play 25 rounds, removing a hex tile from the depots each round, with a second marker on 50 on the victory-point track as a target.",
+      "fixes": "Gives the game a solo mode.",
+      "complexity": "same",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 8,
+      "reason": "Punchboard (2021, on the 2019 edition) calls the solo mode 'a really fun, engaging puzzle, far more entertaining and worth playing than some of the beat-your-own-score variants', but says it is tough and that it is a puzzle rather than an Automa-style opponent. A solo buyer should look at the Special Edition's Châteauma bot instead (Punchboard says it has three difficulty levels and can also add a third player).",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/264104/the-castles-of-burgundy-10th-expansion-solo"
+        ],
+        "verdict": [
+          "https://punchboard.co.uk/review-the-castles-of-burgundy/",
+          "https://punchboard.co.uk/castles-of-burgundy-special-edition-review/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07R5ZH6FQ",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07R5ZH6FQ",
+          "note": "Ravensburger 20th Anniversary Alea edition; module included per BGG edition wiki and forum posters"
+        },
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0CC9M3RV3",
+          "note": "Special Edition; module listed in its rulebook"
+        }
+      ],
+      "id": "castles-of-burgundy--team-game",
+      "slug": "team-game",
+      "game": "castles-of-burgundy",
+      "name": "The Castles of Burgundy: 9th Expansion - The Team Game",
+      "type": "mini_expansion",
+      "publisher": "alea / Ravensburger",
+      "releaseYear": 2017,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the base game and exactly 4 players. First released in Brettspiel Adventskalender 2017; included in the 2019 edition and the Special Edition.",
+      "minPlayers": 4,
+      "maxPlayers": 4,
+      "adds": "Two teams of two seated together, each with a team board of two halves (basic or advanced side) and 2 shared hex storage spaces plus private ones. You cannot use your partner's dice or private tiles; the two players' victory points are added.",
+      "fixes": "Gives the 4-player game a partner mode.",
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "depends",
+      "buyOrder": 7,
+      "reason": "Only for exactly 4 players. A Special Edition owner called the 2 vs 2 team mode fun (shared giant map, discussing moves) but another has never played it; no deeper review found.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/234163/the-castles-of-burgundy-9th-expansion-the-team-gam"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/1vjpggr/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07R5ZH6FQ",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07R5ZH6FQ",
+          "note": "Ravensburger 20th Anniversary Alea edition; module included per BGG edition wiki and forum posters"
+        },
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0CC9M3RV3",
+          "note": "Special Edition; module listed in its rulebook"
+        }
+      ],
+      "id": "castles-of-burgundy--new-hex-tiles",
+      "slug": "new-hex-tiles",
+      "game": "castles-of-burgundy",
+      "name": "The Castles of Burgundy: 2nd Expansion - New Hex Tiles",
+      "type": "mini_expansion",
+      "publisher": "alea / Ravensburger",
+      "releaseYear": 2012,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the base game. First released at the Spiel fair 2012; included in the 2019 edition and the Special Edition (per BGG wiki and SE rulebook).",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "4 new hex tiles (a Park that acts as any building, Goats that count as any animal, a Sequential Order tile that keeps you on top of the turn order, and a Worker tile that lets you buy 2 worker tiles for 1 silver) shuffled into the existing supplies.",
+      "fixes": null,
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "worth_it",
+      "buyOrder": 3,
+      "reason": "Every Special Edition owner in the r/boardgames thread says the extra tiles (white castles, crane, geese, extra monasteries) are a default part of the game; they add variety without new procedures. Small sample of Reddit opinions.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/132477/the-castles-of-burgundy-2nd-expansion-new-hex-tile"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/1vjpggr/",
+          "https://www.reddit.com/r/boardgames/comments/howoj6/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07R5ZH6FQ",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07R5ZH6FQ",
+          "note": "Ravensburger 20th Anniversary Alea edition; module included per BGG edition wiki and forum posters"
+        },
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0CC9M3RV3",
+          "note": "Special Edition; module listed in its rulebook"
+        }
+      ],
+      "id": "castles-of-burgundy--pleasure-garden",
+      "slug": "pleasure-garden",
+      "game": "castles-of-burgundy",
+      "name": "The Castles of Burgundy: 5th Expansion - Pleasure Garden (White Castles)",
+      "type": "mini_expansion",
+      "publisher": "alea / Ravensburger",
+      "releaseYear": 2014,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the base game. Originally a limited print for the Stadt Land Spielt event on 14 September 2014; the Special Edition rulebook calls the tiles 'The White Castles' (5th Expansion).",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "9 Pleasure Garden building tiles (2 with black backs) plus 1 knowledge tile, shuffled into the supplies; placing one gives an immediate action using the white die's number (workers may be used as usual), and each is worth 4 VP.",
+      "fixes": null,
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "depends",
+      "buyOrder": 4,
+      "reason": "Reddit players use the White Castles/Pleasure Garden tiles as an always-in module, but one poster with several plays said all the Pleasure Garden tiles make the game 'a little wonky' because there are 2 more brown copies than any other building and suggested trimming them. Another suggested swapping out the 4 VP buildings instead. Works but the tile count is debated.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/166589/the-castles-of-burgundy-5th-expansion-pleasure-gar"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/1vjpggr/",
+          "https://www.reddit.com/r/boardgames/comments/83lz4v/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07R5ZH6FQ",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07R5ZH6FQ",
+          "note": "Ravensburger 20th Anniversary Alea edition; module included per BGG edition wiki and forum posters"
+        },
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0CC9M3RV3",
+          "note": "Special Edition; module listed in its rulebook"
+        }
+      ],
+      "id": "castles-of-burgundy--cloisters",
+      "slug": "cloisters",
+      "game": "castles-of-burgundy",
+      "name": "The Castles of Burgundy: 6th Expansion - The Cloisters (Inns)",
+      "type": "mini_expansion",
+      "publisher": "alea / Ravensburger",
+      "releaseYear": 2015,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the base game. Originally Brettspiel Adventskalender 2015, day 20; the Special Edition rulebook calls the tiles 'The Inns' (6th Expansion).",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "5 tiles; one is placed beside the black depot each phase and can be bought for 2 silver. Placed on any empty space (one per colour area), it has no effect itself but counts as +1 to the size of that area, so a 4-space area with 2 cloisters scores as 6 spaces (21 points).",
+      "fixes": null,
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "depends",
+      "buyOrder": 6,
+      "reason": "A Reddit Special Edition owner doesn't use the Inns because they 'skew the metagame towards big zones and take away from the rush element' at the start; another group always plays with them. Opinions split.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/190225/the-castles-of-burgundy-6th-expansion-the-cloister"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/1vjpggr/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07R5ZH6FQ",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B07R5ZH6FQ",
+          "note": "Ravensburger 20th Anniversary Alea edition; module included per BGG edition wiki and forum posters"
+        },
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0CC9M3RV3",
+          "note": "Special Edition; module listed in its rulebook"
+        }
+      ],
+      "id": "castles-of-burgundy--monastery-boards",
+      "slug": "monastery-boards",
+      "game": "castles-of-burgundy",
+      "name": "The Castles of Burgundy: 4th Expansion - Monastery Boards (Border Posts)",
+      "type": "mini_expansion",
+      "publisher": "alea / Ravensburger",
+      "releaseYear": 2013,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the base game. The Special Edition rulebook calls it 'The Border Posts' (4th Expansion, duchy boards 23-30). The 2019 edition has one fewer double-sided monastery board than the original promo.",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "4 double-sided boards with monasteries printed beside the play area (13a-13h). A straight 5-tile connection between two monasteries earns 5 VP; the first player to link all three monasteries gets a bonus of 5/6/7 VP (2/3/4 players), the second 2-4 VP, for up to 22 extra points.",
+      "fixes": null,
+      "complexity": "same",
+      "groupStyle": "mixed",
+      "verdict": "depends",
+      "buyOrder": 9,
+      "reason": "One Reddit owner lists 'extra monasteries' among always-in modules and the 20th Anniversary thread names Monasteries (boards numbered 11a/b/c) as one of the expansion modules, but no reviewer discusses it in detail; only for groups that already like the base game.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/150083/the-castles-of-burgundy-4th-expansion-monastery-bo",
+          "https://boardgamegeek.com/boardgame/271320/the-castles-of-burgundy"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/1vjpggr/",
+          "https://www.reddit.com/r/boardgames/comments/howoj6/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B07R5ZH6FQ",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0CC9M3RV3",
+          "note": "Special Edition; module listed in its rulebook"
+        }
+      ],
+      "id": "castles-of-burgundy--new-player-boards",
+      "slug": "new-player-boards",
+      "game": "castles-of-burgundy",
+      "name": "The Castles of Burgundy: 1st Expansion - New Player Boards",
+      "type": "mini_expansion",
+      "publisher": "Spielbox / alea",
+      "releaseYear": 2011,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the base game. Originally in Spielbox magazine 05/2011. Not in the 2019 edition (per the BGG wiki); included in the Special Edition (duchy boards 11-18).",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "Double-sided duchy boards plus a connection rule: every new tile must touch a castle directly or through a chain of same-colour tiles. You may also spend both die actions and 5 points to retrieve a set-aside castle tile.",
+      "fixes": null,
+      "complexity": "same",
+      "groupStyle": "experienced",
+      "verdict": "skip_unless",
+      "buyOrder": 10,
+      "reason": "Adds alternate duchy boards with a connection rule; no review or forum thread praising it was found, it is not in the 2019 edition and is only available via the Special Edition. Take it only if you want the variety.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/110926/the-castles-of-burgundy-1st-expansion-new-player-b",
+          "https://boardgamegeek.com/boardgame/271320/the-castles-of-burgundy"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/howoj6/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0CC9M3RV3",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0CC9M3RV3",
+          "note": "Special Edition; module listed in its rulebook"
+        }
+      ],
+      "id": "castles-of-burgundy--championship-boards",
+      "slug": "championship-boards",
+      "game": "castles-of-burgundy",
+      "name": "The Castles of Burgundy: 3rd and 7th Expansion - German Board Game Championship Boards (2013, 2016)",
+      "type": "mini_expansion",
+      "publisher": "alea / Ravensburger",
+      "releaseYear": 2013,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the base game. Single duchy boards created by Stefan Feld for the German championship qualifiers (2013 and 2016); not in the 2019 edition (per the BGG wiki); included in the Special Edition (boards 19-20).",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "Two extra duchy boards (one each for 2013 and 2016), no new rules.",
+      "fixes": null,
+      "complexity": "same",
+      "groupStyle": "experienced",
+      "verdict": "skip_unless",
+      "buyOrder": 11,
+      "reason": "Two extra duchy boards with no new rules, created for German championship qualifiers; no player discussion of its value found. Cosmetic variety only; not in the 2019 edition.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/139160/the-castles-of-burgundy-3rd-expansion-german-board",
+          "https://boardgamegeek.com/boardgameexpansion/193585/the-castles-of-burgundy-7th-expansion-german-board",
+          "https://boardgamegeek.com/boardgame/271320/the-castles-of-burgundy"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/howoj6/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0CC9M3RV3",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0CC9M3RV3",
+          "note": null
+        },
+        {
+          "store": "Awaken Realms",
+          "kind": "publisher",
+          "url": "https://awakenrealms.com/games/awaken-realms/castles-of-burgundy",
+          "note": "Publisher game page for the Special Edition (Vineyard, premium components)"
+        }
+      ],
+      "id": "castles-of-burgundy--special-edition",
+      "slug": "special-edition",
+      "game": "castles-of-burgundy",
+      "name": "The Castles of Burgundy: Special Edition",
+      "type": "big_box",
+      "publisher": "Awaken Realms / Ravensburger",
+      "releaseYear": 2023,
+      "baseRequired": "no",
+      "prerequisiteRule": "Complete game: base game plus every expansion above, Vineyard and the Châteauma solo bot. Does not need another copy of the base game.",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Redesigned art, double-layered player boards with hex-holder frames, cloth bags for tiles, metal coins, plastic castles and player pieces, the 2019 edition's expansions plus the older promo boards, the new Vineyard expansion, and the Châteauma solo/automa bot (also usable to add a third player).",
+      "fixes": "Fixes fiddly setup and tiles shifting on the board (frames, bags) and adds a bot for solo play.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 12,
+      "reason": "Hardcore fans like it (Meeple Mountain and r/boardgames owners call it a very happy purchase) but it is a $149 big box; if you only want the 20th Anniversary content, the cheaper 2019 edition has Shields, Trade Routes, Team and Solo. See the Vineyard row for the main extra.",
+      "verdictStatus": "draft",
+      "priceUsd": 149.0,
+      "priceKind": "secondhand_estimate",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgamecompilation/363622/the-castles-of-burgundy-special-edition",
+          "https://awakenrealms.com/games/awaken-realms/castles-of-burgundy",
+          "https://www.meeplemountain.com/reviews/the-castles-of-burgundy-special-edition/",
+          "https://punchboard.co.uk/castles-of-burgundy-special-edition-review/",
+          "https://boardgamegeek.com/thread/3449046/which-version-do-you-recommend-and-why"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/1vjpggr/"
+        ],
+        "price": [
+          "https://boardgamegeek.com/boardgamecompilation/363622/the-castles-of-burgundy-special-edition"
+        ]
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0CC9M3RV3",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Complete game: base game plus every expansion above, Vineyard and the Châteauma solo bot. Does not need another copy of the base game."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "BoardGameGeek",
+          "kind": "retailer",
+          "url": "https://boardgamegeek.com/boardgameexpansion/122328/war-of-the-ring-lords-of-middle-earth",
+          "note": "BGG reference row; marketplace lists Amazon and others"
+        }
+      ],
+      "id": "war-of-the-ring--lords-of-middle-earth",
+      "slug": "lords-of-middle-earth",
+      "game": "war-of-the-ring",
+      "name": "War of the Ring: Lords of Middle-earth",
+      "type": "expansion",
+      "publisher": "Ares Games",
+      "releaseYear": 2012,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs War of the Ring Second Edition. BGG lists it as the first expansion for the second edition; BGG says Ares planned a new arc of second-edition expansions starting with it. Not meant for the first edition.",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "Figures and rules for Elrond, Galadriel, Smeagol, Gothmog and the Balrog of Moria, alternate Gandalf, Witch-king and Mouth of Sauron, new Elven Ring Keepers and Lesser Minion action dice, and new Companions for the optional Council of Rivendell rules. Also figures for Aragorn and Gandalf the White.",
+      "fixes": "Reddit commenters say it nudges the game's slight Shadow tilt back toward even (a claim another commenter disputes) and adds characters previously only on event cards.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 1,
+      "reason": "In a Reddit thread asking whether Lords and Warriors are required, the top answer is that neither is required and recommended only after many plays of the base game, with another saying to wait 4-6 plays. On Lords specifically, one commenter calls it excellent, highly recommended and adding to balance with few extra rules; others say they use it even with new players and that it corrects the slight Shadow lean of the base game at the cost of some complexity. One commenter says tournaments do not all use it. BGG rates it about 8.7 with about 2.5K ratings and about 13K owners.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/122328/war-of-the-ring-lords-of-middle-earth",
+          "https://boardgamegeek.com/boardgame/115746/war-of-the-ring-second-edition"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/y7czrz/",
+          "https://boardgamegeek.com/boardgameexpansion/122328/war-of-the-ring-lords-of-middle-earth"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B01I5GPG7W",
+          "note": null
+        },
+        {
+          "store": "BoardGameGeek",
+          "kind": "retailer",
+          "url": "https://boardgamegeek.com/boardgameexpansion/179404/war-of-the-ring-warriors-of-middle-earth",
+          "note": "BGG reference row"
+        }
+      ],
+      "id": "war-of-the-ring--warriors-of-middle-earth",
+      "slug": "warriors-of-middle-earth",
+      "game": "war-of-the-ring",
+      "name": "War of the Ring: Warriors of Middle-earth",
+      "type": "expansion",
+      "publisher": "Ares Games",
+      "releaseYear": 2016,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs War of the Ring Second Edition. Works on its own; no requirement for Lords of Middle-earth stated on the sources read.",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "Ents, Dead Men of Dunharrow, Great Eagles, Corsairs of Umbar, Wild Hilmen of Dunland and Giant Spiders as unique figures with specific abilities, plus Faction Dice and Faction Events.",
+      "fixes": null,
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 2,
+      "reason": "Reddit commenters in the Lords/Warriors thread were lukewarm: one used it 2-3 times and called it bloat, another said it adds many rules for mechanics they do not find compelling and makes games swingy, a third has not considered adding it, and one said their games with it were each decided by the last die roll. BGG still rates it about 8.3 with about 1.7K ratings and about 11K owners, so it is liked by many who own it.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/179404/war-of-the-ring-warriors-of-middle-earth",
+          "https://boardgamegeek.com/boardgame/115746/war-of-the-ring-second-edition"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/y7czrz/",
+          "https://boardgamegeek.com/boardgameexpansion/179404/war-of-the-ring-warriors-of-middle-earth"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B01I5GPG7W",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "BoardGameGeek",
+          "kind": "retailer",
+          "url": "https://boardgamegeek.com/boardgameexpansion/299490/war-of-the-ring-kings-of-middle-earth",
+          "note": "BGG reference row; marketplace lists new English copies"
+        }
+      ],
+      "id": "war-of-the-ring--kings-of-middle-earth",
+      "slug": "kings-of-middle-earth",
+      "game": "war-of-the-ring",
+      "name": "War of the Ring: Kings of Middle-earth",
+      "type": "expansion",
+      "publisher": "Ares Games",
+      "releaseYear": 2023,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs War of the Ring Second Edition (BGG lists it as expanding the second edition). No requirement for Lords or Warriors stated on the pages read.",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "Figures and rules for the Free Peoples sovereigns Theoden, Denethor, Dain, Brand and Thranduil (starting, awakened and corrupted versions per the Limited Edition description), a Sovereign Corruption board, five corrupted sovereign rings, two special action dice, 13 character cards, 19 event cards, and Dark Chieftains for the Shadow.",
+      "fixes": null,
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 3,
+      "reason": "A player who has used it calls it 'fun and dynamic' but 'a relatively small expansion' (new sovereigns that can be awakened or corrupted, new Shadow minions that 'don't influence the game too much'); another commenter owns the first two expansions, doesn't like them, and isn't excited for a third. BGG rates it about 8.6 (about 452 ratings), so it suits owners who already play the base game a lot. No in-depth review read.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/299490/war-of-the-ring-kings-of-middle-earth",
+          "https://www.aresgames.eu/games/war-of-the-ring-line/kings-of-middle-earth"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/19b1fap/",
+          "https://www.reddit.com/r/boardgames/comments/1ufkyg4/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs War of the Ring Second Edition (BGG lists it as expanding the second edition). No requirement for Lords or Warriors stated on the pages read."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B09B3GGP8X",
+          "note": null
+        },
+        {
+          "store": "BoardGameGeek",
+          "kind": "retailer",
+          "url": "https://boardgamegeek.com/boardgameexpansion/339076/war-of-the-ring-the-fate-of-erebor",
+          "note": "BGG reference row"
+        }
+      ],
+      "id": "war-of-the-ring--the-fate-of-erebor",
+      "slug": "the-fate-of-erebor",
+      "game": "war-of-the-ring",
+      "name": "War of the Ring: The Fate of Erebor",
+      "type": "mini_expansion",
+      "publisher": "Ares Games",
+      "releaseYear": 2022,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs War of the Ring Second Edition. BGG describes it as an alternate setup used when the Shadow player wins The Battle of Five Armies.",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "adds": "Alternate map tiles, character cards and event cards for the War of the Ring base game, as an alternate setup.",
+      "fixes": null,
+      "complexity": "same",
+      "groupStyle": "experienced",
+      "verdict": "skip_unless",
+      "buyOrder": 4,
+      "reason": "A promo, not a standalone expansion: a few map tile overlays and cards for an alternate War of the Ring setup after a Shadow win in The Battle of Five Armies. Owners describe it as 'specifically designed for people that like to play Battle of Five Armies directly into a game of War of the Ring'; one commenter thinks it is a nerf to the Free Peoples. Only worth it if you own and play that game.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/339076/war-of-the-ring-the-fate-of-erebor"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/ofj1gx/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B09B3GGP8X",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Capstone Games",
+          "kind": "publisher",
+          "url": "https://capstone-games.com/products/gaia-project-the-lost-fleet",
+          "note": "US$34.00 (list $50.00)"
+        },
+        {
+          "store": "Capstone Games (bundle)",
+          "kind": "publisher",
+          "url": "https://capstone-games.com/products/gaia-project-bundle",
+          "note": "Cheaper only if you also need the base game"
+        },
+        {
+          "store": "BoardGameGeek (reference page, no retail link verified)",
+          "kind": "retailer",
+          "url": "https://boardgamegeek.com/boardgameexpansion/396802/gaia-project-the-lost-fleet",
+          "note": "Reference page with marketplace listings; check edition"
+        }
+      ],
+      "id": "gaia-project--the-lost-fleet",
+      "slug": "the-lost-fleet",
+      "game": "gaia-project",
+      "name": "Gaia Project: The Lost Fleet",
+      "type": "expansion",
+      "publisher": "Feuerland Spiele / Capstone Games",
+      "releaseYear": 2024,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Gaia Project base game. It is the only official expansion and is not included in the base box; Capstone sells it alone ($34.00) or in a Gaia Project Bundle with the base game ($74.99).",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "adds": "Four new factions (Darkanians, Mowyed, Space Giants, Tinkeroids) on two new planet types (proto planets and asteroids), new edge 'interspace' and 'deep space' sector tiles with new map layouts, four Lost Fleet ships that open new actions, tech tiles, federation tokens and artifacts, 3 standard and 6 advanced tech tiles, 4 round boosters, 3 round scoring tiles and 3 final scoring tiles, plus an updated solo Automa.",
+      "fixes": "Q.I.C. actions move from the tech board onto the ships, so there are more power/coin/knowledge actions to compete for, and small faction balance tweaks (Itar, Nevlas, Taklon, Bal T'ak, Ivits toned down; Lantids, Gleens, Xenos, Bescods helped). Terran and Bal T'ak lose their near-monopoly on transdimensional planets.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 1,
+      "reason": "A BGG reviewer who loves the base game writes that it did not need an expansion and occasional players will find plenty in the base box, but for long-time fans who have played dozens of times it is 'not to be missed' and everything feels refreshed; others in that thread call it 'the best expansion in the series' and say they will 'never play without it now'. A second BGG reviewer who played it at launch says it feels 'so much more open' than base, with more ways to get power, coin and knowledge actions, though he also calls the Bal'taks 'probably broken' in his early games. The expansion rates 8.9 on BGG (about 1.2K ratings) against 8.3 for the base game, and was a 2024 Golden Geek Best Expansion nominee. Since it adds new factions, ships and balance changes to an already heavy game (BGG weight 4.49 vs 4.40), it suits experienced groups more than newcomers.",
+      "verdictStatus": "draft",
+      "priceUsd": 34.0,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/396802/gaia-project-the-lost-fleet",
+          "https://capstone-games.com/products/gaia-project-the-lost-fleet",
+          "https://capstone-games.com/products/gaia-project-bundle",
+          "https://boardgamegeek.com/boardgame/220308/gaia-project"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3426456/the-lost-fleet-zenith-of-replayability-excitement",
+          "https://boardgamegeek.com/thread/3333136/gaia-project-20-with-even-more-options-and-competi",
+          "https://boardgamegeek.com/boardgameexpansion/396802/gaia-project-the-lost-fleet"
+        ],
+        "price": [
+          "https://capstone-games.com/products/gaia-project-the-lost-fleet"
+        ]
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Needs the Gaia Project base game. It is the only official expansion and is not included in the base box; Capstone sells it alone ($34.00) or in a Gaia Project Bundle with the base game ($74.99)."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Capstone Games",
+          "kind": "publisher",
+          "url": "https://capstone-games.com/products/terra-mystica-fire-ice",
+          "note": "US$29.99; marked Sold Out on 2026-10-09"
+        }
+      ],
+      "id": "terra-mystica--fire-and-ice",
+      "slug": "fire-and-ice",
+      "game": "terra-mystica",
+      "name": "Terra Mystica: Fire & Ice",
+      "type": "expansion",
+      "publisher": "Feuerland Spiele / Z-Man Games / Capstone Games",
+      "releaseYear": 2014,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Terra Mystica base game. It is an add-on, not standalone: it adds a new map, faction boards and tiles to the base game. Merchants of the Seas, the Automa Solo Box and Fan Factions all work with it but none of them require it.",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "adds": "Six new factions (Ice Maidens, Yetis, Acolytes, Dragonlords, Shapeshifters, Riverwalkers), a new world map and a variant of the base map, four new final-scoring tiles, a turn-order track (turn order follows the order players passed) and an optional auction for factions.",
+      "fixes": "Fixes some base-game balance issues: a Karma Games reviewer says the new map and the faction auction reduce the old strong-faction problem, and the final-scoring tiles make where you build matter more.",
+      "complexity": "same",
+      "groupStyle": "experienced",
+      "verdict": "buy_first",
+      "buyOrder": 1,
+      "reason": "BGG rates it 8.4 from about 4,600 ratings (about 14,000 owners). A Karma Games reviewer on BGG calls it 'pretty much the best of all possible Terra Mystica worlds' and says the new factions are fun, the new map and endgame scoring add variety, and the auction helps balance factions; he warns the auction only really works for experienced players and that Shapeshifters look very strong. On Reddit (r/boardgames, 'Fire and Ice or Merchants of the Seas?') several commenters pick Fire & Ice first: one says the variable turn-order track alone 'transforms the game from good to great' and another says 'Fire & Ice just for the new factions' makes it the superior expansion; others say Merchants changes the game more and both are worth it. A Reddit poster separately calls it 'an expansion many (myself includes) consider essential'.",
+      "verdictStatus": "draft",
+      "priceUsd": 29.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/161317/terra-mystica-fire-and-ice",
+          "https://capstone-games.com/products/terra-mystica-fire-ice",
+          "https://capstone-games.com/products/terra-mystica-fire-ice.json"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/1288812/fire-and-ice-fires-tm",
+          "https://www.reddit.com/r/boardgames/comments/ihz96i/",
+          "https://www.reddit.com/r/boardgames/comments/1p1hsxx/"
+        ],
+        "price": [
+          "https://capstone-games.com/products/terra-mystica-fire-ice"
+        ]
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Capstone Games",
+          "kind": "publisher",
+          "url": "https://capstone-games.com/products/terra-mystica-merchants-of-the-seas",
+          "note": "US$29.99; in stock"
+        }
+      ],
+      "id": "terra-mystica--merchants-of-the-seas",
+      "slug": "merchants-of-the-seas",
+      "game": "terra-mystica",
+      "name": "Terra Mystica: Merchants of the Seas",
+      "type": "expansion",
+      "publisher": "Feuerland Spiele / Z-Man Games / Capstone Games",
+      "releaseYear": 2019,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Terra Mystica base game only. Fire & Ice is not required, but Merchants includes content to support the Fire & Ice factions if you own it. The new maps and most new round-scoring tiles can also be used with the base game alone.",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "adds": "Ships and a new Shipyard building with twenty faction-board extensions, trading ships that give VP and resources (and power to the receiver), ships that can dig and build dwellings, 12 new round-scoring tiles, four ship-related Favor tiles, three new bonus tiles, three additional power actions, two new town tiles and two new maps (Lakes and Fjords).",
+      "fixes": "Adds an extra tactical movement layer and more interaction; the designer says it improves the 2-player game because ship trading forces interaction. It also carries the official updated starting-VP balance list.",
+      "complexity": "heavier",
+      "groupStyle": "experienced",
+      "verdict": "worth_it",
+      "buyOrder": 2,
+      "reason": "BGG rates it 8.1 from about 1,200 ratings with weight 4.17 (heavier than the base 3.97). In a BGG thread asking if it is a must-have, one poster calls it 'a great expansion' but warns it 'makes the game significantly more complex' and that it only slightly improves the 2-player game; another poster says it is 'not must have'; the co-designer James Ataei says it improves 2-player by adding tactical ship movement and interaction. On Reddit, commenters say Merchants is 'a fabulous expansion which increases the decision space' and 'fundamentally changes the way the game is played', while Fire & Ice 'just adds a bit of variety'; others put Fire & Ice first. It is the pick for groups that want a deeper, more interactive game rather than just more factions.",
+      "verdictStatus": "draft",
+      "priceUsd": 29.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/280885/terra-mystica-merchants-of-the-seas",
+          "https://capstone-games.com/products/terra-mystica-merchants-of-the-seas",
+          "https://capstone-games.com/products/terra-mystica-merchants-of-the-seas.json"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/3229502/would-you-consider-this-a-must-have-expansion",
+          "https://www.reddit.com/r/boardgames/comments/ihz96i/",
+          "https://boardgamegeek.com/boardgameexpansion/280885/terra-mystica-merchants-of-the-seas"
+        ],
+        "price": [
+          "https://capstone-games.com/products/terra-mystica-merchants-of-the-seas"
+        ]
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B09VCQR937",
+          "note": null
+        },
+        {
+          "store": "Capstone Games",
+          "kind": "publisher",
+          "url": "https://capstone-games.com/products/terra-mystica-automa-solo-box",
+          "note": "US$19.99; in stock"
+        }
+      ],
+      "id": "terra-mystica--automa-solo-box",
+      "slug": "automa-solo-box",
+      "game": "terra-mystica",
+      "name": "Terra Mystica: Automa Solo Box",
+      "type": "expansion",
+      "publisher": "Feuerland Spiele / Z-Man Games / Capstone Games",
+      "releaseYear": 2021,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Terra Mystica base game ('Terra Mystica required to play!' on the Capstone page). You can also add Fire & Ice and/or Merchants of the Seas to Automa games, but neither is required. The Automa can also act as a neutral extra player in a 2-player game.",
+      "minPlayers": 1,
+      "maxPlayers": 2,
+      "adds": "Solo mode against an Automa (card-driven opponent) with 10 Automa factions, several difficulty levels, an Automa deck, tribe cards and round-scoring tiles; includes a variant to add the Automa as a neutral third player in a 2-player game.",
+      "fixes": "Gives Terra Mystica a solo mode and a way to play it with fewer than the usual 3 to 4 players.",
+      "complexity": "same",
+      "groupStyle": null,
+      "verdict": "depends",
+      "buyOrder": 3,
+      "reason": "Only worth buying if you want to play solo or with two players. A BGG reviewer who bought it says it took one game to learn, calls it 'a worthy opponent that isn't easy to beat' and 'a more than solid opponent' and highly recommends it. BGG rates it 8.2 from 377 ratings. In the Merchants 'must-have' thread the Merchants co-designer suggests using the Automa as a third player in a 2-player game, and the original poster says he ordered the solo box to start playing Terra Mystica again. Nobody in the sources I read argues it is needed for a normal 3 to 5 player group.",
+      "verdictStatus": "draft",
+      "priceUsd": 19.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/349169/terra-mystica-automa-solo-box",
+          "https://capstone-games.com/products/terra-mystica-automa-solo-box",
+          "https://capstone-games.com/products/terra-mystica-automa-solo-box.json"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/thread/2930990/solo-any-good",
+          "https://boardgamegeek.com/thread/3229502/would-you-consider-this-a-must-have-expansion",
+          "https://boardgamegeek.com/boardgameexpansion/349169/terra-mystica-automa-solo-box"
+        ],
+        "price": [
+          "https://capstone-games.com/products/terra-mystica-automa-solo-box"
+        ]
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B09VCQR937",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Capstone Games",
+          "kind": "publisher",
+          "url": "https://capstone-games.com/products/terra-mystica-fan-factions",
+          "note": "US$29.99; in stock; official physical edition"
+        }
+      ],
+      "id": "terra-mystica--fan-factions",
+      "slug": "fan-factions",
+      "game": "terra-mystica",
+      "name": "Terra Mystica: Fan Factions",
+      "type": "expansion",
+      "publisher": "Feuerland Spiele / Z-Man Games / Capstone Games",
+      "releaseYear": 2025,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Terra Mystica base game. Capstone says the 20 new factions are fully compatible with the base game, Fire & Ice and Merchants of the Seas; BGG lists it as expanding the base game and the Big Box. Faction compatibility with the Automa Solo Box is unverified.",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "adds": "20 new factions (two for each of the seven colours plus two multi-colour ice and fire factions), all ideas submitted by fans and vetted by the publisher. It is an official published product, not a free download: it started as a community faction contest and print-and-play file, and Capstone now sells a physical version.",
+      "fixes": "Adds faction variety only (no new map or rules overhaul); the Merchants-of-the-Seas shipyard rules for these factions are still being asked about on BGG.",
+      "complexity": "same",
+      "groupStyle": "experienced",
+      "verdict": "depends",
+      "buyOrder": 4,
+      "reason": "Weak evidence: BGG rates it 8.7 from only about 210 ratings and it is new, so there are no written reviews. Forum threads show owners still asking about rules (shipyards for the new factions, the Firewalkers faction, differences between the 2022 boards and 2025 rules). Reddit coverage was about the Capstone launch, not play opinions. Treat it as an add-on for experienced groups who already own the base game and want yet more factions; it is not a fix for any base-game problem.",
+      "verdictStatus": "draft",
+      "priceUsd": 29.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/356035/terra-mystica-fan-factions",
+          "https://capstone-games.com/products/terra-mystica-fan-factions",
+          "https://capstone-games.com/products/terra-mystica-fan-factions.json"
+        ],
+        "verdict": [
+          "https://boardgamegeek.com/boardgameexpansion/356035/terra-mystica-fan-factions",
+          "https://www.reddit.com/r/boardgames/comments/1phoz99/"
+        ],
+        "price": [
+          "https://capstone-games.com/products/terra-mystica-fan-factions"
+        ]
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Capstone Games",
+          "kind": "publisher",
+          "url": "https://capstone-games.com/products/terra-mystica-mini-expansion",
+          "note": "US$9.99 listed; marked Sold Out on 2026-10-09"
+        },
+        {
+          "store": "BoardGameGeek (reference page, secondhand only)",
+          "kind": "retailer",
+          "url": "https://boardgamegeek.com/boardgameexpansion/184895/terra-mystica-mini-expansion",
+          "note": "Capstone copy sold out; check marketplace listings and edition"
+        }
+      ],
+      "id": "terra-mystica--mini-expansion",
+      "slug": "mini-expansion",
+      "game": "terra-mystica",
+      "name": "Terra Mystica: Mini Expansion",
+      "type": "mini_expansion",
+      "publisher": "Feuerland Spiele / Z-Man Games / Capstone Games",
+      "releaseYear": 2015,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the Terra Mystica base game. Released at Spiel 2015.",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "adds": "One new shipping-value bonus card, 4 new town tiles, a special landscape tile for each faction (extra faction-specific rules), and a new scoring tile that gives points for building a Temple and rewards coins at the end of the round to players with Priests on cults.",
+      "fixes": "The special landscapes were meant to lift weak factions such as Giants, Fakirs, Swarmlings and Auren.",
+      "complexity": "same",
+      "groupStyle": "experienced",
+      "verdict": "skip_unless",
+      "buyOrder": 5,
+      "reason": "BGG rates it 8.2 from about 1,000 ratings, but the only discussion I found is a Reddit thread asking if it is good. One commenter calls the special landscapes 'absolutely imbalanced' and says to use the faction-bidding rule instead; another is 'not a big fan of the special landscapes', calls the rules fiddly, and says the extra tiles are not 'worth the cost of the expansion', especially since two of the town tiles are also in Merchants of the Seas. A third likes that it 'brings new life to the boring/weak factions' but would use starting-VP changes for balance. Worth buying only if you are a completionist or want the extra tiles.",
+      "verdictStatus": "draft",
+      "priceUsd": 9.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://boardgamegeek.com/boardgameexpansion/184895/terra-mystica-mini-expansion",
+          "https://capstone-games.com/products/terra-mystica-mini-expansion",
+          "https://capstone-games.com/products/terra-mystica-mini-expansion.json"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/boardgames/comments/eygcu4/",
+          "https://boardgamegeek.com/boardgameexpansion/184895/terra-mystica-mini-expansion"
+        ],
+        "price": [
+          "https://capstone-games.com/products/terra-mystica-mini-expansion"
+        ]
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Capstone Games",
+          "kind": "publisher",
+          "url": "https://capstone-games.com/products/terra-mystica-big-box",
+          "note": "US$149.99"
+        }
+      ],
+      "id": "terra-mystica--big-box",
+      "slug": "big-box",
+      "game": "terra-mystica",
+      "name": "Terra Mystica: Big Box",
+      "type": "big_box",
+      "publisher": "Capstone Games",
+      "releaseYear": null,
+      "baseRequired": "no",
+      "prerequisiteRule": "Standalone bundle: contains the Terra Mystica base game, Fire & Ice, Merchants of the Seas and the Automa solo mode in one box. Does not need the base game. Does not include the Mini Expansion or Fan Factions.",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "adds": "Everything in the base game plus Fire & Ice, Merchants of the Seas and the Automa solo mode in one box (20 playable factions, 2 double-sided boards with the base and Fire & Ice maps plus the two Merchants maps, a storage solution guide).",
+      "fixes": "Buying the base game and these expansions separately; the box is only 2.25 inches deeper than the base box.",
+      "complexity": null,
+      "groupStyle": null,
+      "verdict": null,
+      "buyOrder": null,
+      "reason": null,
+      "verdictStatus": null,
+      "priceUsd": 149.99,
+      "priceKind": "publisher_store",
+      "sources": {
+        "facts": [
+          "https://capstone-games.com/products/terra-mystica-big-box",
+          "https://capstone-games.com/products/terra-mystica-big-box.json",
+          "https://boardgamegeek.com/boardgame/356238/terra-mystica-big-box"
+        ],
+        "verdict": [],
+        "price": [
+          "https://capstone-games.com/products/terra-mystica-big-box"
+        ]
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": "Standalone bundle: contains the Terra Mystica base game, Fire & Ice, Merchants of the Seas and the Automa solo mode in one box. Does not need the base game. Does not include the Mini Expansion or Fan Factions."
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0957Q2B52",
+          "note": null
+        }
+      ],
+      "id": "heroquest--kellars-keep",
+      "slug": "kellars-keep",
+      "game": "heroquest",
+      "name": "HeroQuest: Kellar's Keep",
+      "type": "expansion",
+      "publisher": "Avalon Hill / Hasbro",
+      "releaseYear": 2021,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the HeroQuest base game (2021 Hasbro edition); sold separately.",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "adds": "10 quests, 17 miniatures and new cards, with a companion-app mode.",
+      "fixes": null,
+      "complexity": null,
+      "groupStyle": null,
+      "verdict": "worth_it",
+      "buyOrder": 1,
+      "reason": "Blue Dragon Board Games calls it the best first expansion (the seamless continuation, medium difficulty), and r/Heroquest owners say Kellar's Keep plus Return of the Witch Lord supply enough monster minis to replace First Light's cardboard standees. Affiliate-site opinion plus forum posts.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://en.wikipedia.org/wiki/HeroQuest",
+          "https://www.amazon.com/dp/B0957Q2B52"
+        ],
+        "verdict": [
+          "https://bluedragonboardgames.com/how-many-heroquest-expansions-are-there-complete-guide/",
+          "https://www.reddit.com/r/Heroquest/comments/1vj8l48/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0957Q2B52",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0957R8MW8",
+          "note": null
+        }
+      ],
+      "id": "heroquest--return-of-the-witch-lord",
+      "slug": "return-of-the-witch-lord",
+      "game": "heroquest",
+      "name": "HeroQuest: Return of the Witch Lord",
+      "type": "expansion",
+      "publisher": "Avalon Hill / Hasbro",
+      "releaseYear": 2021,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the HeroQuest base game (2021 Hasbro edition); sold separately.",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "adds": "10 quests and 16 miniatures.",
+      "fixes": null,
+      "complexity": null,
+      "groupStyle": null,
+      "verdict": "worth_it",
+      "buyOrder": 2,
+      "reason": "Blue Dragon calls it a narrative sequel to the base game's final quest, 'a must for narrative satisfaction'; r/Heroquest owners say it adds undead minis and ramps difficulty up only slightly. Pairs with Kellar's Keep to replace cardboard standees.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://en.wikipedia.org/wiki/HeroQuest",
+          "https://www.amazon.com/dp/B0957R8MW8"
+        ],
+        "verdict": [
+          "https://bluedragonboardgames.com/how-many-heroquest-expansions-are-there-complete-guide/",
+          "https://www.reddit.com/r/Heroquest/comments/1vj8l48/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0957R8MW8",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B09XRDWGMK",
+          "note": null
+        }
+      ],
+      "id": "heroquest--the-frozen-horror",
+      "slug": "the-frozen-horror",
+      "game": "heroquest",
+      "name": "HeroQuest: The Frozen Horror",
+      "type": "expansion",
+      "publisher": "Avalon Hill / Hasbro",
+      "releaseYear": 2022,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the HeroQuest base game (2021 Hasbro edition); sold separately.",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "adds": "10 quests and 21 miniatures.",
+      "fixes": null,
+      "complexity": null,
+      "groupStyle": null,
+      "verdict": "depends",
+      "buyOrder": 7,
+      "reason": "Blue Dragon and a Reddit poster put it as hard, a 'brutal difficulty spike' needing veteran groups; includes Barbarian solo quests and new female heroes per the guide. Good for experienced groups, not first expansions.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://en.wikipedia.org/wiki/HeroQuest",
+          "https://www.amazon.com/dp/B09XRDWGMK"
+        ],
+        "verdict": [
+          "https://bluedragonboardgames.com/how-many-heroquest-expansions-are-there-complete-guide/",
+          "https://www.reddit.com/r/Heroquest/comments/17u3lfe/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B09XRDWGMK",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "BoardGameGeek",
+          "kind": "retailer",
+          "url": "https://boardgamegeek.com/boardgame/368275/heroquest-the-mage-of-the-mirror",
+          "note": "BGG reference row"
+        }
+      ],
+      "id": "heroquest--the-mage-of-the-mirror",
+      "slug": "the-mage-of-the-mirror",
+      "game": "heroquest",
+      "name": "HeroQuest: The Mage of the Mirror",
+      "type": "expansion",
+      "publisher": "Avalon Hill / Hasbro",
+      "releaseYear": 2023,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the HeroQuest base game (2021 Hasbro edition); sold separately.",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "adds": "10 quests and 33 miniatures per the Amazon comparison table.",
+      "fixes": null,
+      "complexity": null,
+      "groupStyle": null,
+      "verdict": "worth_it",
+      "buyOrder": 3,
+      "reason": "Reddit owners name it a favourite and one of the packs (with Dread Moon) that gives most furniture minis; includes Elf solo quests. A player says it is difficult and needs seasoned, well-equipped heroes though easier than The Frozen Horror.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://en.wikipedia.org/wiki/HeroQuest"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/Heroquest/comments/1vj8l48/",
+          "https://www.reddit.com/r/Heroquest/comments/17u3lfe/",
+          "https://bluedragonboardgames.com/how-many-heroquest-expansions-are-there-complete-guide/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "BoardGameGeek",
+          "kind": "retailer",
+          "url": "https://boardgamegeek.com/boardgame/392147/heroquest-rise-of-the-dread-moon-quest-pack",
+          "note": "BGG reference row"
+        }
+      ],
+      "id": "heroquest--rise-of-the-dread-moon",
+      "slug": "rise-of-the-dread-moon",
+      "game": "heroquest",
+      "name": "HeroQuest: Rise of the Dread Moon",
+      "type": "expansion",
+      "publisher": "Avalon Hill / Hasbro",
+      "releaseYear": 2023,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the HeroQuest base game (2021 Hasbro edition); sold separately.",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "adds": null,
+      "fixes": null,
+      "complexity": null,
+      "groupStyle": null,
+      "verdict": "worth_it",
+      "buyOrder": 4,
+      "reason": "A r/Heroquest owner calls it a personal favourite; it adds the Knight and mercenary rules, and a commenter says it is much easier than Mage of the Mirror and playable with brand new heroes if played smartly (reputation tokens and ethereal enemies need learning). Seen discounted to about $17 at GameStop by a commenter (unverified).",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://en.wikipedia.org/wiki/HeroQuest"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/Heroquest/comments/1vj8l48/",
+          "https://www.reddit.com/r/Heroquest/comments/17u3lfe/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0C62WCBJP",
+          "note": null
+        }
+      ],
+      "id": "heroquest--prophecy-of-telor",
+      "slug": "prophecy-of-telor",
+      "game": "heroquest",
+      "name": "HeroQuest: Prophecy of Telor",
+      "type": "expansion",
+      "publisher": "Avalon Hill / Hasbro",
+      "releaseYear": 2023,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the HeroQuest base game (2021 Hasbro edition); sold separately.",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "adds": null,
+      "fixes": null,
+      "complexity": null,
+      "groupStyle": null,
+      "verdict": "depends",
+      "buyOrder": 8,
+      "reason": "Reddit: a 'basic' pack that gives some monster minis, entrance/exit doors and the Bard; Blue Dragon calls it story-driven at medium difficulty. A thread noted it was low on Amazon USA and sold out on Pulse, so availability varies.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://en.wikipedia.org/wiki/HeroQuest",
+          "https://www.amazon.com/dp/B0C62WCBJP"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/Heroquest/comments/1vj8l48/",
+          "https://bluedragonboardgames.com/how-many-heroquest-expansions-are-there-complete-guide/",
+          "https://www.reddit.com/r/Heroquest/comments/1ootdhb/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0C62WCBJP",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0C6361QFY",
+          "note": null
+        }
+      ],
+      "id": "heroquest--spirit-queens-torment",
+      "slug": "spirit-queens-torment",
+      "game": "heroquest",
+      "name": "HeroQuest: Spirit Queen's Torment",
+      "type": "expansion",
+      "publisher": "Avalon Hill / Hasbro",
+      "releaseYear": 2023,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the HeroQuest base game (2021 Hasbro edition); sold separately.",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "adds": null,
+      "fixes": null,
+      "complexity": null,
+      "groupStyle": null,
+      "verdict": "depends",
+      "buyOrder": 9,
+      "reason": "Reddit: a good first pack for First Light owners because its minis cover about 80% of the figures needed, and it adds the Warlock. Blue Dragon flags it as hard with ghost enemies. One player found the Warlock 'good but zero growth'.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://en.wikipedia.org/wiki/HeroQuest",
+          "https://www.amazon.com/dp/B0C6361QFY"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/Heroquest/comments/1vj8l48/",
+          "https://www.reddit.com/r/Heroquest/comments/1velvfj/",
+          "https://bluedragonboardgames.com/how-many-heroquest-expansions-are-there-complete-guide/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0C6361QFY",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "BoardGameGeek",
+          "kind": "retailer",
+          "url": "https://boardgamegeek.com/boardgame/415535/heroquest-against-the-ogre-horde",
+          "note": "BGG reference row"
+        }
+      ],
+      "id": "heroquest--against-the-ogre-horde",
+      "slug": "against-the-ogre-horde",
+      "game": "heroquest",
+      "name": "HeroQuest: Against the Ogre Horde",
+      "type": "expansion",
+      "publisher": "Avalon Hill / Hasbro",
+      "releaseYear": 2024,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the HeroQuest base game (2021 Hasbro edition); sold separately.",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "adds": null,
+      "fixes": null,
+      "complexity": null,
+      "groupStyle": null,
+      "verdict": "depends",
+      "buyOrder": 10,
+      "reason": "Blue Dragon calls it combat-heavy and hard, with a Druid hero and arena mode per a Reddit summary; one Druid player disliked how hard it is to get Shapeshift back. Discounted often per forum posts, so price varies by retailer. Evidence is thin.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://en.wikipedia.org/wiki/HeroQuest"
+        ],
+        "verdict": [
+          "https://bluedragonboardgames.com/how-many-heroquest-expansions-are-there-complete-guide/",
+          "https://www.reddit.com/r/Heroquest/comments/1vj8l48/",
+          "https://www.reddit.com/r/Heroquest/comments/1velvfj/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0CS7G51Y1",
+          "note": null
+        }
+      ],
+      "id": "heroquest--jungles-of-delthrak",
+      "slug": "jungles-of-delthrak",
+      "game": "heroquest",
+      "name": "HeroQuest: Jungles of Delthrak",
+      "type": "expansion",
+      "publisher": "Avalon Hill / Hasbro",
+      "releaseYear": 2024,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the HeroQuest base game (2021 Hasbro edition); sold separately.",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "adds": null,
+      "fixes": null,
+      "complexity": null,
+      "groupStyle": null,
+      "verdict": "worth_it",
+      "buyOrder": 5,
+      "reason": "Reddit owners say it frequently goes on deep discount and 'adds a lot' with two new heroes (Explorer, Berserker), a pet raptor/tiger rule and a good selection of minis. Blue Dragon lists it as medium difficulty and a complete setting change.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://en.wikipedia.org/wiki/HeroQuest",
+          "https://www.amazon.com/dp/B0CS7G51Y1"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/Heroquest/comments/1vj8l48/",
+          "https://bluedragonboardgames.com/how-many-heroquest-expansions-are-there-complete-guide/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0CS7G51Y1",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0DN2ZLCN8",
+          "note": null
+        }
+      ],
+      "id": "heroquest--the-crypt-of-perpetual-darkness",
+      "slug": "the-crypt-of-perpetual-darkness",
+      "game": "heroquest",
+      "name": "HeroQuest: The Crypt of Perpetual Darkness",
+      "type": "expansion",
+      "publisher": "Avalon Hill / Hasbro",
+      "releaseYear": 2025,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the HeroQuest base game (2021 Hasbro edition); sold separately.",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "adds": null,
+      "fixes": null,
+      "complexity": null,
+      "groupStyle": null,
+      "verdict": "depends",
+      "buyOrder": 11,
+      "reason": "Blue Dragon calls it the hardest and darkest (limited visibility), for experienced groups only; a Reddit commenter points to the dragon model as a highlight. Formerly a crowdfund exclusive.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://en.wikipedia.org/wiki/HeroQuest",
+          "https://www.amazon.com/dp/B0DN2ZLCN8"
+        ],
+        "verdict": [
+          "https://bluedragonboardgames.com/how-many-heroquest-expansions-are-there-complete-guide/",
+          "https://www.reddit.com/r/Heroquest/comments/1vj8l48/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0DN2ZLCN8",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "Amazon",
+          "kind": "amazon",
+          "url": "https://www.amazon.com/dp/B0FJBPW4L7",
+          "note": null
+        }
+      ],
+      "id": "heroquest--wizards-of-morcar",
+      "slug": "wizards-of-morcar",
+      "game": "heroquest",
+      "name": "HeroQuest: Wizards of Morcar",
+      "type": "expansion",
+      "publisher": "Avalon Hill / Hasbro",
+      "releaseYear": 2026,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the HeroQuest base game (2021 Hasbro edition); sold separately.",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "adds": "10 quests (5 based on the 1991 edition, 5 new), 27 miniatures including an alternate Wizard hero, 64 cards, a skill-acquisition mechanic (Boons of Heroism), 5 evil sorcerers, and 3 new spell sets plus magical barriers.",
+      "fixes": null,
+      "complexity": null,
+      "groupStyle": null,
+      "verdict": "depends",
+      "buyOrder": 6,
+      "reason": "Blue Dragon calls it the most strategically interesting for veterans (enemy wizards cast spells, Wizard options), but it is the newest and priciest ($49.99 MSRP per Avalon Hill, stock restricted in some regions per Amazon). Only one opinion source; no forum consensus read.",
+      "verdictStatus": "draft",
+      "priceUsd": 49.99,
+      "priceKind": "msrp",
+      "sources": {
+        "facts": [
+          "https://en.wikipedia.org/wiki/HeroQuest",
+          "https://www.amazon.com/dp/B0FJBPW4L7"
+        ],
+        "verdict": [
+          "https://bluedragonboardgames.com/how-many-heroquest-expansions-are-there-complete-guide/",
+          "https://www.reddit.com/r/Heroquest/comments/1vj8l48/"
+        ],
+        "price": [
+          "https://www.amazon.com/dp/B0FJBPW4L7"
+        ]
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "https://www.amazon.com/dp/B0FJBPW4L7",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "BoardGameGeek",
+          "kind": "retailer",
+          "url": "https://boardgamegeek.com/boardgameexpansion/368246/heroquest-hero-collection-the-rogue-heir-of-elethorn",
+          "note": "BGG reference row"
+        }
+      ],
+      "id": "heroquest--rogue-heir-of-elethorn",
+      "slug": "rogue-heir-of-elethorn",
+      "game": "heroquest",
+      "name": "HeroQuest Hero Collection: The Rogue Heir of Elethorn",
+      "type": "mini_expansion",
+      "publisher": "Avalon Hill / Hasbro",
+      "releaseYear": 2022,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the HeroQuest base game (2021 Hasbro edition); sold separately.",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "adds": "One hero (the Rogue) with 2 miniatures per the Amazon table.",
+      "fixes": null,
+      "complexity": null,
+      "groupStyle": null,
+      "verdict": "skip_unless",
+      "buyOrder": 12,
+      "reason": "One-hero pack. A r/Heroquest player used the Rogue and found her 'quite fun' but very strategic and squishy. Only for groups wanting a new hero.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://en.wikipedia.org/wiki/HeroQuest"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/Heroquest/comments/1velvfj/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
+      "affiliate": {
+        "affiliate_url": "",
+        "affiliate_enabled": false,
+        "requires_disclosure": true
+      },
+      "requires": [],
+      "listNote": null
+    },
+    {
+      "buyLinks": [
+        {
+          "store": "BoardGameGeek",
+          "kind": "retailer",
+          "url": "https://boardgamegeek.com/boardgameexpansion/397439/heroquest-hero-collection-path-of-the-wandering-monk",
+          "note": "BGG reference row"
+        }
+      ],
+      "id": "heroquest--path-of-the-wandering-monk",
+      "slug": "path-of-the-wandering-monk",
+      "game": "heroquest",
+      "name": "HeroQuest Hero Collection: Path of the Wandering Monk",
+      "type": "mini_expansion",
+      "publisher": "Avalon Hill / Hasbro",
+      "releaseYear": 2023,
+      "baseRequired": "yes",
+      "prerequisiteRule": "Needs the HeroQuest base game (2021 Hasbro edition); sold separately.",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "adds": "One additional hero (the Monk).",
+      "fixes": null,
+      "complexity": null,
+      "groupStyle": null,
+      "verdict": "skip_unless",
+      "buyOrder": 13,
+      "reason": "One-hero pack. A r/Heroquest player used the Monk but found him not as impressive as other heroes (comment truncated in the source I read). Only for groups wanting another hero.",
+      "verdictStatus": "draft",
+      "priceUsd": null,
+      "priceKind": null,
+      "sources": {
+        "facts": [
+          "https://en.wikipedia.org/wiki/HeroQuest"
+        ],
+        "verdict": [
+          "https://www.reddit.com/r/Heroquest/comments/1velvfj/"
+        ],
+        "price": []
+      },
+      "checkedOn": "2026-10-09",
       "affiliate": {
         "affiliate_url": "",
         "affiliate_enabled": false,

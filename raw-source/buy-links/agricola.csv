@@ -1,0 +1,12 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Amazon,retailer,https://www.amazon.com/dp/B01DREMT68,Revised Edition,2026-10-08,Amazon /dp page title verified: Agricola (Revised Edition)
+_base,Amazon,retailer,https://www.amazon.com/dp/B07JZFN8WS,Revised Edition (Lookout listing),2026-10-08,Amazon /dp page title verified: Lookout Games Agricola (Revised Edition)
+_base,Lookout Games,publisher,https://www.lookout-spiele.de/en/games/agricolare.html,Revised Edition,2026-10-08,"Page fetched OK, correct product (curl returns 403)"
+farmers-of-the-moor-revised-edition,Amazon,retailer,https://www.amazon.com/dp/B07G5HYRNV,Revised Edition,2026-10-08,Amazon /dp page title verified: Agricola (Revised Edition) Farmers of The Moor Expansion
+farmers-of-the-moor-revised-edition,Lookout Games,publisher,https://www.lookout-spiele.de/en/games/agricolare_farmers_re.html,Revised Edition,2026-10-08,"Page fetched OK, correct product (curl returns 403)"
+corbarius-deck,Amazon,retailer,https://www.amazon.com/dp/B081VYHGCW,Revised Edition,2026-10-08,Amazon /dp page title verified: Agricola (Revised Edition) Corbarius Deck Expansion
+5-6-player-expansion-revised-edition,Amazon,retailer,https://www.amazon.com/dp/B01MPWXP2C,Revised Edition,2026-10-08,Amazon /dp page title verified: Lookout Agricola: 5-6 Player Extension
+artifex-deck,Lookout Games,publisher,https://www.lookout-spiele.de/en/games/agricolare_artifex.html,Revised Edition,2026-10-09,"Page fetched OK, correct product (curl returns 403)"
+bubulcus-deck,Lookout Games,publisher,https://www.lookout-spiele.de/en/games/agricolare_bubulcus.html,Revised Edition,2026-10-09,"Page fetched OK, correct product (curl returns 403)"
+dulcinaria-deck,Lookout Games,publisher,https://www.lookout-spiele.de/en/games/agricolare_dulcinaria.html,Revised Edition,2026-10-09,"Page fetched OK, correct product (curl returns 403)"
+consul-dirigens-deck,Lookout Games,publisher,https://www.lookout-spiele.de/en/games/agricolare_consuldirigens.html,Revised Edition,2026-10-09,"Page fetched OK, correct product (curl returns 403)"
