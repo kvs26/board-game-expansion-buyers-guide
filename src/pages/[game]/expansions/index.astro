@@ -126,7 +126,7 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
                   </div>
                   {e.adds && <p><strong>Adds:</strong> {brief(e, 'adds')}</p>}
                   {e.fixes && <p><strong>Fixes:</strong> {brief(e, 'fixes')}</p>}
-                  {e.reason && <p class="muted">{e.reason}</p>}
+                  {e.reason && <p class="muted">{brief(e, 'reason')}</p>}
                   <div class="needs" data-needs hidden={!chain.length}>
                     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 23 21H1z" fill="#F2B705" stroke="#1D2A44" stroke-width="2" /><path d="M12 9v5M12 17v.5" stroke="#1D2A44" stroke-width="2.4" stroke-linecap="round" /></svg>
                     <span>Get <span data-needs-list>{chain.map((c) => c.name).join(' and ')}</span> first.</span>

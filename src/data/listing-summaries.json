@@ -1,115 +1,148 @@
 {
   "flash-point-fire-rescue/extreme-danger": {
-    "adds": "Six building layouts, firefighter minis, explosive and hazmat tokens, fire-proof doors and an attic/basement board. The box holds all earlier expansions."
+    "adds": "Six building layouts, firefighter minis, explosive and hazmat tokens, fire-proof doors and an attic/basement board. The box holds all earlier expansions.",
+    "reason": "Mixes with earlier maps and doubles as the storage box. One reviewer rated it 9.5 and advises newcomers to ease in via smaller packs first."
   },
   "architects-of-the-west-kingdom/architects-age-of-artisans": {
-    "adds": "A 6th player (orange), a personal Artisan meeple worth two workers, 24 Craft cards, 12 new Apprentices and Buildings, a Guildhall overlay and two new player boards."
+    "adds": "A 6th player (orange), a personal Artisan meeple worth two workers, 24 Craft cards, 12 new Apprentices and Buildings, a Guildhall overlay and two new player boards.",
+    "reason": "Board Game Quest says buy this first if you only get one: strong choices and very easy to integrate. A designer on BGG says they would not play without its Buildings and Apprentices."
   },
   "architects-of-the-west-kingdom/architects-works-of-wonder": {
     "adds": "An Influence track, Princess and Profiteer meeples, five buildable Wonders, 24 new Apprentices and Buildings, six player boards and a new solo system."
   },
   "7-wonders-duel/pantheon": {
-    "adds": "A Pantheon board with 16 deity powers, three Grand Temples that replace the Age III Guilds, two new Wonders and three Progress tokens."
+    "adds": "A Pantheon board with 16 deity powers, three Grand Temples that replace the Age III Guilds, two new Wonders and three Progress tokens.",
+    "reason": "A BGG reviewer with 1,000+ base plays says it lifted the game to one of the best two-player games; a 2016 review calls it fun but not essential. r/7WondersDuel posters play it every time."
   },
   "the-quacks-of-quedlinburg/the-quacks-of-quedlinburg-the-herb-witches": {
-    "adds": "A black fifth-player kit, 12 Herb Witch cards with one-time coin powers, the Locoweed ingredient and 8 new ingredient books."
+    "adds": "A black fifth-player kit, 12 Herb Witch cards with one-time coin powers, the Locoweed ingredient and 8 new ingredient books.",
+    "reason": "BGG threads pick it first: fifth player, books and Locoweed, barely more complexity. r/boardgames calls it a must-have; won 2019 Diamond Climber. Standalone copies out of print in the US."
   },
   "lords-of-waterdeep/scoundrels-of-skullport": {
-    "adds": "Two modules: Undermountain (bigger quests, resources on the board) and Skullport (Corruption with end-game penalties). Also new Lords, buildings, cards and a sixth faction."
+    "adds": "Two modules: Undermountain (bigger quests, resources on the board) and Skullport (Corruption with end-game penalties). Also new Lords, buildings, cards and a sixth faction.",
+    "reason": "Owners call it fun, with many more actions, buildings and quests and a nice corruption risk/reward. Hardcore gamers may not be won over. The 2026 reprint has the same content."
   },
   "anachrony/fractures-of-time": {
     "adds": "A new faction (Path of Unity), a Valley board, a Fracture device to \"blink\" an Exosuit for a second action, Technology cards, new leaders and two solo modes.",
-    "fixes": "Gives the weak research action a real use and adds competition for Capital spaces. The game is shorter (5 rounds, not 7) with more decisions per round."
+    "fixes": "Gives the weak research action a real use and adds competition for Capital spaces. The game is shorter (5 rounds, not 7) with more decisions per round.",
+    "reason": "Silver Duck rates it 9.5/10 and says it fixes base-game flaws, but use it only after 5-10 base plays; play time rises about 20%. Reddit calls it 'the must own for long term play'."
   },
   "anachrony/future-imperfect": {
-    "adds": "Four mix-and-match modules: Neutronide Buildings, Hypersync Future Actions (act now, repay later), Quantum Loops and Intrigues of the Council."
+    "adds": "Four mix-and-match modules: Neutronide Buildings, Hypersync Future Actions (act now, repay later), Quantum Loops and Intrigues of the Council.",
+    "reason": "Silver Duck rates it 9/10 as a great next step after 5+ base plays; Intrigues adds about 20% time, other modules little. Reddit calls it a great bridge to Fractures of Time."
   },
   "anachrony/classic-expansion-pack": {
-    "adds": "Three modules: Doomsday (shift or cancel the asteroid Impact), Pioneers of New Earth (Adventure action, Exosuit upgrades) and Guardians of the Council (Guardian Exosuits)."
+    "adds": "Three modules: Doomsday (shift or cancel the asteroid Impact), Pioneers of New Earth (Adventure action, Exosuit upgrades) and Guardians of the Council (Guardian Exosuits).",
+    "reason": "Pioneers works with Fractures of Time, Doomsday does not, Guardians needs a house rule. Doomsday is poorly regarded; Guardians eases crowding at 4 players. Reports are partly second-hand."
   },
   "anachrony/infinity-box": {
-    "adds": "The base game, Fractures of Time, Future Imperfect and the Classic modules in one box, with miniatures, trays, an art book and all stretch goals."
+    "adds": "The base game, Fractures of Time, Future Imperfect and the Classic modules in one box, with miniatures, trays, an art book and all stretch goals.",
+    "reason": "Top r/boardgames comments say the only real added value is the limited-run serial number, since the pieces sell separately. Buy only if you are a collector who wants every module."
   },
   "a-feast-for-odin/the-norwegians": {
-    "adds": "A modular action board that changes with player count, four exploration boards, pigs and horses, a personal artisan shed and a way to discard occupations for points."
+    "adds": "A modular action board that changes with player count, four exploration boards, pigs and horses, a personal artisan shed and a way to discard occupations for points.",
+    "reason": "A BGG reviewer with about 20 plays calls it almost a version 2.0 that rebalances action spaces without adding complexity. A 2020 review scores it 7.5/10 and recommends it for repeat players."
   },
   "a-feast-for-odin/mini-expansion-2-harvest": {
-    "adds": "Randomised harvests, new harvest resource tokens, new 1x1 tiles, the Isle of Mull / Caithness exploration board and a faster start for the 6-round game."
+    "adds": "Randomised harvests, new harvest resource tokens, new 1x1 tiles, the Isle of Mull / Caithness exploration board and a faster start for the 6-round game.",
+    "reason": "Adds randomised harvests, best for groups who know the base game and The Norwegians. Rated 8.3 on BGG from 588 ratings and hard to find new; little detailed review evidence was found."
   },
   "a-feast-for-odin/mini-expansion-1-lofoten-orkney-tierra-del-fuego": {
-    "adds": "Two double-sided exploration boards (Lofoten and Orkney, plus Tierra del Fuego) that score points and give income and bonuses when filled."
+    "adds": "Two double-sided exploration boards (Lofoten and Orkney, plus Tierra del Fuego) that score points and give income and bonuses when filled.",
+    "reason": "Designer says Orkney and Lofoten are in the base print since 2023, so only owners of older prints need this mini. Tierra del Fuego is not in the new base and is rated weaker."
   },
   "great-western-trail/rails-to-the-north-2nd-edition": {
-    "adds": "A board extension with rail paths north and west, branchlets for extra deliveries, reworked town tiles, new player boards and objectives, solo materials and a new cow breed."
+    "adds": "A board extension with rail paths north and west, branchlets for extra deliveries, reworked town tiles, new player boards and objectives, solo materials and a new cow breed.",
+    "reason": "Mostly positive for repeat players: branchlet auxiliary actions and a fix for end-game station token grabs (BGG 8.6). Some call it fiddly extra, so it suits experienced groups, not a first teach."
   },
   "great-western-trail/rails-to-the-north-1st-edition": {
-    "adds": "An extension board with a rail system to the northeast (Chicago, Detroit, New York), 60 branchlets, private buildings, town and station master tiles."
+    "adds": "An extension board with a rail system to the northeast (Chicago, Detroit, New York), 60 branchlets, private buildings, town and station master tiles.",
+    "reason": "Only worth chasing if you own the 1st-edition base. Amazon reviewers call it essential and BGG rates it 8.4; some experienced players find builder strategy too strong. Mostly secondhand now."
   },
   "castles-of-burgundy/vineyard": {
-    "adds": "A vineyard board on each duchy and a tile rack. You place double-hex tiles on it, and more tiles of the same type score more victory points."
+    "adds": "A vineyard board on each duchy and a tile rack. You place double-hex tiles on it, and more tiles of the same type score more victory points.",
+    "reason": "Meeple Mountain calls it one of the two best Castles expansions but notes hefty rules overhead and no player aid. Punchboard calls it big and 'really well done'."
   },
   "castles-of-burgundy/shields": {
-    "adds": "18 shield tiles on the goods spaces. Roll doubles to take one instead of your two actions and place it on a castle for a power, paying 1 silver per shield each phase or losing it."
+    "adds": "18 shield tiles on the goods spaces. Roll doubles to take one instead of your two actions and place it on a castle for a power, paying 1 silver per shield each phase or losing it.",
+    "reason": "Players disagree: some call shields #16 and #17 too impactful or broken, others see a fair catch-up mechanism. Meeple Mountain says the advantages are beefy with low rules overhead."
   },
   "castles-of-burgundy/trade-routes": {
-    "adds": "Trade-route tiles with 3 spaces each. Sold goods go onto the route, and you earn the bonus when a tile's number matches the space."
+    "adds": "Trade-route tiles with 3 spaces each. Sold goods go onto the route, and you earn the bonus when a tile's number matches the space.",
+    "reason": "Special Edition owners on r/boardgames say they always play with it; it buffs selling goods and adds little overhead. Evidence is a handful of forum posts, not a full review."
   },
   "castles-of-burgundy/solo": {
-    "adds": "A double-sided solo duchy board (beginner and advanced sides). You play 25 rounds, removing a tile from the depots each round, aiming for 50 points."
+    "adds": "A double-sided solo duchy board (beginner and advanced sides). You play 25 rounds, removing a tile from the depots each round, aiming for 50 points.",
+    "reason": "Punchboard calls it a fun, engaging but tough puzzle rather than an Automa-style opponent. For a bot opponent, look at the Special Edition's Châteauma instead."
   },
   "castles-of-burgundy/team-game": {
     "adds": "Two teams of two, each with a shared team board. You cannot use your partner's dice or private tiles, and the two players' points are added."
   },
   "castles-of-burgundy/new-hex-tiles": {
-    "adds": "4 new hex tiles: a Park (any building), Goats (any animal), a Sequential Order tile that keeps you first in turn order, and a Worker tile that buys 2 workers for 1 silver."
+    "adds": "4 new hex tiles: a Park (any building), Goats (any animal), a Sequential Order tile that keeps you first in turn order, and a Worker tile that buys 2 workers for 1 silver.",
+    "reason": "Every Special Edition owner in the r/boardgames thread treats the extra tiles (white castles, crane, geese, extra monasteries) as default; they add variety without new procedures. Small sample."
   },
   "castles-of-burgundy/pleasure-garden": {
-    "adds": "9 Pleasure Garden tiles and a knowledge tile. Placing one gives an immediate action using the white die, and each is worth 4 VP."
+    "adds": "9 Pleasure Garden tiles and a knowledge tile. Placing one gives an immediate action using the white die, and each is worth 4 VP.",
+    "reason": "Reddit players use it as an always-in module, but one says all its tiles make the game 'a little wonky' because of two extra brown buildings. The tile count is debated."
   },
   "castles-of-burgundy/cloisters": {
-    "adds": "5 Cloister tiles bought for 2 silver. Placed in any empty space, each counts as +1 to the size of that area for scoring."
+    "adds": "5 Cloister tiles bought for 2 silver. Placed in any empty space, each counts as +1 to the size of that area for scoring.",
+    "reason": "One Reddit Special Edition owner skips the Inns because they skew the early game toward big zones; another group always plays with them. Opinions split."
   },
   "castles-of-burgundy/monastery-boards": {
-    "adds": "4 double-sided boards with three monasteries. Linking monasteries with a 5-tile line earns 5 VP, and the first to link all three gets a bonus, for up to 22 extra points."
+    "adds": "4 double-sided boards with three monasteries. Linking monasteries with a 5-tile line earns 5 VP, and the first to link all three gets a bonus, for up to 22 extra points.",
+    "reason": "One Reddit owner lists extra monasteries among always-in modules, but no reviewer discusses it in detail. Only for groups that already like the base game."
   },
   "castles-of-burgundy/new-player-boards": {
-    "adds": "Double-sided duchy boards with a new rule: every tile must touch a castle directly or through same-colour tiles. You can spend 5 points to retrieve a set-aside castle."
+    "adds": "Double-sided duchy boards with a new rule: every tile must touch a castle directly or through same-colour tiles. You can spend 5 points to retrieve a set-aside castle.",
+    "reason": "Adds alternate duchy boards with a connection rule. No review or forum praise found; only available via the Special Edition. Take it only if you want the variety."
   },
   "castles-of-burgundy/special-edition": {
-    "adds": "Redesigned art and deluxe components (double-layer boards, metal coins, plastic castles), the earlier expansions, the new Vineyard expansion and the Châteauma solo bot."
+    "adds": "Redesigned art and deluxe components (double-layer boards, metal coins, plastic castles), the earlier expansions, the new Vineyard expansion and the Châteauma solo bot.",
+    "reason": "Hardcore fans like it, but it is a $149 big box. If you only want the 20th Anniversary content, the cheaper 2019 edition has Shields, Trade Routes, Team and Solo."
   },
   "war-of-the-ring/lords-of-middle-earth": {
-    "adds": "Figures and rules for Elrond, Galadriel, Smeagol, Gothmog and the Balrog, alternate Gandalf, Witch-king and Mouth of Sauron, plus new Companions and action dice."
+    "adds": "Figures and rules for Elrond, Galadriel, Smeagol, Gothmog and the Balrog, alternate Gandalf, Witch-king and Mouth of Sauron, plus new Companions and action dice.",
+    "reason": "Reddit says neither Lords nor Warriors is required; wait 4-6 base plays. Commenters call Lords excellent, balancing the slight Shadow lean with few extra rules. BGG rates it about 8.7."
   },
   "war-of-the-ring/kings-of-middle-earth": {
-    "adds": "Free Peoples sovereigns (Theoden, Denethor, Dain, Brand, Thranduil) in three versions, a Corruption board, two action dice, 32 cards and Dark Chieftains for the Shadow."
+    "adds": "Free Peoples sovereigns (Theoden, Denethor, Dain, Brand, Thranduil) in three versions, a Corruption board, two action dice, 32 cards and Dark Chieftains for the Shadow.",
+    "reason": "A player calls it fun and dynamic but small; its new Shadow minions don't influence the game much. BGG rates it about 8.6. Suits heavy base-game players; no in-depth review read."
   },
   "gaia-project/the-lost-fleet": {
     "adds": "Four new factions, proto planets and asteroids, new sector tiles and maps, four ships that open new actions, new tech and scoring tiles and an updated solo Automa.",
-    "fixes": "Moves Q.I.C. actions onto the ships, so there are more actions to compete for. Includes small faction balance tweaks and ends the Terran and Bal T'ak monopoly on transdimensional planets."
+    "fixes": "Moves Q.I.C. actions onto the ships, so there are more actions to compete for. Includes small faction balance tweaks and ends the Terran and Bal T'ak monopoly on transdimensional planets.",
+    "reason": "BGG reviewers call it 'not to be missed' for long-time fans and rate it 8.9 vs 8.3 for the base game; one thinks the Bal'taks are probably broken. Suits experienced groups more than newcomers."
   },
   "terra-mystica/fire-and-ice": {
     "adds": "Six new factions, a new map, four new final-scoring tiles, a turn-order track and an optional faction auction.",
-    "fixes": "Eases the strong-faction problem: the new map and faction auction help balance, and the final-scoring tiles make where you build matter more."
+    "fixes": "Eases the strong-faction problem: the new map and faction auction help balance, and the final-scoring tiles make where you build matter more.",
+    "reason": "BGG rates it 8.4 from about 4,600 ratings. Many Reddit commenters pick it first; one says its turn-order track 'transforms the game from good to great'. The auction suits experienced players."
   },
   "terra-mystica/merchants-of-the-seas": {
     "adds": "Ships and a Shipyard with faction-board extensions, trading ships that give VP and resources, new round and Favor tiles, extra power actions and two new maps.",
-    "fixes": "Adds a tactical movement layer and more interaction. The designer says ship trading improves the 2-player game. Carries the updated starting-VP balance list."
+    "fixes": "Adds a tactical movement layer and more interaction. The designer says ship trading improves the 2-player game. Carries the updated starting-VP balance list.",
+    "reason": "BGG rates it 8.1; a thread warns it makes the game significantly more complex, while the co-designer says it improves 2-player. Reddit: it 'fundamentally changes' play. Pick for a deeper game."
   },
   "terra-mystica/automa-solo-box": {
-    "adds": "A solo mode against a card-driven Automa with 10 factions and several difficulty levels. It can also add the Automa as a neutral third player in 2-player games."
+    "adds": "A solo mode against a card-driven Automa with 10 factions and several difficulty levels. It can also add the Automa as a neutral third player in 2-player games.",
+    "reason": "Only worth buying for solo or two-player games. A BGG reviewer calls it 'a worthy opponent that isn't easy to beat' (BGG 8.2); nobody argues it is needed for a normal 3-5 player group."
   },
   "terra-mystica/fan-factions": {
-    "adds": "20 new factions (two per colour plus two multi-colour ones), submitted by fans and vetted by the publisher. It is an official product, not a free download."
+    "adds": "20 new factions (two per colour plus two multi-colour ones), submitted by fans and vetted by the publisher. It is an official product, not a free download.",
+    "reason": "Weak evidence: BGG rates it 8.7 from only about 210 ratings and no written reviews exist yet. An add-on for experienced groups wanting more factions, not a fix for any base-game problem."
   },
   "terra-mystica/mini-expansion": {
-    "adds": "A shipping bonus card, 4 town tiles, a special landscape tile per faction and a new scoring tile for building a Temple."
+    "adds": "A shipping bonus card, 4 town tiles, a special landscape tile per faction and a new scoring tile for building a Temple.",
+    "reason": "BGG rates it 8.2, but the only discussion found calls the special landscapes imbalanced and fiddly, though one likes that it revives weak factions. Worth it only for completionists."
   },
   "terra-mystica/big-box": {
     "adds": "The base game, Fire & Ice, Merchants of the Seas and the Automa solo mode in one box: 20 factions and all four maps."
   },
   "heroquest/wizards-of-morcar": {
-    "adds": "10 quests (5 from 1991, 5 new), 27 miniatures including an alternate Wizard hero, 64 cards, a skill mechanic (Boons of Heroism), 5 evil sorcerers and new spell sets."
+    "adds": "10 quests (5 from 1991, 5 new), 27 miniatures including an alternate Wizard hero, 64 cards, a skill mechanic (Boons of Heroism), 5 evil sorcerers and new spell sets.",
+    "reason": "Blue Dragon calls it the most strategically interesting for veterans, with enemy wizards casting spells. It is the newest and priciest ($49.99 MSRP). Only one opinion source."
   },
   "arkham-horror-the-card-game/the-drowned-city-investigator-expansion": {
     "adds": "6 investigators plus the player cards and deckbuilding options for The Drowned City cycle."
@@ -127,10 +160,12 @@
     "adds": "Two double-sided zoo maps: Map 9 Geographical Zoo (continent bonuses) and Map 10 Rescue Station (tuck discarded animals under your map so their icons count)."
   },
   "twilight-imperium/prophecy-of-kings": {
-    "adds": "Seven new factions with mechs and three leaders each, exploration decks with relics, 40 new tiles, legendary planets and two extra colors for up to 8 players."
+    "adds": "Seven new factions with mechs and three leaders each, exploration decks with relics, 40 new tiles, legendary planets and two extra colors for up to 8 players.",
+    "reason": "Regular TI4 groups treat it as the default; one BGG regular says they would never play base without it. It is all-or-nothing, so groups who find base TI4 heavy enough may skip it."
   },
   "twilight-imperium/thunders-edge": {
-    "adds": "Five new factions, a breakthrough card per faction, a new expedition and legendary planet, the Fracture, 20 galactic events, the Council Keleres faction and the Twilight's Fall mode."
+    "adds": "Five new factions, a breakthrough card per faction, a new expedition and legendary planet, the Fracture, 20 galactic events, the Council Keleres faction and the Twilight's Fall mode.",
+    "reason": "BGG regulars like that it is modular but warn it adds overlapping rules and is wilder than Prophecy of Kings. Buy it after Prophecy of Kings if your group wants more variety."
   },
   "heat-pedal-to-the-metal/heavy-rain": {
     "adds": "Two new tracks (Japan with rain puddles, Mexico with chicanes), the 1964 season, Air Intake cooling upgrades and a 7th car."
@@ -146,5 +181,86 @@
   },
   "sagrada/sagrada-panorama": {
     "adds": "Three modules: 5-6 player support, Lightboards with a personal 10-die reserve and 6 new tool cards, and Focal Point and Panorama objectives."
+  },
+  "smash-up/monster-smash": {
+    "reason": "Straightforward counter mechanic and competitive factions (except Vampires). BGG posters name it one of the two sets worth buying alongside Pretty Pretty."
+  },
+  "smash-up/science-fiction-double-feature": {
+    "reason": "Ranked third by Assorted Meeples; factions reasonably powered, but Shapeshifters, Super Spies and Time Travelers are tricky. Less innovative than Pretty Pretty or Monster Smash."
+  },
+  "7-wonders-duel/agora": {
+    "reason": "A BGG player warns senators can create a runaway leader and prefers Pantheon; r/7WondersDuel players say it is not unbalanced. Amazon reviewers say it suits experienced Duel players."
+  },
+  "the-quacks-of-quedlinburg/the-quacks-of-quedlinburg-the-alchemists": {
+    "reason": "Opinion splits: adds asymmetry, but many say it bloats a light game (more steps, higher scores, more table space) and prefer Witches first. Meeple Mountain calls it largely empty calories."
+  },
+  "nemesis/aftermath": {
+    "reason": "Reddit says most owners find it worth it for the characters and trait cards. Several say the Epilogue mode rarely gets played and recommend the Research Mission variant."
+  },
+  "cosmic-encounter/cosmic-incursion": {
+    "reason": "BGG buyers call it the easy first buy (6th player plus Reward deck). Its 20 aliens are rated outstanding with one dud, and the Reward module is widely considered the best."
+  },
+  "cosmic-encounter/cosmic-alliance": {
+    "reason": "SU&SD calls it the easiest to skip, but BGG posters say it is the large-group expansion. Its Team Cosmic rules also appear in Odyssey, so it is only needed for 7-8 players."
+  },
+  "gloomhaven/forgotten-circles": {
+    "reason": "Worth it only for groups that finished the campaign and want a harder, rules-heavy follow-up. Some find scenarios tedious; the designer says it is only loosely compatible with 2nd Edition."
+  },
+  "gloomhaven/envelope-x-reward": {
+    "reason": "No community reviews found; a $5 production-quality upgrade of the Envelope X reward for 1st Edition. Buy it only if you opened Envelope X and want the printed version."
+  },
+  "gloomhaven/solo-scenarios": {
+    "reason": "r/Gloomhaven says the 2nd Edition solos are redesigned with new items and worth it if you have time. 1st Edition solos do not transfer cleanly."
+  },
+  "gloomhaven/class-upgrade-pack-to-2nd-edition": {
+    "reason": "Skip unless you want updated 2nd Edition classes in an existing 1st Edition game. It is largely a reprint of the 18 class boxes and cannot run the 2nd Edition campaign on its own."
+  },
+  "gloomhaven/mercenary-pack-hail": {
+    "reason": "A 40-point r/Gloomhaven thread says the designers nailed the theme and calls her a strong support, with one of the strongest level 1 heals. Some skipped the packs over price."
+  },
+  "gloomhaven/mercenary-pack-anaphi": {
+    "reason": "Thin evidence: a melee-damage guide, a report of a missing miniature, and a note the included Jaws of the Lion scenario confused a new player. Sold out at Cephalofair on 2026-10-07."
+  },
+  "gloomhaven/mercenary-pack-satha": {
+    "reason": "The top r/Gloomhaven answer says 'Satha is universally great' with flexible move, attack and grant cards. A Frosthaven character that works with Gloomhaven 2nd Edition."
+  },
+  "gloomhaven/mercenary-pack-cassandra": {
+    "reason": "r/Gloomhaven calls her the Forgotten Circles Diviner concept but better balanced, rebuilt for 2nd Edition and Frosthaven with new perks and masteries; one commenter says she is worth the upgrade."
+  },
+  "war-of-the-ring/warriors-of-middle-earth": {
+    "reason": "Reddit commenters were lukewarm: some call it bloat that adds many rules and swinginess. BGG still rates it about 8.3 from about 1.7K ratings, so many owners like it."
+  },
+  "war-of-the-ring/the-fate-of-erebor": {
+    "reason": "A promo, not a standalone expansion: map overlays and cards for an alternate setup after a Shadow win in The Battle of Five Armies. Only worth it if you play that game."
+  },
+  "heroquest/kellars-keep": {
+    "reason": "Blue Dragon calls it the best first expansion (seamless continuation, medium difficulty). With Return of the Witch Lord it supplies enough minis to replace First Light's standees."
+  },
+  "heroquest/return-of-the-witch-lord": {
+    "reason": "Blue Dragon calls it 'a must for narrative satisfaction' as the sequel to the base final quest; owners say it adds undead minis and ramps difficulty only slightly."
+  },
+  "heroquest/the-frozen-horror": {
+    "reason": "Blue Dragon and a Reddit poster call it a 'brutal difficulty spike' for veteran groups; includes Barbarian solo quests. Not a first expansion."
+  },
+  "heroquest/the-mage-of-the-mirror": {
+    "reason": "Reddit owners name it a favourite with lots of furniture minis; includes Elf solo quests. One player says it needs seasoned heroes, though it is easier than The Frozen Horror."
+  },
+  "heroquest/rise-of-the-dread-moon": {
+    "reason": "A r/Heroquest owner calls it a favourite; adds the Knight and mercenary rules and is much easier than Mage of the Mirror, though reputation tokens and ethereal enemies take learning."
+  },
+  "heroquest/prophecy-of-telor": {
+    "reason": "A basic pack with some monster minis, doors and the Bard; Blue Dragon calls it story-driven at medium difficulty. Availability varies by retailer."
+  },
+  "heroquest/spirit-queens-torment": {
+    "reason": "A good first pack for First Light owners: its minis cover about 80% of the figures needed, and it adds the Warlock. Blue Dragon flags it as hard, with ghost enemies."
+  },
+  "heroquest/against-the-ogre-horde": {
+    "reason": "Blue Dragon calls it combat-heavy and hard, with a Druid hero and arena mode. One Druid player disliked how hard it is to get Shapeshift back. Evidence is thin."
+  },
+  "heroquest/jungles-of-delthrak": {
+    "reason": "Reddit owners say it often goes on deep discount and 'adds a lot': two new heroes (Explorer, Berserker), a pet rule and good minis. Blue Dragon: medium difficulty."
+  },
+  "dune-imperium/uprising": {
+    "reason": "A standalone replacement, not an add-on: reviewers rate it better than the original, but you are buying a second full game. Skip it if base plus Rise of Ix already suits you."
   }
 }

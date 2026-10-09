@@ -85,7 +85,7 @@ that re-points the same semantic roles (no extra skin needed).
 
 ## Listing vs. detail text (board-game-expansion-buyers-guide)
 
-- The expansion's own page shows the full `adds` / `fixes` from `catalog.json` (descriptive is fine).
+- The expansion's own page shows the full `adds` / `fixes` / `reason` from `catalog.json` (descriptive is fine).
 - The per-game expansions listing shows a short version: max 200 characters (2-3 lines) each, never cut off mid-sentence.
-- Any `adds` / `fixes` over 200 characters needs a hand-written entry in `src/data/listing-summaries.json`, keyed `"<game-slug>/<expansion-slug>"` with `adds` and/or `fixes`. Keep only the important points and add no new facts.
+- Any `adds` / `fixes` / `reason` (the grey evidence paragraph) over 200 characters needs a hand-written entry in `src/data/listing-summaries.json`, keyed `"<game-slug>/<expansion-slug>"` with `adds`, `fixes` and/or `reason`. Keep only the important points and add no new facts.
 - `npm test` fails if a listing line is over 200 characters or a key is stale.

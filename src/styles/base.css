@@ -127,7 +127,12 @@ main { min-height: 60vh; padding-bottom: var(--space-8); }
   border-radius: 999px; padding: 0.25rem 0.8rem;
 }
 .chip[aria-pressed='true'] { background: var(--ink); color: var(--face); }
-
+select.chip {
+  appearance: none; -webkit-appearance: none;
+  padding-right: 2.2rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%231f2a44' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right 0.9rem center;
+}
 /* ---- Verdict badges (player tokens) ------------------------------------- */
 .verdict {
   display: inline-flex; align-items: center; gap: 0.4rem;
