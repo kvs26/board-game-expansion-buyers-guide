@@ -1,0 +1,150 @@
+{
+  "flash-point-fire-rescue/extreme-danger": {
+    "adds": "Six building layouts, firefighter minis, explosive and hazmat tokens, fire-proof doors and an attic/basement board. The box holds all earlier expansions."
+  },
+  "architects-of-the-west-kingdom/architects-age-of-artisans": {
+    "adds": "A 6th player (orange), a personal Artisan meeple worth two workers, 24 Craft cards, 12 new Apprentices and Buildings, a Guildhall overlay and two new player boards."
+  },
+  "architects-of-the-west-kingdom/architects-works-of-wonder": {
+    "adds": "An Influence track, Princess and Profiteer meeples, five buildable Wonders, 24 new Apprentices and Buildings, six player boards and a new solo system."
+  },
+  "7-wonders-duel/pantheon": {
+    "adds": "A Pantheon board with 16 deity powers, three Grand Temples that replace the Age III Guilds, two new Wonders and three Progress tokens."
+  },
+  "the-quacks-of-quedlinburg/the-quacks-of-quedlinburg-the-herb-witches": {
+    "adds": "A black fifth-player kit, 12 Herb Witch cards with one-time coin powers, the Locoweed ingredient and 8 new ingredient books."
+  },
+  "lords-of-waterdeep/scoundrels-of-skullport": {
+    "adds": "Two modules: Undermountain (bigger quests, resources on the board) and Skullport (Corruption with end-game penalties). Also new Lords, buildings, cards and a sixth faction."
+  },
+  "anachrony/fractures-of-time": {
+    "adds": "A new faction (Path of Unity), a Valley board, a Fracture device to \"blink\" an Exosuit for a second action, Technology cards, new leaders and two solo modes.",
+    "fixes": "Gives the weak research action a real use and adds competition for Capital spaces. The game is shorter (5 rounds, not 7) with more decisions per round."
+  },
+  "anachrony/future-imperfect": {
+    "adds": "Four mix-and-match modules: Neutronide Buildings, Hypersync Future Actions (act now, repay later), Quantum Loops and Intrigues of the Council."
+  },
+  "anachrony/classic-expansion-pack": {
+    "adds": "Three modules: Doomsday (shift or cancel the asteroid Impact), Pioneers of New Earth (Adventure action, Exosuit upgrades) and Guardians of the Council (Guardian Exosuits)."
+  },
+  "anachrony/infinity-box": {
+    "adds": "The base game, Fractures of Time, Future Imperfect and the Classic modules in one box, with miniatures, trays, an art book and all stretch goals."
+  },
+  "a-feast-for-odin/the-norwegians": {
+    "adds": "A modular action board that changes with player count, four exploration boards, pigs and horses, a personal artisan shed and a way to discard occupations for points."
+  },
+  "a-feast-for-odin/mini-expansion-2-harvest": {
+    "adds": "Randomised harvests, new harvest resource tokens, new 1x1 tiles, the Isle of Mull / Caithness exploration board and a faster start for the 6-round game."
+  },
+  "a-feast-for-odin/mini-expansion-1-lofoten-orkney-tierra-del-fuego": {
+    "adds": "Two double-sided exploration boards (Lofoten and Orkney, plus Tierra del Fuego) that score points and give income and bonuses when filled."
+  },
+  "great-western-trail/rails-to-the-north-2nd-edition": {
+    "adds": "A board extension with rail paths north and west, branchlets for extra deliveries, reworked town tiles, new player boards and objectives, solo materials and a new cow breed."
+  },
+  "great-western-trail/rails-to-the-north-1st-edition": {
+    "adds": "An extension board with a rail system to the northeast (Chicago, Detroit, New York), 60 branchlets, private buildings, town and station master tiles."
+  },
+  "castles-of-burgundy/vineyard": {
+    "adds": "A vineyard board on each duchy and a tile rack. You place double-hex tiles on it, and more tiles of the same type score more victory points."
+  },
+  "castles-of-burgundy/shields": {
+    "adds": "18 shield tiles on the goods spaces. Roll doubles to take one instead of your two actions and place it on a castle for a power, paying 1 silver per shield each phase or losing it."
+  },
+  "castles-of-burgundy/trade-routes": {
+    "adds": "Trade-route tiles with 3 spaces each. Sold goods go onto the route, and you earn the bonus when a tile's number matches the space."
+  },
+  "castles-of-burgundy/solo": {
+    "adds": "A double-sided solo duchy board (beginner and advanced sides). You play 25 rounds, removing a tile from the depots each round, aiming for 50 points."
+  },
+  "castles-of-burgundy/team-game": {
+    "adds": "Two teams of two, each with a shared team board. You cannot use your partner's dice or private tiles, and the two players' points are added."
+  },
+  "castles-of-burgundy/new-hex-tiles": {
+    "adds": "4 new hex tiles: a Park (any building), Goats (any animal), a Sequential Order tile that keeps you first in turn order, and a Worker tile that buys 2 workers for 1 silver."
+  },
+  "castles-of-burgundy/pleasure-garden": {
+    "adds": "9 Pleasure Garden tiles and a knowledge tile. Placing one gives an immediate action using the white die, and each is worth 4 VP."
+  },
+  "castles-of-burgundy/cloisters": {
+    "adds": "5 Cloister tiles bought for 2 silver. Placed in any empty space, each counts as +1 to the size of that area for scoring."
+  },
+  "castles-of-burgundy/monastery-boards": {
+    "adds": "4 double-sided boards with three monasteries. Linking monasteries with a 5-tile line earns 5 VP, and the first to link all three gets a bonus, for up to 22 extra points."
+  },
+  "castles-of-burgundy/new-player-boards": {
+    "adds": "Double-sided duchy boards with a new rule: every tile must touch a castle directly or through same-colour tiles. You can spend 5 points to retrieve a set-aside castle."
+  },
+  "castles-of-burgundy/special-edition": {
+    "adds": "Redesigned art and deluxe components (double-layer boards, metal coins, plastic castles), the earlier expansions, the new Vineyard expansion and the Châteauma solo bot."
+  },
+  "war-of-the-ring/lords-of-middle-earth": {
+    "adds": "Figures and rules for Elrond, Galadriel, Smeagol, Gothmog and the Balrog, alternate Gandalf, Witch-king and Mouth of Sauron, plus new Companions and action dice."
+  },
+  "war-of-the-ring/kings-of-middle-earth": {
+    "adds": "Free Peoples sovereigns (Theoden, Denethor, Dain, Brand, Thranduil) in three versions, a Corruption board, two action dice, 32 cards and Dark Chieftains for the Shadow."
+  },
+  "gaia-project/the-lost-fleet": {
+    "adds": "Four new factions, proto planets and asteroids, new sector tiles and maps, four ships that open new actions, new tech and scoring tiles and an updated solo Automa.",
+    "fixes": "Moves Q.I.C. actions onto the ships, so there are more actions to compete for. Includes small faction balance tweaks and ends the Terran and Bal T'ak monopoly on transdimensional planets."
+  },
+  "terra-mystica/fire-and-ice": {
+    "adds": "Six new factions, a new map, four new final-scoring tiles, a turn-order track and an optional faction auction.",
+    "fixes": "Eases the strong-faction problem: the new map and faction auction help balance, and the final-scoring tiles make where you build matter more."
+  },
+  "terra-mystica/merchants-of-the-seas": {
+    "adds": "Ships and a Shipyard with faction-board extensions, trading ships that give VP and resources, new round and Favor tiles, extra power actions and two new maps.",
+    "fixes": "Adds a tactical movement layer and more interaction. The designer says ship trading improves the 2-player game. Carries the updated starting-VP balance list."
+  },
+  "terra-mystica/automa-solo-box": {
+    "adds": "A solo mode against a card-driven Automa with 10 factions and several difficulty levels. It can also add the Automa as a neutral third player in 2-player games."
+  },
+  "terra-mystica/fan-factions": {
+    "adds": "20 new factions (two per colour plus two multi-colour ones), submitted by fans and vetted by the publisher. It is an official product, not a free download."
+  },
+  "terra-mystica/mini-expansion": {
+    "adds": "A shipping bonus card, 4 town tiles, a special landscape tile per faction and a new scoring tile for building a Temple."
+  },
+  "terra-mystica/big-box": {
+    "adds": "The base game, Fire & Ice, Merchants of the Seas and the Automa solo mode in one box: 20 factions and all four maps."
+  },
+  "heroquest/wizards-of-morcar": {
+    "adds": "10 quests (5 from 1991, 5 new), 27 miniatures including an alternate Wizard hero, 64 cards, a skill mechanic (Boons of Heroism), 5 evil sorcerers and new spell sets."
+  },
+  "arkham-horror-the-card-game/the-drowned-city-investigator-expansion": {
+    "adds": "6 investigators plus the player cards and deckbuilding options for The Drowned City cycle."
+  },
+  "arkham-horror-the-card-game/the-path-to-carcosa-investigator-expansion": {
+    "adds": "6 investigators plus the player cards and deckbuilding options for The Path to Carcosa cycle."
+  },
+  "ark-nova/marine-worlds": {
+    "adds": "Sea animals in new aquariums built next to water, a fourth university, 20 alternate action cards, new sponsors, conservation projects and final scoring cards."
+  },
+  "ark-nova/zoo-map-pack-2": {
+    "adds": "Five new zoo maps on four double-sided boards, with a reference sheet for the new map abilities."
+  },
+  "ark-nova/zoo-map-pack-1": {
+    "adds": "Two double-sided zoo maps: Map 9 Geographical Zoo (continent bonuses) and Map 10 Rescue Station (tuck discarded animals under your map so their icons count)."
+  },
+  "twilight-imperium/prophecy-of-kings": {
+    "adds": "Seven new factions with mechs and three leaders each, exploration decks with relics, 40 new tiles, legendary planets and two extra colors for up to 8 players."
+  },
+  "twilight-imperium/thunders-edge": {
+    "adds": "Five new factions, a breakthrough card per faction, a new expedition and legendary planet, the Fracture, 20 galactic events, the Council Keleres faction and the Twilight's Fall mode."
+  },
+  "heat-pedal-to-the-metal/heavy-rain": {
+    "adds": "Two new tracks (Japan with rain puddles, Mexico with chicanes), the 1964 season, Air Intake cooling upgrades and a 7th car."
+  },
+  "heat-pedal-to-the-metal/tunnel-vision": {
+    "adds": "Two new tracks (Spain with tunnels, the Netherlands with chicanes), the 1965 season, Front Wing upgrades with a new Draft move and an extra car."
+  },
+  "splendor/the-silk-road": {
+    "adds": "Two modules: The Cities (city goals replace the race to 15 points) and The Trading Posts (tiles granting permanent bonuses once you own the right cards)."
+  },
+  "splendor/the-sun-never-sets": {
+    "adds": "Two modules: The Orient (30 extra cards with special powers) and Strongholds (towers that lock face-up cards so you can buy them as an extra action)."
+  },
+  "sagrada/sagrada-panorama": {
+    "adds": "Three modules: 5-6 player support, Lightboards with a personal 10-die reserve and 6 new tool cards, and Focal Point and Panorama objectives."
+  }
+}

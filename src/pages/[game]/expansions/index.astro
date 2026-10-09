@@ -6,6 +6,7 @@ import Verdict from '../../../components/Verdict.astro';
 import BuyLinks from '../../../components/BuyLinks.astro';
 import { games, expansionsFor, TYPE_LABELS, complexityText, styleText } from '../../../lib/catalog.mjs';
 import { rankNext, prereqChain, comparePairs, playersText, priceBand, VERDICTS, STYLES } from '../../../lib/guide.mjs';
+import summaries from '../../../data/listing-summaries.json';
 import { SITE } from '../../../lib/site.config.mjs';
 import { WATCH_OUT } from '../../../lib/game-art.mjs';
 import { webApplicationLd, breadcrumbLd, itemListLd } from '../../../lib/seo.mjs';
@@ -14,6 +15,8 @@ export function getStaticPaths() {
   return games.map((game) => ({ params: { game: game.slug }, props: { game } }));
 }
 const { game } = Astro.props;
+// Listing cards use short hand-written summaries; full text lives on each expansion's own page.
+const brief = (e, key) => (summaries[`${game.slug}/${e.slug}`] || {})[key] || e[key];
 const all = expansionsFor(game.slug);
 const { next, unrated } = rankNext(all);
 const pairs = comparePairs(all);
@@ -121,8 +124,8 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
                     <h3><span class="visually-hidden" data-rank-text>Number {e.rank}: </span><a href={`/${game.slug}/${e.slug}/`}>{e.name}</a></h3>
                     <Verdict verdict={e.verdict} />
                   </div>
-                  {e.adds && <p><strong>Adds:</strong> {e.adds}</p>}
-                  {e.fixes && <p><strong>Fixes:</strong> {e.fixes}</p>}
+                  {e.adds && <p><strong>Adds:</strong> {brief(e, 'adds')}</p>}
+                  {e.fixes && <p><strong>Fixes:</strong> {brief(e, 'fixes')}</p>}
                   {e.reason && <p class="muted">{e.reason}</p>}
                   <div class="needs" data-needs hidden={!chain.length}>
                     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 23 21H1z" fill="#F2B705" stroke="#1D2A44" stroke-width="2" /><path d="M12 9v5M12 17v.5" stroke="#1D2A44" stroke-width="2.4" stroke-linecap="round" /></svg>
