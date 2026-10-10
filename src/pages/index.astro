@@ -29,19 +29,6 @@ const total = games.reduce((n, g) => n + expansionsFor(g.slug).length, 0);
     <HeroArt />
   </section>
 
-  <section class="container section" aria-labelledby="how">
-    <h2 id="how">How it works</h2>
-    <ol class="game-grid" style="list-style:none;padding:0">
-      <li class="token pad"><strong>1. Pick your game.</strong><br /><span class="muted">The one on your shelf.</span></li>
-      <li class="token pad"><strong>2. Tick what you own.</strong><br /><span class="muted">It drops off the list. Saved on this device only.</span></li>
-      <li class="token pad"><strong>3. Buy the top one.</strong><br /><span class="muted">We warn you if it needs another box first.</span></li>
-    </ol>
-    <p class="small muted" style="margin-top:var(--space-4)">
-      <span style="margin-right:.5rem">Our four labels:</span>
-      {Object.values(VERDICTS).map((v) => <span class={`verdict verdict--${v.tone}`} style="margin:0 .3rem .3rem 0">{v.label}</span>)}
-    </p>
-  </section>
-
   <section class="container section" id="games" aria-labelledby="games-h">
     <h2 id="games-h">Pick your game</h2>
     <form class="game-search" role="search" data-game-search hidden>
@@ -65,6 +52,19 @@ const total = games.reduce((n, g) => n + expansionsFor(g.slug).length, 0);
     </ul>
     <p class="muted small" style="margin-top:var(--space-5)">Don’t see your game? <a href="/contact">Tell us</a> — we add games in the order people ask.</p>
     <script type="application/json" id="game-search-data" set:html={JSON.stringify(searchData).replace(/</g, '\\u003c')} />
+  </section>
+
+  <section class="container section how-section" aria-labelledby="how">
+    <h2 id="how">How it works</h2>
+    <ol class="game-grid" style="list-style:none;padding:0">
+      <li class="token pad"><strong>1. Pick your game.</strong><br /><span class="muted">The one on your shelf.</span></li>
+      <li class="token pad"><strong>2. Tick what you own.</strong><br /><span class="muted">It drops off the list. Saved on this device only.</span></li>
+      <li class="token pad"><strong>3. Buy the top one.</strong><br /><span class="muted">We warn you if it needs another box first.</span></li>
+    </ol>
+    <p class="small muted" style="margin-top:var(--space-4)">
+      <span style="margin-right:.5rem">Our four labels:</span>
+      {Object.values(VERDICTS).map((v) => <span class={`verdict verdict--${v.tone}`} style="margin:0 .3rem .3rem 0">{v.label}</span>)}
+    </p>
   </section>
 </Layout>
 

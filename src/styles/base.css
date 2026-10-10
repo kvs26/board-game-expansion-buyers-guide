@@ -306,3 +306,42 @@ select.chip {
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
+
+/* ---- Small screens ------------------------------------------------------- */
+@media (max-width: 860px) {
+  .hero { padding-top: var(--space-5); gap: var(--space-3); }
+  .hero-art { display: none; }
+}
+@media (max-width: 600px) {
+  body { font-size: 1rem; }
+  .container { width: min(100% - 1.5rem, var(--container)); }
+  .section { margin-top: var(--space-6); }
+  .hero { padding-top: var(--space-4); }
+  .hero h1 { max-width: none; font-size: 1.75rem; }
+  .hero .lead { font-size: 1.02rem; }
+  .game-grid { grid-template-columns: 1fr; gap: var(--space-3); margin-top: var(--space-4); }
+  .pad { padding: var(--space-4); }
+  .site-header .bar { min-height: 0; gap: var(--space-2); }
+  .header-actions { width: 100%; }
+  .site-nav { gap: 0 var(--space-3); }
+  .game-head { flex-direction: row; align-items: center; gap: var(--space-3); }
+  .game-head h1 { font-size: 1.5rem; }
+  .box-art--lg { width: 64px; height: 64px; border-radius: 12px; flex: none; }
+  .game-head .facts .pill { font-size: 0.75rem; }
+  .card { padding: var(--space-3) var(--space-4); }
+  .step { grid-template-columns: 44px 1fr; gap: var(--space-3); }
+  .space { width: 44px; height: 44px; font-size: 1.15rem; border-radius: 10px; }
+  .track::before { left: 19px; }
+  .step:first-child .space::after { width: 20px; height: 20px; top: -12px; right: -10px; }
+  .consent-banner { inset: auto 0.5rem 0.5rem; }
+  .footer-grid { grid-template-columns: 1fr; }
+  .own-list { max-height: 14rem; }
+}
+@media (max-width: 600px) {
+  .hero .btn { display: none; }
+  .hero .lead { margin-bottom: 0; }
+  .hero + .section { margin-top: var(--space-5); }
+  .game-search { margin-top: var(--space-3); }
+  .game-search p { min-height: 0; }
+  .site-header .brand { font-size: 1rem; }
+}
