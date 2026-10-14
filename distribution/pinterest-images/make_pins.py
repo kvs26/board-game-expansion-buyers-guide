@@ -37,7 +37,7 @@ def headline(d, text, y, size=84, color=INK):
 def footer(d):
     d.rounded_rectangle((0, H - 130, W, H), 0, fill=INK)
     d.text((70, H - 98), "whichexpansion.com", font=font(52), fill=GOLD)
-    d.text((W - 70, H - 90), "Free tool", font=font(40, False), fill=KRAFT_L, anchor="ra")
+
 
 
 def base():
