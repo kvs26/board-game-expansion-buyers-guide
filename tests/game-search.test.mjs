@@ -21,7 +21,7 @@ test('an expansion name finds its game and says which expansion matched', () => 
 
 test('game name and publisher are direct hits', () => {
   assert.deepEqual(find('WINGSPAN'), [['wingspan', { via: null }]]);
-  assert.deepEqual(find('stonemaier').map(([s]) => s).sort(), ['scythe', 'viticulture-essential-edition', 'wingspan', 'wyrmspan']);
+  assert.deepEqual(find('stonemaier').map(([s]) => s).sort(), ['scythe', 'tapestry', 'viticulture-essential-edition', 'wingspan', 'wyrmspan']);
 });
 
 test('multi-word queries can mix game and expansion words', () => {

@@ -1,0 +1,8 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/391163/forest-shuffle,BGG reference row,2026-10-15,geekdo API item name matches
+alpine,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/412576/forest-shuffle-alpine,BGG reference row,2026-10-15,geekdo API item name matches
+woodland-edge,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/424129/forest-shuffle-woodland-edge,BGG reference row,2026-10-15,geekdo API item name matches
+exploration,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/438231/forest-shuffle-exploration,BGG reference row,2026-10-15,geekdo API item name matches
+alpine,Amazon,amazon,https://www.amazon.com/dp/B0D2RTCFRY,Amazon US listing with an English title.,2026-10-15,curl /dp page title 'Forest Shuffle Alpine Card Game Expansion'
+woodland-edge,Amazon,amazon,https://www.amazon.com/dp/B0DJ2TL91N,Amazon US listing with an English title.,2026-10-15,curl /dp page title 'Lookout Forest Shuffle Woodland Edge Card Game Expansion'
+exploration,Amazon,amazon,https://www.amazon.com/dp/B0FB8YTXXQ,Amazon US listing with an English title.,2026-10-15,curl /dp page title 'Forest Shuffle Exploration Card Game Expansion'

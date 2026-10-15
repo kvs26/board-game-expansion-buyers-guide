@@ -1,0 +1,5 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/187645/star-wars-rebellion,BGG reference row,2026-10-15,geekdo API item name matches
+rise-of-the-empire,Fantasy Flight Games,publisher,https://www.fantasyflightgames.com/en/products/star-wars-rebellion/products/rise-empire/,"Publisher product page; lists the Rise of the Empire rulebook, no direct store button",2026-10-15,Page loaded 2026-10-15 and lists the Rise of the Empire rulebook
+rise-of-the-empire,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/226840/star-wars-rebellion-rise-of-the-empire,BGG reference row,2026-10-15,geekdo API item name matches
+rise-of-the-empire,Amazon,amazon,https://www.amazon.com/dp/B071F9S4LB,Fantasy Flight Games expansion box.,2026-10-15,curl /dp page title 'Star Wars Rise of The Empire - Strategy Game ... Made by Fantasy Flight Games'

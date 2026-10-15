@@ -1,0 +1,56 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Wise Wizard Games,publisher,https://shop.wisewizardgames.com/products/star-realms,Publisher shop core set,2026-10-15,"Shopify products.json title, price and availability match"
+_base,Amazon,amazon,https://www.amazon.com/dp/B00HRGMPIU,Original core set,2026-10-15,curl page title 'Wise Wizard Games Star Realms: Deckbuilding Card Game'
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/147020/star-realms,BGG reference row,2026-10-15,geekdo API item name matches
+crisis-bases-and-battleships,Wise Wizard Games,publisher,https://shop.wisewizardgames.com/products/crisis-bases-battleships,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+crisis-fleets-and-fortresses,Wise Wizard Games,publisher,https://shop.wisewizardgames.com/products/copy-of-crisis-bases-battleships-1,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+cosmic-gambit-set,Wise Wizard Games,publisher,https://shop.wisewizardgames.com/products/cosmic-gambit,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+cosmic-gambit-set,Amazon,amazon,https://www.amazon.com/dp/B0176ICUT2,Single pack,2026-10-15,curl page title matches 'Single pack'
+command-deck-the-alliance,Wise Wizard Games,publisher,https://shop.wisewizardgames.com/products/star-realms-command-deck-the-alliance,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+command-deck-the-union,Wise Wizard Games,publisher,https://shop.wisewizardgames.com/products/star-realms-command-deck-the-union,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+high-alert-invasion,Wise Wizard Games,publisher,https://shop.wisewizardgames.com/products/star-realms-high-alert-bundle-1,"Publisher shop four-pack bundle (Heroes, Invasion, Requisition, Tech; $19.99)",2026-10-15,"Shopify products.json title, price and availability match"
+high-alert-invasion,Amazon,amazon,https://www.amazon.com/dp/B0997R8J1H,High Alert four-pack bundle,2026-10-15,curl page title matches 'High Alert four-pack bundle'
+high-alert-requisition,Wise Wizard Games,publisher,https://shop.wisewizardgames.com/products/star-realms-high-alert-bundle-1,"Publisher shop four-pack bundle (Heroes, Invasion, Requisition, Tech; $19.99)",2026-10-15,"Shopify products.json title, price and availability match"
+high-alert-requisition,Amazon,amazon,https://www.amazon.com/dp/B0997R8J1H,High Alert four-pack bundle,2026-10-15,curl page title matches 'High Alert four-pack bundle'
+united-assault,Wise Wizard Games,publisher,https://shop.wisewizardgames.com/products/star-realms-united-assault,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+united-assault,Amazon,amazon,https://www.amazon.com/dp/B01MT1W3U6,Single pack,2026-10-15,curl page title matches 'Single pack'
+united-command,Wise Wizard Games,publisher,https://shop.wisewizardgames.com/products/star-realms-united-command,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+crisis-heroes,Wise Wizard Games,publisher,https://shop.wisewizardgames.com/products/copy-of-crisis-bases-battleships-2,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+crisis-heroes,Amazon,amazon,https://www.amazon.com/dp/B00PH675JQ,Single pack,2026-10-15,curl page title matches 'Single pack'
+command-deck-the-pact,Wise Wizard Games,publisher,https://shop.wisewizardgames.com/products/star-realms-command-deck-the-pact,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+command-deck-the-unity,Wise Wizard Games,publisher,https://shop.wisewizardgames.com/products/star-realms-command-deck-the-unity,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+command-deck-the-coalition,Wise Wizard Games,publisher,https://shop.wisewizardgames.com/products/star-realms-command-deck-the-coalition,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+command-deck-the-coalition,Amazon,amazon,https://www.amazon.com/dp/B07FN46HJV,Single pack,2026-10-15,curl page title 'Star Realms Command Deck: The Coalition'
+command-deck-the-alignment,Wise Wizard Games,publisher,https://shop.wisewizardgames.com/products/star-realms-command-deck-the-alignment,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+gambit-set,Wise Wizard Games,publisher,https://shop.wisewizardgames.com/products/gambit,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+united-missions,Wise Wizard Games,publisher,https://shop.wisewizardgames.com/products/star-realms-united-missions,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+crisis-events,Wise Wizard Games,publisher,https://shop.wisewizardgames.com/products/copy-of-crisis-bases-battleships,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+united-heroes,Wise Wizard Games,publisher,https://shop.wisewizardgames.com/products/star-realms-united-heroes,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+high-alert-tech,Wise Wizard Games,publisher,https://shop.wisewizardgames.com/products/star-realms-high-alert-bundle-1,"Publisher shop four-pack bundle (Heroes, Invasion, Requisition, Tech; $19.99)",2026-10-15,"Shopify products.json title, price and availability match"
+high-alert-tech,Amazon,amazon,https://www.amazon.com/dp/B0997R8J1H,High Alert four-pack bundle,2026-10-15,curl page title matches 'High Alert four-pack bundle'
+high-alert-heroes,Wise Wizard Games,publisher,https://shop.wisewizardgames.com/products/star-realms-high-alert-bundle-1,"Publisher shop four-pack bundle (Heroes, Invasion, Requisition, Tech; $19.99)",2026-10-15,"Shopify products.json title, price and availability match"
+high-alert-heroes,Amazon,amazon,https://www.amazon.com/dp/B0997R8J1H,High Alert four-pack bundle,2026-10-15,curl page title matches 'High Alert four-pack bundle'
+scenarios,Wise Wizard Games,publisher,https://shop.wisewizardgames.com/products/star-realms-scenarios,Publisher shop; listed out of stock on 2026-10-15,2026-10-15,"Shopify products.json title, price and availability match"
+promo-pack-one,Wise Wizard Games,publisher,https://shop.wisewizardgames.com/products/star-realms-year-one-promo-card-pack,Publisher shop; listed out of stock on 2026-10-15,2026-10-15,"Shopify products.json title, price and availability match"
+crisis-bases-and-battleships,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/166702/star-realms-crisis-bases-and-battleships,BGG reference row,2026-10-15,geekdo API item name matches
+crisis-fleets-and-fortresses,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/166704/star-realms-crisis-fleets-and-fortresses,BGG reference row,2026-10-15,geekdo API item name matches
+cosmic-gambit-set,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/179025/star-realms-cosmic-gambit-set,BGG reference row,2026-10-15,geekdo API item name matches
+command-deck-the-alliance,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/231369/star-realms-command-deck-the-alliance,BGG reference row,2026-10-15,geekdo API item name matches
+command-deck-the-union,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/231372/star-realms-command-deck-the-union,BGG reference row,2026-10-15,geekdo API item name matches
+high-alert-invasion,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/287284/star-realms-high-alert-invasion,BGG reference row,2026-10-15,geekdo API item name matches
+high-alert-requisition,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/287289/star-realms-high-alert-requisition,BGG reference row,2026-10-15,geekdo API item name matches
+united-assault,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/208503/star-realms-united-assault,BGG reference row,2026-10-15,geekdo API item name matches
+united-command,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/208501/star-realms-united-command,BGG reference row,2026-10-15,geekdo API item name matches
+crisis-heroes,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/166708/star-realms-crisis-heroes,BGG reference row,2026-10-15,geekdo API item name matches
+command-deck-the-pact,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/231371/star-realms-command-deck-the-pact,BGG reference row,2026-10-15,geekdo API item name matches
+command-deck-the-unity,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/231373/star-realms-command-deck-the-unity,BGG reference row,2026-10-15,geekdo API item name matches
+command-deck-the-coalition,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/231370/star-realms-command-deck-the-coalition,BGG reference row,2026-10-15,geekdo API item name matches
+command-deck-the-alignment,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/231376/star-realms-command-deck-the-alignment,BGG reference row,2026-10-15,geekdo API item name matches
+gambit-set,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/158957/star-realms-gambit-set,BGG reference row,2026-10-15,geekdo API item name matches
+united-missions,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/208502/star-realms-united-missions,BGG reference row,2026-10-15,geekdo API item name matches
+crisis-events,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/166707/star-realms-crisis-events,BGG reference row,2026-10-15,geekdo API item name matches
+united-heroes,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/202247/star-realms-united-heroes,BGG reference row,2026-10-15,geekdo API item name matches
+high-alert-tech,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/287287/star-realms-high-alert-tech,BGG reference row,2026-10-15,geekdo API item name matches
+high-alert-heroes,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/287286/star-realms-high-alert-heroes,BGG reference row,2026-10-15,geekdo API item name matches
+scenarios,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/224182/star-realms-scenarios,BGG reference row,2026-10-15,geekdo API item name matches
+promo-pack-one,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/203074/star-realms-promo-pack-i,BGG reference row,2026-10-15,geekdo API item name matches

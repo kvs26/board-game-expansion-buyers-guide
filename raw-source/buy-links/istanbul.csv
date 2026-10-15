@@ -1,0 +1,4 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/148949/istanbul,BGG reference row,2026-10-15,geekdo API item name matches
+mocha-and-baksheesh,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/172505/istanbul-mocha-and-baksheesh,BGG reference row,2026-10-15,geekdo API item name matches
+letters-and-seals,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/192779/istanbul-letters-and-seals,BGG reference row,2026-10-15,geekdo API item name matches

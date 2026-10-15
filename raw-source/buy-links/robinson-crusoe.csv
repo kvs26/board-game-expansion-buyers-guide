@@ -1,0 +1,11 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Amazon,amazon,https://www.amazon.com/dp/B01HDYFCJO,Portal Games edition,2026-10-15,curl page title 'Portal Games Robinson Crusoe Adventures on the Cursed Island Board Game'
+_base,Portal Games,publisher,https://portalgames.pl/en/games/robinson-crusoe-adventures-on-the-cursed-island/,Publisher product page,2026-10-15,Page loaded 2026-10-15 with the base game title
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/121921/robinson-crusoe-adventures-on-the-cursed-island,BGG reference row,2026-10-15,geekdo API item name matches
+treasure-chest,Amazon,amazon,https://www.amazon.com/dp/B084KCHG1T,Portal Games edition,2026-10-15,curl page title 'Robinson Crusoe Treasure Chest'
+treasure-chest,Portal Games,publisher,https://portalgames.pl/en/games/robinson-crusoe-treasure-chest/,Publisher product page,2026-10-15,Page loaded 2026-10-15 with Treasure Chest contents list
+mystery-tales,Amazon,amazon,https://www.amazon.com/dp/B079TK64M1,Portal Games edition,2026-10-15,curl page title 'Portal Games Robinson Crusoe The Board Game: Mystery Tales Expansion'
+the-book-of-adventures,Amazon,amazon,https://www.amazon.com/dp/8395802080,Retail edition,2026-10-15,"curl page title 'Robinson Crusoe: Book of Adventures, Strategy Board Game, for 1 to 4 Players, Portal Games'"
+treasure-chest,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/304337/robinson-crusoe-adventures-on-the-cursed-island-tr,BGG reference row,2026-10-15,geekdo API item name matches
+mystery-tales,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/238391/robinson-crusoe-adventures-on-the-cursed-island-my,BGG reference row,2026-10-15,geekdo API item name matches
+the-book-of-adventures,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/299441/robinson-crusoe-adventures-on-the-cursed-island-th,BGG reference row,2026-10-15,geekdo API item name matches

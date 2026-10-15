@@ -1,0 +1,7 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Amazon,amazon,https://www.amazon.com/dp/B00GDI4HX4,Indie Boards & Cards edition,2026-10-15,curl page title 'Indie Boards & Cards Coup Card Game'
+_base,Indie Boards & Cards,publisher,https://indieboardsandcards.com/our-games/coup/,Publisher page,2026-10-15,"Publisher page loaded 2026-10-15, links the same Amazon ASIN"
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/131357/coup,BGG reference row,2026-10-15,geekdo API item name matches
+reformation,Amazon,amazon,https://www.amazon.com/dp/B00UTXW6SC,Reformation 2nd edition,2026-10-15,curl page title 'Coup Reformation 2nd Edition Expansion ... Requires Coup Base'
+reformation,Indie Boards & Cards,publisher,https://indieboardsandcards.com/our-games/coup-reformation/,Publisher page,2026-10-15,"Publisher page loaded 2026-10-15, MSRP shown, links the same Amazon ASIN"
+reformation,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/148931/coup-reformation,BGG reference row,2026-10-15,geekdo API item name matches

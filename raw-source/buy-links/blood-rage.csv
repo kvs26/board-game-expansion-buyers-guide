@@ -1,0 +1,8 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Amazon,amazon,https://www.amazon.com/dp/B013TK5DFO,CMON first edition core box,2026-10-15,curl page title 'Blood Rage (Core Box) | Strategy Game'
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/170216/blood-rage,BGG reference row,2026-10-15,geekdo API item name matches
+mystics-of-midgard,Amazon,amazon,https://www.amazon.com/dp/B01MCY952F,CMON edition,2026-10-15,curl page title 'Blood Rage Mystics of Midgard Board Game Expansion'
+gods-of-asgard,Amazon,amazon,https://www.amazon.com/dp/B01MCYDDQI,CMON edition,2026-10-15,curl page title 'CMON Blood Rage Gods of Asgard Board Game Expansion'
+mystics-of-midgard,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/175100/blood-rage-mystics-of-midgard,BGG reference row,2026-10-15,geekdo API item name matches
+5th-player-expansion,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/174506/blood-rage-5th-player-expansion,BGG reference row,2026-10-15,geekdo API item name matches
+gods-of-asgard,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/174801/blood-rage-gods-of-asgard,BGG reference row,2026-10-15,geekdo API item name matches

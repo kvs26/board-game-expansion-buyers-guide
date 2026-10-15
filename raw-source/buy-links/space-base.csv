@@ -1,0 +1,15 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Alderac Entertainment Group,publisher,https://www.alderac.com/space-base/,Publisher product page; lists MSRP $44.99 and links to the AEG store,2026-10-15,Page loaded 2026-10-15 with MSRP and expansion list
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/242302/space-base,BGG reference row,2026-10-15,geekdo API item name matches
+genesis,Alderac Entertainment Group,publisher,https://www.alderac.com/space-base/,Publisher product page lists Genesis with a Buy Now button; the store page returned Not Found,2026-10-15,Page loaded 2026-10-15 and lists Genesis
+genesis,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/388569/space-base-genesis,BGG reference row,2026-10-15,geekdo API item name matches
+biodome,AEG Store,publisher,https://alderacstore.com/space-base-biodome/,Publisher store,2026-10-15,"Store page title, price and schema.org availability checked 2026-10-15"
+biodome,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/322546/space-base-biodome,BGG reference row,2026-10-15,geekdo API item name matches
+emergence-of-shy-pluto,AEG Store,publisher,https://alderacstore.com/space-base-the-emergence-of-shy-pluto/,Publisher store; out of stock on 2026-10-15,2026-10-15,"Store page title, price and schema.org availability checked 2026-10-15"
+emergence-of-shy-pluto,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/266483/space-base-the-emergence-of-shy-pluto,BGG reference row,2026-10-15,geekdo API item name matches
+command-station,AEG Store,publisher,https://alderacstore.com/space-base-command-station/,Publisher store,2026-10-15,"Store page title, price and schema.org availability checked 2026-10-15"
+command-station,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/277564/space-base-command-station,BGG reference row,2026-10-15,geekdo API item name matches
+dreadnaught-promo-pack,AEG Store,publisher,https://alderacstore.com/space-base-dreadnaught-pack/,Publisher store,2026-10-15,"Store page title, price and schema.org availability checked 2026-10-15"
+dreadnaught-promo-pack,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/277286/space-base-dreadnaught-promo-pack,BGG reference row,2026-10-15,geekdo API item name matches
+mysteries-of-terra-proxima,AEG Store,publisher,https://alderacstore.com/space-base-the-mysteries-of-terra-proxima/,Publisher store,2026-10-15,"Store page title, price and schema.org availability checked 2026-10-15"
+mysteries-of-terra-proxima,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/349810/space-base-the-mysteries-of-terra-proxima,BGG reference row,2026-10-15,geekdo API item name matches

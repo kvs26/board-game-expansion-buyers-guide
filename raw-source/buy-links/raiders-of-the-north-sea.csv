@@ -1,0 +1,9 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Garphill Games,publisher,https://www.garphill.com/products/raiders-of-the-north-sea,Publisher store base game,2026-10-15,Shopify products.json title and price match
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/170042/raiders-of-the-north-sea,BGG reference row,2026-10-15,geekdo API item name matches
+hall-of-heroes,Garphill Games,publisher,https://www.garphill.com/products/raiders-hall-of-heroes,Publisher store; out of stock on 2026-10-15,2026-10-15,"Shopify products.json title, price and availability match"
+hall-of-heroes,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/210163/raiders-of-the-north-sea-hall-of-heroes,BGG reference row,2026-10-15,geekdo API item name matches
+fields-of-fame,Garphill Games,publisher,https://www.garphill.com/products/raiders-fields-of-fame,Publisher store,2026-10-15,"Shopify products.json title, price and availability match"
+fields-of-fame,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/210164/raiders-of-the-north-sea-fields-of-fame,BGG reference row,2026-10-15,geekdo API item name matches
+the-north-sea-runesaga,Garphill Games,publisher,https://www.garphill.com/products/the-north-sea-runesaga,Publisher store,2026-10-15,"Shopify products.json title, price and availability match"
+the-north-sea-runesaga,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/190798/the-north-sea-runesaga,BGG reference row,2026-10-15,geekdo API item name matches

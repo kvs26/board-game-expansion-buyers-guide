@@ -1,0 +1,28 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+the-reaper,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/38025/talisman-revised-4th-edition-the-reaper-expansion,BGG reference row,2026-10-15,geekdo API item name matches
+the-dungeon,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/41064/talisman-revised-4th-edition-the-dungeon-expansion,BGG reference row,2026-10-15,geekdo API item name matches
+the-highland,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/67051/talisman-revised-4th-edition-the-highland-expansio,BGG reference row,2026-10-15,geekdo API item name matches
+the-city,Amazon,amazon,https://www.amazon.com/dp/B07RHB5J79,Check edition and language on the page,2026-10-15,curl page title matched the product name
+the-city,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/131816/talisman-revised-4th-edition-the-city-expansion,BGG reference row,2026-10-15,geekdo API item name matches
+the-woodland,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/158979/talisman-revised-4th-edition-the-woodland-expansio,BGG reference row,2026-10-15,geekdo API item name matches
+the-cataclysm,Amazon,amazon,https://www.amazon.com/dp/B07RJFKQJQ,Check edition and language on the page,2026-10-15,curl page title matched the product name
+the-cataclysm,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/189950/talisman-revised-4th-edition-the-cataclysm-expansi,BGG reference row,2026-10-15,geekdo API item name matches
+the-harbinger,Amazon,amazon,https://www.amazon.com/dp/B07RLL8LLN,Check edition and language on the page,2026-10-15,curl page title matched the product name
+the-harbinger,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/177211/talisman-revised-4th-edition-the-harbinger-expansi,BGG reference row,2026-10-15,geekdo API item name matches
+the-frostmarch,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/54475/talisman-revised-4th-edition-the-frostmarch-expans,BGG reference row,2026-10-15,geekdo API item name matches
+the-sacred-pool,Amazon,amazon,https://www.amazon.com/dp/B07RD7B28R,Check edition and language on the page,2026-10-15,curl page title matched the product name
+the-sacred-pool,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/75857/talisman-revised-4th-edition-the-sacred-pool-expan,BGG reference row,2026-10-15,geekdo API item name matches
+the-blood-moon,Amazon,amazon,https://www.amazon.com/dp/B07RF8DDQ6,Check edition and language on the page,2026-10-15,curl page title matched the product name
+the-blood-moon,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/121786/talisman-revised-4th-edition-the-blood-moon-expans,BGG reference row,2026-10-15,geekdo API item name matches
+the-firelands,Amazon,amazon,https://www.amazon.com/dp/B07RKK91B3,Check edition and language on the page,2026-10-15,curl page title matched the product name
+the-firelands,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/152318/talisman-revised-4th-edition-the-firelands-expansi,BGG reference row,2026-10-15,geekdo API item name matches
+the-lost-realms,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/248506/talisman-revised-4th-edition-the-lost-realms,BGG reference row,2026-10-15,geekdo API item name matches
+the-dragon,Amazon,amazon,https://www.amazon.com/dp/B07RF8G6DQ,Check edition and language on the page,2026-10-15,curl page title matched the product name
+the-dragon,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/99815/talisman-revised-4th-edition-the-dragon-expansion,BGG reference row,2026-10-15,geekdo API item name matches
+alliances-fate-beckons,Amazon,amazon,https://www.amazon.com/dp/B0CS7JTFGZ,Check edition and language on the page,2026-10-15,curl page title matched the product name
+alliances-fate-beckons,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/422406/talisman-alliances-fate-beckons,BGG reference row,2026-10-15,geekdo API item name matches
+nemesis-call-of-the-hunt,Amazon,amazon,https://www.amazon.com/dp/B0DN2Y1NNG,Check edition and language on the page,2026-10-15,curl page title matched the product name
+nemesis-call-of-the-hunt,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/446962/talisman-nemesis-call-of-the-hunt,BGG reference row,2026-10-15,geekdo API item name matches
+sagas-crown-of-blood,Amazon,amazon,https://www.amazon.com/dp/B0FJBD36DH,Check edition and language on the page,2026-10-15,curl page title matched the product name
+sagas-crown-of-blood,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/468847/talisman-sagas-crown-of-blood,BGG reference row,2026-10-15,geekdo API item name matches
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/27627/talisman-revised-4th-edition,BGG reference row,2026-10-15,geekdo API item name matches

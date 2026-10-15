@@ -1,0 +1,11 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Exploding Kittens Shop,publisher,https://shop.explodingkittens.com/products/exploding-kittens-original-edition,Original Edition base game,2026-10-15,"Shopify products.json title, price and availability match"
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/172225/exploding-kittens,BGG reference row,2026-10-15,geekdo API item name matches
+streaking-kittens,Exploding Kittens Shop,publisher,https://shop.explodingkittens.com/products/streaking-kittens-expansion-of-exploding-kittens,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+streaking-kittens,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/260214/exploding-kittens-streaking-kittens,BGG reference row,2026-10-15,geekdo API item name matches
+barking-kittens,Exploding Kittens Shop,publisher,https://shop.explodingkittens.com/products/barking-kittens-expansion-pack,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+barking-kittens,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/312667/exploding-kittens-barking-kittens,BGG reference row,2026-10-15,geekdo API item name matches
+imploding-kittens,Exploding Kittens Shop,publisher,https://shop.explodingkittens.com/products/imploding-kittens-expansion-of-exploding-kittens,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+imploding-kittens,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/204053/exploding-kittens-imploding-kittens,BGG reference row,2026-10-15,geekdo API item name matches
+zombie-kittens,Exploding Kittens Shop,publisher,https://shop.explodingkittens.com/products/zombie-kittens,Publisher shop (full standalone Zombie Kittens set),2026-10-15,"Shopify products.json title, price and availability match"
+zombie-kittens,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/372808/zombie-kittens-not-the-full-game-just-the-22-expan,BGG reference row,2026-10-15,geekdo API item name matches

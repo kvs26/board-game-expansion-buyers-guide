@@ -1,0 +1,17 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,TeeTurtle,publisher,https://teeturtle.com/products/unstable-unicorns-classic-edition-base-game,Classic Edition base game,2026-10-15,"Shopify products.json title, price and availability match"
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/234190/unstable-unicorns,BGG reference row,2026-10-15,geekdo API item name matches
+adventures,TeeTurtle,publisher,https://teeturtle.com/products/unstable-unicorns-adventures-expansion,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+adventures,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/311080/unstable-unicorns-adventures,BGG reference row,2026-10-15,geekdo API item name matches
+nightmares,TeeTurtle,publisher,https://teeturtle.com/products/unstable-unicorns-nightmares-expansion,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+nightmares,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/349072/unstable-unicorns-nightmares-expansion-pack,BGG reference row,2026-10-15,geekdo API item name matches
+unicorns-of-legend,TeeTurtle,publisher,https://teeturtle.com/products/unstable-unicorns-unicorns-of-legend-expansion,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+unicorns-of-legend,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/263578/unstable-unicorns-unicorns-of-legend-expansion-pac,BGG reference row,2026-10-15,geekdo API item name matches
+dragons,TeeTurtle,publisher,https://teeturtle.com/products/unstable-unicorns-dragons-expansion,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+dragons,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/243567/unstable-unicorns-dragons-expansion-pack,BGG reference row,2026-10-15,geekdo API item name matches
+christmas-special,TeeTurtle,publisher,https://teeturtle.com/products/unstable-unicorns-christmas-expansion,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+christmas-special,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/325789/unstable-unicorns-christmas-special-expansion-pack,BGG reference row,2026-10-15,geekdo API item name matches
+rainbow-apocalypse,TeeTurtle,publisher,https://teeturtle.com/products/unstable-unicorns-rainbow-apocalypse-expansion,Publisher shop (sold out 2026-10-15),2026-10-15,"Shopify products.json title, price and availability match"
+rainbow-apocalypse,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/243566/unstable-unicorns-rainbow-apocalypse-expansion-pac,BGG reference row,2026-10-15,geekdo API item name matches
+nsfw-pack,TeeTurtle,publisher,https://teeturtle.com/products/unstable-unicorns-nsfw-base-game,Publisher shop (current standalone NSFW deck),2026-10-15,"Shopify products.json title, price and availability match"
+nsfw-pack,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/240976/unstable-unicorns-nsfw-pack,BGG reference row,2026-10-15,geekdo API item name matches

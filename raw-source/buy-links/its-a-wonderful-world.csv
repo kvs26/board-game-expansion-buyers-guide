@@ -1,0 +1,9 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/271324/its-a-wonderful-world,BGG reference row,2026-10-15,geekdo API item name matches
+_base,La Boîte de Jeu,publisher,https://www.laboitedejeu.fr/en/its-a-wonderful-world/,Publisher game page; shop listings for the expansions are linked on each expansion.,2026-10-15,Page loaded 2026-10-15 and names the core game and its expansions.
+corruption-and-ascension,La Boîte de Jeu,publisher,https://www.laboitedejeu.fr/en/product/corr-id_scec_en/,English KSE version of the expansion.,2026-10-15,Product page returned 200 on 2026-10-15 titled Corruption & Ascension (EN) KSE version; price not shown to a plain fetch.
+leisure-and-decadence,La Boîte de Jeu,publisher,https://www.laboitedejeu.fr/en/product/its-en-ks01/,English KS01 campaign version.,2026-10-15,Product page returned 200 on 2026-10-15 titled Leisure and Decadence (KS01 campaign) EN; price not shown to a plain fetch.
+war-or-peace,La Boîte de Jeu,publisher,https://www.laboitedejeu.fr/en/product/its-en-her/,"Heritage version: includes the core game, Stretch Goals, War or Peace and Leisure and Decadence.",2026-10-15,Shop listing text read 2026-10-15 names the War or Peace campaign expansion in the Heritage box; price not shown to a plain fetch.
+corruption-and-ascension,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/298851/its-a-wonderful-world-corruption-and-ascension,BGG reference row,2026-10-15,geekdo API item name matches
+leisure-and-decadence,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/334767/its-a-wonderful-world-leisure-and-decadence,BGG reference row,2026-10-15,geekdo API item name matches
+war-or-peace,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/298752/its-a-wonderful-world-war-or-peace,BGG reference row,2026-10-15,geekdo API item name matches

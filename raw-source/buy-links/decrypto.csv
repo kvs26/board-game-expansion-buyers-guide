@@ -1,0 +1,4 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/225694/decrypto,BGG reference row,2026-10-15,geekdo API item name matches
+laserdrive,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/273938/decrypto-expansion-01-laserdrive,BGG reference row,2026-10-15,geekdo API item name matches
+laserdrive,Amazon,amazon,https://www.amazon.com/dp/B07R3BW1P4,Scorpion Masqué edition; the listing title does not state a language.,2026-10-15,curl /dp page title 'Scorpion Masqué | Decrypto: Laserdrive Expansion'

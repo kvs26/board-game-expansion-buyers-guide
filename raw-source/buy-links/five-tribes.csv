@@ -1,0 +1,6 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/157354/five-tribes-the-djinns-of-naqala,BGG reference row,2026-10-15,geekdo API item name matches
+the-artisans-of-naqala,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/176677/five-tribes-the-artisans-of-naqala,BGG reference row,2026-10-15,geekdo API item name matches
+whims-of-the-sultan,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/226828/five-tribes-whims-of-the-sultan,BGG reference row,2026-10-15,geekdo API item name matches
+the-thieves-of-naqala,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/199310/five-tribes-the-thieves-of-naqala,BGG reference row,2026-10-15,geekdo API item name matches
+_base,Amazon,amazon,https://www.amazon.com/dp/B00L6JDRE0,Days of Wonder core game.,2026-10-15,curl /dp page title 'Five Tribes Board Game - Conquer the Sultanate of Naqala'

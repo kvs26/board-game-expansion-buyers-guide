@@ -1,0 +1,14 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,TeeTurtle,publisher,https://teeturtle.com/products/here-to-slay-base-game,Publisher shop base game,2026-10-15,"Shopify products.json title, price and availability match"
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/299252/here-to-slay,BGG reference row,2026-10-15,geekdo API item name matches
+berserkers-and-necromancers,TeeTurtle,publisher,https://teeturtle.com/products/here-to-slay-berserkers-and-necromancers-expansion,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+berserkers-and-necromancers,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/349286/here-to-slay-berserkers-and-necromancers,BGG reference row,2026-10-15,geekdo API item name matches
+warriors-and-druids,TeeTurtle,publisher,https://teeturtle.com/products/here-to-slay-warriors-and-druids-expansion,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+warriors-and-druids,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/321259/here-to-slay-warriors-and-druids-expansion,BGG reference row,2026-10-15,geekdo API item name matches
+banner-quest,TeeTurtle,publisher,https://teeturtle.com/products/here-to-slay-banner-quest-expansion,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+banner-quest,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/430678/here-to-slay-banner-quest,BGG reference row,2026-10-15,geekdo API item name matches
+here-to-sleigh,TeeTurtle,publisher,https://teeturtle.com/products/here-to-slay-here-to-sleigh-expansion,Publisher shop,2026-10-15,"Shopify products.json title, price and availability match"
+here-to-sleigh,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/375223/here-to-sleigh-a-here-to-slay-expansion-pack,BGG reference row,2026-10-15,geekdo API item name matches
+monsters-expansion,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/308526/here-to-slay-monsters-expansion,BGG reference row,2026-10-15,geekdo API item name matches
+dragon-sorcerer,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/308525/here-to-slay-dragon-sorcerer-expansion,BGG reference row,2026-10-15,geekdo API item name matches
+sorcerers-and-squires,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/468270/here-to-slay-sorcerers-and-squires,BGG reference row,2026-10-15,geekdo API item name matches

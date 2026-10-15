@@ -1,0 +1,8 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Amazon,amazon,https://www.amazon.com/dp/B07G3Y95R9,Fantasy Flight Games edition,2026-10-15,curl page title 'Fantasy Flight Games FFGAHB01 Arkham Horror Third Edition'
+_base,Fantasy Flight Games,publisher,https://www.fantasyflightgames.com/product/arkham-horror-third-edition/,Publisher product page,2026-10-15,"Publisher page loaded 2026-10-15 and lists Dead of Night, Under Dark Waves and Secrets of the Order rules"
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/257499/arkham-horror-third-edition,BGG reference row,2026-10-15,geekdo API item name matches
+under-dark-waves,Amazon,amazon,https://www.amazon.com/dp/B08GFFR5RF,Fantasy Flight Games edition,2026-10-15,curl page title 'Arkham Horror Under Dark Waves Board Game Expansion'
+dead-of-night,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/282308/arkham-horror-third-edition-dead-of-night,BGG reference row,2026-10-15,geekdo API item name matches
+under-dark-waves,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/304286/arkham-horror-third-edition-under-dark-waves,BGG reference row,2026-10-15,geekdo API item name matches
+secrets-of-the-order,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/331965/arkham-horror-third-edition-secrets-of-the-order,BGG reference row,2026-10-15,geekdo API item name matches

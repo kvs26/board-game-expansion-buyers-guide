@@ -1,0 +1,13 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Amazon,amazon,https://www.amazon.com/dp/B008A2BA8G,Indie Boards & Cards edition,2026-10-15,curl page title 'The Resistance Card Game ... 5-10 Players'
+_base,Indie Boards & Cards,publisher,https://indieboardsandcards.com/our-games/the-resistance/,Publisher page,2026-10-15,"Publisher page loaded 2026-10-15, MSRP $19.99, links the same Amazon ASIN"
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/41114/the-resistance,BGG reference row,2026-10-15,geekdo API item name matches
+hidden-agenda,Amazon,amazon,https://www.amazon.com/dp/B00OVZ693W,Indie Boards & Cards edition,2026-10-15,curl page title 'Indie Boards and Cards Resistance: Hidden Agenda'
+hidden-agenda,Indie Boards & Cards,publisher,https://indieboardsandcards.com/our-games/the-resistance-hidden-agenda/,Publisher page,2026-10-15,"Publisher page loaded 2026-10-15, MSRP shown, links the same Amazon ASIN"
+hidden-agenda,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/162890/the-resistance-hidden-agenda,BGG reference row,2026-10-15,geekdo API item name matches
+the-plot-thickens,Amazon,amazon,https://www.amazon.com/dp/B01G62LPCC,Indie Boards & Cards edition,2026-10-15,"curl page title 'Resistance, The Plot Thickens ... Need The Resistance base game'"
+the-plot-thickens,Indie Boards & Cards,publisher,https://indieboardsandcards.com/our-games/the-resistance-the-plot-thickens/,Publisher page,2026-10-15,"Publisher page loaded 2026-10-15, MSRP shown, links the same Amazon ASIN"
+the-plot-thickens,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/200630/the-resistance-the-plot-thickens,BGG reference row,2026-10-15,geekdo API item name matches
+hostile-intent,Amazon,amazon,https://www.amazon.com/dp/B00OVZ6LZ8,Indie Boards & Cards edition,2026-10-15,"curl page title 'Resistance, Hostile Intent'"
+hostile-intent,Indie Boards & Cards,publisher,https://indieboardsandcards.com/our-games/the-resistance-hostile-intent/,Publisher page,2026-10-15,"Publisher page loaded 2026-10-15, MSRP shown, links the same Amazon ASIN"
+hostile-intent,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/162889/the-resistance-hostile-intent,BGG reference row,2026-10-15,geekdo API item name matches

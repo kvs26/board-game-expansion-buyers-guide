@@ -1,0 +1,11 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Stonemaier Games,publisher,https://store.stonemaiergames.com/products/tapestry,"Publisher store base game, current printing with revised civs",2026-10-15,Shopify products.json title and price match
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/286096/tapestry,BGG reference row,2026-10-15,geekdo API item name matches
+arts-and-architecture,Stonemaier Games,publisher,https://store.stonemaiergames.com/products/tapestry-arts-architecture,Publisher store,2026-10-15,"Shopify products.json title, price and availability match"
+arts-and-architecture,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/349998/tapestry-arts-and-architecture,BGG reference row,2026-10-15,geekdo API item name matches
+plans-and-ploys,Stonemaier Games,publisher,https://store.stonemaiergames.com/products/tapestry-plans-ploys,Publisher store,2026-10-15,"Shopify products.json title, price and availability match"
+plans-and-ploys,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/315708/tapestry-plans-and-ploys,BGG reference row,2026-10-15,geekdo API item name matches
+revised-civilization-pack,Stonemaier Games,publisher,https://store.stonemaiergames.com/products/tapestry-revised-adjusted-rebalanced-civilization-pack,Publisher store,2026-10-15,"Shopify products.json title, price and availability match"
+revised-civilization-pack,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/410207/tapestry-revised-adjusted-rebalanced-civilization,BGG reference row,2026-10-15,geekdo API item name matches
+fantasies-and-futures,Stonemaier Games,publisher,https://store.stonemaiergames.com/products/tapestry-fantasies-futures,Publisher store,2026-10-15,"Shopify products.json title, price and availability match"
+fantasies-and-futures,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/379578/tapestry-fantasies-and-futures,BGG reference row,2026-10-15,geekdo API item name matches
