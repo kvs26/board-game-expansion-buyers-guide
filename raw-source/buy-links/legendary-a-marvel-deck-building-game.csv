@@ -1,0 +1,57 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Amazon,amazon,https://www.amazon.com/dp/B0H5YM2Y54,Second Edition core set,2026-10-15,curl page title 'Legendary Marvel Second Edition ... Core Set'
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/129437/legendary-a-marvel-deck-building-game,BGG reference row,2026-10-15,geekdo API item name matches
+dark-city,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/137762/legendary-a-marvel-deck-building-game-dark-city,BGG reference row,2026-10-15,geekdo API item name matches
+fantastic-four,Amazon,amazon,https://www.amazon.com/dp/B00E6K8CUA,,2026-10-15,curl /dp page title matches the expansion name
+fantastic-four,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/142020/legendary-a-marvel-deck-building-game-fantastic-fo,BGG reference row,2026-10-15,geekdo API item name matches
+paint-the-town-red,Amazon,amazon,https://www.amazon.com/dp/B00IWX9Y9U,,2026-10-15,curl /dp page title matches the expansion name
+paint-the-town-red,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/149922/legendary-a-marvel-deck-building-game-paint-the-to,BGG reference row,2026-10-15,geekdo API item name matches
+guardians-of-the-galaxy,Amazon,amazon,https://www.amazon.com/dp/B00O80XXRK,,2026-10-15,curl /dp page title matches the expansion name
+guardians-of-the-galaxy,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/163106/legendary-a-marvel-deck-building-game-guardians-of,BGG reference row,2026-10-15,geekdo API item name matches
+secret-wars-volume-1,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/175156/legendary-a-marvel-deck-building-game-secret-wars,BGG reference row,2026-10-15,geekdo API item name matches
+secret-wars-volume-2,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/182692/legendary-a-marvel-deck-building-game-secret-wars,BGG reference row,2026-10-15,geekdo API item name matches
+captain-america-75th-anniversary,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/186845/legendary-a-marvel-deck-building-game-captain-amer,BGG reference row,2026-10-15,geekdo API item name matches
+civil-war,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/193513/legendary-a-marvel-deck-building-game-civil-war,BGG reference row,2026-10-15,geekdo API item name matches
+deadpool,Amazon,amazon,https://www.amazon.com/dp/B01JEN5J18,,2026-10-15,curl /dp page title matches the expansion name
+deadpool,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/200983/legendary-a-marvel-deck-building-game-deadpool,BGG reference row,2026-10-15,geekdo API item name matches
+marvel-noir,Amazon,amazon,https://www.amazon.com/dp/B01M7XX3H4,,2026-10-15,curl /dp page title matches the expansion name
+marvel-noir,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/210936/legendary-a-marvel-deck-building-game-marvel-noir,BGG reference row,2026-10-15,geekdo API item name matches
+x-men,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/223362/legendary-a-marvel-deck-building-game-x-men,BGG reference row,2026-10-15,geekdo API item name matches
+spider-man-homecoming,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/231037/legendary-a-marvel-deck-building-game-spider-man-h,BGG reference row,2026-10-15,geekdo API item name matches
+champions,Amazon,amazon,https://www.amazon.com/dp/B077SJJJH1,,2026-10-15,curl /dp page title matches the expansion name
+champions,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/239469/legendary-a-marvel-deck-building-game-champions,BGG reference row,2026-10-15,geekdo API item name matches
+world-war-hulk,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/248084/legendary-a-marvel-deck-building-game-world-war-hu,BGG reference row,2026-10-15,geekdo API item name matches
+ant-man,Amazon,amazon,https://www.amazon.com/dp/B07HHKM25Y,,2026-10-15,curl /dp page title matches the expansion name
+ant-man,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/255616/legendary-a-marvel-deck-building-game-ant-man,BGG reference row,2026-10-15,geekdo API item name matches
+venom,Amazon,amazon,https://www.amazon.com/dp/B07JNG4C1Q,,2026-10-15,curl /dp page title matches the expansion name
+venom,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/265181/legendary-a-marvel-deck-building-game-venom,BGG reference row,2026-10-15,geekdo API item name matches
+dimensions,Amazon,amazon,https://www.amazon.com/dp/B07S7MP97B,,2026-10-15,curl /dp page title matches the expansion name
+dimensions,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/275726/legendary-a-marvel-deck-building-game-dimensions,BGG reference row,2026-10-15,geekdo API item name matches
+shield,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/284697/legendary-a-marvel-deck-building-game-shield,BGG reference row,2026-10-15,geekdo API item name matches
+heroes-of-asgard,Amazon,amazon,https://www.amazon.com/dp/B082ZX3MK8,,2026-10-15,curl /dp page title matches the expansion name
+heroes-of-asgard,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/295285/legendary-a-marvel-deck-building-game-heroes-of-as,BGG reference row,2026-10-15,geekdo API item name matches
+the-new-mutants,Amazon,amazon,https://www.amazon.com/dp/B0868XVP6K,,2026-10-15,curl /dp page title matches the expansion name
+the-new-mutants,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/305035/legendary-a-marvel-deck-building-game-the-new-muta,BGG reference row,2026-10-15,geekdo API item name matches
+into-the-cosmos,Amazon,amazon,https://www.amazon.com/dp/B08GFKSGMK,,2026-10-15,curl /dp page title matches the expansion name
+into-the-cosmos,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/314104/legendary-a-marvel-deck-building-game-into-the-cos,BGG reference row,2026-10-15,geekdo API item name matches
+realm-of-kings,Amazon,amazon,https://www.amazon.com/dp/B08MB9X2G5,,2026-10-15,curl /dp page title matches the expansion name
+realm-of-kings,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/321627/legendary-a-marvel-deck-building-game-realm-of-kin,BGG reference row,2026-10-15,geekdo API item name matches
+annihilation,Amazon,amazon,https://www.amazon.com/dp/B0973PN2RY,,2026-10-15,curl /dp page title matches the expansion name
+annihilation,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/327505/legendary-a-marvel-deck-building-game-annihilation,BGG reference row,2026-10-15,geekdo API item name matches
+doctor-strange-and-the-shadows-of-nightmare,Amazon,amazon,https://www.amazon.com/dp/B09V49WWPL,,2026-10-15,curl /dp page title matches the expansion name
+doctor-strange-and-the-shadows-of-nightmare,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/339952/legendary-a-marvel-deck-building-game-doctor-stran,BGG reference row,2026-10-15,geekdo API item name matches
+messiah-complex,Amazon,amazon,https://www.amazon.com/dp/B09DTK7B1H,,2026-10-15,curl /dp page title matches the expansion name
+messiah-complex,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/344481/legendary-a-marvel-deck-building-game-messiah-comp,BGG reference row,2026-10-15,geekdo API item name matches
+black-panther,Amazon,amazon,https://www.amazon.com/dp/B0B8F1ML6V,,2026-10-15,curl /dp page title matches the expansion name
+black-panther,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/350143/legendary-a-marvel-deck-building-game-black-panthe,BGG reference row,2026-10-15,geekdo API item name matches
+black-widow,Amazon,amazon,https://www.amazon.com/dp/B0BFBVGY8H,,2026-10-15,curl /dp page title matches the expansion name
+black-widow,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/359611/legendary-a-marvel-deck-building-game-black-widow,BGG reference row,2026-10-15,geekdo API item name matches
+the-infinity-saga,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/367377/legendary-a-marvel-deck-building-game-the-infinity,BGG reference row,2026-10-15,geekdo API item name matches
+marvel-studios-guardians-of-the-galaxy,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/344694/legendary-a-marvel-deck-building-game-marvel-studi,BGG reference row,2026-10-15,geekdo API item name matches
+midnight-sons,Amazon,amazon,https://www.amazon.com/dp/B0C4S594KV,,2026-10-15,curl /dp page title matches the expansion name
+midnight-sons,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/375650/legendary-a-marvel-deck-building-game-midnight-son,BGG reference row,2026-10-15,geekdo API item name matches
+marvel-2099,Amazon,amazon,https://www.amazon.com/dp/B0DGZDZSXG,,2026-10-15,curl /dp page title matches the expansion name
+marvel-2099,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/393432/legendary-a-marvel-deck-building-game-2099,BGG reference row,2026-10-15,geekdo API item name matches
+ant-man-and-the-wasp,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/395833/legendary-a-marvel-deck-building-game-ant-man-and,BGG reference row,2026-10-15,geekdo API item name matches
+weapon-x,Amazon,amazon,https://www.amazon.com/dp/B0DPJK3WXD,,2026-10-15,curl /dp page title matches the expansion name
+weapon-x,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/419448/legendary-a-marvel-deck-building-game-weapon-x,BGG reference row,2026-10-15,geekdo API item name matches

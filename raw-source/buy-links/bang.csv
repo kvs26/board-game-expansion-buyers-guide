@@ -1,0 +1,24 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,dV Giochi,publisher,https://www.dvgiochi.com/catalogo/bang/,Publisher site (EUR 21.90),2026-10-15,curl 200 title match: BANG!
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/3955/bang,BGG reference row,2026-10-15,geekdo API item 3955 name matches (BANG!)
+dodge-city,dV Giochi,publisher,https://www.dvgiochi.com/catalogo/bang-dodge-city/,Publisher site (EUR 17.90),2026-10-15,curl 200 title match: BANG! Dodge City
+dodge-city,Amazon,amazon,https://www.amazon.com/dp/B00LODNOR8,,2026-10-15,curl 200 /dp title match: Bang! Dodge City Card Game
+dodge-city,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/9653/bang-dodge-city,BGG reference row,2026-10-15,geekdo API item 9653 name matches (BANG! Dodge City)
+armed-and-dangerous,dV Giochi,publisher,https://www.dvgiochi.com/catalogo/Bang-Armed-And-Dangerous/,Publisher site (EUR 17.90),2026-10-15,curl 200 title match: BANG! | Armed & Dangerous
+armed-and-dangerous,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/230505/bang-armed-dangerous,BGG reference row,2026-10-15,geekdo API item 230505 name matches (BANG! Armed & Dangerous)
+gold-rush,dV Giochi,publisher,https://www.dvgiochi.com/catalogo/bang-gold-rush/,Publisher site (EUR 17.90),2026-10-15,curl 200 title match: BANG! Gold Rush
+gold-rush,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/107794/bang-gold-rush,BGG reference row,2026-10-15,geekdo API item 107794 name matches (BANG! Gold Rush)
+the-great-train-robbery,dV Giochi,publisher,https://www.dvgiochi.com/catalogo/bang-the-great-train-robbery/,Publisher site (EUR 17.90),2026-10-15,curl 200 title match: BANG! | The Great Train Robbery
+the-great-train-robbery,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/349886/bang-the-great-train-robbery,BGG reference row,2026-10-15,geekdo API item 349886 name matches (BANG! The Great Train Robbery)
+legends,dV Giochi,publisher,https://www.dvgiochi.com/catalogo/bang-legends/,Publisher site (EUR 17.90),2026-10-15,curl 200 title match: BANG! Legends
+legends,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/401241/bang-legends,BGG reference row,2026-10-15,geekdo API item 401241 name matches (BANG! Legends)
+wild-west-show,dV Giochi,publisher,https://www.dvgiochi.com/catalogo/bang-expansion-pack/,Sold inside the BANG! Expansion Pack (EUR 17.90),2026-10-15,curl 200 title match: BANG! | Expansion Pack; page lists Wild West Show
+wild-west-show,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/66508/bang-wild-west-show,BGG reference row,2026-10-15,geekdo API item 66508 name matches (BANG! Wild West Show)
+the-valley-of-shadows,dV Giochi,publisher,https://www.dvgiochi.com/catalogo/bang-expansion-pack/,Sold inside the BANG! Expansion Pack (EUR 17.90),2026-10-15,curl 200 title match: BANG! | Expansion Pack; page lists The Valley of Shadows
+the-valley-of-shadows,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/130046/bang-the-valley-of-shadows,BGG reference row,2026-10-15,geekdo API item 130046 name matches (BANG! The Valley of Shadows)
+high-noon,dV Giochi,publisher,https://www.dvgiochi.com/catalogo/bang-expansion-pack/,Sold inside the BANG! Expansion Pack (EUR 17.90),2026-10-15,curl 200 title match: BANG! | Expansion Pack; page lists High Noon
+high-noon,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/8269/bang-high-noon,BGG reference row,2026-10-15,geekdo API item 8269 name matches (BANG! High Noon)
+a-fistful-of-cards,dV Giochi,publisher,https://www.dvgiochi.com/catalogo/bang-expansion-pack/,Sold inside the BANG! Expansion Pack (EUR 17.90),2026-10-15,curl 200 title match: BANG! | Expansion Pack; page lists A Fistful of Cards
+a-fistful-of-cards,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/20237/bang-a-fistful-of-cards,BGG reference row,2026-10-15,geekdo API item 20237 name matches (BANG! A Fistful of Cards)
+most-wanted,dV Giochi,publisher,https://www.dvgiochi.com/catalogo/BangMostWanted-ita/,Publisher site (EUR 7.90),2026-10-15,curl 200 title match: BANG! Most Wanted
+most-wanted,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/431931/bang-most-wanted,BGG reference row,2026-10-15,geekdo API item 431931 name matches (BANG! Most Wanted)

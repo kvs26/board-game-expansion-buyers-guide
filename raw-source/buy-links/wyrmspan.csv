@@ -1,0 +1,5 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Stonemaier Games,publisher,https://store.stonemaiergames.com/products/wyrmspan,"Publisher shop, USD 55.00",2026-10-15,products.json title match: Wyrmspan
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/410201/wyrmspan,BGG reference row,2026-10-15,geekdo API item 410201 name matches (Wyrmspan)
+dragon-academy,Stonemaier Games,publisher,https://store.stonemaiergames.com/products/wyrmspan-dragon-academy,"Publisher shop, USD 25.00",2026-10-15,products.json title match: Wyrmspan: Dragon Academy
+dragon-academy,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/453406/wyrmspan-dragon-academy,BGG reference row,2026-10-15,geekdo API item 453406 name matches (Wyrmspan: Dragon Academy)

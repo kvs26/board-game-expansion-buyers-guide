@@ -1,0 +1,15 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Stronghold Games,publisher,https://strongholdgames.com/our-games/terraforming-mars-ares-expedition/,US publisher,2026-10-15,curl 200 title match
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/328871/terraforming-mars-ares-expedition,BGG reference row,2026-10-15,geekdo API item 328871 name matches (Terraforming Mars: Ares Expedition)
+discovery,Stronghold Games,publisher,https://strongholdgames.com/our-games/terraforming-mars-ares-expedition-discovery/,US publisher,2026-10-15,curl 200 title match
+discovery,Amazon,amazon,https://www.amazon.com/dp/B0BVMY2JVQ,,2026-10-15,curl 200 /dp title match: Ares Expedition: Discovery
+discovery,Highlander Hobbies,retailer,https://highlanderhobbies.com/products/discovery-expansion-ares-expedition-terraforming-mars-stronghold-games,USD 19.99,2026-10-15,curl 200 title match + Shopify products.json (available)
+discovery,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/358739/terraforming-mars-ares-expedition-discovery,BGG reference row,2026-10-15,geekdo API item 358739 name matches (Ares Expedition: Discovery)
+foundations,Stronghold Games,publisher,https://strongholdgames.com/our-games/terraforming-mars-ares-expedition-foundations/,US publisher,2026-10-15,curl 200 title match
+foundations,Amazon,amazon,https://www.amazon.com/dp/B0BVMZ43BK,,2026-10-15,curl 200 /dp title match: Ares Expedition: Foundations
+foundations,Highlander Hobbies,retailer,https://highlanderhobbies.com/products/foundations-expansion-ares-expedition-terraforming-mars-stronghold-games,USD 20.99,2026-10-15,curl 200 title match + Shopify products.json (available)
+foundations,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/358740/terraforming-mars-ares-expedition-foundations,BGG reference row,2026-10-15,geekdo API item 358740 name matches (Ares Expedition: Foundations)
+crisis,Stronghold Games,publisher,https://strongholdgames.com/our-games/terraforming-mars-ares-expedition-crisis/,US publisher,2026-10-15,curl 200 title match
+crisis,Amazon,amazon,https://www.amazon.com/dp/B0BVMWTTM4,,2026-10-15,curl 200 /dp title match: Ares Expedition: Crisis
+crisis,Highlander Hobbies,retailer,https://highlanderhobbies.com/products/crisis-expansion-ares-expedition-terraforming-mars-stronghold-games,USD 19.99,2026-10-15,curl 200 title match + Shopify products.json (available)
+crisis,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/358738/terraforming-mars-ares-expedition-crisis,BGG reference row,2026-10-15,geekdo API item 358738 name matches (Ares Expedition: Crisis)

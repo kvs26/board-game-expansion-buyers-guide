@@ -1,0 +1,6 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/169426/roll-player,BGG reference row,2026-10-15,geekdo API item name matches
+monsters-and-minions,Thunderworks Games,publisher,https://thunderworksgames.com/products/roll-player-monsters-minions-expansion,"Shop listing, ships from US",2026-10-15,Shop product JSON fetched and title matches
+monsters-and-minions,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/213360/roll-player-monsters-and-minions,BGG reference row,2026-10-15,geekdo API item name matches
+fiends-and-familiars,Thunderworks Games,publisher,https://thunderworksgames.com/products/roll-player-fiends-familiars-expansion,"Shop listing, ships from US",2026-10-15,Shop product JSON fetched and title matches
+fiends-and-familiars,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/255601/roll-player-fiends-and-familiars,BGG reference row,2026-10-15,geekdo API item name matches

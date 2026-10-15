@@ -1,0 +1,10 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/164153/star-wars-imperial-assault,BGG reference row,2026-10-15,geekdo API item name matches
+twin-shadows,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/175211/star-wars-imperial-assault-twin-shadows,BGG reference row,2026-10-15,geekdo API item name matches
+return-to-hoth,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/181621/star-wars-imperial-assault-return-to-hoth,BGG reference row,2026-10-15,geekdo API item name matches
+the-bespin-gambit,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/194897/star-wars-imperial-assault-the-bespin-gambit,BGG reference row,2026-10-15,geekdo API item name matches
+jabbas-realm,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/205900/star-wars-imperial-assault-jabbas-realm,BGG reference row,2026-10-15,geekdo API item name matches
+heart-of-the-empire,Amazon,amazon,https://www.amazon.com/dp/B071HWHZ4M,Imperial Assault expansion,2026-10-15,curl /dp page title matches expansion name
+heart-of-the-empire,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/226839/star-wars-imperial-assault-heart-of-the-empire,BGG reference row,2026-10-15,geekdo API item name matches
+tyrants-of-lothal,Amazon,amazon,https://www.amazon.com/dp/B07CQ91G46,Imperial Assault expansion,2026-10-15,curl /dp page title matches expansion name
+tyrants-of-lothal,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/251066/star-wars-imperial-assault-tyrants-of-lothal,BGG reference row,2026-10-15,geekdo API item name matches

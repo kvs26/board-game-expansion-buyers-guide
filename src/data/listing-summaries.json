@@ -262,5 +262,235 @@
   },
   "dune-imperium/uprising": {
     "reason": "A standalone replacement, not an add-on: reviewers rate it better than the original, but you are buying a second full game. Skip it if base plus Rise of Ix already suits you."
+  },
+  "eclipse-second-dawn-for-the-galaxy/seekers": {
+    "adds": "Two new species, the Magellan and the Enlightened of Lyra, each with its own miniatures, tray and ship parts. The Magellan score for Discovery tiles; the Enlightened build Shrines.",
+    "reason": "A BGG poster calls Seekers and Outcasts nice to have, but must-haves only after 24-30+ plays. A 2024 poster says they play well; another is disappointed in the production."
+  },
+  "eclipse-second-dawn-for-the-galaxy/outcasts": {
+    "reason": "A BGG poster picks Outcasts for more interactive play and an aggressive species like Rho Indi, but rates the species packs nice to have. A 2024 poster saw Rho Indi clear Ancients early."
+  },
+  "eclipse-second-dawn-for-the-galaxy/expanded-galaxy": {
+    "reason": "A BGG poster says it is mostly interesting for 7+ players, though the extra sector tiles were worth it to him at lower counts. Another says he will never play above six and won't buy it."
+  },
+  "eclipse-second-dawn-for-the-galaxy/galactic-events": {
+    "adds": "Eight optional sector hexes (Nebula, Supernova, Black Hole and Pulsar) with a rules pamphlet. They update four first-edition expansions and can be added individually or together.",
+    "reason": "A BGG poster doesn't recommend it: tile balance is fragile and the sectors add high variance. Another says Supernovas are too easy to defuse. A Reddit poster says it adds too many rules."
+  },
+  "eclipse-second-dawn-for-the-galaxy/rift-cannon": {
+    "reason": "Opinions split. A BGG poster removed them because an early Rift Cannon unbalances the game, and another says they ignore shields. A third says they are worth buying to form an opinion."
+  },
+  "mage-knight-board-game/the-lost-legion": {
+    "reason": "A BGG rundown calls it excellent: it fixes the ranged-attack and block balance, adds the moving Volkare scenarios and a second unique action card per character. Another advises the Ultimate Edition."
+  },
+  "mage-knight-board-game/krang-character-expansion": {
+    "reason": "A BGG rundown calls Krang an interesting, strong character with original skills, and a good addition because the base box has few characters. It has no new scenarios."
+  },
+  "mage-knight-board-game/shades-of-tezla": {
+    "reason": "Opinions split. One BGG poster calls it very weak with unbalanced enemies; others like the enemy variety and use-once tokens. A 2026 thread says its scenarios are worse than the Volkare ones."
+  },
+  "mage-knight-board-game/the-apocalypse-dragon": {
+    "reason": "The publisher calls it the first major Mage Knight expansion since 2015. A BGG poster who played it in 2026 likes it a lot. Another thread says the Ziggurats drew criticism and stock may be tight."
+  },
+  "star-wars-imperial-assault/twin-shadows": {
+    "adds": "A mini-campaign set around Mos Eisley and a missing Han Solo, with two Rebel heroes, Heavy Stormtroopers and Tusken Raiders. It has ten plastic figures, twelve map tiles and over sixty cards.",
+    "reason": "Reddit owners advise buying the big-box expansions first and call packs the smallest campaign add. Twin Shadows is a short mini-campaign, suited to players wanting more from the core game."
+  },
+  "star-wars-imperial-assault/the-bespin-gambit": {
+    "reason": "Reddit owners tell newcomers to buy the big-box campaigns first and treat small packs as extras. This mini-campaign adds new heroes and an Imperial class, so it suits groups who finished the big ones."
+  },
+  "star-wars-imperial-assault/tyrants-of-lothal": {
+    "reason": "A 2026 BGG thread has Imperial players losing most missions, and one reply says it feels under-playtested, though others blame weak class decks. It suits groups who want Star Wars Rebels content."
+  },
+  "the-quest-for-el-dorado/heroes-and-hexes": {
+    "adds": "Three double-sided terrain tiles with demon spaces and curse tokens, two demon blockades, new cave tokens and four new expedition card types, three copies each. It needs the base game Caves variant."
+  },
+  "the-quest-for-el-dorado/dangers-and-muisca": {
+    "reason": "A BGG poster who ranked the cards says Dangers changes card values and enables varied maps, and Muisca makes play easier with some resource management. He calls it successful and recommends it."
+  },
+  "the-quest-for-el-dorado/dragons-treasures-and-mysteries": {
+    "adds": "Three modules. Treasures gives each player chest tokens, and four collected chests win at once. Dragons adds four dragon pawns that wake and block routes. Mysteries adds dark-mist tiles over terrain.",
+    "reason": "Opinions are limited. One BGG poster finds Treasures awkward because it adds a second ending condition and thinks most players won't like it, but notes it can be fun for experienced players."
+  },
+  "the-isle-of-cats/kittens-beasts": {
+    "adds": "Kitten, Beast and Event modules usable alone or in any mix, plus a new lesson module (I) and 6 new family cards.",
+    "reason": "Rated 8.23 from 1,180 BGG ratings. BGG posters call it the only expansion that changes gameplay and the one essential pick; one finds the events too abstract."
+  },
+  "the-isle-of-cats/late-arrivals": {
+    "adds": "Two boards for 5-6 players plus more cat tiles, treasures, 5-6 player discovery cards and lesson modules that work at any player count.",
+    "reason": "Needed for 5-6 players, where a Reddit poster says you run out of cats and cards without it. At 1-4 players it is extra content only; BGG posters split on its value."
+  },
+  "the-isle-of-cats/kickstarter-pack": {
+    "adds": "Wooden fish, large cat meeples, new special tiles, 24 lesson cards in 3 modules, plus new cat, Oshax and large rare treasure tiles.",
+    "reason": "The designer says the fish and meeples are cosmetic and the lesson cards matter most to players with many plays. BGG posters call it swag or tile variety."
+  },
+  "the-isle-of-cats/kickstarter-pack-2": {
+    "adds": "25 large wooden beast meeples, Oshax kittens, special rescue cards, more lesson cards and more cat, beast and event tiles for Kittens + Beasts.",
+    "reason": "Rated 8.13 from 468 BGG ratings; only publisher text was found and no reviews. BGG posters lump the Kickstarter packs in as swag or extra tile variety."
+  },
+  "the-isle-of-cats/treasure-pack": {
+    "reason": "Rated 8.28 from only 56 BGG ratings, with only publisher text and no reviews found. It changes one tile type, so most groups will not miss it."
+  },
+  "the-isle-of-cats/boat-pack": {
+    "reason": "Rated 8.14 from 881 BGG ratings. BGG posters call it easy to add with no rule changes, but say the extra layouts add variety without changing the game much."
+  },
+  "obsession/upstairs-downstairs": {
+    "adds": "Four new servants, the Howard family, 49 more guests, five improvement tiles and three game modes. Enables 5 players, and 6 with Wessex.",
+    "reason": "BGG 8.58 from 2,279 ratings. Several BGG owners call it the one necessary expansion; others say to learn the base game first."
+  },
+  "obsession/wessex": {
+    "adds": "A fifth family board, 16 more guests, six extended-play solo opponents and, in 2nd-edition copies, two low-VP tiles. It does not enable 5 players.",
+    "reason": "BGG 8.32 from 1,911 ratings. Posters call it a small, easy add; one reviewer scored it 90/100 but not the most needed."
+  },
+  "obsession/characters": {
+    "adds": "Three new characters, second-chance servants, distinguished family members, a universal objective deck, 14 solo opponents and cooperative play.",
+    "reason": "BGG 8.39 from 559 ratings. The designer calls the sideboard circumstantial; owners split on the fiddly second-chance servants."
+  },
+  "azul/crystal-mosaic": {
+    "adds": "New double-sided player boards, some with pre-printed x2 spaces, plus four clear overlays that hold tiles and score markers in place.",
+    "reason": "BGG 7.26 from 2,471 ratings. One reviewer calls the overlays a must-have; a BGG owner rates it 3 of 5 and may skip them."
+  },
+  "orleans/trade-and-intrigue": {
+    "adds": "New place tiles plus four modules: Order cards, 34 new event tiles, a replacement Beneficial Deeds board and an Intrigue Deeds board for attacking opponents.",
+    "reason": "BGG rates it 8.38 from 3,908 ratings. BGG threads name it the first expansion to get; one calls it \"a collection of fixes\". Others say the base game needs no expansion."
+  },
+  "orleans/invasion": {
+    "adds": "Six scenarios, including co-op, 2-player and solo ones, plus a new set of place tiles usable with or without the scenarios.",
+    "reason": "BGG rates it 8.24 from 3,803 ratings. Forum players love the co-op and solo scenarios, while competitive players call them \"okayish\". Get it for co-op, solo or scenario play."
+  },
+  "orleans/the-plague": {
+    "adds": "Rat cards that make conditions harder, corpse tokens cleared with Indulgence cards, new events, and a plague doctor figure for each player.",
+    "reason": "BGG rates it 8.06 from only 346 ratings, so evidence is thin. It is a harder variant with its own events and deeds. Forum posts about it are mostly rules questions."
+  },
+  "orleans/5-player-expansion": {
+    "adds": "Black player components, extra character and technology tiles and coins for 5 players, plus a setup reminder card.",
+    "reason": "BGG rates it 8.01 from 417 ratings. Players say 5 works well, but the 8th edition (2023) base box already includes 5-player material. Only needed for an older 4-player copy."
+  },
+  "mysterium/secrets-and-lies": {
+    "adds": "8 new suspects, locations and objects, 42 more vision cards and story cards that replace objects so the ghost tells how the victim died.",
+    "reason": "BGG rates it 7.82 from 2,155 ratings. It has the same extra cards as Hidden Signs plus story cards. Thin evidence: no direct reviews compare the two."
+  },
+  "mysterium/hidden-signs": {
+    "reason": "BGG rates it 7.75 from 3,307 ratings. Posters say it only adds variety with no rules changes, so it is safe from game one. Secrets & Lies has the same extra cards plus story cards."
+  },
+  "roll-player/monsters-and-minions": {
+    "adds": "A final monster with rumors that reveal its lair, obstacles and attack, plus minions to hunt. Adds boost dice, five character sheets, 170 cards and a 5th-player set.",
+    "reason": "BGG rates it 8.0 from 4,910 ratings. Owners call base + M&M 'the full game' and it is the only expansion with a 5th-player set and boost dice."
+  },
+  "roll-player/fiends-and-familiars": {
+    "adds": "Familiar boards, Fiend hindrance cards, split two-colour dice, four character sheets and over 200 monster, minion and market cards.",
+    "reason": "BGG rates it 7.8 from 1,625 ratings. Owners split: some removed the fiends, familiars and split dice and kept only the extra monsters, minions and classes."
+  },
+  "clank-catacombs/lairs-and-lost-chambers": {
+    "adds": "12 tiles and 50 cards. Adds lairs with Medusa, a Sphinx and Living Statues, lost chambers, pit traps, entry passages and trophy cards.",
+    "reason": "BGG rates it 8.3 from 1,131 ratings. Reviews are mixed: one gives 7.5/10 and a GenCon buyer was let down by the lair monsters; another likes the lost chambers."
+  },
+  "clank-catacombs/underworld": {
+    "adds": "A separate Underworld area with its own market, 6 depths tiles, 50 dungeon cards, 22 Fate cards, harpies, imp assistants and undercoins.",
+    "reason": "BGG rates it 8.2 from 464 ratings. Owners cite heavy rules overhead and table space; one group removed it, others call it the better expansion."
+  },
+  "marvel-united/return-of-the-sinister-six": {
+    "reason": "BGG and Reddit posters name it the best Season 1 expansion; BGG rates it 8.66 from 725 ratings. It is a Kickstarter exclusive, out of print and pricey, with no heroes."
+  },
+  "marvel-united/enter-the-spider-verse": {
+    "reason": "Posters call it the best retail Season 1 box, with a strong Spider-Man and a hard Green Goblin; one finds it adds little. BGG rates it 7.84 from 1,452 ratings."
+  },
+  "marvel-united/blue-team": {
+    "reason": "Reddit posters call it the best-value retail X-Men box, with Mister Sinister and a new mode. BGG rates it 8.29 from 645 ratings. Heroes are X-Men only."
+  },
+  "marvel-united/days-of-future-past": {
+    "reason": "BGG posters put it in their top four for the Sentinels and a strong challenge mode, but one finds Sentinels fiddly and one calls it crazy expensive. BGG: 8.55 from 389 ratings."
+  },
+  "marvel-united/fantastic-four": {
+    "reason": "BGG posters split: some rank it first for the strongest team and Doom, others last as too complicated. BGG rates it 8.51 from 480 ratings. Good for experienced groups only."
+  },
+  "marvel-united/infinity-gauntlet": {
+    "reason": "Opinion is split: some call it a close second Season 1 box, others their least favorite as Thanos is swingy and hard. BGG rates it 8.24 from 708 ratings. Adds no heroes."
+  },
+  "marvel-united/first-class": {
+    "reason": "BGG posters split: some rank it top tier for the villains and Danger Room, others find the heroes dull duplicates. BGG rates it 8.19 from 271 ratings. Buy it for the villains."
+  },
+  "marvel-united/gold-team": {
+    "reason": "BGG posters rank it below Blue Team, with ok heroes and a liked villain. BGG rates it 8.28 from 496 ratings. Best for X-Men fans who want a second team box."
+  },
+  "marvel-united/guardians-of-the-galaxy-remix": {
+    "reason": "BGG posters range from third best Season 1 box to near the bottom; it is mainly for fans of the characters. BGG rates it 7.98 from 658 ratings."
+  },
+  "marvel-united/tales-of-asgard": {
+    "reason": "BGG posters are mixed: one likes Thor and the alternate mode, another prefers Super Villain Mode to the traitor mode. BGG rates it 7.88 from 616 ratings. Best for Thor fans."
+  },
+  "marvel-united/deadpool": {
+    "reason": "Reddit posters say it is only for big Deadpool fans and one regrets buying it. BGG rates it 7.73 from 496 ratings, the lowest of the twelve, though Bob as villain helps."
+  },
+  "marvel-united/rise-of-the-black-panther": {
+    "reason": "BGG posters rank it last or near last: Killmonger is very easy, though Shuri stands out. BGG rates it 7.86 from 804 ratings. Buy it only for the heroes."
+  },
+  "marvel-united/maximum-carnage": {
+    "reason": "BGG rates it 8.69 from 238 ratings, the highest of these 11. Fans call it the best of the affordable expansions for its extra villains and the Dark Carnage Challenge."
+  },
+  "marvel-united/world-war-hulk": {
+    "reason": "BGG rates it 8.53 from 180 ratings. One fan names it a retail box with interesting villains. Before release, others called it boring, with limited character options."
+  },
+  "marvel-united/secret-invasion": {
+    "reason": "BGG rates it 8.46 from 114 ratings. One player calls it their favorite season-3 box for the Skrull villains. Another found the Skrulls too easy and the heroes vanilla."
+  },
+  "marvel-united/coming-of-galactus": {
+    "reason": "BGG rates it 8.64 from 193 ratings. A BGG player calls it an epic fight, but Reddit players report near-impossible games from threat cards that block abilities."
+  },
+  "marvel-united/war-of-kings": {
+    "reason": "BGG rates it 8.36 from 129 ratings. One backer picked it for the Inhumans, while another says they do not regret skipping it. Worth it mainly for Inhumans fans."
+  },
+  "marvel-united/annihilation": {
+    "adds": "Annihilus and the Annihilation Wave as villains, cosmic heroes (Richard Rider, Quasar, Moondragon, Phyla-Vell), the Complication Challenge and the Harvester of Sorrow location.",
+    "reason": "BGG rates it 8.41 from 121 ratings. Evidence is thin: one player says they do not regret skipping it. Get it for the Nova Corps heroes or the Complication Challenge."
+  },
+  "marvel-united/phoenix-five": {
+    "reason": "BGG rates it 8.34 from 272 ratings. BGG players say it is only worth it for Hope Summers, and one calls the campaign weak because nothing carries over between games."
+  },
+  "cthulhu-death-may-die/fear-of-the-unknown": {
+    "adds": "Six Episodes, two Elder One boxes, ten Investigators and new monsters, plus optional Relic and Unknown Monster modules, in a standalone box.",
+    "reason": "In a March 2025 BGG thread most posters named it the best first addition for its investigators, Elder Ones and episodes. One dislikes its Relic and Unknown Monster modules. BGG 8.68 (1,894 ratings)."
+  },
+  "cthulhu-death-may-die/season-2": {
+    "adds": "Six Episode boxes, ten Investigators with dashboards, 17 Monster figures and eight game tiles. It has no Elder One.",
+    "reason": "2025-26 BGG posters rank it last of the seasons: no Elder One, least content, two lower-rated episodes. Some owners like its investigators and monsters. BGG 8.67 (1,906 ratings)."
+  },
+  "cthulhu-death-may-die/season-4": {
+    "adds": "Six Episodes, new tiles, Investigators and monsters. BGG posters add one new Elder One and six Investigators.",
+    "reason": "Posters rank it above Season 2: an extra Elder One and the best episode ratings in the play-log sheet, with few plays. One ranks Season 3 > 1 >>> 4 >>> 2. BGG 8.93 (490 ratings)."
+  },
+  "cthulhu-death-may-die/ithaqua": {
+    "reason": "A Dec 2025 BGG poster ranks it first among the Elder boxes (Ithaqua > Black Goat >>> Yog). Early reports in Dec 2024 called it the easiest Elder One yet. BGG 8.63 (326 ratings)."
+  },
+  "cthulhu-death-may-die/black-goat-of-the-woods": {
+    "reason": "Posters call it the hardest Elder One but mechanically simple, mostly spamming minions. A 2023 poster says it is worth 25 euro, not collector prices. BGG 8.52 (1,270 ratings)."
+  },
+  "cthulhu-death-may-die/yog-sothoth": {
+    "adds": "A new Elder One with Yog-Sothoth and Wilbur Whateley figures, Elder One, Mythos and Monsters cards. Extra gates mirror normal gates and strengthen the next summons.",
+    "reason": "BGG posters call Yog-Sothoth the easiest Elder One and rank it last of the single boxes. Skip it if you like a challenge. It is also in the Unspeakable Box. BGG 8.44 (1,186 ratings)."
+  },
+  "cthulhu-death-may-die/unspeakable-box": {
+    "adds": "All first-campaign Kickstarter stretch goals: 18 Investigators, Dagon and Yog-Sothoth, three Lost Episodes and five plastic dashboard trays.",
+    "reason": "Posters like its investigators and the Dagon, Mi-Go and Yith minis, but rate the Lost Episodes mixed and call it costly. BGG 8.67 (653 ratings)."
+  },
+  "cthulhu-death-may-die/unknowable-box": {
+    "adds": "Kickstarter stretch goals for Fear of the Unknown: 28 Investigators, seven monsters, Nug and Yeb, two Relic cards and Lost Episodes 4 to 7.",
+    "reason": "A Jan 2025 poster found no reviews of its episodes. An owner likes the investigators; Nug and Yeb are called on the difficult side. BGG 8.92 (247 ratings)."
+  },
+  "cthulhu-death-may-die/animal-allies": {
+    "reason": "Only rules questions appear in BGG threads, no reviews. It adds to the optional Relic module, which some posters dislike. BGG 8.24 (158 ratings), below other Season 3-era boxes."
+  },
+  "cthulhu-death-may-die/rlyeh-rising": {
+    "adds": "One finale Episode where a pre-assembled 44 x 44 cm Cthulhu statue is the board, with its own tokens and Discovery, Monster and Mythos cards.",
+    "reason": "A Dec 2024 BGG poster saw no exceptional reviews; a May 2025 buyer found it worth it. A playthrough ran about 3.5 hours and the statue needs space. BGG 8.64 (188 ratings)."
+  },
+  "arcs/blighted-reach": {
+    "reason": "BGG 8.85 from 2,352 ratings. Players call it sprawling with a big rules overhead, and report two rulebooks and C Fate disputes. Best for a fixed group doing three sessions."
+  },
+  "arcs/leaders-and-lore": {
+    "reason": "BGG 8.54 from 1,669 ratings. A forum reply says it suits players who have used up the base game's Leaders and Lores, which takes many plays."
+  },
+  "seti-search-for-extraterrestrial-intelligence/space-agencies": {
+    "reason": "BGG 8.85 from 2,354 ratings. Reviewers praise the new aliens and cards; some find the agencies forgettable and the Quick Start unsatisfying, and the game is not shorter."
   }
 }

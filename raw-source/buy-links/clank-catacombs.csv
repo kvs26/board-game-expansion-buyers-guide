@@ -1,0 +1,7 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Dire Wolf shop,publisher,https://shop.direwolfdigital.com/products/clank-catacombs,Clank! Catacombs stand-alone base game,2026-10-15,Shop collection JSON fetched and title matches
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/365717/clank-catacombs,BGG reference row (listed as Clank!: Catacombs),2026-10-15,geekdo API item name matches
+lairs-and-lost-chambers,Dire Wolf shop,publisher,https://shop.direwolfdigital.com/products/clank-catacombs-lairs-lost-chambers,Expansion; Clank! Catacombs required,2026-10-15,Shop collection JSON fetched and title matches
+lairs-and-lost-chambers,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/422869/clank-catacombs-lairs-and-lost-chambers,BGG reference row,2026-10-15,geekdo API item name matches
+underworld,Dire Wolf shop,publisher,https://shop.direwolfdigital.com/products/clank-catacombs-underworld,Expansion; Clank! Catacombs required,2026-10-15,Shop collection JSON fetched and title matches
+underworld,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/447586/clank-catacombs-underworld,BGG reference row,2026-10-15,geekdo API item name matches

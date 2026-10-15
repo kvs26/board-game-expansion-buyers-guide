@@ -1,0 +1,17 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/253344,BGG reference row (Season 1 core box),2026-10-15,geekdo API item name matches
+fear-of-the-unknown,Asmodee USA store,publisher,https://store.asmodee.com/products/cthulhu-death-may-die-fear-of-the-unknown,"Standalone Season 3 core box, listed at $119.99",2026-10-15,Shop product JSON fetched and title matches
+fear-of-the-unknown,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/373600,BGG reference row,2026-10-15,geekdo API item name matches
+season-2,Asmodee USA store,publisher,https://store.asmodee.com/products/cthulhu-death-may-die-season-2,"Season 2 expansion, listed at $89.99",2026-10-15,Shop product JSON fetched and title matches
+season-2,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/256972,BGG reference row,2026-10-15,geekdo API item name matches
+season-4,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/374590,BGG reference row,2026-10-15,geekdo API item name matches
+ithaqua,Asmodee USA store,publisher,https://store.asmodee.com/products/cthulhu-death-may-die-elder-one-box-ithaqua,"Elder One box, listed at $34.99",2026-10-15,Shop product JSON fetched and title matches
+ithaqua,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/374971,BGG reference row,2026-10-15,geekdo API item name matches
+black-goat-of-the-woods,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/256988,BGG reference row,2026-10-15,geekdo API item name matches
+yog-sothoth,Asmodee USA store,publisher,https://store.asmodee.com/products/dmd-yog-sothoth,"Elder One box, listed at $29.99; collection page shows a sold-out item",2026-10-15,Shop product JSON fetched and title matches
+yog-sothoth,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/256985,BGG reference row,2026-10-15,geekdo API item name matches
+unspeakable-box,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/256986,BGG reference row,2026-10-15,geekdo API item name matches
+unknowable-box,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/375366,BGG reference row,2026-10-15,geekdo API item name matches
+animal-allies,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/374972,BGG reference row,2026-10-15,geekdo API item name matches
+rlyeh-rising,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/260936,BGG reference row (2019 edition; 2024 edition is BGG 425689),2026-10-15,geekdo API item name matches
+forbidden-reaches,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/433640,BGG reference row,2026-10-15,geekdo API item name matches

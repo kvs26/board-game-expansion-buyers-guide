@@ -1,0 +1,12 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,dlp games,publisher,https://www.dlp-games.de/en/spiele/orleans,Publisher game page; 8th edition (2023) includes 5-player material,2026-10-15,page fetched; title Orléans
+_base,Capstone Games,publisher,https://capstone-games.com/products/orleans,US publisher shop; listed out of stock on 2026-10-15,2026-10-15,products.json handle+title match
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/164928/orleans,BGG reference row,2026-10-15,geekdo API item 164928 name matches (Orléans)
+trade-and-intrigue,Amazon,amazon,https://www.amazon.com/dp/1938146115,Tasty Minstrel Games printing,2026-10-15,dp page title: Orléans Trade & Intrigue Board Game Expansion
+trade-and-intrigue,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/204814/orleans-trade-and-intrigue,BGG reference row,2026-10-15,geekdo API item 204814 name matches (Orléans: Trade & Intrigue)
+invasion,dlp games,publisher,https://www.dlp-games.de/en/spiele/orleans-invasion_247,"Shop entry on dlp expansions page, EUR 49.95",2026-10-15,expansions listing fetched; title Orléans Invasion
+invasion,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/183682/orleans-invasion,BGG reference row,2026-10-15,geekdo API item 183682 name matches (Orléans: Invasion)
+the-plague,Capstone Games,publisher,https://capstone-games.com/products/orleans-the-plague-expansion,"US publisher shop, USD 12.00 in stock",2026-10-15,products.json handle+title match
+the-plague,dlp games,publisher,https://www.dlp-games.de/en/shop/spiele/orleans-die-pest-the-plague_1086,"Shop entry on dlp expansions page, EUR 34.95",2026-10-15,expansions listing fetched; title Orléans: The Plague
+the-plague,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/398047/orleans-the-plague,BGG reference row,2026-10-15,geekdo API item 398047 name matches (Orléans: The Plague)
+5-player-expansion,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/231964/orleans-5th-player-box,BGG reference row,2026-10-15,geekdo API item 231964 name matches (Orléans: 5th Player Box)

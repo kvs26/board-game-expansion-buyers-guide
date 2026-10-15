@@ -1,0 +1,16 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Amazon,amazon,https://www.amazon.com/dp/B08DPV8BPJ,English edition,2026-10-15,curl page title 'Eclipse: Second Dawn for The Galaxy - Board Game by Lautapelit'
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/246900/eclipse-second-dawn-for-the-galaxy,BGG reference row,2026-10-15,geekdo API item name matches
+seekers,Lautapelit.fi (English store),publisher,https://en.lautapelit.fi/product/45704/eclipse---2nd-dawn-seekers-eng,English edition,2026-10-15,URL from the BGG official-links field; shop returned 403 so the page was not opened
+seekers,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/368377/eclipse-second-dawn-for-the-galaxy-seekers,BGG reference row,2026-10-15,geekdo API item name matches
+outcasts,Lautapelit.fi (English store),publisher,https://en.lautapelit.fi/product/45705/eclipse---2nd-dawn-outcasts-eng,English edition,2026-10-15,URL from the BGG official-links field; shop returned 403 so the page was not opened
+outcasts,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/368378/eclipse-second-dawn-for-the-galaxy-outcasts,BGG reference row,2026-10-15,geekdo API item name matches
+expanded-galaxy,Lautapelit.fi (English store),publisher,https://en.lautapelit.fi/product/46615/eclipse---2nd-dawn-expanded-galaxy-eng,English edition,2026-10-15,URL from the BGG official-links field; shop returned 403 so the page was not opened
+expanded-galaxy,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/381603/eclipse-second-dawn-for-the-galaxy-expanded-galaxy,BGG reference row,2026-10-15,geekdo API item name matches
+galactic-events,Lautapelit.fi (English store),publisher,https://en.lautapelit.fi/product/30380/eclipse---2nd-dawn-galactic-events,English edition,2026-10-15,URL from the BGG official-links field; shop returned 403 so the page was not opened
+galactic-events,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/305954/eclipse-second-dawn-for-the-galaxy-galactic-events,BGG reference row,2026-10-15,geekdo API item name matches
+rift-cannon,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/305955/eclipse-second-dawn-for-the-galaxy-rift-cannon,BGG reference row,2026-10-15,geekdo API item name matches
+minor-species,Lautapelit.fi (English store),publisher,https://en.lautapelit.fi/product/30585/eclipse---2nd-dawn-minor-species,English edition,2026-10-15,URL from the BGG official-links field; shop returned 403 so the page was not opened
+minor-species,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/305950/eclipse-second-dawn-for-the-galaxy-minor-species,BGG reference row,2026-10-15,geekdo API item name matches
+turn-order-variant,Lautapelit.fi (English store),publisher,https://en.lautapelit.fi/product/43793/eclipse---2nd-dawn-turn-order-variant,English edition,2026-10-15,URL from the BGG official-links field; shop returned 403 so the page was not opened
+turn-order-variant,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/350921/eclipse-second-dawn-for-the-galaxy-turn-order-vari,BGG reference row,2026-10-15,geekdo API item name matches

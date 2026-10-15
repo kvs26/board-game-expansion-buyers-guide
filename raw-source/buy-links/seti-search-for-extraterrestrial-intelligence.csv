@@ -1,0 +1,6 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,CGE US Store,publisher,https://store.czechgames.com/products/seti,"Czech Games Edition store, $79.99",2026-10-15,Shopify products.json title/handle matches
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/418059,BGG reference row,2026-10-15,geekdo API item name matches
+space-agencies,CGE US Store,publisher,https://store.czechgames.com/products/seti-space-agencies,Includes a free Space Agencies promo card,2026-10-15,Shopify products.json title/handle matches
+space-agencies,Czech Games Edition,publisher,https://www.czechgames.com/games/seti-space-agencies,Publisher game page,2026-10-15,page fetched; title matches
+space-agencies,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/445048,BGG reference row,2026-10-15,geekdo API item name matches

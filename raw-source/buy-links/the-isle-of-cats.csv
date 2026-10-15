@@ -1,0 +1,32 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,The City of Games US store,publisher,https://us.thecityofkings.com/products/the-isle-of-cats,"Base game, USD pricing (USA & Canada store)",2026-10-15,Shop product JSON fetched and title matches
+_base,The City of Games UK/worldwide store,publisher,https://shop.thecityofkings.com/products/the-isle-of-cats,"Base game, GBP pricing",2026-10-15,Shop product JSON fetched and title matches
+_base,The City of Games US store (Kickstarter Edition),publisher,https://us.thecityofkings.com/products/the-isle-of-cats-kickstarter-edition-1,Bundle: base game plus the Kickstarter Pack,2026-10-15,Shop product JSON fetched; body lists the bundle contents
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/281259/the-isle-of-cats,BGG reference row,2026-10-15,geekdo API item name matches
+kittens-beasts,The City of Games US store,publisher,https://us.thecityofkings.com/products/kittens-beasts,"Publisher store, USD pricing (USA & Canada store)",2026-10-15,Shop product JSON fetched and title matches
+kittens-beasts,The City of Games UK/worldwide store,publisher,https://shop.thecityofkings.com/products/kittens-beasts,"Publisher store, GBP pricing",2026-10-15,Shop product JSON fetched and title matches
+kittens-beasts,The City of Games product page,publisher,https://thecityofkings.com/games/the-isle-of-cats/kittens-beasts/,Publisher product page,2026-10-15,"Page fetched, HTTP 200, title matches"
+kittens-beasts,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/338020/the-isle-of-cats-kittens-plus-beasts,BGG reference row,2026-10-15,geekdo API item name matches
+boat-pack,The City of Games US store,publisher,https://us.thecityofkings.com/products/boat-pack,"Publisher store, USD pricing (USA & Canada store)",2026-10-15,Shop product JSON fetched and title matches
+boat-pack,The City of Games UK/worldwide store,publisher,https://shop.thecityofkings.com/products/boat-pack,"Publisher store, GBP pricing",2026-10-15,Shop product JSON fetched and title matches
+boat-pack,The City of Games product page,publisher,https://thecityofkings.com/games/the-isle-of-cats/boat-pack/,Publisher product page,2026-10-15,"Page fetched, HTTP 200, title matches"
+boat-pack,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/338021/the-isle-of-cats-boat-pack,BGG reference row,2026-10-15,geekdo API item name matches
+late-arrivals,The City of Games US store,publisher,https://us.thecityofkings.com/products/late-arrivals,"Publisher store, USD pricing (USA & Canada store)",2026-10-15,Shop product JSON fetched and title matches
+late-arrivals,The City of Games UK/worldwide store,publisher,https://shop.thecityofkings.com/products/late-arrivals,"Publisher store, GBP pricing",2026-10-15,Shop product JSON fetched and title matches
+late-arrivals,The City of Games product page,publisher,https://thecityofkings.com/games/the-isle-of-cats/late-arrivals/,Publisher product page,2026-10-15,"Page fetched, HTTP 200, title matches"
+late-arrivals,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/287361/the-isle-of-cats-late-arrivals,BGG reference row,2026-10-15,geekdo API item name matches
+kickstarter-pack,The City of Games US store,publisher,https://us.thecityofkings.com/products/kickstarter-pack,"Publisher store, USD pricing (USA & Canada store); publisher-direct only",2026-10-15,Shop product JSON fetched and title matches
+kickstarter-pack,The City of Games UK/worldwide store,publisher,https://shop.thecityofkings.com/products/kickstarter-pack,"Publisher store, GBP pricing",2026-10-15,Shop product JSON fetched and title matches
+kickstarter-pack,The City of Games product page,publisher,https://thecityofkings.com/games/the-isle-of-cats/kickstarter-pack/,Publisher product page,2026-10-15,"Page fetched, HTTP 200, title matches"
+kickstarter-pack,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/287362/the-isle-of-cats-kickstarter-pack,BGG reference row,2026-10-15,geekdo API item name matches
+kickstarter-pack-2,The City of Games US store,publisher,https://us.thecityofkings.com/products/kickstarter-pack-2,"Publisher store, USD pricing (USA & Canada store); out of stock 2026-10-15",2026-10-15,Shop product JSON fetched and title matches
+kickstarter-pack-2,The City of Games UK/worldwide store,publisher,https://shop.thecityofkings.com/products/kickstarter-pack-2,"Publisher store, GBP pricing",2026-10-15,Shop product JSON fetched and title matches
+kickstarter-pack-2,The City of Games product page,publisher,https://thecityofkings.com/games/the-isle-of-cats/kickstarter-pack-2/,Publisher product page,2026-10-15,"Page fetched, HTTP 200, title matches"
+kickstarter-pack-2,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/338022/the-isle-of-cats-kickstarter-pack-2,BGG reference row,2026-10-15,geekdo API item name matches
+treasure-pack,The City of Games US store,publisher,https://us.thecityofkings.com/products/treasure-pack,"Publisher store, USD pricing (USA & Canada store)",2026-10-15,Shop product JSON fetched and title matches
+treasure-pack,The City of Games UK/worldwide store,publisher,https://shop.thecityofkings.com/products/treasure-pack,"Publisher store, GBP pricing",2026-10-15,Shop product JSON fetched and title matches
+treasure-pack,The City of Games product page,publisher,https://thecityofkings.com/games/the-isle-of-cats/treasure-pack/,Publisher product page,2026-10-15,"Page fetched, HTTP 200, title matches"
+treasure-pack,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/406302/the-isle-of-cats-treasure-pack,BGG reference row,2026-10-15,geekdo API item name matches
+kittens-beasts,The City of Games US store (bundle),publisher,https://us.thecityofkings.com/products/kittens-boats-kickstarter-pack-2,"Bundle of Kittens + Beasts, Boat Pack and Kickstarter Pack 2 (80 USD; out of stock 2026-10-15)",2026-10-15,Shop product JSON fetched; body lists the three items
+boat-pack,The City of Games US store (bundle),publisher,https://us.thecityofkings.com/products/kittens-boats-kickstarter-pack-2,"Bundle of Kittens + Beasts, Boat Pack and Kickstarter Pack 2 (80 USD; out of stock 2026-10-15)",2026-10-15,Shop product JSON fetched; body lists the three items
+kickstarter-pack-2,The City of Games US store (bundle),publisher,https://us.thecityofkings.com/products/kittens-boats-kickstarter-pack-2,"Bundle of Kittens + Beasts, Boat Pack and Kickstarter Pack 2 (80 USD; out of stock 2026-10-15)",2026-10-15,Shop product JSON fetched; body lists the three items

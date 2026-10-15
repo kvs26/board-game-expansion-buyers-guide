@@ -1,0 +1,10 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Libellud,publisher,https://www.libellud.com/game/mysterium/,Publisher page for the Refresh edition (3-7 players),2026-10-15,page fetched; title Mysterium
+_base,Asmodee Store,publisher,https://store.asmodee.com/products/mysterium-2025-refresh,"Mysterium (2025 Refresh), USD 49.99",2026-10-15,products.json title match
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/181304/mysterium,BGG reference row,2026-10-15,geekdo API item 181304 name matches (Mysterium)
+hidden-signs,Amazon,amazon,https://www.amazon.com/dp/B0FSDT2333,Refresh edition (3-7 players),2026-10-15,dp page title: Mysterium - Hidden Signs (Refresh)
+hidden-signs,Libellud,publisher,https://www.libellud.com/game/mysterium-hidden-signs/,Publisher page for the Refresh edition,2026-10-15,page fetched; title Hidden Signs
+hidden-signs,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/192661/mysterium-hidden-signs,BGG reference row,2026-10-15,geekdo API item 192661 name matches (Mysterium: Hidden Signs)
+secrets-and-lies,Asmodee Store,publisher,https://store.asmodee.com/products/mysterium-secrets-lies-refresh,"Refresh edition, USD 24.99",2026-10-15,products.json title match: Mysterium Secrets & Lies Refresh
+secrets-and-lies,Libellud,publisher,https://www.libellud.com/game/secrets-lies/,Publisher page for the Refresh edition,2026-10-15,page fetched; title Secrets & Lies
+secrets-and-lies,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/216465/mysterium-secrets-and-lies,BGG reference row,2026-10-15,geekdo API item 216465 name matches (Mysterium: Secrets & Lies)

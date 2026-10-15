@@ -1,0 +1,8 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Asmodee US store,publisher,https://store.asmodee.com/products/azul,"Azul base game, Next Move edition ($31.99 on 2026-10-15)",2026-10-15,"Shopify products JSON title Azul, SKU NM6010"
+_base,Amazon,amazon,https://www.amazon.com/dp/B077MZ2MPW,Azul base game,2026-10-15,"dp page title ""Azul Mosaic Tile-Placement Strategy Board Game, 2-4 Players"" fetched"
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/230802/azul,BGG reference row,2026-10-15,geekdo API item name matches
+crystal-mosaic,Asmodee US store,publisher,https://store.asmodee.com/products/azul-crystal-mosaic,Azul: Crystal Mosaic ($16.99 on 2026-10-15),2026-10-15,"Shopify products JSON title Azul: Crystal Mosaic, SKU NM6012"
+crystal-mosaic,Amazon,amazon,https://www.amazon.com/dp/B081KW92PK,"Crystal Mosaic expansion, not the base game",2026-10-15,"dp page title ""Asmodee Azul Crystal Mosaic Board Game EXPANSION"" fetched"
+crystal-mosaic,Next Move Games,publisher,https://www.nextmove-games.com/en/azul/editions-speciales-azul/,Publisher special-editions page; lists it as a promotional item that requires Azul,2026-10-15,page text opened
+crystal-mosaic,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/294345/azul-crystal-mosaic,BGG reference row,2026-10-15,geekdo API item name matches

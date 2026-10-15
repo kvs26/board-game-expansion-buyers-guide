@@ -1,0 +1,6 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Amazon,amazon,https://www.amazon.com/dp/B0BPML8599,Ravensburger edition with mini expansion,2026-10-15,curl page title 'Ravensburger The Quest for El Dorado ... Inclusive of Mini Expansion'
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/217372/the-quest-for-el-dorado,BGG reference row,2026-10-15,geekdo API item name matches
+heroes-and-hexes,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/246431/the-quest-for-el-dorado-heroes-and-hexes,BGG reference row,2026-10-15,geekdo API item name matches
+dangers-and-muisca,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/364636/the-quest-for-el-dorado-dangers-and-muisca,BGG reference row,2026-10-15,geekdo API item name matches
+dragons-treasures-and-mysteries,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/377971/the-quest-for-el-dorado-dragons-treasures-and-myst,BGG reference row,2026-10-15,geekdo API item name matches

@@ -1,0 +1,48 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,CMON,publisher,https://www.cmon.com/products/marvel-united/,"Core box, $39.99 MSRP on the page",2026-10-15,Page fetched; title and 1-4 players match
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/298047/marvel-united,BGG reference row,2026-10-15,geekdo API item name matches
+return-of-the-sinister-six,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/303602,BGG reference row,2026-10-15,geekdo API item name matches
+enter-the-spider-verse,CMON,publisher,https://www.cmon.com/products/enter-the-spider-verse/,Publisher product page,2026-10-15,Page fetched; title and contents match
+enter-the-spider-verse,Asmodee US store,publisher,https://store.asmodee.com/products/marvel-united-enter-the-spider-verse,Asmodee US store listing,2026-10-15,Collection JSON fetched; product title matches
+enter-the-spider-verse,Amazon,amazon,https://www.amazon.com/dp/B0BNLN6791,Retail edition,2026-10-15,Amazon /dp page title fetched and matches the product
+enter-the-spider-verse,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/303600,BGG reference row,2026-10-15,geekdo API item name matches
+blue-team,CMON,publisher,https://www.cmon.com/products/blue-team/,Publisher product page,2026-10-15,Page fetched; title and contents match
+blue-team,Asmodee US store,publisher,https://store.asmodee.com/products/marvel-united-x-men-blue-team,Asmodee US store listing,2026-10-15,Collection JSON fetched; product title matches
+blue-team,Amazon,amazon,https://www.amazon.com/dp/B0BNLNP6QK,Retail edition,2026-10-15,Amazon /dp page title fetched and matches the product
+blue-team,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/339129,BGG reference row,2026-10-15,geekdo API item name matches
+days-of-future-past,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/339133,BGG reference row,2026-10-15,geekdo API item name matches
+fantastic-four,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/339134,BGG reference row,2026-10-15,geekdo API item name matches
+infinity-gauntlet,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/303599,BGG reference row,2026-10-15,geekdo API item name matches
+first-class,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/339094,BGG reference row,2026-10-15,geekdo API item name matches
+gold-team,CMON,publisher,https://www.cmon.com/products/gold-team/,Publisher product page,2026-10-15,Page fetched; title and contents match
+gold-team,Asmodee US store,publisher,https://store.asmodee.com/products/marvel-united-x-men-gold-team,Asmodee US store listing,2026-10-15,Collection JSON fetched; product title matches
+gold-team,Amazon,amazon,https://www.amazon.com/dp/B0BNLLQMY5,Retail edition,2026-10-15,Amazon /dp page title fetched and matches the product
+gold-team,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/339128,BGG reference row,2026-10-15,geekdo API item name matches
+guardians-of-the-galaxy-remix,CMON,publisher,https://www.cmon.com/products/guardians-of-the-galaxy-remix/,Publisher product page,2026-10-15,Page fetched; title and contents match
+guardians-of-the-galaxy-remix,Asmodee US store,publisher,https://store.asmodee.com/products/marvel-united-guardians-of-the-galaxy-remix,Asmodee US store listing,2026-10-15,Collection JSON fetched; product title matches
+guardians-of-the-galaxy-remix,Amazon,amazon,https://www.amazon.com/dp/B0BB8ZGF8R,Retail edition,2026-10-15,Amazon /dp page title fetched and matches the product
+guardians-of-the-galaxy-remix,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/302670,BGG reference row,2026-10-15,geekdo API item name matches
+tales-of-asgard,CMON,publisher,https://www.cmon.com/products/tales-of-asgard/,Publisher product page,2026-10-15,Page fetched; title and contents match
+tales-of-asgard,Amazon,amazon,https://www.amazon.com/dp/B0BNLL9H6L,Retail edition,2026-10-15,Amazon /dp page title fetched and matches the product
+tales-of-asgard,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/302668,BGG reference row,2026-10-15,geekdo API item name matches
+deadpool,CMON,publisher,https://www.cmon.com/products/deadpool/,Publisher product page,2026-10-15,Page fetched; title and contents match
+deadpool,Amazon,amazon,https://www.amazon.com/dp/B0BNLMVZW9,Retail edition,2026-10-15,Amazon /dp page title fetched and matches the product
+deadpool,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/339131,BGG reference row,2026-10-15,geekdo API item name matches
+rise-of-the-black-panther,CMON,publisher,https://www.cmon.com/products/rise-of-the-black-panther/,Publisher product page,2026-10-15,Page fetched; title and contents match
+rise-of-the-black-panther,Asmodee US store,publisher,https://store.asmodee.com/products/marvel-united-rise-of-the-black-panther,Asmodee US store listing,2026-10-15,Collection JSON fetched; product title matches
+rise-of-the-black-panther,Amazon,amazon,https://www.amazon.com/dp/B0932L56D6,Retail edition,2026-10-15,Amazon /dp page title fetched and matches the product
+rise-of-the-black-panther,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/302669,BGG reference row,2026-10-15,geekdo API item name matches
+maximum-carnage,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/379881,BGG reference row,2026-10-15,geekdo API item name matches
+world-war-hulk,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/379978,BGG reference row,2026-10-15,geekdo API item name matches
+secret-invasion,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/379757,BGG reference row,2026-10-15,geekdo API item name matches
+coming-of-galactus,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/380000,BGG reference row,2026-10-15,geekdo API item name matches
+civil-war,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/379755,BGG reference row,2026-10-15,geekdo API item name matches
+age-of-apocalypse,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/379765,BGG reference row,2026-10-15,geekdo API item name matches
+horsemen-of-apocalypse,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/339100,BGG reference row,2026-10-15,geekdo API item name matches
+war-of-kings,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/379763,BGG reference row,2026-10-15,geekdo API item name matches
+annihilation,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/379766,BGG reference row,2026-10-15,geekdo API item name matches
+x-force,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/339132,BGG reference row,2026-10-15,geekdo API item name matches
+phoenix-five,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/339130,BGG reference row,2026-10-15,geekdo API item name matches
+civil-war,Asmodee USA,publisher,https://store.asmodee.com/products/marvel-united-civil-war,"Retail edition, $44.99 on store page",2026-10-15,products/marvel-united-civil-war.json title 'Marvel United: Civil War' SKU MUN017
+maximum-carnage,Amazon,amazon,https://www.amazon.com/dp/B0D5SGPMLQ,Retail edition,2026-10-15,/dp page title 'CMON Marvel United: Maximum Carnage Expansion'
+coming-of-galactus,CMON,publisher,https://www.cmon.com/products/marvel-united-fantastic-four-the-coming-of-galactus/,"Publisher info page; Kickstarter Exclusive, no shop link",2026-10-15,page title 'Marvel United: Fantastic Four - The Coming of Galactus'

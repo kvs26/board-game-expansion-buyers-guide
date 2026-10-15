@@ -1,0 +1,11 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,WizKids shop (Ultimate Edition),publisher,https://shop.wizkids.com/products/mage-knight-board-game-ultimate-edition-online-store,"Ultimate Edition: base game plus Lost Legion, Krang and Shades of Tezla",2026-10-15,Shop product JSON fetched and title matches
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/96848/mage-knight-board-game,BGG reference row,2026-10-15,geekdo API item name matches
+the-lost-legion,WizKids shop,publisher,https://shop.wizkids.com/products/mage-knight-board-game-ultimate-edition-online-store,"Ultimate Edition (includes Lost Legion, Krang and Shades of Tezla)",2026-10-15,Shop product JSON fetched and title matches
+the-lost-legion,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/130704/mage-knight-board-game-the-lost-legion-expansion,BGG reference row,2026-10-15,geekdo API item name matches
+krang-character-expansion,WizKids shop,publisher,https://shop.wizkids.com/products/mage-knight-board-game-krang-character-expansion,WizKids shop,2026-10-15,Shop product JSON fetched and title matches
+krang-character-expansion,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/144763/mage-knight-board-game-krang-character-expansion,BGG reference row,2026-10-15,geekdo API item name matches
+shades-of-tezla,WizKids shop,publisher,https://shop.wizkids.com/products/mage-knight-shades-of-tezla-expansion-set,WizKids shop,2026-10-15,Shop product JSON fetched and title matches
+shades-of-tezla,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/176130/mage-knight-board-game-shades-of-tezla-expansion,BGG reference row,2026-10-15,geekdo API item name matches
+the-apocalypse-dragon,WizKids shop,publisher,https://shop.wizkids.com/products/mage-knight-the-apocalypse-dragon-expansion-set,WizKids shop,2026-10-15,Shop product JSON fetched and title matches
+the-apocalypse-dragon,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/416403/mage-knight-the-apocalypse-dragon,BGG reference row,2026-10-15,geekdo API item name matches

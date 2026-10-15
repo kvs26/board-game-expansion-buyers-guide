@@ -1,0 +1,7 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Inside Up Games,publisher,https://insideupgames.com/product/earth-board-game/,"Publisher shop, USD 50.00",2026-10-15,page fetched; title Earth - Inside Up Games
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/350184/earth,BGG reference row,2026-10-15,geekdo API item 350184 name matches (Earth)
+abundance,Inside Up Games,publisher,https://insideupgames.com/product/earth-abundance/,"Publisher shop, USD 35.00",2026-10-15,page fetched; title Earth - Abundance - Inside Up Games
+abundance,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/414734/earth-abundance,BGG reference row,2026-10-15,geekdo API item 414734 name matches (Earth: Abundance)
+animal-kingdom,Inside Up Games,publisher,https://insideupgames.com/product/earth-animal-kingdom/,"Publisher shop, USD 36.99",2026-10-15,page fetched; title Earth: Animal Kingdom - Inside Up Games
+animal-kingdom,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/442298/earth-animal-kingdom,BGG reference row,2026-10-15,geekdo API item 442298 name matches (Earth: Animal Kingdom)

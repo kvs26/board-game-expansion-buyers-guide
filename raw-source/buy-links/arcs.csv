@@ -1,0 +1,15 @@
+target,store,kind,url,edition_note,checked_on,how_verified
+_base,Buried Giant Shop,publisher,https://buriedgiant.shop/products/arcs,"Sold as Arcs: Conflict & Collapse in The Reach, Buried Giant retail edition, $59.99",2026-10-15,Shopify products.json title/handle matches
+_base,BoardGameGeek,retailer,https://boardgamegeek.com/boardgame/359871,BGG reference row,2026-10-15,geekdo API item name matches
+blighted-reach,Buried Giant Shop,publisher,https://buriedgiant.shop/products/arcs-the-blighted-reach-campaign-expansion,First printing; errata pack sold separately,2026-10-15,Shopify products.json title/handle matches
+blighted-reach,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/363757,BGG reference row,2026-10-15,geekdo API item name matches
+leaders-and-lore,Buried Giant Shop,publisher,https://buriedgiant.shop/products/arcs-leader-and-lore,8 Leader cards and 14 Lore cards,2026-10-15,Shopify products.json title/handle matches
+leaders-and-lore,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/419279,BGG reference row,2026-10-15,geekdo API item name matches
+lost-vaults-fated-leaders,Buried Giant Shop,publisher,https://buriedgiant.shop/products/arcs-lost-vaults-fated-leaders-expansion-preorder-q3-2028,"Preorder page, not yet released",2026-10-15,Shopify products.json title/handle matches
+lost-vaults-fated-leaders,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/468034,BGG reference row,2026-10-15,geekdo API item name matches
+beyond-the-reach,Buried Giant Shop,publisher,https://buriedgiant.shop/products/arcs-beyond-the-reach-campaign-expansion-preorder-q3-2028,"Preorder page, not yet released",2026-10-15,Shopify products.json title/handle matches
+beyond-the-reach,BackerKit,retailer,https://arcs-beyond-the-reach.backerkit.com/hosted_preorders/project_updates,Crowdfunding project updates page,2026-10-15,page text read; project name matches
+beyond-the-reach,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/468035,BGG reference row,2026-10-15,geekdo API item name matches
+halls-of-power,Buried Giant Shop,publisher,https://buriedgiant.shop/products/arcs-halls-of-power-campaign-expansion-preorder-q3-2028,"Preorder page, not yet released",2026-10-15,Shopify products.json title/handle matches
+halls-of-power,BackerKit,retailer,https://arcs-beyond-the-reach.backerkit.com/hosted_preorders/project_updates,Crowdfunding project updates page,2026-10-15,page text read; project name matches
+halls-of-power,BoardGameGeek,retailer,https://boardgamegeek.com/boardgameexpansion/468037,BGG reference row,2026-10-15,geekdo API item name matches
