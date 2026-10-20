@@ -58,6 +58,54 @@ test('phone layout: hub sub-nav jumps only to sections on the page; filter pill 
   }
 });
 
+test('phone home: the A-Z bar jumps to the first game of every initial', { skip: !built && 'run npm run build first' }, () => {
+  const html = page('index.html');
+  const bar = html.match(/<nav[^>]*class="az-bar"[\s\S]*?<\/nav>/)?.[0];
+  assert.ok(bar, 'no A-Z bar');
+  const targets = [...bar.matchAll(/href="#(games-[^"]+)"/g)].map((m) => m[1]);
+  const initial = (name) => (/[a-z]/i.test(name[0]) ? name[0].toUpperCase() : '#');
+  const letters = [...new Set(catalog.games.map((g) => initial(g.name)))].sort();
+  assert.deepEqual(targets.map((t) => decodeURIComponent(t.slice(6)).replace('0-9', '#')).sort(), letters);
+  for (const t of targets) assert.match(html, new RegExp(`<li data-game-item[^>]*id="${t}"`), `${t} has no game`);
+});
+
+test('phone folds: every FAQ question folds; detail pages open on our take', { skip: !built && 'run npm run build first' }, () => {
+  const faq = page('faq/index.html').match(/<article[\s\S]*?<\/article>/)[0];
+  const questions = faq.match(/<h2[^>]*>/g).length;
+  assert.equal(faq.match(/<section[^>]*data-fold/g)?.length, questions);
+  const detail = page('catan/seafarers/index.html');
+  assert.match(detail, /<div data-fold="open"><dt>Our take<\/dt>/);
+  assert.ok(detail.match(/<div data-fold><dt>/g)?.length >= 2, 'detail facts do not fold');
+  // Quick facts fold too, so "Our take" sits right under the buy box on phones
+  assert.match(detail, /<aside[^>]*>\s*<div data-fold>\s*<h2[^>]*>Quick facts<\/h2>/);
+});
+
+test('phone compare: every cell is labelled with its expansion', { skip: !built && 'run npm run build first' }, () => {
+  const html = page('compare/catan/cities-knights-vs-traders-barbarians/index.html');
+  const names = [...html.match(/<thead[^>]*>[\s\S]*?<\/thead>/)[0].matchAll(/<th scope="col"[^>]*>([^<]+)<\/th>/g)].map((m) => m[1]);
+  // Stacked rows use display:block, which drops native table semantics; explicit roles keep them
+  assert.match(html, /<table class="compare-table" role="table">/);
+  for (const tag of ['thead', 'tbody']) assert.match(html, new RegExp(`<${tag} role="rowgroup">`));
+  assert.ok(!/<tr>/.test(html), 'rows need role="row"');
+  assert.ok(!/<td(?![^>]*role="cell")[^>]*>/.test(html), 'cells need role="cell"');
+  assert.ok(!/<th scope="row"(?![^>]*role="rowheader")/.test(html), 'row headers need role="rowheader"');
+  assert.equal(names.length, 2);
+  const cells = [...html.matchAll(/<td([^>]*)>/g)].map((m) => m[1]);
+  assert.ok(cells.length > 0);
+  cells.forEach((attrs, i) => assert.ok(attrs.includes(`data-label="${names[i % 2]}"`), `cell ${i}: ${attrs}`));
+});
+
+test('phone header: the menu button opens the primary nav on every page type', { skip: !built && 'run npm run build first' }, () => {
+  for (const p of ['index.html', 'catan/expansions/index.html', 'catan/seafarers/index.html', 'faq/index.html', 'about/index.html', '404.html']) {
+    const html = page(p);
+    const btn = html.match(/<button[^>]*data-menu-toggle[^>]*>/)?.[0];
+    assert.ok(btn, `${p}: no menu button`);
+    assert.match(btn, /aria-controls="site-nav"/, `${p}: menu button not wired`);
+    assert.match(btn, /aria-expanded="false"/, `${p}: menu should start closed`);
+    assert.match(html, /<nav[^>]*id="site-nav"/, `${p}: nav has no id`);
+  }
+});
+
 for (const g of catalog.games) {
   test(`built pages for ${g.slug}`, { skip: !built && 'run npm run build first' }, () => {
     const exps = catalog.expansions.filter((e) => e.game === g.slug);

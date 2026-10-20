@@ -23,7 +23,8 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
     </a>
 
     <div class="header-actions">
-      <nav class="site-nav" aria-label="Primary">
+      <button type="button" class="menu-toggle" data-menu-toggle aria-controls="site-nav" aria-expanded="false">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
         {SITE.nav.map((item) => {
           const href = item.href.replace(/\/$/, '') || '/';
           const current = href === path ? 'page' : undefined;
@@ -41,3 +42,22 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
     </div>
   </div>
 </header>
+
+<script>
+  // Phones (≤767px, see base.css): the nav is a drop-down behind the Menu button.
+  const header = document.querySelector<HTMLElement>('.site-header');
+  const menuBtn = header?.querySelector<HTMLButtonElement>('[data-menu-toggle]');
+  if (header && menuBtn) {
+    const setMenu = (open: boolean) => {
+      header.classList.toggle('is-menu-open', open);
+      menuBtn.setAttribute('aria-expanded', String(open));
+    };
+    menuBtn.addEventListener('click', () => setMenu(menuBtn.getAttribute('aria-expanded') !== 'true'));
+    document.addEventListener('keydown', (ev) => {
+      if (ev.key === 'Escape' && header.classList.contains('is-menu-open')) { setMenu(false); menuBtn.focus(); }
+    });
+    document.addEventListener('click', (ev) => {
+      if (header.classList.contains('is-menu-open') && !header.contains(ev.target as Node)) setMenu(false);
+    });
+  }
+</script>

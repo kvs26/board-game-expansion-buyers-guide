@@ -122,7 +122,7 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
         <p class="small muted" style="margin:var(--space-3) 0 0" data-copy-status aria-live="polite">Saved on this device only. No account.</p>
       </aside>
 
-      <div>
+      <div class="tool-main">
         <h2 class="visually-hidden">Buy order</h2>
         <p class="track-status visually-hidden" data-status aria-live="polite">
           {top ? <>Start with <a href={`/${game.slug}/${top.slug}/`}>{top.name}</a>.</> : 'We haven’t ranked these yet.'}
@@ -261,6 +261,7 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
 
 <script>
   import { rankNext, statusFor, parseState, serializeState, STYLES } from '../../../lib/guide.mjs';
+  import { phoneFolds } from '../../../lib/phone-folds.mjs';
 
   const root = document.querySelector('[data-guide]');
   const data = JSON.parse(document.getElementById('guide-data').textContent);
@@ -389,43 +390,13 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
     else if (!ev.shiftKey && document.activeElement === last) { ev.preventDefault(); first.focus(); }
   });
 
-  const folds = [...hub.querySelectorAll('[data-fold]')];
-  function setFold(fold: Element, open: boolean) {
-    fold.classList.toggle('is-open', open);
-    fold.querySelector('.fold-toggle')?.setAttribute('aria-expanded', String(open));
-  }
-  // Heading buttons exist only on phones so laptop keyboard users get no dead tab stops.
+  const { openFor: openFoldFor } = phoneFolds(hub, phone);
   function applyLayout() {
-    for (const fold of folds) {
-      const h = fold.querySelector('h2')!;
-      const btn = h.querySelector('.fold-toggle');
-      if (phone.matches && !btn) {
-        const b = document.createElement('button');
-        b.type = 'button';
-        b.className = 'fold-toggle';
-        b.setAttribute('aria-expanded', String(fold.classList.contains('is-open')));
-        b.append(...h.childNodes);
-        h.append(b);
-      } else if (!phone.matches && btn) {
-        h.replaceChildren(...btn.childNodes);
-        setFold(fold, false);
-      }
-    }
     if (!phone.matches) {
       for (const step of steps.values()) setRow(step, false);
       if (shelf.classList.contains('is-open')) setSheet(false);
     }
   }
-  hub.addEventListener('click', (ev) => {
-    const fold = (ev.target as Element).closest('.fold-toggle')?.closest('[data-fold]');
-    if (fold) setFold(fold, !fold.classList.contains('is-open'));
-  });
-  function openFoldFor(hash: string) {
-    const target = hash.length > 1 && document.getElementById(decodeURIComponent(hash.slice(1)));
-    const fold = target && target.closest('[data-fold]');
-    if (fold && phone.matches) setFold(fold, true);
-  }
-  window.addEventListener('hashchange', () => openFoldFor(location.hash));
   hub.querySelector('.hub-nav')!.addEventListener('click', (ev) => {
     const a = (ev.target as Element).closest('a[href^="#"]');
     if (a) openFoldFor(a.getAttribute('href')!);
@@ -445,7 +416,6 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
 
   applyLayout();
   fitLead();
-  openFoldFor(location.hash);
   phone.addEventListener('change', applyLayout);
   window.addEventListener('resize', fitLead);
 </script>

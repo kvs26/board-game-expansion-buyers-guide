@@ -43,10 +43,10 @@ const sources = [...new Set([...(e.sources.verdict || []), ...(e.sources.facts |
     <div class="detail">
       <article class="token pad">
         <dl>
-          {e.reason && <div><dt>Our take</dt><dd>{e.reason}</dd></div>}
-          {e.adds && <div><dt>What it adds</dt><dd>{e.adds}</dd></div>}
-          {e.fixes && <div><dt>What it fixes</dt><dd>{e.fixes}</dd></div>}
-          <div>
+          {e.reason && <div data-fold="open"><dt>Our take</dt><dd>{e.reason}</dd></div>}
+          {e.adds && <div data-fold><dt>What it adds</dt><dd>{e.adds}</dd></div>}
+          {e.fixes && <div data-fold><dt>What it fixes</dt><dd>{e.fixes}</dd></div>}
+          <div data-fold>
             <dt>What you need first</dt>
             <dd>
               <ol class="chain">
@@ -57,27 +57,29 @@ const sources = [...new Set([...(e.sources.verdict || []), ...(e.sources.facts |
               {e.prerequisiteRule && <p class="small muted" style="margin:var(--space-2) 0 0">{e.prerequisiteRule}</p>}
             </dd>
           </div>
-          {!e.verdict && <div><dt>Why no verdict?</dt><dd>We couldn’t find enough solid reviews to rank this one yet. The facts above are from the sources below.</dd></div>}
+          {!e.verdict && <div data-fold={e.reason ? '' : 'open'}><dt>Why no verdict?</dt><dd>We couldn’t find enough solid reviews to rank this one yet. The facts above are from the sources below.</dd></div>}
         </dl>
       </article>
 
       <aside class="token pad">
-        <h2 style="font-size:1.1rem">Quick facts</h2>
-        <ul style="list-style:none;padding:0;margin:0;display:grid;gap:.5rem">
-          {e.publisher && <li><strong>Publisher:</strong> {e.publisher}</li>}
-          {e.releaseYear && <li><strong>Released:</strong> {e.releaseYear}</li>}
-          {players && <li><strong>Players:</strong> {players}</li>}
-          {complexityText(e.complexity) && <li><strong>Rules:</strong> {complexityText(e.complexity)}</li>}
-          {styleText(e.groupStyle) && <li><strong>Group:</strong> {styleText(e.groupStyle)}</li>}
-          {price && <li><strong>Price:</strong> {priceBand(e)} <span class="muted small">({e.priceKind === 'msrp' ? 'list price' : 'publisher price'} {price}; prices change)</span></li>}
-        </ul>
+        <div data-fold>
+          <h2 style="font-size:1.1rem">Quick facts</h2>
+          <ul class="quick-facts">
+            {e.publisher && <li><strong>Publisher:</strong> {e.publisher}</li>}
+            {e.releaseYear && <li><strong>Released:</strong> {e.releaseYear}</li>}
+            {players && <li><strong>Players:</strong> {players}</li>}
+            {complexityText(e.complexity) && <li><strong>Rules:</strong> {complexityText(e.complexity)}</li>}
+            {styleText(e.groupStyle) && <li><strong>Group:</strong> {styleText(e.groupStyle)}</li>}
+            {price && <li><strong>Price:</strong> {priceBand(e)} <span class="muted small">({e.priceKind === 'msrp' ? 'list price' : 'publisher price'} {price}; prices change)</span></li>}
+          </ul>
+        </div>
         <BuyLinks links={e.buyLinks} />
         <p style="margin-top:var(--space-4)"><a class="btn btn--sm" href={`/${game.slug}/expansions/`}>See the full {game.name} buy order</a></p>
       </aside>
     </div>
 
     {pairs.length > 0 && (
-      <section class="section">
+      <section class="section" data-fold>
         <h2>Compare it</h2>
         <ul class="later-list">
           {pairs.map(([a, b]) => <li><a href={`/compare/${game.slug}/${a.slug}-vs-${b.slug}/`}>{a.name} vs {b.name}</a></li>)}
@@ -85,7 +87,7 @@ const sources = [...new Set([...(e.sources.verdict || []), ...(e.sources.facts |
       </section>
     )}
 
-    <section class="section prose">
+    <section class="section prose" data-fold>
       <h2>Sources</h2>
       <ul class="small">
         {sources.map((s) => <li><a href={s} rel="nofollow noopener" target="_blank">{hostOf(s)}<span class="visually-hidden"> (opens in a new tab)</span></a></li>)}
@@ -94,3 +96,8 @@ const sources = [...new Set([...(e.sources.verdict || []), ...(e.sources.facts |
     </section>
   </section>
 </Layout>
+
+<script>
+  import { phoneFolds } from '../../lib/phone-folds.mjs';
+  phoneFolds(document);
+</script>

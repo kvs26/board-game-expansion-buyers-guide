@@ -22,11 +22,16 @@ const faqs = [
   <article class="container prose page-head">
     <h1>Questions</h1>
     {faqs.map(([q, a]) => (
-      <section>
-        <h2 style="font-size:1.2rem">{q}</h2>
+      <section data-fold>
+        <h2 class="faq-q">{q}</h2>
         <p>{a}</p>
       </section>
     ))}
     <p>Something else? <a href="/contact">Ask us</a>.</p>
   </article>
 </Layout>
+
+<script>
+  import { phoneFolds } from '../lib/phone-folds.mjs';
+  phoneFolds(document);
+</script>

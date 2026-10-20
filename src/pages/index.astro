@@ -12,6 +12,12 @@ const searchData = games.map((g) => searchEntry(g, expansionsFor(g.slug)));
 const description =
   'Pick the board game you own, tick the expansions you already have, and see which one to buy next — in plain English, with what you need first.';
 const total = games.reduce((n, g) => n + expansionsFor(g.slug).length, 0);
+// Phone A–Z bar: games are sorted by name, so the first game of each initial starts its group.
+const initialOf = (name: string) => (/[a-z]/i.test(name[0]) ? name[0].toUpperCase() : '#');
+const azId = (initial: string) => `games-${initial === '#' ? '0-9' : initial}`;
+const firstSlugByInitial = new Map<string, string>();
+for (const g of games) if (!firstSlugByInitial.has(initialOf(g.name))) firstSlugByInitial.set(initialOf(g.name), g.slug);
+const initialBySlug = new Map([...firstSlugByInitial].map(([initial, slug]) => [slug, initial]));
 ---
 <Layout
   title="Which board game expansion should I buy next?"
@@ -36,9 +42,14 @@ const total = games.reduce((n, g) => n + expansionsFor(g.slug).length, 0);
       <input id="game-q" type="search" name="q" autocomplete="off" placeholder="Try “Seafarers” or “Wingspan”" />
       <p class="small muted" data-search-status aria-live="polite"></p>
     </form>
+    <nav class="az-bar" aria-label="Games A to Z">
+      {[...firstSlugByInitial.keys()].map((initial) => <a href={`#${azId(initial)}`}>{initial}</a>)}
+    </nav>
     <ul class="game-grid" style="list-style:none;padding:0">
-      {games.map((g) => (
-        <li data-game-item data-slug={g.slug}>
+      {games.map((g) => {
+        const initial = initialBySlug.get(g.slug);
+        return (
+        <li data-game-item data-slug={g.slug} id={initial && azId(initial)} data-letter={initial}>
           <a class="game-box token" href={`/${g.slug}/expansions/`}>
             <GameBox slug={g.slug} />
             <span>
@@ -48,7 +59,8 @@ const total = games.reduce((n, g) => n + expansionsFor(g.slug).length, 0);
             </span>
           </a>
         </li>
-      ))}
+        );
+      })}
     </ul>
     <p class="muted small" style="margin-top:var(--space-5)">Don’t see your game? <a href="/contact">Tell us</a> — we add games in the order people ask.</p>
     <script type="application/json" id="game-search-data" set:html={JSON.stringify(searchData).replace(/</g, '\\u003c')} />
@@ -83,6 +95,8 @@ const total = games.reduce((n, g) => n + expansionsFor(g.slug).length, 0);
 
     const render = () => {
       const q = input.value.trim();
+      // Letter groups only make sense for the full A–Z list
+      form.parentElement!.classList.toggle('is-searching', !!q);
       let shown = 0;
       for (const entry of entries) {
         const li = items.get(entry.slug);

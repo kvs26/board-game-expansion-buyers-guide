@@ -56,16 +56,16 @@ const crumbs = [{ name: 'Games', href: '/' }, { name: `${game.name} expansions`,
       )}
     </div>
     <div class="table-wrap">
-      <table class="compare-table">
-        <thead><tr><th scope="col"><span class="visually-hidden">Question</span></th><th scope="col">{a.name}</th><th scope="col">{b.name}</th></tr></thead>
-        <tbody>
+      <table class="compare-table" role="table">
+        <thead role="rowgroup"><tr role="row"><th scope="col" role="columnheader"><span class="visually-hidden">Question</span></th><th scope="col" role="columnheader">{a.name}</th><th scope="col" role="columnheader">{b.name}</th></tr></thead>
+        <tbody role="rowgroup">
           {rows.map(([label, fn]) => (
-            <tr>
-              <th scope="row">{label}</th>
-              {[a, b].map((e) => <td>{label === 'Our label' ? <Verdict verdict={e.verdict} /> : fn(e)}</td>)}
+            <tr role="row">
+              <th scope="row" role="rowheader">{label}</th>
+              {[a, b].map((e) => <td role="cell" data-label={e.name}>{label === 'Our label' ? <Verdict verdict={e.verdict} /> : fn(e)}</td>)}
             </tr>
           ))}
-          <tr><th scope="row">More</th>{[a, b].map((e) => <td><a href={`/${game.slug}/${e.slug}/`}>{e.name} details</a></td>)}</tr>
+          <tr role="row"><th scope="row" role="rowheader">More</th>{[a, b].map((e) => <td role="cell" data-label={e.name}><a href={`/${game.slug}/${e.slug}/`}>{e.name} details</a></td>)}</tr>
         </tbody>
       </table>
     </div>
