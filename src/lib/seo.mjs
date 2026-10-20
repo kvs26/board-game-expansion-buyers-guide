@@ -1,7 +1,8 @@
 /**
  * seo.mjs — reusable JSON-LD + meta builders (research/03-seo-baseline.md).
- * FAQPage JSON-LD intentionally omitted (Google deprecated the rich result,
- * May 2026). Product omitted (site is non-transactional).
+ * FAQPage JSON-LD is emitted on game hubs only: Google deprecated the rich
+ * result (May 2026) but the markup is still valid and read by other engines.
+ * Product omitted (site is non-transactional).
  */
 import { SITE, absUrl } from './site.config.mjs';
 
@@ -71,6 +72,18 @@ export function itemListLd(items = []) {
       position: i + 1,
       url: absUrl(it.url),
       ...(it.name ? { name: it.name } : {}),
+    })),
+  };
+}
+
+/** FAQPage — items: [{ q, a }]. */
+export function faqPageLd(items = []) {
+  return {
+    '@type': 'FAQPage',
+    mainEntity: items.map((it) => ({
+      '@type': 'Question',
+      name: it.q,
+      acceptedAnswer: { '@type': 'Answer', text: it.a },
     })),
   };
 }

@@ -123,6 +123,10 @@ export function serializeState({ owned = [], players = null, style = null }) {
   return parts.join('&');
 }
 
+/** Games whose compare pages earn impressions get a wider (top 5) set of pairs. */
+export const WIDE_COMPARE = new Set(['spirit-island', 'catan', 'dune-imperium', 'wingspan', 'viticulture']);
+export const compareTop = (gameSlug) => (WIDE_COMPARE.has(gameSlug) ? 5 : 4);
+
 /** Head-to-head pairs among the top `top` rated expansions (skips pairs where one needs the other). */
 export function comparePairs(expansions, top = 4) {
   const rated = rankedOf(expansions).slice(0, top);

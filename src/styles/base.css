@@ -345,3 +345,19 @@ select.chip {
   .game-search p { min-height: 0; }
   .site-header .brand { font-size: 1rem; }
 }
+
+/* Compact lower-hub sections */
+.fold { border: 1.5px solid var(--kraft-deep); border-radius: var(--radius); background: var(--face); padding: 0 var(--space-4); margin-top: var(--space-4); }
+.fold > summary { cursor: pointer; list-style: none; padding: var(--space-3) 0; }
+.fold > summary::-webkit-details-marker { display: none; }
+.fold > summary::after { content: '+'; float: right; font-weight: 700; }
+.fold[open] > summary::after { content: '\2212'; }
+.fold > summary h2 { display: inline; font-size: var(--step-0, 1.05rem); margin: 0; }
+.fold[open] { padding-bottom: var(--space-4); }
+.mini-h { font-size: var(--step-0, 1.05rem); margin: 0 0 var(--space-2); }
+.chips { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: var(--space-2); }
+.chips a { display: inline-block; padding: var(--space-1) var(--space-3); border: 1.5px solid var(--kraft-deep); border-radius: 999px; background: var(--face); text-decoration: none; font-size: 0.92rem; }
+.faq-list details { border-top: 1px solid var(--kraft-deep); padding: var(--space-2) 0; }
+.faq-list details:last-child { border-bottom: 1px solid var(--kraft-deep); }
+.faq-list summary { cursor: pointer; font-weight: 600; }
+.faq-list p { margin: var(--space-2) 0 0; }

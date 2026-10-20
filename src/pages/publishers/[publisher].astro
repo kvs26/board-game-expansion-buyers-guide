@@ -1,0 +1,30 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { games, expansionsFor } from '../../lib/catalog.mjs';
+import { publisherGroups } from '../../lib/related.mjs';
+import { breadcrumbLd, itemListLd } from '../../lib/seo.mjs';
+
+export function getStaticPaths() {
+  return publisherGroups(games).map((p) => ({ params: { publisher: p.slug }, props: { p } }));
+}
+const { p } = Astro.props;
+const path = `/publishers/${p.slug}/`;
+const title = `${p.name} board game expansions: buying guides`;
+const description = `Which expansion to buy next for every ${p.name} game we cover: ${p.games.map((g) => g.name).join(', ')}.`;
+const crumbs = [{ name: 'Games', href: '/' }, { name: `${p.name} games` }];
+---
+<Layout title={title} description={description} path={path} jsonLdNodes={[breadcrumbLd(crumbs), itemListLd(p.games.map((g) => ({ url: `/${g.slug}/expansions/`, name: `${g.name} expansions` })))]}>
+  <Breadcrumbs items={crumbs} />
+  <section class="container">
+    <div class="page-head">
+      <h1>{p.name} games</h1>
+      <p class="lead">Pick a game to see which expansion to buy next.</p>
+    </div>
+    <ul class="later-list">
+      {p.games.map((g) => (
+        <li><a href={`/${g.slug}/expansions/`}><strong>{g.name} expansions</strong></a> — {expansionsFor(g.slug).length} checked</li>
+      ))}
+    </ul>
+  </section>
+</Layout>

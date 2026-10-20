@@ -5,11 +5,14 @@ import GameBox from '../../../components/GameBox.astro';
 import Verdict from '../../../components/Verdict.astro';
 import BuyLinks from '../../../components/BuyLinks.astro';
 import { games, expansionsFor, TYPE_LABELS, complexityText, styleText } from '../../../lib/catalog.mjs';
-import { rankNext, prereqChain, comparePairs, playersText, priceBand, VERDICTS, STYLES } from '../../../lib/guide.mjs';
+import { rankNext, prereqChain, comparePairs, compareTop, playersText, priceBand, VERDICTS, STYLES } from '../../../lib/guide.mjs';
+import { relatedGames, hubFaqs, publisherGroups, publisherSlug } from '../../../lib/related.mjs';
 import summaries from '../../../data/listing-summaries.json';
 import { SITE } from '../../../lib/site.config.mjs';
 import { WATCH_OUT } from '../../../lib/game-art.mjs';
-import { webApplicationLd, breadcrumbLd, itemListLd } from '../../../lib/seo.mjs';
+import { hubTitle, hubDescription, hubModifiedLd, hubIntro } from '../../../lib/hub-seo.mjs';
+import editorial from '../../../data/editorial.json';
+import { webApplicationLd, breadcrumbLd, itemListLd, faqPageLd } from '../../../lib/seo.mjs';
 
 export function getStaticPaths() {
   return games.map((game) => ({ params: { game: game.slug }, props: { game } }));
@@ -19,14 +22,17 @@ const { game } = Astro.props;
 const brief = (e, key) => (summaries[`${game.slug}/${e.slug}`] || {})[key] || e[key];
 const all = expansionsFor(game.slug);
 const { next, unrated } = rankNext(all);
-const pairs = comparePairs(all);
+const pairs = comparePairs(all, compareTop(game.slug));
+const faqs = hubFaqs(game, all);
+const related = relatedGames(game, games);
+const pubHub = publisherGroups(games).find((p) => p.name === game.publisher);
 const watch = WATCH_OUT[game.slug] || [];
 const path = `/${game.slug}/expansions/`;
-const title = `Which ${game.name} expansion should I buy next?`;
 const top = next[0];
-const description = top
-  ? `${game.name} expansions in the order to buy them. Start with ${top.name}. Tick what you own and the list updates — with what each box needs first.`
-  : `Every ${game.name} expansion, what it adds, and what you need first.`;
+const title = hubTitle(game.name);
+const description = hubDescription(game.name, top?.name);
+const intro = hubIntro(game, all);
+const introText = editorial[game.slug] || intro.slice(0, 2).join(' ') || game.oneLine;
 const crumbs = [{ name: 'Games', href: '/' }, { name: `${game.name} expansions` }];
 
 // Minimal data for the browser island.
@@ -44,7 +50,9 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
   jsonLdNodes={[
     webApplicationLd({ name: `${game.name} expansion buying guide`, description, url: path }),
     breadcrumbLd(crumbs),
+    hubModifiedLd(game.checkedOn, path),
     itemListLd(next.map((e) => ({ url: `/${game.slug}/${e.slug}/`, name: e.name }))),
+    faqs.length ? faqPageLd(faqs) : null,
   ]}
 >
   <Breadcrumbs items={crumbs} />
@@ -52,8 +60,8 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
     <div class="game-head">
       <GameBox slug={game.slug} size="lg" />
       <div>
-        <h1>Which {game.name} expansion should you buy next?</h1>
-        <p class="lead" style="margin:0">{game.oneLine}</p>
+        <h1>{game.name} Expansions Ranked: Which to Buy First</h1>
+        <p class="lead" style="margin:0" data-hub-intro>{introText}</p>
         <div class="facts">
           {game.minPlayers && <span class="pill">Base game: {game.minPlayers}–{game.maxPlayers} players</span>}
           {game.playTime && <span class="pill">{game.playTime}</span>}
@@ -106,9 +114,14 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
 
       <div>
         <h2 class="visually-hidden">Buy order</h2>
-        <p class="track-status" data-status aria-live="polite">
+        <p class="track-status visually-hidden" data-status aria-live="polite">
           {top ? <>Start with <a href={`/${game.slug}/${top.slug}/`}>{top.name}</a>.</> : 'We haven’t ranked these yet.'}
         </p>
+        {pairs.length > 0 && (
+          <p class="small" style="margin:0 0 var(--space-3)">
+            Stuck between two? <a href={`/compare/${game.slug}/${pairs[0][0].slug}-vs-${pairs[0][1].slug}/`}>{pairs[0][0].name} vs {pairs[0][1].name}</a> — or <a href="#cmp-h">see all {pairs.length} comparisons</a>.
+          </p>
+        )}
         <ol class="track" data-track>
           {next.map((e) => {
             const tone = VERDICTS[e.verdict].tone;
@@ -155,6 +168,34 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
         </div>
         <p class="muted small hidden-note" data-hidden-note hidden></p>
 
+        {next.length > 0 && (
+          <details class="fold section">
+            <summary><h2 id="tbl-h">{game.name} expansions ranked at a glance</h2></summary>
+            <div style="overflow-x:auto">
+              <table data-ranked-table>
+                <thead>
+                  <tr><th scope="col">Rank</th><th scope="col">Expansion</th><th scope="col">Adds</th><th scope="col">Needs</th><th scope="col">Price / buy</th></tr>
+                </thead>
+                <tbody>
+                  {next.map((e) => {
+                    const chain = prereqChain(e, all);
+                    const price = priceBand(e);
+                    return (
+                      <tr>
+                        <td>{e.rank}</td>
+                        <th scope="row"><a href={`/${game.slug}/${e.slug}/`}>{e.name}</a></th>
+                        <td>{brief(e, 'adds')}</td>
+                        <td>{chain.length ? `${chain.map((c) => c.name).join(' and ')} first` : (e.listNote || 'Base game only')}</td>
+                        <td>{price && <>{price} · </>}<BuyLinks links={e.buyLinks} compact name={e.name} moreHref={`/${game.slug}/${e.slug}/#buy`} /></td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          </details>
+        )}
+
         {watch.length > 0 && (
           <section class="token pad gotcha section" aria-labelledby="watch-h">
             <h2 id="watch-h">Check before you buy</h2>
@@ -164,8 +205,8 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
 
         {pairs.length > 0 && (
           <section class="section" aria-labelledby="cmp-h">
-            <h2 id="cmp-h">Stuck between two?</h2>
-            <ul class="later-list">
+            <h2 id="cmp-h" class="mini-h">Stuck between two?</h2>
+            <ul class="chips">
               {pairs.map(([a, b]) => (
                 <li><a href={`/compare/${game.slug}/${a.slug}-vs-${b.slug}/`}>{a.name} vs {b.name}</a></li>
               ))}
@@ -174,16 +215,37 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
         )}
 
         {unrated.length > 0 && (
-          <section class="section" aria-labelledby="later-h">
-            <h2 id="later-h">Also out there (not ranked yet)</h2>
+          <details class="fold section">
+            <summary><h2 id="later-h">Also out there (not ranked yet) · {unrated.length}</h2></summary>
             <p class="muted">We found these but don’t have enough solid reviews to rank them yet.</p>
             <ul class="later-list">
               {unrated.map((e) => (
                 <li><a href={`/${game.slug}/${e.slug}/`}><strong>{e.name}</strong></a>{e.adds && <> — {e.adds}</>}</li>
               ))}
             </ul>
+          </details>
+        )}
+        {faqs.length > 0 && (
+          <section class="section" aria-labelledby="faq-h">
+            <h2 id="faq-h" class="mini-h">{game.name} expansions: quick answers</h2>
+            <div class="faq-list">
+              {faqs.map((f) => (
+                <details>
+                  <summary>{f.q}</summary>
+                  <p>{f.a}</p>
+                </details>
+              ))}
+            </div>
           </section>
         )}
+
+        <section class="section" aria-labelledby="rel-h">
+          <h2 id="rel-h" class="mini-h">Other games’ expansion guides</h2>
+          <ul class="chips">
+            {related.map((g) => <li><a href={`/${g.slug}/expansions/`}>{g.name}</a></li>)}
+            {pubHub && <li><a href={`/publishers/${pubHub.slug}/`}>All {pubHub.name} games</a></li>}
+          </ul>
+        </section>
         <p class="draft-note section">Rankings are our editorial picks, built from the reviews linked on each expansion page. Last checked {game.checkedOn}.</p>
       </div>
     </div>

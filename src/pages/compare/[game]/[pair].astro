@@ -3,12 +3,12 @@ import Layout from '../../../layouts/Layout.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import Verdict from '../../../components/Verdict.astro';
 import { games, expansionsFor, TYPE_LABELS, complexityText, styleText } from '../../../lib/catalog.mjs';
-import { comparePairs, rankNext, prereqChain, playersText, priceBand } from '../../../lib/guide.mjs';
+import { comparePairs, compareTop, rankNext, prereqChain, playersText, priceBand } from '../../../lib/guide.mjs';
 import { breadcrumbLd } from '../../../lib/seo.mjs';
 
 export function getStaticPaths() {
   return games.flatMap((game) =>
-    comparePairs(expansionsFor(game.slug)).map(([a, b]) => ({ params: { game: game.slug, pair: `${a.slug}-vs-${b.slug}` }, props: { game, a, b } })),
+    comparePairs(expansionsFor(game.slug), compareTop(game.slug)).map(([a, b]) => ({ params: { game: game.slug, pair: `${a.slug}-vs-${b.slug}` }, props: { game, a, b } })),
   );
 }
 const { game, a, b } = Astro.props;
