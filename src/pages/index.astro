@@ -42,9 +42,13 @@ const initialBySlug = new Map([...firstSlugByInitial].map(([initial, slug]) => [
       <input id="game-q" type="search" name="q" autocomplete="off" placeholder="Try “Seafarers” or “Wingspan”" />
       <p class="small muted" data-search-status aria-live="polite"></p>
     </form>
-    <nav class="az-bar" aria-label="Games A to Z">
-      {[...firstSlugByInitial.keys()].map((initial) => <a href={`#${azId(initial)}`}>{initial}</a>)}
-    </nav>
+    <div class="az" data-az>
+      <nav class="az-bar" aria-label="Games A to Z">
+        {[...firstSlugByInitial.keys()].map((initial) => <a href={`#${azId(initial)}`}>{initial}</a>)}
+      </nav>
+      <button type="button" class="az-more az-more--prev" data-az-step="-1" aria-hidden="true" tabindex="-1"></button>
+      <button type="button" class="az-more az-more--next" data-az-step="1" aria-hidden="true" tabindex="-1"></button>
+    </div>
     <ul class="game-grid" style="list-style:none;padding:0">
       {games.map((g) => {
         const initial = initialBySlug.get(g.slug);
@@ -119,5 +123,22 @@ const initialBySlug = new Map([...firstSlugByInitial].map(([initial, slug]) => [
     form.addEventListener('submit', (ev) => ev.preventDefault());
     input.addEventListener('input', render);
     render();
+  }
+
+  // A–Z bar: show a fade + chevron on any side that has more letters; tapping it pages the bar
+  const az = document.querySelector<HTMLElement>('[data-az]');
+  if (az) {
+    const bar = az.querySelector<HTMLElement>('.az-bar')!;
+    const update = () => {
+      az.classList.toggle('can-prev', bar.scrollLeft > 4);
+      az.classList.toggle('can-next', bar.scrollLeft + bar.clientWidth < bar.scrollWidth - 4);
+    };
+    bar.addEventListener('scroll', update, { passive: true });
+    new ResizeObserver(update).observe(bar);
+    for (const btn of az.querySelectorAll<HTMLElement>('[data-az-step]')) {
+      btn.addEventListener('click', () =>
+        bar.scrollBy({ left: Number(btn.dataset.azStep) * bar.clientWidth * 0.6, behavior: 'smooth' }),
+      );
+    }
   }
 </script>

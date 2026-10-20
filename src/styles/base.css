@@ -182,7 +182,7 @@ select.chip {
   border: var(--line); border-radius: 999px; padding: 0.6rem 1.1rem; box-shadow: var(--lift-sm);
 }
 .game-search p { margin: 0; min-height: 1.4em; }
-.az-bar { display: none; }
+.az { display: none; }
 .box-art { width: 64px; height: 64px; border-radius: 12px; border: 2px solid var(--ink); }
 .box-art--lg { width: 96px; height: 96px; border-radius: 18px; }
 
@@ -364,13 +364,35 @@ select.chip {
   .game-search { margin-top: var(--space-3); }
   .game-search p { min-height: 0; }
   /* Home picker: compact A–Z list with a sticky letter bar (bar + letter heads hide while searching) */
-  .az-bar {
-    display: flex; position: sticky; top: 0; z-index: 12; height: 44px; overflow-x: auto; scrollbar-width: none;
-    margin: var(--space-3) calc(-1 * var(--gutter)) 0; padding-inline: var(--gutter);
+  /* Horizontal-only scroller (overflow-y hidden stops the long-press wobble). Letters carry 14px side padding and
+     the bar's inline padding is the gutter minus that, so the first glyph lines up with the list's letter heads.
+     The script sets .can-prev/.can-next; that side then shows a fade with a chevron that pages the bar. */
+  .az {
+    display: block; position: sticky; top: 0; z-index: 12; margin: var(--space-3) calc(-1 * var(--gutter)) 0;
     background: var(--kraft-light); border-bottom: 1.5px solid var(--kraft-edge);
   }
+  .az-bar {
+    display: flex; height: 44px; overflow: auto hidden; scrollbar-width: none; overscroll-behavior-x: contain;
+    padding-inline: calc(var(--gutter) - 14px);
+  }
   .az-bar::-webkit-scrollbar { display: none; }
-  .az-bar a { flex: none; display: flex; align-items: center; justify-content: center; min-width: 40px; height: 44px; font-weight: 750; text-decoration: none; }
+  .az-more {
+    display: none; position: absolute; top: 0; bottom: 0; width: 52px; padding: 0; border: 0; cursor: pointer;
+    align-items: center; color: var(--ink); -webkit-tap-highlight-color: transparent;
+  }
+  .az-more::before {
+    content: ''; width: 9px; height: 9px; border: solid currentColor; border-width: 2.5px 2.5px 0 0; border-radius: 1px;
+  }
+  .az-more--prev { left: 0; justify-content: flex-start; padding-left: 16px; background: linear-gradient(to left, rgb(243 231 208 / 0), var(--kraft-light) 55%); }
+  .az-more--prev::before { transform: rotate(-135deg); }
+  .az-more--next { right: 0; justify-content: flex-end; padding-right: 16px; background: linear-gradient(to right, rgb(243 231 208 / 0), var(--kraft-light) 55%); }
+  .az-more--next::before { transform: rotate(45deg); }
+  .can-prev .az-more--prev, .can-next .az-more--next { display: flex; }
+  .az-bar a {
+    flex: none; display: flex; align-items: center; height: 100%; padding-inline: 14px;
+    font-family: var(--font-display); font-weight: 800; text-decoration: none;
+    -webkit-touch-callout: none; -webkit-user-select: none; user-select: none;
+  }
   #games .game-grid { gap: 0; margin-top: 0; }
   #games .game-box {
     grid-template-columns: 40px minmax(0, 1fr); gap: var(--space-3); padding: var(--space-2) 0;
@@ -383,7 +405,7 @@ select.chip {
     font-family: var(--font-display); font-weight: 800; color: var(--kraft-deep); border-bottom: 2px solid var(--ink);
   }
   #games [data-letter] { scroll-margin-top: 44px; }
-  .is-searching .az-bar, .is-searching [data-letter]::before { display: none; }
+  .is-searching .az, .is-searching [data-letter]::before { display: none; }
 }
 
 /* Compact lower-hub sections */
@@ -435,33 +457,34 @@ select.chip {
    expand in place; the shelf becomes a bottom sheet behind a "Filter" pill;
    lower sections fold. Content stays in the HTML; only CSS/JS hide it. All
    collapsing is gated on html.js so no-JS phones get the full page. */
-.hub-nav, .sheet-backdrop, .sheet-close, .row-toggle, .lead-more { display: none; }
+.hub-nav, .sheet-backdrop, .sheet-close, .row-toggle { display: none; }
 
 @media (max-width: 767px) {
-  /* Header: icon inline with a shorter H1, intro clamped, chips in one scrolling row */
-  .hub-head { display: grid; grid-template-columns: 40px minmax(0, 1fr); gap: var(--space-2) var(--space-3); align-items: center; margin-top: var(--space-3); }
+  /* Header: icon inline with a shorter H1, top-aligned like tablet/laptop */
+  .hub-head { display: grid; grid-template-columns: 40px minmax(0, 1fr); gap: var(--space-3); align-items: start; margin-top: var(--space-3); }
   .hub-head > div { display: contents; }
   .hub-head > div > :not(h1) { grid-column: 1 / -1; min-width: 0; }
   .hub-head .box-art--lg { width: 40px; height: 40px; border-radius: 9px; }
-  .hub-head h1 { font-size: 1.4rem; margin: 0; }
+  .hub-head h1 { font-size: 1.4rem; line-height: 1.2; margin: 0; }
   .hub-head .lead { font-size: 1rem; line-height: 1.5; grid-row: 2; }
-  .js .hub-head .lead:not(.is-open) { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-clamp: 3; overflow: hidden; }
-  /* "Read more" sits over the end of the clamped third line; 44px tall, transparent above that line */
-  .js .lead-more {
-    grid-row: 2; align-self: end; justify-self: end; display: flex; align-items: flex-end;
-    min-height: 44px; padding: 0 0 0 2.5rem; margin: 0; font: inherit; font-size: 1rem; line-height: 1.5; font-weight: 700; color: var(--ink);
-    background: linear-gradient(to right, transparent, var(--kraft-light) 2rem) bottom / 100% 1.5em no-repeat; border: 0; cursor: pointer;
-    text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; text-decoration-color: var(--kraft-deep);
+  /* Facts: small icon + text items that wrap, no chips or separators */
+  .hub-head .facts { grid-row: 3; display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-4); margin: var(--space-1) 0 0; overflow: visible; font-size: 0.85rem; line-height: 1.3; color: var(--ink-soft); }
+  .hub-head .facts .pill { display: inline-flex; align-items: center; gap: 6px; flex: 0 1 auto; padding: 0; border: 0; background: none; font-size: inherit; font-weight: 600; white-space: normal; }
+  .hub-head .facts .pill::before {
+    content: ''; flex: none; width: 15px; height: 15px; background: var(--kraft-deep);
+    -webkit-mask: var(--fact-icon) center / contain no-repeat; mask: var(--fact-icon) center / contain no-repeat;
   }
-  .js .lead-more[hidden] { display: none; }
-  .hub-head .facts { grid-row: 3; margin: 0; }
-  /* position:relative so the links' absolutely positioned .visually-hidden text is clipped by the scroller */
-  .hub-head p.small { grid-row: 4; position: relative; margin: 0 !important; font-size: 0.85rem; white-space: nowrap; overflow-x: auto; scrollbar-width: none; }
-  .hub-head p.small::-webkit-scrollbar { display: none; }
-  .hub-head p.small .buy-inline { font-size: inherit; flex-wrap: nowrap; }
+  .hub-head [data-fact='players'] { --fact-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round'%3E%3Ccircle cx='9' cy='8' r='3.5'/%3E%3Cpath d='M2.5 20c0-3.6 2.9-6 6.5-6s6.5 2.4 6.5 6M16 4.5a3.5 3.5 0 0 1 0 7M18.5 14.5c1.9.8 3 2.8 3 5.5'/%3E%3C/svg%3E"); }
+  .hub-head [data-fact='time'] { --fact-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M12 7v5l3 2'/%3E%3C/svg%3E"); }
+  .hub-head [data-fact='publisher'] { --fact-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 21V5l8-2v18M12 9l8 2v10M2 21h20M7.5 8h1M7.5 12h1M7.5 16h1M15.5 14h1M15.5 17h1'/%3E%3C/svg%3E"); }
+  .hub-head [data-fact='checked'] { --fact-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M8 12.5l2.7 2.7L16 9.5'/%3E%3C/svg%3E"); }
+  .hub-head .facts-label { display: none; }
+  .hub-head p.small { grid-row: 4; margin: 0 !important; font-size: 0.85rem; line-height: 1.6; color: var(--ink-soft); }
+  .hub-head p.small strong { font-weight: 600; }
+  .hub-head p.small .buy-inline { font-size: inherit; }
 
   body:has(.hub-head) .breadcrumbs ol { margin-top: var(--space-3); }
-  .tool { margin-top: var(--space-3); gap: var(--space-3); }
+  .tool { margin-top: var(--space-5); gap: var(--space-3); }
 
   /* Sticky sub-nav: Filter pill + jump links, 44px tall, scrolls sideways if needed */
   .hub-nav {

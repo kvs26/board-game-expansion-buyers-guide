@@ -62,12 +62,11 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
       <div>
         <h1>{game.name} Expansions Ranked: Which to Buy First</h1>
         <p class="lead" style="margin:0" data-hub-intro>{introText}</p>
-        <button type="button" class="lead-more" data-lead-more>Read more</button>
         <div class="facts">
-          {game.minPlayers && <span class="pill">Base game: {game.minPlayers}–{game.maxPlayers} players</span>}
-          {game.playTime && <span class="pill">{game.playTime}</span>}
-          {game.publisher && <span class="pill">{game.publisher}</span>}
-          <span class="pill">{all.length} expansions checked</span>
+          {game.minPlayers && <span class="pill" data-fact="players"><span class="facts-label">Base game: </span>{playersText(game)} players</span>}
+          {game.playTime && <span class="pill" data-fact="time">{String(game.playTime).replace(/\s*min(utes)?$/i, '').replace('-', '–')} min</span>}
+          {game.publisher && <span class="pill" data-fact="publisher">{game.publisher}</span>}
+          <span class="pill" data-fact="checked">{all.length} expansions checked</span>
         </div>
         {game.buyLinks?.length > 0 && (
           <p class="small" style="margin:var(--space-3) 0 0">
@@ -402,20 +401,6 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
     if (a) openFoldFor(a.getAttribute('href')!);
   });
 
-  const lead = document.querySelector<HTMLElement>('[data-hub-intro]')!;
-  const leadMore = document.querySelector<HTMLElement>('[data-lead-more]')!;
-  function fitLead() {
-    if (!lead.classList.contains('is-open')) leadMore.hidden = lead.scrollHeight <= lead.clientHeight + 1;
-  }
-  leadMore.addEventListener('click', () => {
-    lead.classList.add('is-open');
-    leadMore.hidden = true;
-    lead.tabIndex = -1;
-    lead.focus();
-  });
-
   applyLayout();
-  fitLead();
   phone.addEventListener('change', applyLayout);
-  window.addEventListener('resize', fitLead);
 </script>
