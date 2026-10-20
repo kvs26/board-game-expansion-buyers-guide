@@ -1,13 +1,19 @@
 ---
 /** GameBox.astro — a little game-box tile (colour + glyph) drawn as inline SVG. */
 import { artFor, GLYPHS } from '../lib/game-art.mjs';
+import { GLYPH_BOX } from '../lib/glyph-box.mjs';
 interface Props { slug: string; size?: 'sm' | 'lg'; }
 const { slug, size = 'sm' } = Astro.props;
 const art = artFor(slug);
+// Centre the glyph's measured bounding box on the tile (glyph paths sit off-centre on their 24x24 grid).
+const [bx, by, bw, bh] = GLYPH_BOX[art.glyph] || [0, 0, 24, 24];
+const SCALE = 1.333;
+const tx = (32 - (bx + bw / 2) * SCALE).toFixed(2);
+const ty = (32 - (by + bh / 2) * SCALE).toFixed(2);
 ---
 <svg class={`box-art${size === 'lg' ? ' box-art--lg' : ''}`} viewBox="0 0 64 64" aria-hidden="true">
   <rect width="64" height="64" fill={art.color} />
   <path d="M0 44 64 20v44H0z" fill="#000" opacity="0.14" />
   <rect x="5" y="5" width="54" height="54" rx="7" fill="none" stroke={art.ink} stroke-opacity="0.35" stroke-width="1.5" stroke-dasharray="3 3" />
-  <g transform="translate(16 16) scale(1.333)"><path d={GLYPHS[art.glyph]} fill={art.ink} fill-rule="evenodd" /></g>
+  <g transform={`translate(${tx} ${ty}) scale(${SCALE})`}><path d={GLYPHS[art.glyph]} fill={art.ink} fill-rule="evenodd" /></g>
 </svg>

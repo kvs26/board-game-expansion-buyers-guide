@@ -117,11 +117,6 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
         <p class="track-status visually-hidden" data-status aria-live="polite">
           {top ? <>Start with <a href={`/${game.slug}/${top.slug}/`}>{top.name}</a>.</> : 'We haven’t ranked these yet.'}
         </p>
-        {pairs.length > 0 && (
-          <p class="small" style="margin:0 0 var(--space-3)">
-            Stuck between two? <a href={`/compare/${game.slug}/${pairs[0][0].slug}-vs-${pairs[0][1].slug}/`}>{pairs[0][0].name} vs {pairs[0][1].name}</a> — or <a href="#cmp-h">see all {pairs.length} comparisons</a>.
-          </p>
-        )}
         <ol class="track" data-track>
           {next.map((e) => {
             const tone = VERDICTS[e.verdict].tone;

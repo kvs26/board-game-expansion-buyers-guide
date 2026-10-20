@@ -182,7 +182,8 @@ select.chip {
 .box-art--lg { width: 96px; height: 96px; border-radius: 18px; }
 
 /* ---- Game page header ---------------------------------------------------- */
-.game-head { display: flex; gap: var(--space-5); align-items: center; margin-top: var(--space-5); }
+.game-head { display: flex; gap: var(--space-5); align-items: flex-start; margin-top: var(--space-5); }
+.game-head .box-art--lg { flex: none; }
 .game-head h1 { margin: 0 0 var(--space-2); }
 .facts { display: flex; flex-wrap: wrap; gap: var(--space-2); margin: var(--space-3) 0 0; }
 @media (max-width: 600px) { .game-head { flex-direction: column; align-items: flex-start; } }
@@ -324,7 +325,7 @@ select.chip {
   .site-header .bar { min-height: 0; gap: var(--space-2); }
   .header-actions { width: 100%; }
   .site-nav { gap: 0 var(--space-3); }
-  .game-head { flex-direction: row; align-items: center; gap: var(--space-3); }
+  .game-head { flex-direction: row; align-items: flex-start; gap: var(--space-3); }
   .game-head h1 { font-size: 1.5rem; }
   .box-art--lg { width: 64px; height: 64px; border-radius: 12px; flex: none; }
   .game-head .facts .pill { font-size: 0.75rem; }
