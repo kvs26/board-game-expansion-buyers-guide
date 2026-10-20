@@ -57,11 +57,12 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
 >
   <Breadcrumbs items={crumbs} />
   <section class="container">
-    <div class="game-head">
+    <div class="game-head hub-head">
       <GameBox slug={game.slug} size="lg" />
       <div>
         <h1>{game.name} Expansions Ranked: Which to Buy First</h1>
         <p class="lead" style="margin:0" data-hub-intro>{introText}</p>
+        <button type="button" class="lead-more" data-lead-more>Read more</button>
         <div class="facts">
           {game.minPlayers && <span class="pill">Base game: {game.minPlayers}–{game.maxPlayers} players</span>}
           {game.playTime && <span class="pill">{game.playTime}</span>}
@@ -78,8 +79,17 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
     </div>
 
     <div class="tool" data-guide data-game={game.slug} data-storage-key={`${SITE.storagePrefix}${game.slug}`}>
-      <aside class="shelf token pad" aria-labelledby="shelf-h">
+      <nav class="hub-nav" aria-label="On this page">
+        <button type="button" class="filter-pill" data-filter-open aria-controls="shelf" aria-expanded="false">Filter<span data-filter-summary>: I own…</span></button>
+        <a href="#ranking">Ranking</a>
+        {watch.length > 0 && <a href="#watch-h">Check before you buy</a>}
+        {pairs.length > 0 && <a href="#cmp-h">Compare</a>}
+        {faqs.length > 0 && <a href="#faq-h">FAQ</a>}
+      </nav>
+      <div class="sheet-backdrop" data-filter-close></div>
+      <aside class="shelf token pad" id="shelf" aria-labelledby="shelf-h">
         <h2 id="shelf-h">Your shelf</h2>
+        <button type="button" class="sheet-close" data-filter-close>Done</button>
         <fieldset>
           <legend>What do you already own?</legend>
           <div class="own-list">
@@ -117,7 +127,7 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
         <p class="track-status visually-hidden" data-status aria-live="polite">
           {top ? <>Start with <a href={`/${game.slug}/${top.slug}/`}>{top.name}</a>.</> : 'We haven’t ranked these yet.'}
         </p>
-        <ol class="track" data-track>
+        <ol class="track" id="ranking" data-track>
           {next.map((e) => {
             const tone = VERDICTS[e.verdict].tone;
             const chain = prereqChain(e, all);
@@ -134,7 +144,7 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
                   </div>
                   {e.adds && <p><strong>Adds:</strong> {brief(e, 'adds')}</p>}
                   {e.fixes && <p><strong>Fixes:</strong> {brief(e, 'fixes')}</p>}
-                  {e.reason && <p class="muted">{brief(e, 'reason')}</p>}
+                  {e.reason && <p class="muted card-reason">{brief(e, 'reason')}</p>}
                   <div class="needs" data-needs hidden={!chain.length}>
                     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 23 21H1z" fill="#F2B705" stroke="#1D2A44" stroke-width="2" /><path d="M12 9v5M12 17v.5" stroke="#1D2A44" stroke-width="2.4" stroke-linecap="round" /></svg>
                     <span>Get <span data-needs-list>{chain.map((c) => c.name).join(' and ')}</span> first.</span>
@@ -153,6 +163,7 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
                     <a href={`/${game.slug}/${e.slug}/`}>Details</a>
                     <BuyLinks links={e.buyLinks} compact name={e.name} moreHref={`/${game.slug}/${e.slug}/#buy`} />
                   </div>
+                  <button type="button" class="row-toggle" data-row-toggle aria-expanded="false"><span data-row-toggle-text>More</span><span class="visually-hidden"> about {e.name}</span></button>
                 </article>
               </li>
             );
@@ -164,7 +175,7 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
         <p class="muted small hidden-note" data-hidden-note hidden></p>
 
         {next.length > 0 && (
-          <details class="fold section">
+          <details class="fold section glance">
             <summary><h2 id="tbl-h">{game.name} expansions ranked at a glance</h2></summary>
             <div style="overflow-x:auto">
               <table data-ranked-table>
@@ -192,14 +203,14 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
         )}
 
         {watch.length > 0 && (
-          <section class="token pad gotcha section" aria-labelledby="watch-h">
+          <section class="token pad gotcha section" aria-labelledby="watch-h" data-fold>
             <h2 id="watch-h">Check before you buy</h2>
             <ul style="margin:0;padding-left:1.2rem">{watch.map((w) => <li>{w}</li>)}</ul>
           </section>
         )}
 
         {pairs.length > 0 && (
-          <section class="section" aria-labelledby="cmp-h">
+          <section class="section" aria-labelledby="cmp-h" data-fold>
             <h2 id="cmp-h" class="mini-h">Stuck between two?</h2>
             <ul class="chips">
               {pairs.map(([a, b]) => (
@@ -221,7 +232,7 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
           </details>
         )}
         {faqs.length > 0 && (
-          <section class="section" aria-labelledby="faq-h">
+          <section class="section" aria-labelledby="faq-h" data-fold>
             <h2 id="faq-h" class="mini-h">{game.name} expansions: quick answers</h2>
             <div class="faq-list">
               {faqs.map((f) => (
@@ -234,7 +245,7 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
           </section>
         )}
 
-        <section class="section" aria-labelledby="rel-h">
+        <section class="section" aria-labelledby="rel-h" data-fold>
           <h2 id="rel-h" class="mini-h">Other games’ expansion guides</h2>
           <ul class="chips">
             {related.map((g) => <li><a href={`/${g.slug}/expansions/`}>{g.name}</a></li>)}
@@ -249,7 +260,7 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
 </Layout>
 
 <script>
-  import { rankNext, statusFor, parseState, serializeState } from '../../../lib/guide.mjs';
+  import { rankNext, statusFor, parseState, serializeState, STYLES } from '../../../lib/guide.mjs';
 
   const root = document.querySelector('[data-guide]');
   const data = JSON.parse(document.getElementById('guide-data').textContent);
@@ -268,6 +279,7 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
   const hiddenNote = root.querySelector('[data-hidden-note]');
   const emptyEl = root.querySelector('[data-empty]');
   const playersSel = root.querySelector('select[name="players"]');
+  const filterSummary = root!.querySelector('[data-filter-summary]')!;
 
   function render() {
     const r = rankNext(data, state);
@@ -301,7 +313,12 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
     for (const chip of root.querySelectorAll('[data-style]')) chip.setAttribute('aria-pressed', String((chip.dataset.style || null) === state.style));
     const qs = serializeState(state);
     try { localStorage.setItem(key, qs); } catch {}
-    history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
+    history.replaceState(null, '', (qs ? `?${qs}` : location.pathname) + location.hash);
+    const bits: string[] = [];
+    if (state.owned.length) bits.push(`${state.owned.length} owned`);
+    if (state.players) bits.push(`${state.players} ${state.players === 1 ? 'player' : 'players'}`);
+    if (state.style) bits.push(STYLES[state.style as keyof typeof STYLES]);
+    filterSummary.textContent = bits.length ? `: ${bits.join(', ')}` : ': I own…';
   }
 
   root.addEventListener('change', (ev) => {
@@ -327,4 +344,108 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
     render();
   });
   render();
+
+  // ---- Phone layout (≤767px): expandable rows, shelf bottom sheet, folding sections ----
+  const phone = matchMedia('(max-width: 767px)');
+  const hub = root as HTMLElement;
+
+  function setRow(step: Element, open: boolean) {
+    step.classList.toggle('is-open', open);
+    const btn = step.querySelector('[data-row-toggle]')!;
+    btn.setAttribute('aria-expanded', String(open));
+    btn.querySelector('[data-row-toggle-text]')!.textContent = open ? 'Less' : 'More';
+  }
+  hub.querySelector('[data-track]')!.addEventListener('click', (ev) => {
+    const target = ev.target as Element;
+    const step = target.closest('.step');
+    if (!step || !phone.matches) return;
+    if (target.closest('[data-row-toggle]')) return setRow(step, !step.classList.contains('is-open'));
+    // Tapping a collapsed row anywhere but a link/control opens it.
+    if (!step.classList.contains('is-open') && !target.closest('a, button, input, label, select')) setRow(step, true);
+  });
+
+  const shelf = hub.querySelector<HTMLElement>('.shelf')!;
+  const backdrop = hub.querySelector('.sheet-backdrop')!;
+  const pill = hub.querySelector<HTMLElement>('[data-filter-open]')!;
+  function setSheet(open: boolean) {
+    shelf.classList.toggle('is-open', open);
+    backdrop.classList.toggle('is-open', open);
+    document.documentElement.classList.toggle('sheet-open', open);
+    pill.setAttribute('aria-expanded', String(open));
+    if (open) { shelf.setAttribute('role', 'dialog'); shelf.setAttribute('aria-modal', 'true'); shelf.tabIndex = -1; shelf.focus(); }
+    else { shelf.removeAttribute('role'); shelf.removeAttribute('aria-modal'); shelf.removeAttribute('tabindex'); }
+  }
+  function closeSheet() { setSheet(false); pill.focus(); }
+  pill.addEventListener('click', () => setSheet(true));
+  for (const el of hub.querySelectorAll('[data-filter-close]')) el.addEventListener('click', closeSheet);
+  document.addEventListener('keydown', (ev) => {
+    if (!shelf.classList.contains('is-open')) return;
+    if (ev.key === 'Escape') return closeSheet();
+    if (ev.key !== 'Tab') return;
+    // Keep keyboard focus inside the open sheet.
+    const items = [...shelf.querySelectorAll<HTMLElement>('button, input, select, a[href]')].filter((el) => el.offsetParent);
+    const first = items[0], last = items[items.length - 1];
+    if (ev.shiftKey && (document.activeElement === first || document.activeElement === shelf)) { ev.preventDefault(); last.focus(); }
+    else if (!ev.shiftKey && document.activeElement === last) { ev.preventDefault(); first.focus(); }
+  });
+
+  const folds = [...hub.querySelectorAll('[data-fold]')];
+  function setFold(fold: Element, open: boolean) {
+    fold.classList.toggle('is-open', open);
+    fold.querySelector('.fold-toggle')?.setAttribute('aria-expanded', String(open));
+  }
+  // Heading buttons exist only on phones so laptop keyboard users get no dead tab stops.
+  function applyLayout() {
+    for (const fold of folds) {
+      const h = fold.querySelector('h2')!;
+      const btn = h.querySelector('.fold-toggle');
+      if (phone.matches && !btn) {
+        const b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'fold-toggle';
+        b.setAttribute('aria-expanded', String(fold.classList.contains('is-open')));
+        b.append(...h.childNodes);
+        h.append(b);
+      } else if (!phone.matches && btn) {
+        h.replaceChildren(...btn.childNodes);
+        setFold(fold, false);
+      }
+    }
+    if (!phone.matches) {
+      for (const step of steps.values()) setRow(step, false);
+      if (shelf.classList.contains('is-open')) setSheet(false);
+    }
+  }
+  hub.addEventListener('click', (ev) => {
+    const fold = (ev.target as Element).closest('.fold-toggle')?.closest('[data-fold]');
+    if (fold) setFold(fold, !fold.classList.contains('is-open'));
+  });
+  function openFoldFor(hash: string) {
+    const target = hash.length > 1 && document.getElementById(decodeURIComponent(hash.slice(1)));
+    const fold = target && target.closest('[data-fold]');
+    if (fold && phone.matches) setFold(fold, true);
+  }
+  window.addEventListener('hashchange', () => openFoldFor(location.hash));
+  hub.querySelector('.hub-nav')!.addEventListener('click', (ev) => {
+    const a = (ev.target as Element).closest('a[href^="#"]');
+    if (a) openFoldFor(a.getAttribute('href')!);
+  });
+
+  const lead = document.querySelector<HTMLElement>('[data-hub-intro]')!;
+  const leadMore = document.querySelector<HTMLElement>('[data-lead-more]')!;
+  function fitLead() {
+    if (!lead.classList.contains('is-open')) leadMore.hidden = lead.scrollHeight <= lead.clientHeight + 1;
+  }
+  leadMore.addEventListener('click', () => {
+    lead.classList.add('is-open');
+    leadMore.hidden = true;
+    lead.tabIndex = -1;
+    lead.focus();
+  });
+
+  applyLayout();
+  fitLead();
+  openFoldFor(location.hash);
+  phone.addEventListener('change', applyLayout);
+  window.addEventListener('resize', fitLead);
 </script>

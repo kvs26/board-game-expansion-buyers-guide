@@ -30,6 +30,7 @@ const initialTheme = SITE.skin === 'dark' ? 'dark' : undefined;
 <html lang={SITE.lang} data-skin={SITE.skin} data-theme={initialTheme}>
   <head>
     <BaseHead {...props} />
+    <script is:inline>document.documentElement.classList.add('js');</script>
     {SITE.enableDarkModeToggle && (
       <script is:inline>
         // No-flash theme bootstrap: apply saved preference before first paint.

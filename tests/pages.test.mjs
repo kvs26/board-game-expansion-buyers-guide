@@ -37,6 +37,27 @@ test('no prerequisite rule is a one-word stub', () => {
   }
 });
 
+test('phone layout: every ranked row on a hub can expand in place', { skip: !built && 'run npm run build first' }, () => {
+  for (const g of catalog.games) {
+    const html = page(`${g.slug}/expansions/index.html`);
+    const { next } = rankNext(catalog.expansions.filter((e) => e.game === g.slug));
+    assert.equal(html.match(/data-row-toggle[\s>]/g)?.length ?? 0, next.length, `${g.slug}: one toggle per ranked row`);
+  }
+});
+
+test('phone layout: hub sub-nav jumps only to sections on the page; filter pill opens the shelf', { skip: !built && 'run npm run build first' }, () => {
+  for (const g of catalog.games) {
+    const html = page(`${g.slug}/expansions/index.html`);
+    const nav = html.match(/<nav class="hub-nav"[\s\S]*?<\/nav>/)?.[0];
+    assert.ok(nav, `${g.slug}: sub-nav missing`);
+    const targets = [...nav.matchAll(/href="#([^"]+)"/g)].map((m) => m[1]);
+    assert.ok(targets.includes('ranking'), `${g.slug}: no Ranking link`);
+    for (const id of targets) assert.ok(html.includes(`id="${id}"`), `${g.slug}: #${id} has no target`);
+    assert.match(nav, /aria-controls="shelf"/, `${g.slug}: filter pill not wired`);
+    assert.match(html, /<aside[^>]*id="shelf"/, `${g.slug}: shelf has no id`);
+  }
+});
+
 for (const g of catalog.games) {
   test(`built pages for ${g.slug}`, { skip: !built && 'run npm run build first' }, () => {
     const exps = catalog.expansions.filter((e) => e.game === g.slug);

@@ -366,3 +366,125 @@ select.chip {
 .faq-list details:last-child { border-bottom: 1px solid var(--kraft-deep); }
 .faq-list summary { cursor: pointer; font-weight: 600; }
 .faq-list p { margin: var(--space-2) 0 0; }
+
+/* ---- Phone game page (≤767px) --------------------------------------------
+   Compact ranked list: rows collapse to name + verdict + reason + buy line and
+   expand in place; the shelf becomes a bottom sheet behind a "Filter" pill;
+   lower sections fold. Content stays in the HTML; only CSS/JS hide it. All
+   collapsing is gated on html.js so no-JS phones get the full page. */
+.hub-nav, .sheet-backdrop, .sheet-close, .row-toggle, .lead-more { display: none; }
+
+@media (max-width: 767px) {
+  /* Header: icon inline with a shorter H1, intro clamped, chips in one scrolling row */
+  .hub-head { display: grid; grid-template-columns: 40px minmax(0, 1fr); gap: var(--space-2) var(--space-3); align-items: center; margin-top: var(--space-3); }
+  .hub-head > div { display: contents; }
+  .hub-head > div > :not(h1) { grid-column: 1 / -1; min-width: 0; }
+  .hub-head .box-art--lg { width: 40px; height: 40px; border-radius: 9px; }
+  .hub-head h1 { font-size: 1.4rem; margin: 0; }
+  .hub-head .lead { font-size: 1rem; line-height: 1.5; grid-row: 2; }
+  .js .hub-head .lead:not(.is-open) { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-clamp: 3; overflow: hidden; }
+  /* "Read more" sits over the end of the clamped third line; 44px tall, transparent above that line */
+  .js .lead-more {
+    grid-row: 2; align-self: end; justify-self: end; display: flex; align-items: flex-end;
+    min-height: 44px; padding: 0 0 0 2.5rem; margin: 0; font: inherit; font-size: 1rem; line-height: 1.5; font-weight: 700; color: var(--ink);
+    background: linear-gradient(to right, transparent, var(--kraft-light) 2rem) bottom / 100% 1.5em no-repeat; border: 0; cursor: pointer;
+    text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; text-decoration-color: var(--kraft-deep);
+  }
+  .js .lead-more[hidden] { display: none; }
+  .hub-head .facts { grid-row: 3; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin: 0; }
+  .hub-head .facts::-webkit-scrollbar { display: none; }
+  .hub-head .facts .pill { white-space: nowrap; flex: none; }
+  /* position:relative so the links' absolutely positioned .visually-hidden text is clipped by the scroller */
+  .hub-head p.small { grid-row: 4; position: relative; margin: 0 !important; font-size: 0.85rem; white-space: nowrap; overflow-x: auto; scrollbar-width: none; }
+  .hub-head p.small::-webkit-scrollbar { display: none; }
+  .hub-head p.small .buy-inline { font-size: inherit; flex-wrap: nowrap; }
+
+  body:has(.hub-head) .breadcrumbs ol { margin-top: var(--space-3); }
+  .tool { margin-top: var(--space-3); gap: var(--space-3); }
+
+  /* Sticky sub-nav: Filter pill + jump links, 44px tall, scrolls sideways if needed */
+  .hub-nav {
+    display: flex; align-items: center; gap: var(--space-4); height: 44px;
+    position: sticky; top: 0; z-index: 15; overflow-x: auto; scrollbar-width: none; white-space: nowrap;
+    margin-inline: -0.75rem; padding-inline: 0.75rem;
+    background: var(--kraft-light); border-bottom: 1.5px solid var(--kraft-edge);
+  }
+  .hub-nav::-webkit-scrollbar { display: none; }
+  .hub-nav a { display: flex; align-items: center; height: 44px; font-size: 0.92rem; font-weight: 650; text-decoration: none; }
+  .filter-pill {
+    /* 44px tap target, 34px visible pill (transparent border is part of the hit area) */
+    flex: none; display: flex; align-items: center; height: 44px; padding: 0 var(--space-4); margin: 0 0 0 -5px;
+    font: inherit; font-size: 0.92rem; font-weight: 750; cursor: pointer;
+    background: var(--ink) padding-box; color: var(--face); border: 5px solid transparent; border-radius: 999px;
+  }
+  /* Without JS the shelf stays inline, so the pill has nothing to open */
+  html:not(.js) .filter-pill { display: none; }
+  .tool [id] { scroll-margin-top: 56px; }
+
+  /* Shelf as bottom sheet */
+  .js .shelf { display: none; }
+  .js .shelf.is-open {
+    display: block; position: fixed; left: 0; right: 0; top: auto; bottom: 0; z-index: 41;
+    max-height: 85vh; max-height: 85dvh; overflow-y: auto; overscroll-behavior: contain;
+    border-bottom: 0; border-radius: var(--radius-lg) var(--radius-lg) 0 0; box-shadow: 0 -6px 24px rgba(29, 42, 68, 0.3);
+  }
+  .js .shelf.is-open .own-list { max-height: none; overflow: visible; }
+  .js .shelf.is-open h2 { padding-right: 6rem; min-height: 44px; display: flex; align-items: center; margin-bottom: var(--space-2); }
+  .js .sheet-close { display: block; position: absolute; top: var(--space-3); right: var(--space-3); min-height: 44px; padding: 0 var(--space-4); font: inherit; font-weight: 750; background: var(--gold); color: var(--ink); border: var(--line); border-radius: 999px; cursor: pointer; }
+  .js .sheet-backdrop.is-open { display: block; position: fixed; inset: 0; z-index: 40; background: rgba(29, 42, 68, 0.45); }
+  .js.sheet-open, .js.sheet-open body { overflow: hidden; }
+  .shelf .own-item { min-height: 44px; align-items: center; }
+  .shelf .own-item input { margin-top: 0; }
+  .shelf .chip { min-height: 44px; }
+
+  /* Ranked rows: name / verdict + More toggle / 1-line reason / first buy link; the rest expands in place */
+  .step { margin-bottom: var(--space-3); }
+  .card .verdict { font-size: 0.75rem; padding: 0.25rem 0.55rem 0.25rem 0.35rem; }
+  .card h3 { font-size: 1.08rem; }
+  .js .card { display: grid; grid-template-columns: 1fr auto; column-gap: var(--space-2); align-items: center; }
+  .js .card > *, .js .card-top > * { grid-column: 1 / -1; }
+  .js .card > .card-top { display: contents; }
+  .js .card-top > h3 { order: -4; }
+  .js .card-top > .verdict, .js .card-top > .pill { order: -3; grid-column: 1; justify-self: start; }
+  .js .card > .row-toggle { order: -3; grid-column: 2; }
+  .js .card > .card-reason { order: -2; }
+  .js .row-toggle {
+    display: inline-flex; align-items: center; justify-content: flex-end; gap: 0.35rem;
+    min-height: 44px; min-width: 44px; padding: 0 0 0 var(--space-3); margin: -6px 0;
+    font: inherit; font-size: 0.92rem; font-weight: 700; color: var(--ink); background: none; border: 0; cursor: pointer;
+  }
+  .js .row-toggle::after { content: ''; width: 0.5rem; height: 0.5rem; border: solid var(--ink); border-width: 0 2px 2px 0; transform: translateY(-2px) rotate(45deg); }
+  .js .step.is-open .row-toggle::after { transform: translateY(2px) rotate(-135deg); }
+  .js .step:not(.is-open) .card { cursor: pointer; }
+  .js .step .card { -webkit-tap-highlight-color: transparent; }
+  .js .step:not(.is-open) .card > :not(.card-top, .card-reason, .actions, .row-toggle) { display: none; }
+  .js .step:not(.is-open) .card-reason { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; line-clamp: 1; overflow: hidden; margin-top: 0; }
+  .js .step:not(.is-open) .actions { margin-top: var(--space-1); }
+  .js .step:not(.is-open) .actions > :not(.buy-inline) { display: none; }
+  .card .actions > a, .card .actions > .own-item { min-height: 44px; display: inline-flex; align-items: center; }
+  /* Inline buy links: ~44px-tall hit areas with no extra gap between wrapped lines */
+  .card .buy-inline { row-gap: 0; }
+  .card .buy-inline a { padding-block: 0.6rem; }
+  /* Collapsed row: one buy link (the rest show when the row expands); its 44px hit area overlaps the padding */
+  .js .step:not(.is-open) .buy-inline > a:not(:first-of-type) { display: none; }
+  .js .step:not(.is-open) .buy-inline > a { min-height: 44px; padding-block: 0; margin-block: -8px; display: inline-flex; align-items: center; }
+
+  /* Glance table duplicates the ranked rows on phones: hide it (stays in the HTML). */
+  .glance { display: none; }
+
+  /* Lower sections fold like the existing .fold boxes */
+  .js [data-fold] { border: 1.5px solid var(--kraft-deep); border-radius: var(--radius); background: var(--face); padding: 0 var(--space-4); margin-top: var(--space-4); box-shadow: none; }
+  .js [data-fold].gotcha { border-left: 6px solid var(--red); }
+  .js [data-fold] > h2 { font-size: var(--step-0, 1.05rem); margin: 0; }
+  .js [data-fold]:not(.is-open) > :not(h2) { display: none; }
+  .js [data-fold].is-open { padding-bottom: var(--space-4); }
+  .fold-toggle {
+    display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); width: 100%; min-height: 48px; padding: var(--space-2) 0;
+    font: inherit; color: inherit; text-align: left; background: none; border: 0; cursor: pointer;
+  }
+  .fold-toggle::after { content: '+'; font-weight: 700; }
+  [data-fold].is-open .fold-toggle::after { content: '\2212'; }
+  .fold > summary { min-height: 48px; display: flex; align-items: center; justify-content: space-between; }
+  .fold > summary::after { float: none; }
+  .chips a { min-height: 44px; display: inline-flex; align-items: center; }
+}
