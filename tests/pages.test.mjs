@@ -102,6 +102,9 @@ test('phone header: the menu button opens the primary nav on every page type', {
     assert.ok(btn, `${p}: no menu button`);
     assert.match(btn, /aria-controls="site-nav"/, `${p}: menu button not wired`);
     assert.match(btn, /aria-expanded="false"/, `${p}: menu should start closed`);
+    // Icon-only button (three bars): the name is for screen readers, no visible "Menu" text
+    assert.match(btn, /aria-label="Menu"/, `${p}: menu button needs an accessible name`);
+    assert.match(html, /data-menu-toggle[^>]*><\/button>/, `${p}: menu button should have no visible text`);
     assert.match(html, /<nav[^>]*id="site-nav"/, `${p}: nav has no id`);
   }
 });

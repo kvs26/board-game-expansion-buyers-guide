@@ -23,7 +23,7 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
     </a>
 
     <div class="header-actions">
-      <button type="button" class="menu-toggle" data-menu-toggle aria-controls="site-nav" aria-expanded="false">Menu</button>
+      <button type="button" class="menu-toggle" data-menu-toggle aria-label="Menu" aria-controls="site-nav" aria-expanded="false"></button>
       <nav class="site-nav" id="site-nav" aria-label="Primary">
         {SITE.nav.map((item) => {
           const href = item.href.replace(/\/$/, '') || '/';

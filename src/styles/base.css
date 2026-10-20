@@ -318,15 +318,16 @@ select.chip {
 
 /* ---- Phones (≤767px) ----------------------------------------------------- */
 @media (max-width: 767px) {
+  :root { --gutter: 1.25rem; }
   body { font-size: 1rem; }
-  .container { width: min(100% - 1.5rem, var(--container)); }
+  .container { width: min(100% - 2 * var(--gutter), var(--container)); }
   .section { margin-top: var(--space-6); }
   .hero { padding-top: var(--space-4); gap: var(--space-3); }
   .hero h1 { max-width: none; font-size: 1.75rem; }
   .hero .lead { font-size: 1.02rem; }
   .game-grid { grid-template-columns: 1fr; gap: var(--space-3); margin-top: var(--space-4); }
   .pad { padding: var(--space-4); }
-  /* Header ≤56px: wordmark + Menu button; the nav drops down below the header */
+  /* Header ≤56px: wordmark + three-bar menu button; the nav drops down below the header */
   .site-header { position: relative; }
   .site-header .bar { min-height: 0; gap: var(--space-3); padding-block: var(--space-1); }
   .js .site-header .bar { flex-wrap: nowrap; }
@@ -334,16 +335,16 @@ select.chip {
   .brand .mark svg { width: 28px; height: 28px; }
   html:not(.js) .header-actions { width: 100%; }
   html:not(.js) .site-nav { flex-wrap: nowrap; overflow-x: auto; white-space: nowrap; gap: var(--space-3); }
+  /* 44px tap target; the negative margin lines the bars up with the page edge */
   .js .menu-toggle {
-    display: inline-flex; align-items: center; gap: var(--space-2); flex: none; min-height: 44px; padding: 0 var(--space-4);
-    font: inherit; font-size: 0.95rem; font-weight: 700; color: var(--face); background: none; cursor: pointer;
-    border: 2px solid rgba(255, 253, 248, 0.45); border-radius: 999px;
+    display: inline-flex; align-items: center; justify-content: center; flex: none; width: 44px; height: 44px; padding: 0; margin-right: -11px;
+    color: var(--face); background: none; border: 0; border-radius: 10px; cursor: pointer;
   }
-  .js .menu-toggle::before { content: ''; width: 1rem; height: 2px; background: currentColor; box-shadow: 0 -5px currentColor, 0 5px currentColor; }
+  .js .menu-toggle::before { content: ''; width: 22px; height: 2px; border-radius: 1px; background: currentColor; box-shadow: 0 -7px currentColor, 0 7px currentColor; }
   .js .site-nav { display: none; }
   .js .is-menu-open .site-nav {
     display: grid; position: absolute; top: 100%; left: 0; right: 0; z-index: 30;
-    padding: var(--space-1) 0.75rem var(--space-3); background: var(--ink); border-bottom: 4px solid var(--gold);
+    padding: var(--space-1) var(--gutter) var(--space-3); background: var(--ink); border-bottom: 4px solid var(--gold);
   }
   .js .is-menu-open .site-nav a { display: flex; align-items: center; min-height: 48px; font-size: 1rem; }
   .game-head { flex-direction: row; align-items: flex-start; gap: var(--space-3); }
@@ -365,7 +366,7 @@ select.chip {
   /* Home picker: compact A–Z list with a sticky letter bar (bar + letter heads hide while searching) */
   .az-bar {
     display: flex; position: sticky; top: 0; z-index: 12; height: 44px; overflow-x: auto; scrollbar-width: none;
-    margin: var(--space-3) -0.75rem 0; padding-inline: 0.75rem;
+    margin: var(--space-3) calc(-1 * var(--gutter)) 0; padding-inline: var(--gutter);
     background: var(--kraft-light); border-bottom: 1.5px solid var(--kraft-edge);
   }
   .az-bar::-webkit-scrollbar { display: none; }
@@ -417,6 +418,7 @@ select.chip {
    Game page: ranked list left, a compact sticky shelf right that is never taller
    than the viewport (it scrolls inside). Game picker 2-up. */
 @media (min-width: 768px) and (max-width: 1023px) {
+  .container { width: min(100% - 4rem, var(--container)); }
   .tool { grid-template-columns: minmax(0, 1fr) 16rem; gap: var(--space-5); }
   .tool-main { grid-column: 1; grid-row: 1; min-width: 0; }
   .shelf {
@@ -465,7 +467,7 @@ select.chip {
   .hub-nav {
     display: flex; align-items: center; gap: var(--space-4); height: 44px;
     position: sticky; top: 0; z-index: 15; overflow-x: auto; scrollbar-width: none; white-space: nowrap;
-    margin-inline: -0.75rem; padding-inline: 0.75rem;
+    margin-inline: calc(-1 * var(--gutter)); padding-inline: var(--gutter);
     background: var(--kraft-light); border-bottom: 1.5px solid var(--kraft-edge);
   }
   .hub-nav::-webkit-scrollbar { display: none; }
