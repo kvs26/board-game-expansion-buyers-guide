@@ -69,6 +69,8 @@ main { min-height: 60vh; padding-bottom: var(--space-8); }
   border-radius: calc(var(--radius-lg) - 5px);
   pointer-events: none;
 }
+/* Phones + tablets: solid border and shadow only; the die-cut line is laptop decoration. */
+@media (max-width: 1023px) { .token::after { content: none; } }
 .pad { padding: var(--space-5); }
 
 /* ---- Header -------------------------------------------------------------- */
@@ -198,7 +200,9 @@ select.chip {
 .own-item { display: flex; gap: var(--space-2); align-items: flex-start; font-size: 0.93rem; line-height: 1.3; cursor: pointer; }
 .own-item input { margin-top: 0.15rem; accent-color: var(--ink); width: 1.05rem; height: 1.05rem; flex: none; }
 .shelf-actions { display: flex; gap: var(--space-2); flex-wrap: wrap; }
-@media (max-width: 900px) { .tool { grid-template-columns: 1fr; } .shelf { position: static; } }
+/* Keep .token's relative positioning (never static): its absolute ::after die-cut line would otherwise
+   anchor to the page and cross the hero. Hidden below 1024px today (see .token::after), but don't drop this. */
+@media (max-width: 900px) { .tool { grid-template-columns: 1fr; } .shelf { position: relative; top: auto; } }
 
 /* ---- Score track (the signature) ---------------------------------------- */
 .track { list-style: none; margin: 0; padding: 0; position: relative; }
