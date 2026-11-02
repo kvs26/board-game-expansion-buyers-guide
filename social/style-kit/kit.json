@@ -1,0 +1,122 @@
+{
+  "site": "whichexpansion.com",
+  "version": 1,
+  "sizes": {
+    "pinterest": [
+      1000,
+      1500
+    ],
+    "instagram": [
+      1080,
+      1440
+    ]
+  },
+  "slides": [
+    "hero (pin + carousel cover)",
+    "info (answer slide)"
+  ],
+  "constants": {
+    "mark": "meeple glyph, recolored per style",
+    "footer": "whichexpansion.com on every info slide",
+    "rule": "one style per season; never mix styles inside one carousel or one board"
+  },
+  "styles": {
+    "a2": {
+      "name": "Box Lid Versus",
+      "use_for": [
+        "X vs Y expansion",
+        "buy if / skip if",
+        "which is better for my group"
+      ],
+      "hook": "1960s game-box lid; info slide is a two-card stat duel",
+      "fonts": [
+        "Alfa Slab One",
+        "Archivo 500/800"
+      ],
+      "palette": {
+        "bg": "#0F4C5C",
+        "cream": "#F6EBD0",
+        "red": "#D9411E",
+        "gold": "#E8B93B",
+        "teal": "#2E9E8F"
+      },
+      "ai_prompt_style": "1960s screenprint box-lid illustration, flat 4-color, halftone, radiating sunburst, no text",
+      "source": "directions/src/gen-round3.mjs (D.a2, extends gen-directions.mjs D.a)"
+    },
+    "o": {
+      "name": "Scratch Card",
+      "use_for": [
+        "is it worth it?",
+        "verdict / buy-or-skip reveal",
+        "price-vs-value",
+        "surprise picks"
+      ],
+      "hook": "lottery ticket with foil swipe revealing the answer",
+      "fonts": [
+        "Bungee",
+        "DM Sans 500/700"
+      ],
+      "palette": {
+        "bg": "#0B3D2E",
+        "gold": "#FFD23F",
+        "orange": "#FF9F1C",
+        "cream": "#FFF3C4",
+        "pink": "#E5266A",
+        "foil": "#8B8D97"
+      },
+      "ai_prompt_style": "none needed; foil texture is CSS",
+      "source": "directions/src/gen-round4.mjs (D.o)"
+    },
+    "i2": {
+      "name": "Airmail Stamps",
+      "use_for": [
+        "what to buy next / roadmap",
+        "collection order",
+        "beginner path",
+        "seasonal and gift letters"
+      ],
+      "hook": "airmail envelope; info slide is stamps you collect",
+      "fonts": [
+        "Caveat 600/700",
+        "Special Elite"
+      ],
+      "palette": {
+        "bg": "#E8452C",
+        "paper": "#FBF1DC",
+        "navy": "#1D2B64",
+        "blue": "#2B59C3",
+        "red": "#D8352A",
+        "stamp": "#F3C13A"
+      },
+      "ai_prompt_style": "vintage postage stamp art, flat color, perforated edge, single meeple motif, no text",
+      "source": "directions/src/gen-round3.mjs (D.i2, extends gen-round2.mjs D.i)"
+    }
+  },
+  "rotation": {
+    "unit": "season = 2 weeks, one style",
+    "order": [
+      "a2",
+      "o",
+      "i2"
+    ],
+    "note": "order is a default; swap a style forward if its post type has the freshest content"
+  },
+  "rejected": [
+    "b",
+    "c",
+    "d",
+    "d2",
+    "e",
+    "f",
+    "g",
+    "h",
+    "j",
+    "k",
+    "l",
+    "m",
+    "p",
+    "n2",
+    "q"
+  ],
+  "caveat": "sample stats, scores and chat lines in the directions are placeholder copy; real batches fact-check every claim"
+}

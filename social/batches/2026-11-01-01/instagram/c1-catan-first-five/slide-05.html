@@ -1,0 +1,40 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@500;700&display=block">
+<style>*{box-sizing:border-box;margin:0;padding:0}html,body{width:1080px;height:1440px;overflow:hidden}
+body{background:#141414;color:#fff;font-family:Inter,sans-serif;position:relative}
+.wrap{position:absolute;inset:0;padding:60px 50px 50px;display:flex;flex-direction:column}
+h1{font:400 84px/1.03 "Archivo Black";text-transform:uppercase}
+h1 em{font-style:normal;color:#FFDF7F}
+h1 small{display:block;margin-top:14px;font-size:46px;color:#9a9a9a}
+.board{margin-top:36px;border:4px solid #000;display:flex;flex-direction:column;background:#1f1f1f}
+.tr{display:grid;grid-template-columns:170px 1fr;border-bottom:4px solid #000;min-height:190px}
+.tr:last-child{border:0}
+.lb{display:grid;place-items:center;color:#000;font:400 78px "Archivo Black";text-align:center}
+.cell{display:flex;align-items:center;gap:20px;padding:14px 26px;flex-wrap:wrap}
+.pool{margin-top:34px;display:flex;gap:22px;flex-wrap:wrap;align-items:center;border:4px dashed #555;border-radius:24px;padding:26px}
+.chip{display:flex;align-items:center;gap:16px;background:#fff;color:#111;border-radius:22px;padding:12px 28px 12px 16px;font:400 40px "Archivo Black";box-shadow:0 8px 0 #000}
+.chip .mp{width:68px;height:68px}
+.drag{margin-top:26px;font:700 42px Inter;color:#FFDF7F}
+.foot{margin-top:auto;display:flex;justify-content:space-between;font:700 34px Inter;color:#9a9a9a}
+.note{font:700 38px/1.15 Inter;color:#fff}
+.note small{display:block;font:500 28px Inter;color:#9a9a9a;margin-top:4px}
+.info .tr{flex:1}
+.info .board{flex:1}
+.info .chip{font-size:44px}
+
+.info .wrap{padding-top:56px}
+.info h1{font-size:66px;line-height:1.05}
+.info .board{margin-top:30px}
+.qn{font:700 36px/1.15 Inter;color:#fff}
+.dtl{margin-top:34px;display:grid;grid-template-columns:230px 1fr;border:4px solid #000;background:#1f1f1f;flex:1}
+.dtl .lb{font-size:150px}
+.dtl .tx{padding:34px 36px;display:flex;flex-direction:column;justify-content:center;gap:34px}
+.dtl .tx p{font:700 62px/1.15 Inter}
+.dtl .tx p:first-child{color:#FFDF7F;font-size:74px}
+</style></head>
+<body class="ig info"><div class="wrap"><h1>Check before buying</h1>
+<div class="dtl"><div class="lb" style="background:#BFFF7F">C</div><div class="tx" data-c><p>5-6 players?</p><p>Every expansion needs its own matching 5-6 box</p><p>Explorers &amp; Pirates can&rsquo;t combine with Cities &amp; Knights</p></div></div>
+<div class="foot" style="margin-top:30px"><span>whichexpansion.com</span><span>Tier list</span></div></div>
+<script>window.__info={fonts:[]};window.addEventListener('load',()=>{const bad=[...document.querySelectorAll('[data-c]')].filter(e=>e.scrollHeight>e.clientHeight+3||e.scrollWidth>e.clientWidth+3);if(bad.length)window.__info.error='overflow in '+bad.length+' box(es): '+bad.map(e=>e.className+' '+e.scrollHeight+'>'+e.clientHeight).join('; ');});document.fonts.ready.then(()=>{window.__info.fonts=["40px \"Archivo Black\"","700 30px Inter"].map(f=>[f,document.fonts.check(f)])});</script>
+</body></html>

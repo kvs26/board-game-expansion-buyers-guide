@@ -1,0 +1,56 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo:wght@500;800&display=block">
+<style>*{box-sizing:border-box;margin:0;padding:0}html,body{width:1080px;height:1440px;overflow:hidden}
+body{background:#0F4C5C;font-family:Archivo,sans-serif;color:#F6EBD0;position:relative}
+.frame{position:absolute;inset:36px;border:10px solid #F6EBD0;outline:6px solid #D9411E;outline-offset:-26px;overflow:hidden;background:#0F4C5C}
+.rays{position:absolute;left:50%;top:44%;width:2400px;height:2400px;margin:-1200px;background:repeating-conic-gradient(#12606f 0 7.5deg,#0F4C5C 7.5deg 15deg)}
+.hexes{position:absolute;inset:0}.hx{position:absolute;clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%);box-shadow:none;filter:drop-shadow(8px 8px 0 #0a2f39)}
+h1{position:absolute;left:0;right:0;font:400 124px/1.0 "Alfa Slab One";text-align:center;color:#F6EBD0;text-shadow:7px 7px 0 #D9411E;letter-spacing:-1px}
+.burst{position:absolute;width:230px;height:230px;border-radius:50%;background:#E8B93B;color:#0F4C5C;display:grid;place-items:center;text-align:center;font:400 44px/1 "Alfa Slab One";transform:rotate(-12deg);border:8px solid #F6EBD0;box-shadow:8px 8px 0 #D9411E}
+.foot{position:absolute;left:0;right:0;bottom:56px;text-align:center;font:800 30px Archivo;letter-spacing:.04em}
+.foot small{display:block;font:500 26px Archivo;opacity:.85;margin-top:6px}
+.pin h1{top:790px}.pin .burst{right:60px;top:560px}.pin .hexes{top:90px}
+.ig h1{top:700px;font-size:116px}.ig .burst{right:56px;top:500px}.ig .hexes{top:70px}
+/* info */
+.info .frame{background:#F6EBD0;color:#0F4C5C;outline-color:#0F4C5C;border-color:#0F4C5C}
+.info .rays{display:none}
+.info h2{position:absolute;left:70px;right:70px;top:90px;font:400 72px/1.05 "Alfa Slab One";color:#0F4C5C;text-shadow:5px 5px 0 #E8B93B}
+.row{position:absolute;left:70px;right:70px;display:flex;gap:26px;align-items:flex-start}
+.row b{flex:none;width:210px;background:#D9411E;color:#F6EBD0;font:400 32px/1.1 "Alfa Slab One";padding:16px 14px;text-align:center;box-shadow:6px 6px 0 #0F4C5C}
+.row p{font:500 40px/1.3 Archivo;color:#0F4C5C}
+.info .foot{color:#0F4C5C}
+
+.info .frame{display:flex;flex-direction:column;padding:50px 38px 30px;gap:24px}
+.info h2{position:static;text-align:center;font-size:72px;text-shadow:5px 5px 0 #E8B93B}
+.duel{display:grid;grid-template-columns:1fr 1fr;gap:26px;flex:1;min-height:0;position:relative}
+.vs{position:absolute;left:50%;top:560px;transform:translate(-50%,-50%) rotate(-8deg);width:100px;height:100px;border-radius:50%;background:#E8B93B;border:7px solid #0F4C5C;display:grid;place-items:center;font:400 38px "Alfa Slab One";color:#0F4C5C;z-index:3;box-shadow:5px 5px 0 #D9411E}
+.cd{background:#FFF8E3;border:6px solid #0F4C5C;box-shadow:8px 8px 0 #0F4C5C;display:flex;flex-direction:column;color:#0F4C5C}
+.cd .hd{color:#F6EBD0;padding:22px 14px 18px;text-align:center;font:400 38px/1.05 "Alfa Slab One"}
+.cd .tg{padding:16px 14px 8px;text-align:center;font:800 26px Archivo;text-transform:uppercase;letter-spacing:.04em}
+.cd .stat{flex:1;display:flex;flex-direction:column;justify-content:center;padding:6px 46px}
+.stat span.l{display:block;font:800 24px Archivo;text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px}
+.pips i{display:inline-block;width:36px;height:36px;margin-right:4px;border:4px solid #0F4C5C}
+.pips i.on{background:#D9411E}
+.buy{margin:auto 18px 20px;background:#E8B93B;border:5px solid #0F4C5C;padding:14px 12px;font:800 30px/1.2 Archivo;text-align:center}
+.buy small{display:block;font:800 22px Archivo;text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px}
+.skip{background:#D9411E;color:#F6EBD0;border:6px solid #0F4C5C;box-shadow:8px 8px 0 #0F4C5C;font:400 36px/1.15 "Alfa Slab One";text-align:center;padding:22px 24px}
+.info .foot{position:static;color:#0F4C5C;font-size:28px}
+
+.info .frame{display:flex;flex-direction:column;padding:50px 50px 30px;gap:26px}
+.info h2{position:static;text-align:center;font-size:68px;line-height:1.06;text-shadow:5px 5px 0 #E8B93B}
+.kk{align-self:center;background:#D9411E;color:#F6EBD0;font:400 36px "Alfa Slab One";padding:10px 30px;box-shadow:6px 6px 0 #0F4C5C;transform:rotate(-2deg)}
+.rws{flex:1;min-height:0;display:flex;flex-direction:column;gap:26px;justify-content:center}
+.rw{flex:1;max-height:400px;display:grid;grid-template-columns:270px 1fr;border:6px solid #0F4C5C;box-shadow:8px 8px 0 #0F4C5C;background:#FFF8E3;color:#0F4C5C}
+.rw b{background:#D9411E;color:#F6EBD0;display:grid;place-items:center;text-align:center;padding:14px;font:400 36px/1.1 "Alfa Slab One"}
+.rw:nth-child(2) b{background:#2E9E8F}
+.rw:nth-child(3) b{background:#E8B93B;color:#0F4C5C}
+.rw p{padding:18px 28px;display:flex;align-items:center;font:500 44px/1.22 Archivo}
+.rws.three .rw p{font-size:38px}
+</style></head>
+<body class="ig"><div class="frame"><div class="rays"></div><div class="hexes"><i class="hx" style="left:204px;top:50px;width:240px;height:208px;background:#E8B93B;"></i><i class="hx" style="left:204px;top:258px;width:240px;height:208px;background:#D9411E;"></i><i class="hx" style="left:564px;top:50px;width:240px;height:208px;background:#F6EBD0;"></i><i class="hx" style="left:564px;top:258px;width:240px;height:208px;background:#2E9E8F;"></i><i class="hx" style="left:384px;top:358px;width:240px;height:208px;background:#E8B93B;"></i><i class="hx" style="left:384px;top:150px;width:240px;height:208px;background:#D9411E;"></i></div>
+<h1>Buy order<br>matters<br><span style="font-size:.62em">Four games. Swipe.</span></h1>
+<div class="burst" style="font-size:38px">Swipe</div>
+<div class="foot">whichexpansion.com<small>Board game expansion buyer’s guide</small></div></div>
+<script>window.__info={fonts:[]};window.addEventListener('load',()=>{const bad=[...document.querySelectorAll('[data-c]')].filter(e=>e.scrollHeight>e.clientHeight+3||e.scrollWidth>e.clientWidth+3);if(bad.length)window.__info.error='overflow in '+bad.length+' box(es): '+bad.map(e=>e.className+' '+e.scrollHeight+'>'+e.clientHeight).join('; ');});document.fonts.ready.then(()=>{window.__info.fonts=["40px \"Alfa Slab One\"","800 30px Archivo"].map(f=>[f,document.fonts.check(f)])});</script>
+</body></html>
