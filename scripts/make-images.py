@@ -1,7 +1,7 @@
-"""Generate the OG cover with Pillow. Logo + icons come from scripts/make-icons.mjs
-(run that first: this script pastes public/logo.png into the cover).
+"""Generate raster brand assets (logo, icons, OG cover) with Pillow.
 Run from the site root: python3 scripts/make-images.py
 """
+import math
 from PIL import Image, ImageDraw, ImageFont
 
 INK, GOLD, KRAFT, KRAFT_L, DEEP, FACE = '#1D2A44', '#F2B705', '#E6CFA7', '#F3E7D0', '#A8834D', '#FFFDF8'
@@ -9,8 +9,20 @@ TOKENS = ['#F2B705', '#2E8B57', '#2F6DB5', '#C8372D']
 BOLD = '/System/Library/Fonts/Supplemental/Arial Bold.ttf'
 
 
-def mark(size):
-    return Image.open('public/logo.png').convert('RGBA').resize((size, size), Image.LANCZOS)
+def hexagon(cx, cy, r, rot=90):
+    return [(cx + r * math.cos(math.radians(rot + 60 * i)), cy + r * math.sin(math.radians(rot + 60 * i))) for i in range(6)]
+
+
+def mark(size, bg=None):
+    s = size * 4
+    im = Image.new('RGBA', (s, s), bg or (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    c, r = s / 2, s * 0.46
+    d.polygon(hexagon(c, c, r), fill=GOLD, outline=INK, width=max(4, s // 22))
+    w, L = s // 9, s * 0.22
+    d.rounded_rectangle([c - w / 2, c - L, c + w / 2, c + L], radius=w // 2, fill=INK)
+    d.rounded_rectangle([c - L, c - w / 2, c + L, c + w / 2], radius=w // 2, fill=INK)
+    return im.resize((size, size), Image.LANCZOS)
 
 
 def og():
@@ -40,5 +52,13 @@ def og():
 
 
 if __name__ == '__main__':
+    mark(512).save('public/logo.png')
+    mark(512).save('public/icon-512.png')
+    mark(192).save('public/icon-192.png')
+    at = Image.new('RGBA', (180, 180), INK)
+    m = mark(150)
+    at.paste(m, (15, 15), m)
+    at.convert('RGB').save('public/apple-touch-icon.png')
+    mark(64).save('public/favicon.ico', sizes=[(16, 16), (32, 32), (48, 48), (64, 64)])
     og()
     print('ok')

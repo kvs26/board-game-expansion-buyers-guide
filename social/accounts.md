@@ -7,7 +7,7 @@ Create these as new brand accounts (you post by hand; no ads, no automation).
 - Display name: Which Expansion?
 - Bio: Which board game expansion should you buy first? Buy order, compatibility and honest picks.
 - Claim the website: Settings > Claimed accounts > add `whichexpansion.com`.
-- Profile image: `avatar/profile.png` (fanned cards + meeple on navy; source `avatar/logo.svg`, rendered by `scripts/make-icons.mjs`).
+- Profile image: `avatar/profile.png` (site logo: gold hex + navy plus, on navy; source `avatar/logo.svg` / `logo.png`).
 - Starter boards: Catan, Pandemic, Wingspan, Terraforming Mars, Ticket to Ride, King of Tokyo, Root, Ark Nova, Spirit Island, Dominion, 7 Wonders, Splendor.
 - Scheduling: Create > Pin > choose Publish at a later date. Up to 30 days ahead, 10 pins queued at once. Bulk CSV upload: up to 200 rows, times in UTC.
 
