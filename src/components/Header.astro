@@ -12,11 +12,10 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
   <div class="container bar">
     <a class="brand" href="/">
       <span class="mark" aria-hidden="true">
-        <!-- Inline-SVG logo upgrade slot: replace with a real mark, keeps currentColor theming. -->
+        <!-- Same mark as public/favicon.svg and social/avatar/logo.svg. -->
         <svg width="34" height="34" viewBox="0 0 32 32" aria-hidden="true">
-          <path d="M16 1.5 29 9v14l-13 7.5L3 23V9z" fill="#F2B705" stroke="#FFFDF8" stroke-width="2" />
-          <path d="M16 6 25 11.2v9.6L16 26l-9-5.2v-9.6z" fill="none" stroke="#1D2A44" stroke-width="1.2" stroke-dasharray="2 2" />
-          <path d="M16 10.5v11M10.5 16h11" stroke="#1D2A44" stroke-width="3.2" stroke-linecap="round" />
+          <path d="M16 1.5 29 9v14l-13 7.5L3 23V9z" fill="#F2B705" stroke="#1D2A44" stroke-width="2.4" />
+          <path d="M16 10v12M10 16h12" stroke="#1D2A44" stroke-width="3.6" stroke-linecap="round" />
         </svg>
       </span>
       <span>{SITE.name}</span>
