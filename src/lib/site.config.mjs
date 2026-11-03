@@ -61,6 +61,12 @@ export const SITE = {
     { label: 'About', href: '/about' },
   ],
 
+  /** Social profiles (footer, phone menu, home strip). Keep to canonical profile URLs, no tracking params. */
+  social: [
+    { id: 'pinterest', label: 'Pinterest', href: 'https://www.pinterest.com/08r4p2q8ladqg0nx8cfpwn4hk5dees/' },
+    { id: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/whichexpansion/' },
+  ],
+
   /** Footer link groups (trust/E-E-A-T + legal interlink). */
   footer: [
     {

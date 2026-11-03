@@ -5,6 +5,7 @@
  * only shown if a cookie-based analytics/ads provider is ever enabled).
  */
 import { SITE } from '../lib/site.config.mjs';
+import SocialLinks from './SocialLinks.astro';
 const year = new Date().getFullYear();
 const affiliateOn = SITE.monetization.affiliate.enabled;
 ---
@@ -27,6 +28,11 @@ const affiliateOn = SITE.monetization.affiliate.enabled;
           </ul>
         </div>
       ))}
+
+      <div class="footer-col">
+        <h2>Follow</h2>
+        <SocialLinks variant="list" />
+      </div>
     </div>
 
     <div class="footer-legal">

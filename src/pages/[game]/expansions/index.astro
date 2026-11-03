@@ -78,13 +78,17 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
     </div>
 
     <div class="tool" data-guide data-game={game.slug} data-storage-key={`${SITE.storagePrefix}${game.slug}`}>
+      <div class="az hub-nav-wrap" data-az>
       <nav class="hub-nav" aria-label="On this page">
-        <button type="button" class="filter-pill" data-filter-open aria-controls="shelf" aria-expanded="false">Filter<span data-filter-summary>: I own…</span></button>
+        <button type="button" class="filter-pill" data-filter-open aria-controls="shelf" aria-expanded="false">Filters<span data-filter-summary></span></button>
         <a href="#ranking">Ranking</a>
         {watch.length > 0 && <a href="#watch-h">Check before you buy</a>}
         {pairs.length > 0 && <a href="#cmp-h">Compare</a>}
         {faqs.length > 0 && <a href="#faq-h">FAQ</a>}
       </nav>
+      <button type="button" class="az-more az-more--prev" data-az-step="-1" aria-hidden="true" tabindex="-1"></button>
+      <button type="button" class="az-more az-more--next" data-az-step="1" aria-hidden="true" tabindex="-1"></button>
+      </div>
       <div class="sheet-backdrop" data-filter-close></div>
       <aside class="shelf token pad" id="shelf" aria-labelledby="shelf-h">
         <h2 id="shelf-h">Your shelf</h2>
@@ -318,7 +322,7 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
     if (state.owned.length) bits.push(`${state.owned.length} owned`);
     if (state.players) bits.push(`${state.players} ${state.players === 1 ? 'player' : 'players'}`);
     if (state.style) bits.push(STYLES[state.style as keyof typeof STYLES]);
-    filterSummary.textContent = bits.length ? `: ${bits.join(', ')}` : ': I own…';
+    filterSummary.textContent = bits.length ? `: ${bits.join(', ')}` : '';
   }
 
   root.addEventListener('change', (ev) => {
@@ -403,4 +407,19 @@ const playerOptions = Array.from({ length: maxPlayers }, (_, i) => i + 1);
 
   applyLayout();
   phone.addEventListener('change', applyLayout);
+
+  // Sub-nav arrows: a fade + chevron on any side with more links; tapping it pages the bar
+  const navWrap = hub.querySelector<HTMLElement>('[data-az]');
+  if (navWrap) {
+    const bar = navWrap.querySelector<HTMLElement>('.hub-nav')!;
+    const updateArrows = () => {
+      navWrap.classList.toggle('can-prev', bar.scrollLeft > 4);
+      navWrap.classList.toggle('can-next', bar.scrollLeft + bar.clientWidth < bar.scrollWidth - 4);
+    };
+    bar.addEventListener('scroll', updateArrows, { passive: true });
+    new ResizeObserver(updateArrows).observe(bar);
+    for (const btn of navWrap.querySelectorAll<HTMLElement>('[data-az-step]')) {
+      btn.addEventListener('click', () => bar.scrollBy({ left: Number(btn.dataset.azStep) * bar.clientWidth * 0.6, behavior: 'smooth' }));
+    }
+  }
 </script>

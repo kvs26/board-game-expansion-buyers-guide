@@ -6,11 +6,14 @@
  * logo without touching layout (research/09 §3).
  */
 import { SITE } from '../lib/site.config.mjs';
+import SocialLinks from './SocialLinks.astro';
 const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+// Full name everywhere; phones drop the leading "Board Game " so the wordmark fits on one line.
+const [, lead = '', rest = SITE.name] = SITE.name.match(/^(Board Game )(.+)$/) ?? [];
 ---
 <header class="site-header">
   <div class="container bar">
-    <a class="brand" href="/">
+    <a class="brand" href="/" aria-label={SITE.name}>
       <span class="mark" aria-hidden="true">
         <!-- Same mark as public/favicon.svg and social/avatar/logo.svg. -->
         <svg width="34" height="34" viewBox="0 0 32 32" aria-hidden="true">
@@ -18,7 +21,7 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
           <path d="M16 10v12M10 16h12" stroke="#1D2A44" stroke-width="3.6" stroke-linecap="round" />
         </svg>
       </span>
-      <span>{SITE.name}</span>
+      <span>{lead && <span class="brand-lead">{lead}</span>}{rest}</span>
     </a>
 
     <div class="header-actions">
@@ -29,6 +32,10 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
           const current = href === path ? 'page' : undefined;
           return <a href={item.href} aria-current={current}>{item.label}</a>;
         })}
+        <div class="nav-follow">
+          <span>Follow us</span>
+          <SocialLinks variant="list" />
+        </div>
       </nav>
 
       {SITE.enableDarkModeToggle && (

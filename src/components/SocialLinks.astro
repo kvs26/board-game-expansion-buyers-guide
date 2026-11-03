@@ -1,0 +1,22 @@
+---
+/**
+ * SocialLinks.astro — Pinterest + Instagram links from SITE.social.
+ * variant "list": stacked text links (footer, phone menu). "buttons": pill buttons (home strip).
+ */
+import { SITE } from '../lib/site.config.mjs';
+const { variant = 'list' } = Astro.props;
+---
+<ul class={`social social--${variant}`}>
+  {SITE.social.map((s) => (
+    <li>
+      <a href={s.href} target="_blank" rel="noopener me" aria-label={`${s.label} (opens in a new tab)`}>
+        {s.id === 'pinterest' ? (
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.64 19.3c-.09-.82-.17-2.08.04-2.98l1.2-5.08s-.31-.61-.31-1.52c0-1.42.83-2.49 1.86-2.49.88 0 1.3.66 1.3 1.45 0 .88-.56 2.2-.85 3.43-.24 1.02.52 1.86 1.52 1.86 1.83 0 3.23-1.93 3.23-4.7 0-2.46-1.77-4.18-4.29-4.18-2.92 0-4.64 2.19-4.64 4.46 0 .88.34 1.83.76 2.34a.3.3 0 0 1 .07.29l-.28 1.15c-.04.19-.15.23-.34.14-1.28-.6-2.08-2.46-2.08-3.96 0-3.22 2.34-6.18 6.75-6.18 3.54 0 6.3 2.52 6.3 5.9 0 3.52-2.22 6.35-5.3 6.35-1.04 0-2.01-.54-2.34-1.18l-.64 2.43c-.23.89-.85 2-1.27 2.68A10 10 0 1 0 12 2z"/></svg>
+        ) : (
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="0.6" fill="currentColor"/></svg>
+        )}
+        <span>{s.label}</span>
+      </a>
+    </li>
+  ))}
+</ul>

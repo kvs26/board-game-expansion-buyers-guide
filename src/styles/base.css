@@ -99,11 +99,23 @@ main { min-height: 60vh; padding-bottom: var(--space-8); }
 .site-footer { background: var(--ink); color: var(--kraft-light); padding: var(--space-7) 0 var(--space-5); border-top: 4px solid var(--kraft-edge); }
 .site-footer a { color: var(--face); text-decoration-color: var(--kraft-deep); }
 .site-footer .muted { color: var(--kraft-edge); }
-.footer-grid { display: grid; gap: var(--space-5); grid-template-columns: 2fr repeat(3, 1fr); }
+.footer-grid { display: grid; gap: var(--space-5); grid-template-columns: 2fr repeat(4, 1fr); }
 .footer-col h2 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--gold); }
 .footer-col ul { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-2); }
 .footer-legal { margin-top: var(--space-6); padding-top: var(--space-4); border-top: 1px solid rgba(255, 253, 248, 0.15); font-size: 0.9rem; color: var(--kraft-edge); }
 @media (max-width: 767px) { .footer-grid { grid-template-columns: 1fr 1fr; } .footer-grid > :first-child { grid-column: 1 / -1; } }
+
+/* ---- Social links -------------------------------------------------------- */
+.social { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-2); }
+.social a { display: flex; width: fit-content; align-items: center; gap: var(--space-2); }
+.social svg { flex: none; width: 1.1em; height: 1.1em; }
+.nav-follow { display: none; } /* phone menu only */
+@media (max-width: 767px) {
+  .js .is-menu-open .nav-follow { display: block; margin-top: var(--space-2); padding-top: var(--space-2); border-top: 1px solid rgba(255, 253, 248, 0.2); }
+  .nav-follow > span { display: block; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--gold); padding-top: var(--space-1); }
+  .nav-follow .social { grid-template-columns: 1fr 1fr; }
+  .nav-follow .social a { min-height: 48px; font-size: 1rem; }
+}
 
 /* ---- Breadcrumbs --------------------------------------------------------- */
 .breadcrumbs ol { list-style: none; display: flex; flex-wrap: wrap; gap: var(--space-2); padding: 0; margin: var(--space-5) auto 0; font-size: 0.9rem; }
@@ -151,6 +163,16 @@ select.chip {
 .verdict--green { --tone: var(--green); background: #e1f3e8; }
 .verdict--blue { --tone: var(--blue); background: #e2ecf8; }
 .verdict--red { --tone: var(--red); background: #fbe5e2; }
+/* Home "four labels" row: one line on wide laptops, 2x2 on tablet/small laptops, one per line on phone */
+.label-row { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2); }
+.label-row__intro { margin-right: var(--space-1); }
+@media (max-width: 1099px) {
+  .label-row { display: grid; grid-template-columns: repeat(2, max-content); justify-content: start; gap: var(--space-2) var(--space-3); }
+  .label-row__intro { grid-column: 1 / -1; margin: 0; }
+}
+@media (max-width: 767px) {
+  .label-row { grid-template-columns: max-content; }
+}
 .pill { display: inline-block; font-size: 0.8rem; font-weight: 650; padding: 0.15rem 0.55rem; border-radius: 6px; background: var(--face-2); border: 1.5px solid var(--kraft-edge); color: var(--ink-soft); }
 .draft-note { font-size: 0.8rem; color: var(--ink-soft); font-style: italic; }
 
@@ -333,6 +355,7 @@ select.chip {
   .js .site-header .bar { flex-wrap: nowrap; }
   .site-header .brand { font-size: 0.95rem; line-height: 1.15; gap: var(--space-2); min-width: 0; }
   .brand .mark svg { width: 28px; height: 28px; }
+  .brand-lead { display: none; }
   html:not(.js) .header-actions { width: 100%; }
   html:not(.js) .site-nav { flex-wrap: nowrap; overflow-x: auto; white-space: nowrap; gap: var(--space-3); }
   /* 44px tap target; the negative margin lines the bars up with the page edge */
@@ -346,7 +369,7 @@ select.chip {
     display: grid; position: absolute; top: 100%; left: 0; right: 0; z-index: 30;
     padding: var(--space-1) var(--gutter) var(--space-3); background: var(--ink); border-bottom: 4px solid var(--gold);
   }
-  .js .is-menu-open .site-nav a { display: flex; align-items: center; min-height: 48px; font-size: 1rem; }
+  .js .is-menu-open .site-nav a { display: flex; align-items: center; min-height: 48px; font-size: 1rem; border-bottom-color: transparent; }
   .game-head { flex-direction: row; align-items: flex-start; gap: var(--space-3); }
   .game-head h1 { font-size: 1.5rem; }
   .box-art--lg { width: 64px; height: 64px; border-radius: 12px; flex: none; }
@@ -457,7 +480,7 @@ select.chip {
    expand in place; the shelf becomes a bottom sheet behind a "Filter" pill;
    lower sections fold. Content stays in the HTML; only CSS/JS hide it. All
    collapsing is gated on html.js so no-JS phones get the full page. */
-.hub-nav, .sheet-backdrop, .sheet-close, .row-toggle { display: none; }
+.hub-nav, .hub-nav-wrap, .sheet-backdrop, .sheet-close, .row-toggle { display: none; }
 
 @media (max-width: 767px) {
   /* Header: icon inline with a shorter H1, top-aligned like tablet/laptop */
@@ -479,6 +502,8 @@ select.chip {
   .hub-head [data-fact='publisher'] { --fact-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 21V5l8-2v18M12 9l8 2v10M2 21h20M7.5 8h1M7.5 12h1M7.5 16h1M15.5 14h1M15.5 17h1'/%3E%3C/svg%3E"); }
   .hub-head [data-fact='checked'] { --fact-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M8 12.5l2.7 2.7L16 9.5'/%3E%3C/svg%3E"); }
   .hub-head .facts-label { display: none; }
+  /* Phone keeps only players + time; publisher and the expansion count are repeated further down */
+  .hub-head .facts .pill[data-fact='publisher'], .hub-head .facts .pill[data-fact='checked'] { display: none; }
   .hub-head p.small { grid-row: 4; margin: 0 !important; font-size: 0.85rem; line-height: 1.6; color: var(--ink-soft); }
   .hub-head p.small strong { font-weight: 600; }
   .hub-head p.small .buy-inline { font-size: inherit; }
@@ -486,20 +511,23 @@ select.chip {
   body:has(.hub-head) .breadcrumbs ol { margin-top: var(--space-3); }
   .tool { margin-top: var(--space-5); gap: var(--space-3); }
 
-  /* Sticky sub-nav: Filter pill + jump links, 44px tall, scrolls sideways if needed */
+  /* Sticky sub-nav (inside .az wrapper, which supplies sticky/background/arrows): Filters + jump links, 44px tall, scrolls sideways */
+  .hub-nav-wrap.az { display: block; margin-top: 0; min-width: 0; max-width: 100vw; }
   .hub-nav {
-    display: flex; align-items: center; gap: var(--space-4); height: 44px;
-    position: sticky; top: 0; z-index: 15; overflow-x: auto; scrollbar-width: none; white-space: nowrap;
-    margin-inline: calc(-1 * var(--gutter)); padding-inline: var(--gutter);
-    background: var(--kraft-light); border-bottom: 1.5px solid var(--kraft-edge);
+    display: flex; align-items: center; gap: var(--space-5); height: 44px; white-space: nowrap;
+    padding-inline: var(--gutter); overflow: auto hidden; scrollbar-width: none; overscroll-behavior-x: contain;
   }
   .hub-nav::-webkit-scrollbar { display: none; }
-  .hub-nav a { display: flex; align-items: center; height: 44px; font-size: 0.92rem; font-weight: 650; text-decoration: none; }
+  .hub-nav a { display: flex; flex: none; align-items: center; height: 44px; font-size: 0.92rem; font-weight: 650; text-decoration: none; }
+  /* Plain like its neighbours (no filled pill); small funnel icon marks it as the control */
   .filter-pill {
-    /* 44px tap target, 34px visible pill (transparent border is part of the hit area) */
-    flex: none; display: flex; align-items: center; height: 44px; padding: 0 var(--space-4); margin: 0 0 0 -5px;
-    font: inherit; font-size: 0.92rem; font-weight: 750; cursor: pointer;
-    background: var(--ink) padding-box; color: var(--face); border: 5px solid transparent; border-radius: 999px;
+    flex: none; display: flex; align-items: center; gap: 6px; height: 44px; padding: 0; margin: 0;
+    font: inherit; font-size: 0.92rem; font-weight: 650; cursor: pointer; background: none; color: inherit; border: 0;
+  }
+  .filter-pill::before {
+    content: ''; width: 16px; height: 16px; background: currentColor;
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M4 6h16M7 12h10M10 18h4'/%3E%3C/svg%3E") center / contain no-repeat;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M4 6h16M7 12h10M10 18h4'/%3E%3C/svg%3E") center / contain no-repeat;
   }
   /* Without JS the shelf stays inline, so the pill has nothing to open */
   html:not(.js) .filter-pill { display: none; }
