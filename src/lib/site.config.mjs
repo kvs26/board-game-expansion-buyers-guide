@@ -124,9 +124,9 @@ export const SITE = {
   // --- Analytics (single insertion point; ticket 04) --------------------
   analytics: {
     /** 'none' | 'cloudflare' | 'plausible' | 'ga4'. */
-    provider: 'none',
+    provider: 'ga4',
     /** Cloudflare Web Analytics token, or Plausible domain, or GA4 measurement id. */
-    token: '',
+    token: 'G-MF1KR64RX2',
   },
 };
 

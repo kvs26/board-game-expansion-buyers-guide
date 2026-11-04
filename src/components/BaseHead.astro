@@ -80,6 +80,24 @@ const ld = jsonLdNodes.length ? graph(jsonLdNodes) : null;
 {ld && <script type="application/ld+json" set:html={JSON.stringify(ld).replace(/</g, '\\u003c')} />}
 
 <!-- ===== Analytics single insertion point (ticket 04) ===== -->
+{SITE.analytics.provider === 'ga4' && SITE.analytics.token && (
+  <>
+    <script
+      is:inline
+      async
+      src={`https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(SITE.analytics.token)}`}
+    ></script>
+    <script is:inline define:vars={{ measurementId: SITE.analytics.token }}>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { window.dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', measurementId, {
+        allow_google_signals: false,
+        allow_ad_personalization_signals: false,
+      });
+    </script>
+  </>
+)}
 {SITE.analytics.provider === 'cloudflare' && SITE.analytics.token && (
   <script
     defer

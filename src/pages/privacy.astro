@@ -12,11 +12,15 @@ const crumbs = [{ name: 'Home', href: '/' }, { name: title }];
   <article class="container prose page-head">
     <h1>Privacy policy</h1>
     <h2>What we collect</h2>
-    <p>{SITE.name} is a static website. There are no accounts and no database. We don’t collect personal information unless you email us.</p>
+    <p>{SITE.name} is a static website with no user accounts. If you email us, we receive the information you choose to share. Our analytics provider also receives usage and technical information as described below.</p>
     <h2>Your “what I own” list</h2>
     <p>The expansions you tick, your player count and group type are saved in your own browser (local storage) so the page remembers them. They are never sent to us. Clear them with the “Clear” button or your browser settings.</p>
     <h2>Analytics</h2>
-    <p>We may use privacy-friendly, cookieless analytics (such as Cloudflare Web Analytics) that count visits in aggregate. No cookies, no personal profile.</p>
+    {SITE.analytics.provider === 'ga4' ? (
+      <p>We use Google Analytics 4 to understand visits, traffic sources, pages viewed, interactions and time spent engaging with the site. Google Analytics uses cookies to distinguish browsers and recognise returning visits, and receives technical information about your browser and device. Google Signals and advertising personalisation signals are disabled in our site configuration. You can block cookies through your browser settings or use the <a href="https://tools.google.com/dlpage/gaoptout" rel="nofollow">Google Analytics opt-out browser add-on</a>. Read <a href="https://policies.google.com/technologies/partner-sites" rel="nofollow">how Google uses information from sites that use its services</a>.</p>
+    ) : (
+      <p>We may use privacy-friendly, cookieless analytics (such as Cloudflare Web Analytics) that count visits in aggregate. No cookies, no personal profile.</p>
+    )}
     <h2>Advertising cookies</h2>
     <p>If we show ads in future, third-party vendors including Google may use cookies to serve ads based on your visits to this and other sites. You can opt out of personalised advertising in <a href="https://www.google.com/settings/ads" rel="nofollow">Google Ads Settings</a>.</p>
     <h2>Store links</h2>
